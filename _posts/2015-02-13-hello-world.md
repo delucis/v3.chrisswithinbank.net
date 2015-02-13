@@ -6,7 +6,7 @@ date: 2015-02-13
 
 This is a test post, using Jekyll + GitHub Pages.
 
-## Let’s try Markdown
+### Let’s try Markdown
 
 * bullets
 * *bullets*
