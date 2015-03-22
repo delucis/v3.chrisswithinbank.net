@@ -116,6 +116,18 @@ p:first-of-type {
 a {
   color: #0074D9;
 }
+
+nav li {
+  display: inline-block;
+  text-transform: uppercase;
+  letter-spacing: 0.1em;
+  margin-right: 1em;
+  font-size: 0.85em;
+  font-weight: bold;
+}
+nav li a {
+  text-decoration: none;
+}
 /* ==========================================================================
    Helper classes
    ========================================================================== */
