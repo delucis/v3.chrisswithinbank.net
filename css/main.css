@@ -109,6 +109,10 @@ h2 a {
   text-decoration: 0;
 }
 
+p:first-of-type {
+  margin-top:0;
+}
+
 a {
   color: #0074D9;
 }
