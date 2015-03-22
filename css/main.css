@@ -106,7 +106,7 @@ h2 {
 }
 
 h2 a {
-  text-decoration: 0;
+  text-decoration: none;
 }
 
 p:first-of-type {
