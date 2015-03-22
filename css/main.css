@@ -117,6 +117,10 @@ a {
   color: #0074D9;
 }
 
+a:hover {
+  color: #FF4136;
+}
+
 nav li {
   display: inline-block;
   text-transform: uppercase;
