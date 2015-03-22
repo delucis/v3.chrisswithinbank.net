@@ -114,7 +114,7 @@ a {
 a:hover {
   color: #FF4136;
 }
-nav li {
+nav li, footer li {
   display: inline-block;
   text-transform: uppercase;
   letter-spacing: 0.1em;
@@ -122,7 +122,7 @@ nav li {
   font-size: 0.85em;
   font-weight: bold;
 }
-nav li a {
+nav li a , footer li a {
   text-decoration: none;
 }
 .container {
