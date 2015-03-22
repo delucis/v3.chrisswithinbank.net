@@ -100,27 +100,21 @@ ul {
   list-style:none;
   padding-left:0;
 }
-
 h2 {
   margin-bottom:0;
 }
-
 h2 a {
   text-decoration: none;
 }
-
 p:first-of-type {
   margin-top:0;
 }
-
 a {
   color: #0074D9;
 }
-
 a:hover {
   color: #FF4136;
 }
-
 nav li {
   display: inline-block;
   text-transform: uppercase;
