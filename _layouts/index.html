@@ -6,6 +6,7 @@ layout: default
 
 {{ content }}
 
+{% if site.data.[page.datafile] %}
 <ul class="datalist">
   {% for project in site.data.[page.datafile] %}
   <li>
@@ -18,3 +19,4 @@ layout: default
   </li>
   {% endfor %}
 </ul>
+{% endif %}
