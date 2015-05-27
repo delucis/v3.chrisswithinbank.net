@@ -1,0 +1,19 @@
+- name: cs.2click
+  link: https://github.com/delucis/cs.2click
+  description: A package for Max/MSP that provides a quick and intuitive interface for routing audio on-the-fly.
+  repo: https://github.com/delucis/cs.2click
+
+- name: Even Better Google Fonts
+  link: http://delucis.github.io/Better-Google-Fonts/
+  description: A fork of Matt Wiebe’s <a href="https://github.com/mattwiebe/Better-Google-Fonts">Better Google Fonts</a> that allows filtering by font type and builds in more specific restrictions.
+  repo: https://github.com/delucis/Better-Google-Fonts
+
+- name: HGNM 2014
+  link: https://github.com/delucis/hgnm-2014
+  description: A WordPress theme for the <a href="http://hgnm.org/">Harvard Group for New Music</a>.
+  repo: https://github.com/delucis/hgnm-2014
+
+- name: iTunes multiplayer
+  link: https://github.com/delucis/csw-itunes-multiplayer
+  description: Supremely buggy Max/MSP multiplayer that plugs into iTunes libraries.
+  repo: https://github.com/delucis/csw-itunes-multiplayer
