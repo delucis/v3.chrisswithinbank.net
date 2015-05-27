@@ -1,14 +1,15 @@
 ---
 layout: default
 ---
-<h1>{{ page.title }}</h1>
+<h2>{{ page.title }}</h2>
+{% if page.digest %}<p><em>{{ page.digest }}</em></p>{% endif %}
 
 {{ content }}
 
 <ul>
   {% for project in site.data.code %}
   <li>
-    <h2><a href="{{ project.link }}">{{ project.name }}</a></h2>
+    <h3><a href="{{ project.link }}">{{ project.name }}</a></h3>
     <p>
       {{ project.description }}
       <br />
