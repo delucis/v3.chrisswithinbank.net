@@ -46,10 +46,10 @@ $link-hover: #FF4136;
   ========================================================================== */
 
 html {
-    color: #333;
     font-size: 1em;
+    color: $text-dark;
     line-height: 1.6;
-    font-family: 'Alegreya', serif;
+    font-family: $body-font;
     box-sizing: border-box;
 }
 *, *:before, *:after {
@@ -157,12 +157,12 @@ ul {
   padding-left:0;
 }
 h1 {
-  font-family: Infini;
+  font-family: $display-font;
   text-transform: uppercase;
   font-weight:300;
 }
 h2 {
-  font-family: Infini, sans-serif;
+  font-family: $display-font;
   margin-bottom:0;
 }
 h3 {
@@ -175,17 +175,17 @@ p:first-of-type {
   margin-top:0;
 }
 a {
-  color: #3D9970;
+  color: $link;
 }
 a:hover {
-  color: #FF4136;
+  color: $link-hover;
 }
 nav li, footer li {
   display: inline-block;
   text-transform: uppercase;
   letter-spacing: 0.1em;
   margin-right: 1em;
-  font-family: Infini;
+  font-family: $display-font;
   font-size: 0.85em;
   font-weight: bold;
 }
@@ -194,11 +194,11 @@ nav li a , footer li a {
 }
 .container {
   padding: 1em 5%;
-  background-color: rgba(250, 252, 249, 1);
+  background-color: $bg-light;
 }
 nav, footer {
   padding: 1em 5%;
-  background-color: rgba(250, 252, 249, 1);
+  background-color: $bg-light;
 }
 
 /* ==========================================================================
