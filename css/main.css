@@ -38,6 +38,10 @@ html {
     font-size: 1em;
     line-height: 1.6;
     font-family: 'Merriweather Sans', sans-serif;
+    box-sizing: border-box;
+}
+*, *:before, *:after {
+    box-sizing: inherit;
 }
 
 /*
