@@ -143,7 +143,14 @@ ul {
   list-style:none;
   padding-left:0;
 }
+h1 {
+  font-family: Infini;
+  text-transform: uppercase;
+  font-weight:300;
+  font-size: 3em;
+}
 h2 {
+  font-family: Infini, sans-serif;
   margin-bottom:0;
 }
 h2 a {
@@ -163,6 +170,7 @@ nav li, footer li {
   text-transform: uppercase;
   letter-spacing: 0.1em;
   margin-right: 1em;
+  font-family: Infini;
   font-size: 0.85em;
   font-weight: bold;
 }
