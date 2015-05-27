@@ -219,6 +219,18 @@ nav, footer {
     }
   }
 }
+pre {
+  background-color: $bg-light;
+  padding: 0.6em;
+  margin-left: -0.6em;
+  border-radius: 1em;
+  margin-right: -0.6em;
+  box-shadow: inset 0px 0px 15px -5px;
+}
+code, kbd, pre, samp {
+  font-size: 0.9em;
+  line-height: 1.7777777;
+}
 
 /* ==========================================================================
    Helper classes
