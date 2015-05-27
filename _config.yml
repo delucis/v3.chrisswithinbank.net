@@ -2,3 +2,6 @@ name: Chris Swithinbank
 markdown: kramdown
 permalink: /:year/:month/:title
 timezone: Europe/Berlin
+sass:
+    sass_dir: _sass
+    style: compressed
