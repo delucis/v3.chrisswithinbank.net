@@ -10,8 +10,9 @@
     <body>
       <nav>
           <ul>
-              <li><a href="/">Home</a></li>
-              <!--<li><a href="/posts/">Blog posts</a></li>-->
+            {% for item in site.data.menu %}
+              <li><a href="{{ item.slug }}">{{ item.label }}</a></li>
+            {% endfor %}
           </ul>
       </nav>
       <div class="container">
