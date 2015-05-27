@@ -6,7 +6,7 @@ layout: default
 
 {{ content }}
 
-<ul>
+<ul class="datalist">
   {% for project in site.data.[page.datafile] %}
   <li>
     <h3><a href="{{ project.link }}">{{ project.name }}</a></h3>

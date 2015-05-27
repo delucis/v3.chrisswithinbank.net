@@ -196,6 +196,10 @@ a:hover {
   padding: 1em 5%;
   background-color: $bg-light;
 }
+ul.datalist {
+    list-style: none;
+    padding-left: 0;
+}
 nav, footer {
   padding: 1em 5%;
   background-color: $bg-light;
