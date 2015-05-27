@@ -189,7 +189,7 @@ a:hover {
   color: $link-hover;
 }
 .container {
-  padding: 1em 5%;
+  padding: 0 5%;
   background-color: $bg-light;
 }
 ul.datalist {
@@ -304,9 +304,6 @@ nav, footer {
     html {
       font-size: 1.25em;
     }
-    .container,nav,footer {
-      padding: 1em 10%;
-    }
     h1 {
       font-size: 3em;
     }
@@ -321,7 +318,8 @@ nav, footer {
       font-size: 1.375em;
     }
     .container,nav,footer {
-      padding: 1em 20%;
+      padding-right: 20%;
+      padding-left: 20%;
     }
 }
 
