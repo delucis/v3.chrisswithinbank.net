@@ -171,9 +171,11 @@ nav li a , footer li a {
 }
 .container {
   padding: 1em 5%;
+  background-color: rgba(250, 252, 249, 1);
 }
 nav, footer {
   padding: 1em 5%;
+  background-color: rgba(250, 252, 249, 1);
 }
 
 /* ==========================================================================
