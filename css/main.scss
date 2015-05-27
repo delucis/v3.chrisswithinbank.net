@@ -2,6 +2,17 @@
 # Main stylesheet
 ---
 
+/* ==========================================================================
+   SASS variables
+   ========================================================================== */
+/* FONTS */
+$body-font: Alegreya, serif;
+$display-font: Infini, Optima, sans-serif;
+/* COLOURS */
+$text-dark: rgba(51,51,51,1);
+$bg-light: rgba(250,252,249,1);
+$link: #3D9970;
+$link-hover: #FF4136;
 
 /* ==========================================================================
    @font-face declarations
