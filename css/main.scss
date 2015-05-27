@@ -152,10 +152,6 @@ body {
   -o-font-feature-settings: "liga" 1, "dlig" 1;
   font-feature-settings: "liga" 1, "dlig" 1;
 }
-ul {
-  list-style:none;
-  padding-left:0;
-}
 h1 {
   font-family: $display-font;
   text-transform: uppercase;
@@ -203,16 +199,20 @@ ul.datalist {
 nav, footer {
   padding: 1em 5%;
   background-color: $bg-light;
-  li {
-    display: inline-block;
-    text-transform: uppercase;
-    letter-spacing: 0.1em;
-    margin-right: 1em;
-    font-family: $display-font;
-    font-size: 0.85em;
-    font-weight: 700;
-    a {
-      text-decoration: none;
+  ul {
+    padding-left:0;
+    margin: 0;
+    li {
+      display: inline-block;
+      text-transform: uppercase;
+      letter-spacing: 0.1em;
+      margin-right: 1em;
+      font-family: $display-font;
+      font-size: 0.85em;
+      font-weight: 700;
+      a {
+        text-decoration: none;
+      }
     }
   }
 }
@@ -309,6 +309,9 @@ nav, footer {
     }
     h1 {
       font-size: 3em;
+    }
+    ul,ol,dl {
+      padding-left: 0;
     }
 }
 
