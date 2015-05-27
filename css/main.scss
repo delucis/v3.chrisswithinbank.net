@@ -171,9 +171,10 @@ h3 {
   font-size: 1.3333333333em;
   margin: 2.4em 0 1.2em 0;
   line-height: 1.2;
+  a {
+    text-decoration: none;
+  }
 }
-h3 a {
-  text-decoration: none;
 h4 {
   font-weight: 700;
   font-style: normal;
@@ -191,18 +192,6 @@ a {
 a:hover {
   color: $link-hover;
 }
-nav li, footer li {
-  display: inline-block;
-  text-transform: uppercase;
-  letter-spacing: 0.1em;
-  margin-right: 1em;
-  font-family: $display-font;
-  font-size: 0.85em;
-  font-weight: 700;
-}
-nav li a , footer li a {
-  text-decoration: none;
-}
 .container {
   padding: 1em 5%;
   background-color: $bg-light;
@@ -210,6 +199,18 @@ nav li a , footer li a {
 nav, footer {
   padding: 1em 5%;
   background-color: $bg-light;
+  li {
+    display: inline-block;
+    text-transform: uppercase;
+    letter-spacing: 0.1em;
+    margin-right: 1em;
+    font-family: $display-font;
+    font-size: 0.85em;
+    font-weight: 700;
+    a {
+      text-decoration: none;
+    }
+  }
 }
 
 /* ==========================================================================
