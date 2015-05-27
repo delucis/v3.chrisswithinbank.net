@@ -1,5 +1,7 @@
 ---
 layout: index
-title: Chris Swithinbank
+title: Code
+digest: Select GitHub repositories
+datafile: code
 ---
 <!-- Add your site or application content here -->
