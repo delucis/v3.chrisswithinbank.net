@@ -1,0 +1,19 @@
+---
+layout: default
+title: Music
+digest: Selected recent works
+---
+  <h2>{{ page.title }}</h1>
+  {% if page.digest %}<p><em>{{ page.digest }}</em></p>{% endif %}
+
+  <ul class="datalist">
+
+    {% for post in site.posts %}
+      {% if post.categories contains 'music' %}
+        <li>
+          <h3><a href="{{ post.url }}" title="{{ post.title }}">{{ post.title }}</a></h2>
+          <p class="meta">{{ post.instrumentation }} | {{ post.duration }}</p>
+        </li>
+      {% endif %}
+    {% endfor %}
+  </ul>
