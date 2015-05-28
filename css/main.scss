@@ -208,6 +208,14 @@ ul.datalist {
     list-style: none;
     padding-left: 0;
 }
+.bibliography {
+  list-style: none;
+  text-indent: -3.2em;
+  padding-left: 3.2em;
+  li {
+    margin-bottom: 0.6em;
+  }
+}
 nav, footer {
   padding: 1em 5%;
   background-color: $bg-light;
