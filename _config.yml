@@ -1,5 +1,6 @@
 name: Chris Swithinbank
 markdown: kramdown
+highlighter: pygments
 permalink: /:year/:month/:title
 timezone: Europe/Berlin
 sass:
