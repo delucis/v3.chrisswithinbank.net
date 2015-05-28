@@ -1,0 +1,20 @@
+---
+layout: default
+---
+<h2>{{ page.title }}</h2>
+{% if page.digest %}<p><em>{{ page.digest }}</em></p>{% endif %}
+
+{{ content }}
+
+{% if site.data.[page.datafile] %}
+<ul class="datalist">
+  {% for work in site.data.[page.datafile] %}
+  <li>
+    <h3><a href="{{ work.link }}">{{ work.name }}</a></h3>
+    <p>
+      {{ work.instrumentation }} | {{ work.duration }}
+    </p>
+  </li>
+  {% endfor %}
+</ul>
+{% endif %}
