@@ -13,7 +13,7 @@ datafile: news
     {% if post.categories contains 'updates' %}
       <li>
         <h3><a href="{{ post.url }}" title="{{ post.title }}">{{ post.title }}</a></h2>
-        <p class="meta">{{ post.date | date_to_string }}</p>
+        <p class="meta">{{ post.date | date_to_long_string }}</p>
       </li>
     {% endif %}
   {% endfor %}

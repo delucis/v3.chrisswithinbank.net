@@ -15,7 +15,7 @@ digest: Long-form articles and papers
         {% if post.subheader %}
         <h4>{{ post.subheader }}</h4>
         {% endif %}
-        <p class="meta">{{ post.date | date_to_string }}</p>
+        <p class="meta">{{ post.date | date_to_long_string }}</p>
         {% if post.digest %}
         <p>{{ post.digest }}</p>
         {% endif %}
