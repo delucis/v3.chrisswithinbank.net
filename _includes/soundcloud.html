@@ -1,8 +1,6 @@
 {% if include.url %}
   <div plangular="{{ include.url }}">
     {% raw %}
-      <!-- track image with track title as alt text -->
-      <img ng-src="{{ track.artwork_url  }}" alt="{{ track.title }}" />
       <h3>
         <!-- username linked to user’s soundcloud page -->
         <a href="{{track.user.permalink_url}}" target="_blank">{{track.user.username}}</a>
