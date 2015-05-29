@@ -1,0 +1,12 @@
+{% if page.instrumentationlist %}
+<h3>Instrumentation</h3>
+<ul>
+{% for item in page.instrumentationlist %}
+<li>{{ item }}</li>
+{% endfor %}
+</ul>
+{% endif %}
+
+{% if page.duration %}
+<p>Duration: {{ page.duration }}</p>
+{% endif %}
