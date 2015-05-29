@@ -2,10 +2,9 @@
 layout: default
 ---
 <h2>{{ page.title }}</h2>
-{% if page.digest %}<p><em>{{ page.digest }}</em></p>{% endif %}
+{% if page.embed %}<p>{{ page.embed }}</p>{% endif %}
 
 {{ content }}
-{{ page.embed }}
 {% include soundcloud.html url=page.audioembed %}
 {% include music_details.html %}
 {% include music_performances.html %}
