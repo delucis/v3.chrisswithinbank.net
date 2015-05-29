@@ -5,6 +5,7 @@ layout: default
 {% if page.digest %}<p><em>{{ page.digest }}</em></p>{% endif %}
 
 {{ content }}
+{{ page.embed }}
 {% include soundcloud.html url=page.audioembed %}
 {% include music_details.html %}
 {% include music_performances.html %}
