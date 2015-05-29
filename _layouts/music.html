@@ -20,15 +20,11 @@ layout: default
   {% endfor %}
 
   {% if workhasperformances %}
+    <h3>Performances</h3>
     <ul class="datalist">
       {% for event in events reversed %}
         {% if event.works contains page.title %}
-          <li>
-            <h3><a href="{{ event.groupurl }}">{{ event.group }}</a></h3>
-            <p>
-              {{ event.date | date_to_string }} | <a href="{{ event.venueurl }}">{{ event.venue }}</a>
-            </p>
-          </li>
+          <li>{{ event.date | date_to_long_string }}, <a href="{{ event.groupurl }}">{{ event.group }}</a>, <a href="{{ event.venueurl }}">{{ event.venue }}</a></li>
         {% endif %}
       {% endfor %}
     </ul>
