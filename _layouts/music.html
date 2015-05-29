@@ -6,15 +6,17 @@ layout: default
 
 {{ content }}
 
-{% if site.data.[page.datafile] %}
+{% if site.data.events %}
 <ul class="datalist">
-  {% for work in site.data.[page.datafile] %}
-  <li>
-    <h3><a href="{{ work.link }}">{{ work.name }}</a></h3>
-    <p>
-      {{ work.instrumentation }} | {{ work.duration }}
-    </p>
-  </li>
+  {% for event in site.data.events %}
+    {% if event.works contains page.title %}
+      <li>
+        <h3><a href="{{ event.groupurl }}">{{ event.group }}</a></h3>
+        <p>
+          {{ event.date | date_to_string }} | <a href="{{ event.venueurl }}">{{ event.venue }}</a>
+        </p>
+      </li>
+    {% endif %}
   {% endfor %}
 </ul>
 {% endif %}
