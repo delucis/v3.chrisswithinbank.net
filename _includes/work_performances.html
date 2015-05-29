@@ -15,11 +15,9 @@
 
     <h3>Performances</h3>
     <ul class="datalist">
-      {% for event in events reversed %}
-        {% if event.works contains page.title %}
+      {% for event in events reversed %}{% if event.works contains page.title %}
           <li>{{ event.date | date_to_long_string }}, <a href="{{ event.groupurl }}">{{ event.group }}</a>, <a href="{{ event.venueurl }}">{{ event.venue }}</a></li>
-        {% endif %}
-      {% endfor %}
+      {% endif %}{% endfor %}
     </ul>
 
   {% endif %}
