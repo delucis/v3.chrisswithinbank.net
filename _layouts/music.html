@@ -6,27 +6,4 @@ layout: default
 
 {{ content }}
 
-{% if site.data.events %}
-  {% assign events = site.data.events | sort: 'date' %}
-
-  {% assign workhasperformances = null %}
-  {% for event in events %}
-    {% if workhasperformances %}
-      {% break %}
-    {% endif %}
-    {% if event.works contains page.title %}
-      {% assign workhasperformances = 1 %}
-    {% endif %}
-  {% endfor %}
-
-  {% if workhasperformances %}
-    <h3>Performances</h3>
-    <ul class="datalist">
-      {% for event in events reversed %}
-        {% if event.works contains page.title %}
-          <li>{{ event.date | date_to_long_string }}, <a href="{{ event.groupurl }}">{{ event.group }}</a>, <a href="{{ event.venueurl }}">{{ event.venue }}</a></li>
-        {% endif %}
-      {% endfor %}
-    </ul>
-  {% endif %}
-{% endif %}
+{% include work_performances.html %}
