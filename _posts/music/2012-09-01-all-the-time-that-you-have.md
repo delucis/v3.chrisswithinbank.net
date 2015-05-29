@@ -8,7 +8,6 @@ instrumentationlist:
   - Soprano
   - Violin
   - Violin
-embed: <iframe width="100%" height="450" scrolling="no" frameborder="no" src="https://w.soundcloud.com/player/?url=https%3A//api.soundcloud.com/tracks/186593357&amp;auto_play=false&amp;hide_related=false&amp;show_comments=true&amp;show_user=true&amp;show_reposts=false&amp;visual=true"></iframe>
 ---
 This short work is part game piece, part phys­ical per­form­ance, part sound. At the heart of it lies the ques­tion: what hap­pens when we stop breathing? The ex­haus­tion of a phys­ical limit — the breath, the bow — is de­ployed as a mech­anism con­trolling what we hear and how long we hear it for.
 
