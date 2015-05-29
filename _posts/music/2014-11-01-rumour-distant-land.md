@@ -1,5 +1,4 @@
 ---
-layout: music
 title: "rumour — distant land"
 category: music
 size: chamber

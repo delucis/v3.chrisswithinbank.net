@@ -1,8 +1,27 @@
 name: Chris Swithinbank
 markdown: kramdown
 highlighter: pygments
-permalink: /:year/:month/:title
+permalink: /:categories/:title
 timezone: Europe/Berlin
 sass:
     sass_dir: _sass
     style: compressed
+defaults:
+  -
+    scope:
+      path: "updates"
+      type: "posts"
+    values:
+      layout: post
+  -
+    scope:
+      path: "music"
+      type: "posts"
+    values:
+      layout: music
+  -
+    scope:
+      path: "text"
+      type: "posts"
+    values:
+      layout: post

@@ -1,5 +1,4 @@
 ---
-layout: music
 title: "Tomorrow I will build a house here, if I can hold still"
 category: music
 size: chamber

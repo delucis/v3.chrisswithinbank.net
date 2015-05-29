@@ -1,5 +1,4 @@
 ---
-layout: post
 title: "Bringing up the Bodies"
 subheader: "Towards a Corporeal Ethics of Music"
 category: text

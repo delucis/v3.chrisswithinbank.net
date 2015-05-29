@@ -1,5 +1,4 @@
 ---
-layout: post
 title: "Hello world!"
 date: 2015-02-13
 category: updates
