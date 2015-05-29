@@ -218,10 +218,11 @@ a:hover {
     margin-bottom: 0.6em;
   }
 }
-nav, footer {
-  padding: 1em 5%;
+header, footer {
+  padding: 0 5%;
   background-color: $bg-light;
   ul {
+    padding: 1em 0;
     padding-left:0;
     margin: 0;
     li {
@@ -352,7 +353,7 @@ code, kbd, pre, samp {
     html {
       font-size: 1.375em;
     }
-    .container,nav,footer {
+    .container,header,footer {
       max-width: 28em;
       margin: 0 auto;
       padding-left: 0;
