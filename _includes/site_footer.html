@@ -3,7 +3,8 @@
   <ul>
     <li>Elsewhere</li>
     {% for item in site.data.footer %}
-      <li><a href="{{ item.href }}">{{ item.label }}</a></li>
+      {% assign linkstart = item.href | truncate: 7, '' %}
+      <li><a href="{{ item.href }}"{% unless linkstart == 'mailto:' %} target="_blank" rel="me"{% endunless %}>{{ item.label }}</a></li>
     {% endfor %}
   </ul>
 </footer>
