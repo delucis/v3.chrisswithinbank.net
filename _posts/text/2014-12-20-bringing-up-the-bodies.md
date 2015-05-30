@@ -118,7 +118,7 @@ Deleuze & Guattari, chaos, chaosmos, virtual
 - Bennett, Jane. *Vibrant Matter: A Political Ecology of Things*. Durham, NC: Duke University Press, 2010.
 - Cage, John. *0'00": Solo to Be Performed in Any Way by Anyone*. New York: Henmar Press, 1962.
 - Cendo, Raphaël. ‘Les paramètres de la saturation.’ In *Franck Bedrossian: de l’excès du son*, edited by Pierre Roullier. Champigny sur Marne: Ensemble 2e2m, 2008.
-- Cohen-Elias, Sivan, and Vertixe Sonora Ensemble. *To Move You Stay*. YouTube video, 10:53, from a performance on September 25, 2012, posted by ‘Sivan cohen elias,’ February 6, 2013, https://www.youtube.com/watch?v=YKJ6Fj9mc3s.
+- Cohen-Elias, Sivan, and Vertixe Sonora Ensemble. *To Move You Stay*. YouTube video, 10:53, from a performance on September 25, 2012, posted by ‘Sivan cohen elias,’ February 6, 2013, <https://www.youtube.com/watch?v=YKJ6Fj9mc3s>.
 - Colebrook, Claire. ‘On Not Becoming Man: The Materialist Politics of Unactualized Potential.’ In Alaimo & Hekman, *Material Feminisms*, 52–84.
 - Gatens, Moira. *Imaginary Bodies: Ethics, Power, and Corporeality*. London: Routledge, 1996.
 - Grosz, Elizabeth. *Chaos, Territory, Art: Deleuze and the Framing of the Earth*. New York: Columbia University Press, 2008.
