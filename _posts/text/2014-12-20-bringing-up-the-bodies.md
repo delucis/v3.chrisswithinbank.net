@@ -6,9 +6,13 @@ digest: "Writing in opposition to ideals of purity, distance and conceptual inte
 ---
 for Tatiana Catanzaro
 
-Arms bound, made visibly connected, increasingly constricted, one musician’s actions become the contingent restrictions on and conditions of another’s. Sivan Cohen-Elias’s *To Move You Stay* ends in a taut entanglement of limbs, moving through the space where one body affects the other, to the point of paralysis, every musician’s body held in check by others.
+Arms bound, made visibly connected, increasingly constricted, one musician’s actions become the contingent restrictions on and conditions of another’s. Sivan Cohen-Elias’s *To Move You Stay* ends in a taut entanglement of limbs, moving through the space where one body affects the other, to the point of paralysis, every musician’s body held in check by others.[^1]
 
-The process of a binding together of musicians on stage, proceeding linearly towards the ever more restricted is a simple theatrical trajectory, a line to which local activity adheres, an overdetermining arc, but is also a gradual coming to presence of the body. A representation, perhaps, of paralysis, or of strict relation, but a *presentation* of the body as that which continuously emerges. The work of this music is the production and presentation of the body.
+   [^1]: Cohen-Elias & Vertixe Sonora, *[To Move You Stay](https://www.youtube.com/watch?v=YKJ6Fj9mc3s)*.
+
+The process of a binding together of musicians on stage, proceeding linearly towards the ever more restricted is a simple theatrical trajectory, a line to which local activity adheres, an overdetermining arc, but is also a gradual coming to presence of the body. A representation, perhaps, of paralysis, or of strict relation, but a *presentation* of the body as that which continuously emerges.[^2] The work of this music is the production and presentation of the body.
+
+   [^2]: Nancy, *The Birth to Presence*, 2.
 
 *Habeas corpus.*
 
