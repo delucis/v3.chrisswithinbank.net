@@ -413,9 +413,12 @@ code, kbd, pre, samp {
         content: "";
     }
 
-    pre,
-    blockquote {
+    pre {
         border: 1px solid #999;
+        page-break-inside: avoid;
+    }
+
+    blockquote {
         page-break-inside: avoid;
     }
 
@@ -439,13 +442,15 @@ code, kbd, pre, samp {
 
     p,
     h2,
-    h3 {
+    h3,
+    h4 {
         orphans: 3;
         widows: 3;
     }
 
     h2,
-    h3 {
+    h3,
+    h4 {
         page-break-after: avoid;
     }
 }
