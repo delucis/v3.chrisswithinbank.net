@@ -1,8 +1,10 @@
 </div><!-- /.container -->
 <footer>
-    <ul>
-        <li><a href="mailto:swithinbank@gmail.com">email</a></li>
-        <li><a href="https://github.com/delucis">github.com/delucis</a></li>
+  <ul>
+    <li>Elsewhere</li>
+    {% for item in site.data.footer %}
+      <li><a href="{{ item.href }}">{{ item.label }}</a></li>
+    {% endfor %}
   </ul>
 </footer>
 <script type="text/javascript" src="http://code.jquery.com/jquery-2.1.4.min.js"></script>
