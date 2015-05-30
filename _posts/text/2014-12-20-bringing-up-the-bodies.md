@@ -1,6 +1,6 @@
 ---
 title: "Bringing up the Bodies"
-subheader: "Towards a Corporeal Ethics of Music"
+subtitle: "Towards a Corporeal Ethics of Music"
 category: text
 digest: "Writing in opposition to ideals of purity, distance and conceptual integrity, and in favour of materiality, diverse bodies, and the ethics that these imply."
 ---

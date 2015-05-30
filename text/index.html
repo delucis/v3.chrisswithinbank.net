@@ -12,8 +12,8 @@ digest: Long-form articles and papers
     {% if post.categories contains 'text' %}
       <li>
         <h3><a href="{{ post.url }}" title="{{ post.title }}">{{ post.title }}</a></h3>
-        {% if post.subheader %}
-        <h4>{{ post.subheader }}</h4>
+        {% if post.subtitle %}
+        <h4>{{ post.subtitle }}</h4>
         {% endif %}
         <p class="meta">{{ post.date | date_to_long_string }}</p>
         {% if post.digest %}
