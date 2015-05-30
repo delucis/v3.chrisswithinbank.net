@@ -3,6 +3,9 @@ layout: default
 ---
 <h2>{{ page.title }}</h2>
 <p class="meta">{{ page.date | date_to_string }}</p>
+{% if page.subtitle %}
+<h3>{{ page.subtitle }}</h3>
+{% endif %}
 
 <div class="post">
   {{ content }}
