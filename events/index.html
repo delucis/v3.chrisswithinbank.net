@@ -15,5 +15,34 @@ digest: Upcoming events
             ({{ event.date | date_to_long_string }})
           </h2>
         </li>
+        <script type="application/ld+json">
+          {
+            "@context": "http://schema.org",
+            "@type": "MusicEvent",
+            "name": "{{ event.name }}",
+            "url": "{{ event.url }}",
+            "startDate": "{{ event.date | date_to_xmlschema }}",
+            {% if event.endDate %}"endDate": "{{ event.endDate | date_to_xmlschema }}",{% endif %}
+            {% if event.performer %}"performer": {
+              "@type": "{{ event.performertype }}",
+              "name": "{{ event.performer.name }}",
+              "sameAs": "{{ event.performer.url }}"
+            },{% endif %}
+            {% if event.works %}{% for work in event.works %}
+            "workPerformed": {
+              "@type": "CreativeWork",
+              {% for post in site.categories.music %}{% if post.title == work.name %}"sameAs": "{{ post.url }}",{% endif %}{% endfor %}
+              "name": "{{ work.name }}",
+              "author": "{% if work.author %}{{ work.author }}{% else %}http://www.chrisswithinbank.net/{% endif %}"
+            },
+            {% endfor %}{% endif %}
+            "location": {
+              "@type": "{{ event.locationtype }}",
+              "name": "{{ event.venue.name }}",
+              "address": "{{ event.venue.address }}",
+              "sameAs": "{{ event.venue.url }}"
+            }
+          }
+        </script>
     {% endfor %}
   </ul>
