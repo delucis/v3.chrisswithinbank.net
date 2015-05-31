@@ -6,6 +6,10 @@ timezone: Europe/Berlin
 sass:
     sass_dir: _sass
     style: compressed
+collections:
+  events:
+    output: true
+    permalink: :title/
 defaults:
   -
     scope:
@@ -21,4 +25,9 @@ defaults:
       layout: music
   -
     scope:
+      path: ""
+      type: "events"
     values:
+      layout: event
+      locationtype: MusicVenue
+      performertype: MusicGroup
