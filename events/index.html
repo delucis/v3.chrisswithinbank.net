@@ -1,0 +1,19 @@
+---
+layout: default
+title: Events
+digest: Upcoming events
+---
+  <h2>{{ page.title }}</h2>
+  {% if page.digest %}<p><em>{{ page.digest }}</em></p>{% endif %}
+
+  <ul class="datalist">
+
+    {% for event in site.events %}
+        <li>
+          <h3>
+            <a href="{{ event.url }}" title="{{ event.name }}">{{ event.name }}</a>
+            ({{ event.date | date_to_long_string }})
+          </h2>
+        </li>
+    {% endfor %}
+  </ul>
