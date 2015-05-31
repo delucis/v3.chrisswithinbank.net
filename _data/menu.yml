@@ -1,11 +1,14 @@
 - label: Home
   slug: /
 
-- label: Code
-  slug: /code/
-
 - label: Music
   slug: /music/
 
-- label: Text
+- label: Texts
   slug: /text/
+
+- label: Diary
+  slug: /events/
+
+#- label: Code
+#  slug: /code/
