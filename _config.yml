@@ -9,7 +9,7 @@ sass:
 defaults:
   -
     scope:
-      path: "updates"
+      path: ""
       type: "posts"
     values:
       layout: post
@@ -21,7 +21,4 @@ defaults:
       layout: music
   -
     scope:
-      path: "text"
-      type: "posts"
     values:
-      layout: post
