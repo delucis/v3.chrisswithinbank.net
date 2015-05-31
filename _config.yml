@@ -9,7 +9,7 @@ sass:
 collections:
   events:
     output: true
-    permalink: :title/
+    permalink: events/:title/
 defaults:
   -
     scope:
