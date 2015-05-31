@@ -11,15 +11,15 @@ digest: Upcoming events
     {% for event in site.events %}
         <li>
           <h3>
-            <a href="{{ event.url }}" title="{{ event.name }}">{{ event.name }}</a>
             ({{ event.date | date_to_long_string }})
           </h2>
+            <a href="{{ event.url }}" title="{{ event.title | strip_html }}">{{ event.title }}</a>
         </li>
         <script type="application/ld+json">
           {
             "@context": "http://schema.org",
             "@type": "MusicEvent",
-            "name": "{{ event.name }}",
+            "name": "{{ event.title | strip_html }}",
             "url": "{{ event.url }}",
             "startDate": "{{ event.date | date_to_xmlschema }}",
             {% if event.endDate %}"endDate": "{{ event.endDate | date_to_xmlschema }}",{% endif %}

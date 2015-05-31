@@ -1,5 +1,5 @@
 ---
-name: rumour — distant land in Bludenz
+title: rumour — distant land in Bludenz
 performer:
   name: DieOrdnungDerDinge
   url: http://www.dieordnungderdinge.com/
