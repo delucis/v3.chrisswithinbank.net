@@ -648,7 +648,7 @@ $button-transition-properties:      background-color !default;
 .bigfoot-footnote__button {
   position: relative;
   height: $button-height;
-  width: 1.5em;
+  width: 1.6em;
   border-radius: $button-height/2;
 
   &:after {
@@ -664,9 +664,15 @@ $button-transition-properties:      background-color !default;
     display: block;
 
     // TEXT
-    font-size: $button-height*0.6;
+    font-size: $button-height*0.75;
     font-weight: bold;
-    color: rgba($button-color, 0.5);
+    color: rgba($button-color, 0.7);
+    -webkit-font-feature-settings: "lnum" 1;
+    -moz-font-feature-settings:"lnum" 1;
+    -moz-font-feature-settings: "lnum=1";
+    -ms-font-feature-settings: "lnum" 1;
+    -o-font-feature-settings: "lnum" 1;
+    font-feature-settings: "lnum" 1;
 
     // TRANSITIONS
     transition: color $popover-transition-default-duration $popover-transition-default-timing-function;
