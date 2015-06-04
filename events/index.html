@@ -10,7 +10,12 @@ digest: Upcoming events
     {% for event in site.events %}
       <li>
         <h3>
-          <a href="{{ event.url }}" title="{{ event.title | strip_html }}">{{ event.title }}</a>
+            {% if event.works.size == 1 %}
+              {% assign headline = event.works[0].name %}
+            {% else %}
+              {% assign headline = event.title %}
+            {% endif %}
+          <a href="{{ event.url }}" title="{{ headline | strip_html }}">{{ headline }}</a>
         </h3>
         <p>{{ event.date | date: "%-d %B %Y, %k:%M" }}</p>
       </li>
@@ -18,7 +23,7 @@ digest: Upcoming events
         {
           "@context": "http://schema.org",
           "@type": "MusicEvent",
-          "name": "{{ event.title | strip_html }}",
+          "name": "{{ headline | strip_html }}",
           "url": "{{ event.url }}",
           "startDate": "{{ event.date | date_to_xmlschema }}",
           {% if event.endDate %}"endDate": "{{ event.endDate | date_to_xmlschema }}",{% endif %}
