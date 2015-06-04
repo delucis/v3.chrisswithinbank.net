@@ -183,7 +183,7 @@ h4 {
   text-transform: none;
   margin-bottom: 0;
 }
-p {
+p, blockquote {
   margin:0 0 1.6em;
   @include hyphens(auto);
   text-align: justify;
