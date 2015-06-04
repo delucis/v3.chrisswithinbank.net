@@ -10,4 +10,14 @@ venue:
 date: 2014-11-20 20:00
 works:
   - name: rumour — distant land
+programme:
+  - composer: Chris Swithinbank
+    work: rumour — distant land
+    gender: M
+  - composer: Jessie Marino
+    work: rot blau
+    gender: F
+  - composer: Iñigo Giner Miranda
+    work: The President’s Speech
+    gender: M
 ---
