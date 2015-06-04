@@ -18,6 +18,15 @@ digest: Upcoming events
           <a href="{{ event.url }}" title="{{ headline | strip_html }}">{{ headline }}</a>
         </h3>
         <p>{{ event.date | date: "%-d %B %Y, %k:%M" }}</p>
+        {% if event.performer %}
+          <p class="performer">
+            {% if event.performer.url %}
+              <a href="{{ event.performer.url }}">{{ event.performer.name }}</a>
+            {% else %}
+              {{ event.performer.name }}
+            {% endif %}
+          </p>
+        {% endif %}
       </li>
       <script type="application/ld+json">
         {
