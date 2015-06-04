@@ -27,6 +27,18 @@ digest: Upcoming events
             {% endif %}
           </p>
         {% endif %}
+        {% if event.venue %}
+          <p class="venue">
+            {% if event.venue.url %}
+              <span class="name"><a href="{{ event.venue.url }}">{{ event.venue.name }}</a></span>
+            {% else %}
+              <span class="name">{{ event.venue.name }}</dt>
+            {% endif %}
+            {% if event.venue.address %}
+              <br /><span class="address">{{ event.venue.address }}</span>
+            {% endif %}
+          </p>
+        {% endif %}
       </li>
       <script type="application/ld+json">
         {
