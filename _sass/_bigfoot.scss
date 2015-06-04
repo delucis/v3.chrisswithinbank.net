@@ -664,7 +664,7 @@ $button-transition-properties:      background-color !default;
     display: block;
 
     // TEXT
-    font-size: $button-height*0.75;
+    font-size: $button-height*0.7;
     font-weight: bold;
     color: rgba($button-color, 0.7);
     -webkit-font-feature-settings: "lnum" 1;
