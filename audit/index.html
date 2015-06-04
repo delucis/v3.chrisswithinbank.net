@@ -25,8 +25,7 @@ What follows below is the result of restructuring this site. I have built gender
       {% endfor %}
     {% endif %}
   {% endfor %}
-  <ul class="datalist">
+  <ul>
+    <li>F - {{ worksperformedF.size | times: 100 | divided_by: worksperformed.size }}% | {{ worksperformedM.size | times: 100 | divided_by: worksperformed.size }}% - M</li>
     <li>Number of works programmed: {{ worksperformed.size }}</li>
-    <li>Number by women: {{ worksperformedF.size }}</li>
-    <li>Number by men: {{ worksperformedM.size }}</li>
   </ul>
