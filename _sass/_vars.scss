@@ -1,0 +1,20 @@
+/* ==========================================================================
+   SASS variables
+   ========================================================================== */
+/* FONTS */
+$body-font: Alegreya, serif;
+$display-font: Infini, Optima, sans-serif;
+/* COLOURS */
+$text-dark: rgba(51,51,51,1);
+$bg-light: rgba(250,252,249,1);
+$link: rgb(61, 153, 112);
+$link-hover: rgb(255, 65, 54);
+/* ==========================================================================
+   SASS mixins
+   ========================================================================== */
+@mixin hyphens($setting) {
+  -webkit-hyphens: $setting;
+  -moz-hyphens: $setting;
+  -ms-hyphens: $setting;
+  hyphens: $setting;
+}
