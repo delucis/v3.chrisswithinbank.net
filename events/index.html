@@ -13,7 +13,7 @@ digest: Upcoming events
           <h3>
             <a href="{{ event.url }}" title="{{ event.title | strip_html }}">{{ event.title }}</a>
           </h3>
-          <p>{{ event.date | date: "%-d %B %Y — %k:%M" }}</p>
+          <p>{{ event.date | date: "%-d %B %Y, %k:%M" }}</p>
         </li>
         <script type="application/ld+json">
           {
