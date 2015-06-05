@@ -15,7 +15,18 @@ programme:
     work: Tomorrow I will build a house here, if I can hold still
     gender: M
   - composer: Rebecca Saunders
+    work: to and fro
     gender: F
   - composer: Timothy McCormack
+    work: One Flat Thing, reproduced
+    gender: M
+  - composer: Aureliano Cattaneo
+    work: Trio IV
+    gender: M
+  - composer: Bernhard Gander
+    work: Schöne Worte
+    gender: M
+  - composer: Stefan Streich
+    work: ritorno
     gender: M
 ---

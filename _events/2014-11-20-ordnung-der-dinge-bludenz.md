@@ -15,9 +15,22 @@ programme:
     work: rumour — distant land
     gender: M
   - composer: Jessie Marino
-    work: rot blau
+    work: Rot Blau I
     gender: F
   - composer: Iñigo Giner Miranda
     work: The President’s Speech
     gender: M
+  - composer: Cecilia Arditto
+    work: El libro de los gestos
+    gender: F
+  - composer: Peter Streif
+    work: Hors d'oeuvre
+    gender: M
+  - composer: Iñigo Giner Miranda
+    work: El orden de las cosas
+    gender: M
+  - composer: Ute Wassermann
+    work: Strange songs
+    gender: F
+
 ---
