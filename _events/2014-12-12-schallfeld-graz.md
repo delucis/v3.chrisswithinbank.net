@@ -8,6 +8,7 @@ venue:
   name: Veranstaltungssaal der KHG Graz
   url:
   address:
+facebook: https://www.facebook.com/events/972589792755683/
 works:
   - name: Tomorrow I will build a house here, if I can hold still
 programme:
