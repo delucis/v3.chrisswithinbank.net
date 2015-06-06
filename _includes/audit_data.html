@@ -37,7 +37,6 @@ PROCESS EVENT DATA
     {% assign worksperformed = worksperformed | plus: eventworks %}
     {% assign worksperformedF = worksperformedF | plus: eventF %}
     {% assign worksperformedM = worksperformedM | plus: eventM %}
-      {% capture concertsAllM %}{{ concertsAllM | plus: 1 }}{% endcapture %}
 
     {% assign event_relativeF = eventF | times: 1.00 | divided_by: eventworks %}
     {% assign relativeF = relativeF | plus: event_relativeF %}
@@ -58,8 +57,12 @@ PROCESS EVENT DATA
         {% assign dates_string = dates_string | append: '0' | append: ' ' %}
     {% endif %}
 
+    {% if eventF == 0 %}
+      {% assign concertsAllM = concertsAllM | plus: 1 %}
     {% endif %}
+
   {% endif %}
+
   {% if event.date %}
     {% assign eventyear = event.date | date: '%Y' %}
     {% if eventyear < earliestYear %}
