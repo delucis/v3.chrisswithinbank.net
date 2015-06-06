@@ -74,7 +74,12 @@ PROCESS EVENT DATA
 {% assign worksperformedF_percent = worksperformedF | times: 100.0 | divided_by: worksperformed | append: "" | truncate: 4, '' %}
 {% assign worksperformedM_percent = worksperformedM | times: 100.0 | divided_by: worksperformed | append: "" | truncate: 4, '' %}
 {% assign concertsAllM_percent = concertsAllM | times: 100.0 | divided_by: concerts | append: "" | truncate: 4, '' %}
+{% assign relativeF = relativeF | divided_by: concerts | times: 100.0 | append: "" | truncate: 4, '' %}
+{% assign relativeM = relativeM | divided_by: concerts | times: 100.0 | append: "" | truncate: 4, '' %}
 
+{% assign relativeF_array = relativeF_string | split: ' ' %}
+{% assign urls_array = urls_string | split: ' ' %}
+{% assign dates_array = dates_string | split: ' ' %}
 
 {% comment %}
   === AVAILABLE DATA TAGS ===
