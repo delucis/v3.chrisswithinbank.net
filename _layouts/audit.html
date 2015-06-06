@@ -3,24 +3,5 @@ layout: default
 ---
 <h2>{{ page.title }}</h2>
 {% if page.digest %}<p><em>{{ page.digest }}</em></p>{% endif %}
-{{ content }}
 
-{% assign worksperformed = '' %}
-{% assign worksperformedF = '' %}
-{% assign worksperformedM = '' %}
-{% for event in site.events %}
-  {% if event.programme %}
-    {% for item in event.programme %}
-      {% capture worksperformed %}{{ worksperformed | append: '.' }}{% endcapture %}
-      {% if item.gender == 'F' %}
-        {% capture worksperformedF %}{{ worksperformedF | append: '.' }}{% endcapture %}
-      {% elsif item.gender == 'M' %}
-        {% capture worksperformedM %}{{ worksperformedM | append: '.' }}{% endcapture %}
-      {% endif %}
-    {% endfor %}
-  {% endif %}
-{% endfor %}
-<ul>
-  <li>F - {{ worksperformedF.size | times: 100 | divided_by: worksperformed.size }}% | {{ worksperformedM.size | times: 100 | divided_by: worksperformed.size }}% - M</li>
-  <li>Number of works programmed: {{ worksperformed.size }}</li>
-</ul>
+{{ content }}
