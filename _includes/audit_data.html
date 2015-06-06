@@ -50,12 +50,9 @@
 {% endcomment %}
 
 <h3>Since {{ earliestYear }} (when my records began)</h3>
-<ul>
-  <li>Total number of concerts: {{ concerts }}</li>
-  <li>Total number of works programmed: {{ worksperformed }}</li>
-</ul>
 
 <h4>Gender breakdown of composers of works performed</h4>
+<p>Total number of works programmed: {{ worksperformed }}</p>
 <ul class="chartlist">
   <li>
     <span class="label">Works by male composers</span>
@@ -70,6 +67,7 @@
 </ul>
 
 <h4>Number of all-male concert programmes</h4>
+<p>Total number of concerts: {{ concerts }}</p>
 <ul class="chartlist">
   <li>
     <span class="label">All-male programmes</span>
