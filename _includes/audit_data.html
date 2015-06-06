@@ -92,6 +92,11 @@ PROCESS EVENT DATA
 * {{ worksperformedF_percent }} — the percentage of works performed by women
 * {{ worksperformedM }}         — the total number of works by men performed
 * {{ worksperformedM_percent }} — the percentage of works performed by men
+* {{ relativeF }}               — the average percentage of works by women per concert
+* {{ relativeM }}               — the average percentage of works by men per concert
+* {{ relativeF_array }}         — an array of the proportion of works by women for each concert
+* {{ urls_array }}              — an array of event URLs matching {{ relativeF_array }}
+* {{ dates_array }}             — an array of event dates matching {{ relativeF_array }}
 {% endcomment %}
 
 <h3>Since {{ earliestYear }} (when my records began)</h3>
