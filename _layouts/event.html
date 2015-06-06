@@ -1,10 +1,35 @@
 ---
 layout: default
 ---
-<h2>{{ page.title }}</h2>
+{% assign event = page %}
 
-<p class="meta">{{ page.date | date: "%-d %B %Y — %k:%M" }}</p>
-
-<div class="post">
-  {{ content }}
-</div>
+<h2>
+  {% if event.works.size == 1 %}
+    {% assign headline = event.works[0].name %}
+  {% else %}
+    {% assign headline = event.title %}
+  {% endif %}
+  {{ headline }}
+</h2>
+<p>{{ event.date | date: "%-d %B %Y, %k:%M" }}</p>
+{% if event.performer %}
+  <p class="performer">
+    {% if event.performer.url %}
+      <a href="{{ event.performer.url }}">{{ event.performer.name }}</a>
+    {% else %}
+      {{ event.performer.name }}
+    {% endif %}
+  </p>
+{% endif %}
+{% if event.venue %}
+  <p class="venue">
+    {% if event.venue.url %}
+      <span class="name"><a href="{{ event.venue.url }}">{{ event.venue.name }}</a></span>
+    {% else %}
+      <span class="name">{{ event.venue.name }}</dt>
+    {% endif %}
+    {% if event.venue.address %}
+      <br /><span class="address">{{ event.venue.address }}</span>
+    {% endif %}
+  </p>
+{% endif %}
