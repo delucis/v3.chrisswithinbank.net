@@ -11,6 +11,7 @@ INITIALISE VARIABLES
 {% assign relativeF_string = '' %}
 {% assign urls_string = '' %}
 {% assign dates_string = '' %}
+{% assign performers_string = '' %}
 {% assign earliestYear = site.time | date: '%Y' %}
 
 {% comment %}
@@ -44,6 +45,7 @@ PROCESS EVENT DATA
     {% assign relativeM = relativeM | plus: event_relativeM %}
 
     {% assign relativeF_string = relativeF_string | append: event_relativeF | append: ' ' %}
+
     {% if event.url %}
         {% assign urls_string = urls_string | append: event.url | append: ' ' %}
       {% else %}
@@ -55,6 +57,12 @@ PROCESS EVENT DATA
         {% assign dates_string = dates_string | append: eventdate | append: ' ' %}
       {% else %}
         {% assign dates_string = dates_string | append: '0' | append: ' ' %}
+    {% endif %}
+
+    {% if event.performer.name %}
+        {% assign performers_string = performers_string | append: event.performer.name | append: '||' %}
+      {% else %}
+        {% assign performers_string = performers_string | append: '0' | append: '||' %}
     {% endif %}
 
     {% if eventF == 0 %}
@@ -80,6 +88,7 @@ PROCESS EVENT DATA
 {% assign relativeF_array = relativeF_string | split: ' ' %}
 {% assign urls_array = urls_string | split: ' ' %}
 {% assign dates_array = dates_string | split: ' ' %}
+{% assign performers_array = performers_string | split: '||' %}
 
 {% comment %}
   === AVAILABLE DATA TAGS ===
@@ -97,6 +106,7 @@ PROCESS EVENT DATA
 * {{ relativeF_array }}         — an array of the proportion of works by women for each concert
 * {{ urls_array }}              — an array of event URLs matching {{ relativeF_array }}
 * {{ dates_array }}             — an array of event dates matching {{ relativeF_array }}
+* {{ performers_array }}        — an array of performer names matching {{ relativeF_array }}
 {% endcomment %}
 
 <h3>Since {{ earliestYear }} (when my records began)</h3>
