@@ -157,7 +157,7 @@ PROCESS EVENT DATA
     <li style="width: {{ 100.0 | divided_by: concerts }}%;">
       <a href="{{ urls_array[forloop.rindex0]}}">
         <span class="label" style="left: {{ -100.0 | times: forloop.rindex0 }}%; width: {{ concerts | times: 85 }}%;">
-          {{ dates_array[forloop.rindex0] }}
+          {{ dates_array[forloop.rindex0] }}: {{ performers_array[forloop.rindex0] }}
         </span>
         <span class="percentage" style="height: {{ fraction | times: 100 }}%;">
       </a>
