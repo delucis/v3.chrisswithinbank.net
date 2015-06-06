@@ -13,19 +13,25 @@ PROCESS EVENT DATA
 {% endcomment %}
 {% for event in site.events %}
   {% if event.programme %}
-    {% assign hasF = false %}
+
+    {% assign eventworks = 0 %}
+    {% assign eventF = 0 %}
+    {% assign eventM = 0 %}
+
     {% for item in event.programme %}
-      {% capture worksperformed %}{{ worksperformed | plus: 1 }}{% endcapture %}
+      {% assign eventworks = eventworks | plus: 1 %}
       {% if item.gender == 'F' %}
-        {% capture worksperformedF %}{{ worksperformedF | plus: 1 }}{% endcapture %}
-        {% assign hasF = true %}
+        {% assign eventF = eventF | plus: 1 %}
       {% elsif item.gender == 'M' %}
-        {% capture worksperformedM %}{{ worksperformedM | plus: 1 }}{% endcapture %}
+        {% assign eventM = eventM | plus: 1 %}
       {% else %}
         <p>No gender entered: {{ item.composer }} — {{ item.work }}</p>
       {% endif %}
     {% endfor %}
-    {% if hasF == false %}
+
+    {% assign worksperformed = worksperformed | plus: eventworks %}
+    {% assign worksperformedF = worksperformedF | plus: eventF %}
+    {% assign worksperformedM = worksperformedM | plus: eventM %}
       {% capture concertsAllM %}{{ concertsAllM | plus: 1 }}{% endcapture %}
     {% endif %}
   {% endif %}
