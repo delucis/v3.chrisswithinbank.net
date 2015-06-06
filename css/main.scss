@@ -273,7 +273,7 @@ code, kbd, pre, samp {
       position: relative;
       z-index: 2;
     }
-    .count {
+    .value {
       display: block;
       position: absolute;
       top: 0;
@@ -283,6 +283,7 @@ code, kbd, pre, samp {
       text-align: right;
       color: #999;
       font-weight: bold;
+      z-index: 3;
     }
     .percentage {
       display: block;
