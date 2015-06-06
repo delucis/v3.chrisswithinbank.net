@@ -9,6 +9,8 @@ INITIALISE VARIABLES
 {% assign relativeF = 0 %}
 {% assign relativeM = 0 %}
 {% assign relativeF_string = '' %}
+{% assign urls_string = '' %}
+{% assign dates_string = '' %}
 {% assign earliestYear = site.time | date: '%Y' %}
 
 {% comment %}
@@ -43,6 +45,19 @@ PROCESS EVENT DATA
     {% assign relativeM = relativeM | plus: event_relativeM %}
 
     {% assign relativeF_string = relativeF_string | append: event_relativeF | append: ' ' %}
+    {% if event.url %}
+        {% assign urls_string = urls_string | append: event.url | append: ' ' %}
+      {% else %}
+        {% assign urls_string = urls_string | append: '0' | append: ' ' %}
+    {% endif %}
+
+    {% if event.date %}
+        {% assign eventdate = event.date | date: '%-d/%-m/%Y' %}
+        {% assign dates_string = dates_string | append: eventdate | append: ' ' %}
+      {% else %}
+        {% assign dates_string = dates_string | append: '0' | append: ' ' %}
+    {% endif %}
+
     {% endif %}
   {% endif %}
   {% if event.date %}
