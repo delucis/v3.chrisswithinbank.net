@@ -7,7 +7,7 @@ performer:
 venue:
   name: Collège Franco-Britannique
   url: http://www.ciup.fr/college-franco-britannique/
-  address: 9 B Boulevard Jourdan, 75014 Paris, France
+  address: 9B Boulevard Jourdan, 75014 Paris, France
 facebook: https://www.facebook.com/events/1497426750545237/
 works:
   - name: Tomorrow I will build a house here, if I can hold still
