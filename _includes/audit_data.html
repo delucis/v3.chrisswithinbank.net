@@ -150,8 +150,8 @@ PROCESS EVENT DATA
   </li>
 </ul>
 
-<h4>All concert programmes</h4>
-<p><em>Proportion of works by female composers for every concert</em></p>
+<h4>Proportion of works by female composers for every concert</h4>
+<p><em>Clicking on a bar will take you to that concert’s detailed listing.</em></p>
 <ul class="sparkchart donthyphenate">
   {% for fraction in relativeF_array reversed %}
     <li style="width: {{ 100.0 | divided_by: concerts }}%;">
