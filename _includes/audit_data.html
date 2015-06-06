@@ -1,7 +1,7 @@
 {% comment %}
 INITIALISE VARIABLES
 {% endcomment %}
-{% assign concerts = site.events.size %}
+{% assign concerts = 0 %}
 {% assign concertsAllM = 0 %}
 {% assign worksperformed = 0 %}
 {% assign worksperformedF = 0 %}
@@ -20,6 +20,7 @@ PROCESS EVENT DATA
 {% for event in site.events %}
   {% if event.programme %}
 
+    {% assign concerts = concerts | plus: 1 %}
     {% assign eventworks = 0 %}
     {% assign eventF = 0 %}
     {% assign eventM = 0 %}
