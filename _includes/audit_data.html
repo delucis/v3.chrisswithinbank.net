@@ -6,6 +6,9 @@ INITIALISE VARIABLES
 {% assign worksperformed = 0 %}
 {% assign worksperformedF = 0 %}
 {% assign worksperformedM = 0 %}
+{% assign relativeF = 0 %}
+{% assign relativeM = 0 %}
+{% assign relativeF_string = '' %}
 {% assign earliestYear = site.time | date: '%Y' %}
 
 {% comment %}
@@ -33,6 +36,13 @@ PROCESS EVENT DATA
     {% assign worksperformedF = worksperformedF | plus: eventF %}
     {% assign worksperformedM = worksperformedM | plus: eventM %}
       {% capture concertsAllM %}{{ concertsAllM | plus: 1 }}{% endcapture %}
+
+    {% assign event_relativeF = eventF | times: 1.00 | divided_by: eventworks %}
+    {% assign relativeF = relativeF | plus: event_relativeF %}
+    {% assign event_relativeM = eventM | times: 1.00 | divided_by: eventworks %}
+    {% assign relativeM = relativeM | plus: event_relativeM %}
+
+    {% assign relativeF_string = relativeF_string | append: event_relativeF | append: ' ' %}
     {% endif %}
   {% endif %}
   {% if event.date %}
