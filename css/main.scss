@@ -308,6 +308,76 @@ code, kbd, pre, samp {
     }
   }
 }
+.sparkchart {
+  border: 1px solid #EEE;
+  width: 100%;
+  padding-left: 0;
+  background: #fff;
+  box-shadow: 0 0 15px -10px #000;
+  margin-bottom: 3.2em;
+  &:before,
+  &:after {
+    content: " ";
+    display: table;
+  }
+  &:after {
+    clear: both;
+  }
+  li {
+    position: relative;
+    display: block;
+    float: right;
+    list-style: none;
+    _zoom: 1;
+    a {
+      display: block;
+      height: 4.8em;
+      .label {
+        display: block;
+        position: absolute;
+        top: 4.8em;
+        height: 1px;
+        text-indent: -9999px;
+        overflow: hidden;
+      }
+      .percentage {
+        display: block;
+        position: absolute;
+        bottom: 0;
+        left: 0;
+        width: 100%;
+        background: #B8E4F5;
+        text-indent: -9999px;
+        overflow: hidden;
+      }
+      &:hover {
+        background: #EFEFEF;
+        color: $text-dark;
+        .label {
+          text-indent: 0;
+          overflow: visible;
+        }
+        .percentage {
+          background: #85d4f2;
+        }
+      }
+    }
+    .value {
+      display: block;
+      position: absolute;
+      top: 4.8em;
+      text-align: right;
+      text-indent: 9999px;
+      overflow: hidden;
+      font-weight: 700;
+    }
+    &:hover {
+      .value {
+        text-indent: 0;
+      }
+    }
+  }
+}
 /* ==========================================================================
    Helper classes
    ========================================================================== */
