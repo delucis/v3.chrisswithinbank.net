@@ -156,13 +156,13 @@ PROCESS EVENT DATA
   {% for fraction in relativeF_array reversed %}
     <li style="width: {{ 100.0 | divided_by: concerts }}%;">
       <a href="{{ urls_array[forloop.rindex0]}}">
-        <span class="label" style="left: {{ -100.0 | times: forloop.rindex0 }}%; width: {{ concerts | times: 85 }}%;">
+        <span class="label" style="left: {{ -100.0 | times: forloop.rindex0 }}%; width: {{ concerts | times: 100 }}%;">
           {{ dates_array[forloop.rindex0] }}: {{ performers_array[forloop.rindex0] }}
         </span>
         <span class="percentage" style="height: {{ fraction | times: 100 }}%;">
       </a>
-      {% assign offset = concerts | times: 15 | minus: 100 %}
-      <span class="value" style="left: {{ 100.0 | times: forloop.index0 | minus: offset }}%; width: {{ concerts | times: 15 }}%;">
+      <span class="separator"> — </span>
+      <span class="value">
         {{ fraction | times: 100 | append: "" | truncate: 4, '' }}%
       </span>
     </li>

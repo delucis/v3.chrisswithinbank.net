@@ -328,17 +328,22 @@ code, kbd, pre, samp {
     display: block;
     float: right;
     list-style: none;
+    border-bottom: 0.2em solid #B8E4F5;
     _zoom: 1;
+    &:nth-child(even) {
+      background: #fafafa;
+    }
     a {
       display: block;
       height: 4.8em;
       .label {
         display: block;
         position: absolute;
-        top: 4.8em;
+        top: 5em;
         height: 1px;
         text-indent: -9999px;
         overflow: hidden;
+        z-index: 4;
       }
       .percentage {
         display: block;
@@ -362,18 +367,28 @@ code, kbd, pre, samp {
         }
       }
     }
+    .separator {
+      display: none;
+    }
     .value {
       display: block;
       position: absolute;
-      top: 4.8em;
-      text-align: right;
+      width: 500%;
+      height: 1px;
+      top: -1.6em;
+      left: -200%;
+      text-align: center;
       text-indent: 9999px;
       overflow: hidden;
       font-weight: 700;
+      padding: 0 0.4em;
+      z-index: 3;
     }
     &:hover {
       .value {
         text-indent: 0;
+        overflow: visible;
+        text-shadow: 0 0 4px #fff;
       }
     }
   }
