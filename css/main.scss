@@ -259,8 +259,12 @@ code, kbd, pre, samp {
 }
 .chartlist {
   border-top: 1px solid #EEE;
+  border-right: 1px solid #EEE;
+  border-left: 1px solid #EEE;
   width: 100%;
   padding-left: 0;
+  background: #fff;
+  box-shadow: 0 0 15px -10px #000;
   li {
     position: relative;
     display: block;
@@ -298,6 +302,9 @@ code, kbd, pre, samp {
     }
     &:hover {
       background: #EFEFEF;
+      .percentage {
+        background: #85d4f2;
+      }
     }
   }
 }
