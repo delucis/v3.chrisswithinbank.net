@@ -37,9 +37,9 @@ PROCESS EVENT DATA
   {% endif %}
 {% endfor %}
 
-{% capture worksperformedF_percent %}{{ worksperformedF | times: 100.0 | divided_by: worksperformed | append: "" | truncate: 4, '' }}{% endcapture %}
-{% capture worksperformedM_percent %}{{ worksperformedM | times: 100.0 | divided_by: worksperformed | append: "" | truncate: 4, '' }}{% endcapture %}
-{% capture concertsAllM_percent %}{{ concertsAllM | times: 100.0 | divided_by: concerts | append: "" | truncate: 4, '' }}{% endcapture %}
+{% assign worksperformedF_percent = worksperformedF | times: 100.0 | divided_by: worksperformed | append: "" | truncate: 4, '' %}
+{% assign worksperformedM_percent = worksperformedM | times: 100.0 | divided_by: worksperformed | append: "" | truncate: 4, '' %}
+{% assign concertsAllM_percent = concertsAllM | times: 100.0 | divided_by: concerts | append: "" | truncate: 4, '' %}
 
 
 {% comment %}
