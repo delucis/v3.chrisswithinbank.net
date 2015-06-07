@@ -1,6 +1,7 @@
 ---
 title:
 date:
+enddate:
 performer:
   name:
   url:
