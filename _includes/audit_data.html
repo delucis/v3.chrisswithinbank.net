@@ -100,7 +100,8 @@ PROCESS EVENT DATA
 * {{ concerts }}                — the total number of concerts
 * {{ nodata }}                  — number of concerts without programme data
 * {{ concertsAllM }}            — the number of all-male concert programmes
-* {{ concertsAllM_percent }}    — the percentage of concert programmes that are all male
+* {{ concertsAllM_percent }}    — the percentage of concert programmes
+                                  that are all male
 * {{ earliestYear }}            — the earliest year an event occurred
 * {{ worksperformed }}          — the total number of works performed
 * {{ worksperconcert }}         — the average number of works per concert
@@ -108,12 +109,18 @@ PROCESS EVENT DATA
 * {{ worksperformedF_percent }} — the percentage of works performed by women
 * {{ worksperformedM }}         — the total number of works by men performed
 * {{ worksperformedM_percent }} — the percentage of works performed by men
-* {{ relativeF }}               — the average percentage of works by women per concert
-* {{ relativeM }}               — the average percentage of works by men per concert
-* {{ relativeF_array }}         — an array of the proportion of works by women for each concert
-* {{ urls_array }}              — an array of event URLs matching {{ relativeF_array }}
-* {{ dates_array }}             — an array of event dates matching {{ relativeF_array }}
-* {{ performers_array }}        — an array of performer names matching {{ relativeF_array }}
+* {{ relativeF }}               — the average percentage of works by women
+                                  per concert
+* {{ relativeM }}               — the average percentage of works by men
+                                  per concert
+* {{ relativeF_array }}         — an array of the percentage of works by women
+                                  for each concert
+* {{ urls_array }}              — an array of event URLs matching
+                                  {{ relativeF_array }}
+* {{ dates_array }}             — an array of event dates matching
+                                  {{ relativeF_array }}
+* {{ performers_array }}        — an array of performer names matching
+                                  {{ relativeF_array }}
 {% endcomment %}
 
 <h3>Since {{ earliestYear }} (when my records began)</h3>
