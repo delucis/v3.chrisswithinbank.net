@@ -83,6 +83,7 @@ PROCESS EVENT DATA
 {% assign worksperformedM_percent = worksperformedM | times: 100.0 | divided_by: worksperformed | append: "" | truncate: 4, '' %}
 {% assign concertsAllM_percent = concertsAllM | times: 100.0 | divided_by: concerts | append: "" | truncate: 4, '' %}
 {% assign worksperconcert =  worksperformed | times: 1.0 | divided_by: concerts | append: "" | truncate: 3, '' %}
+{% assign nodata = site.events.size | minus: concerts %}
 {% assign relativeF = relativeF | divided_by: concerts | times: 100.0 | append: "" | truncate: 4, '' %}
 {% assign relativeM = relativeM | divided_by: concerts | times: 100.0 | append: "" | truncate: 4, '' %}
 
@@ -94,6 +95,7 @@ PROCESS EVENT DATA
 {% comment %}
   === AVAILABLE DATA TAGS ===
 * {{ concerts }}                — the total number of concerts
+* {{ nodata }}                  — number of concerts without programme data
 * {{ concertsAllM }}            — the number of all-male concert programmes
 * {{ concertsAllM_percent }}    — the percentage of concert programmes that are all male
 * {{ earliestYear }}            — the earliest year an event occurred
