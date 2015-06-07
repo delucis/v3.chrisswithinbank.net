@@ -85,6 +85,8 @@ PROCESS EVENT DATA
 
 {% endfor %}
 
+{% assign othersworks = worksperformed | minus: ownworks %}
+
 {% assign worksperformedF_percent = worksperformedF | times: 100.0 | divided_by: worksperformed | append: "" | truncate: 4, '' %}
 {% assign worksperformedM_percent = worksperformedM | times: 100.0 | divided_by: worksperformed | append: "" | truncate: 4, '' %}
 {% assign concertsAllM_percent = concertsAllM | times: 100.0 | divided_by: concerts | append: "" | truncate: 4, '' %}
@@ -109,6 +111,7 @@ PROCESS EVENT DATA
 * {{ earliestYear }}            — the earliest year an event occurred
 * {{ worksperformed }}          — the total number of works performed
 * {{ ownworks }}                — the total number of works by myself
+* {{ othersworks }}             — the total number of works by others
 * {{ worksperconcert }}         — the average number of works per concert
 * {{ worksperformedF }}         — the total number of works by women performed
 * {{ worksperformedF_percent }} — the percentage of works performed by women
