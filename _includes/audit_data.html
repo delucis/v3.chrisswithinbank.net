@@ -54,6 +54,11 @@ PROCESS EVENT DATA
     {% endif %}
 
     {% if event.date %}
+        {% assign eventyear = event.date | date: '%Y' %}
+        {% if eventyear < earliestYear %}
+          {% assign earliestYear = eventyear %}
+        {% endif %}
+        
         {% assign eventdate = event.date | date: '%-d/%-m/%Y' %}
         {% assign dates_string = dates_string | append: eventdate | append: ' ' %}
       {% else %}
@@ -72,12 +77,6 @@ PROCESS EVENT DATA
 
   {% endif %}
 
-  {% if event.date %}
-    {% assign eventyear = event.date | date: '%Y' %}
-    {% if eventyear < earliestYear %}
-      {% assign earliestYear = eventyear %}
-    {% endif %}
-  {% endif %}
 {% endfor %}
 
 {% assign worksperformedF_percent = worksperformedF | times: 100.0 | divided_by: worksperformed | append: "" | truncate: 4, '' %}
