@@ -6,6 +6,9 @@ author:
     uri: http://www.chrisswithinbank.net/
 markdown: kramdown
 highlighter: pygments
+gems:
+    - jekyll-sitemap
+    - jekyll-feed
 permalink: /:categories/:title
 timezone: Europe/Berlin
 sass:
