@@ -120,6 +120,8 @@ PROCESS EVENT DATA
 {% assign composersM_array = composersM_string | split: '||' %}
 {% assign composersM_total = composersM_array.size %}
 {% assign composersM_percent = composersM_total | times: 100.0 | divided_by: composers_total | append: "" | truncate: 4, '' %}
+{% assign workspercomposerM = worksperformedM | minus: ownworks | times: 1.0 | divided_by: composersM_total | append: "" | truncate: 4, '' %}
+{% assign workspercomposerF = worksperformedF | times: 1.0 | divided_by: composersF_total | append: "" | truncate: 4, '' %}
 
 {% comment %}
   === AVAILABLE DATA TAGS ===
