@@ -58,7 +58,7 @@ PROCESS EVENT DATA
         {% if eventyear < earliestYear %}
           {% assign earliestYear = eventyear %}
         {% endif %}
-        
+
         {% assign eventdate = event.date | date: '%-d/%-m/%Y' %}
         {% assign dates_string = dates_string | append: eventdate | append: ' ' %}
       {% else %}
