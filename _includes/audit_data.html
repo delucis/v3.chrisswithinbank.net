@@ -17,6 +17,7 @@ INITIALISE VARIABLES
 {% assign composers_string = '' %}
 {% assign composersF_string = '' %}
 {% assign composersM_string = '' %}
+{% assign composers_string_verbose = '' %}
 {% assign earliestYear = site.time | date: '%Y' %}
 
 {% comment %}
@@ -40,6 +41,7 @@ PROCESS EVENT DATA
         {% unless composersF_string contains item.composer %}
           {% assign composersF_string = composersF_string | append: item.composer | append: '||' %}
         {% endunless %}
+        {% assign composers_string_verbose = composers_string_verbose | append: item.composer | append: '||' %}
       {% elsif item.gender == 'M' %}
         {% assign eventM = eventM | plus: 1 %}
         {% unless composersM_string contains item.composer %}
@@ -121,8 +123,28 @@ PROCESS EVENT DATA
 {% assign composersM_array = composersM_string | split: '||' %}
 {% assign composersM_total = composersM_array.size %}
 {% assign composersM_percent = composersM_total | times: 100.0 | divided_by: composers_total | append: "" | truncate: 4, '' %}
+{% assign composers_array_verbose = composers_string_verbose | split: '||' | sort %}
+
 {% assign workspercomposerM = worksperformedM | minus: ownworks | times: 1.0 | divided_by: composersM_total | append: "" | truncate: 4, '' %}
 {% assign workspercomposerF = worksperformedF | times: 1.0 | divided_by: composersF_total | append: "" | truncate: 4, '' %}
+
+{% assign composers_string_clean = '' %}
+{% assign composers_string_count = '' %}
+{% for name in composers_array_verbose %}
+  {% if name == backreference %}
+    {% assign localcount = localcount | plus: 1 %}
+  {% else %}
+    {% unless forloop.index0 == 0 %}
+      {% assign composers_string_clean = composers_string_clean | append: backreference | append: '||' %}
+      {% assign composers_string_count = composers_string_count | append: localcount | append: '||' %}
+    {% endunless %}
+    {% assign localcount = 1 %}
+    {% assign backreference = name %}
+  {% endif %}
+{% endfor %}
+
+{% assign composers_array_clean = composers_string_clean | split: '||' %}
+{% assign composers_array_count = composers_string_count | split: '||' %}
 
 {% comment %}
   === AVAILABLE DATA TAGS ===
