@@ -9,6 +9,7 @@ INITIALISE VARIABLES
 {% assign relativeF = 0 %}
 {% assign relativeM = 0 %}
 {% assign relativeF_string = '' %}
+{% assign fractionF_string = '' %}
 {% assign urls_string = '' %}
 {% assign dates_string = '' %}
 {% assign performers_string = '' %}
@@ -46,6 +47,7 @@ PROCESS EVENT DATA
     {% assign relativeM = relativeM | plus: event_relativeM %}
 
     {% assign relativeF_string = relativeF_string | append: event_relativeF | append: ' ' %}
+    {% assign fractionF_string = fractionF_string | append: eventF | append: '/' | append: eventworks | append: ' ' %}
 
     {% if event.url %}
         {% assign urls_string = urls_string | append: event.url | append: ' ' %}
@@ -88,6 +90,7 @@ PROCESS EVENT DATA
 {% assign relativeM = relativeM | divided_by: concerts | times: 100.0 | append: "" | truncate: 4, '' %}
 
 {% assign relativeF_array = relativeF_string | split: ' ' %}
+{% assign fractionF_array = fractionF_string | split: ' ' %}
 {% assign urls_array = urls_string | split: ' ' %}
 {% assign dates_array = dates_string | split: ' ' %}
 {% assign performers_array = performers_string | split: '||' %}
