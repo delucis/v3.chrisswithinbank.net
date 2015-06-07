@@ -6,6 +6,7 @@ INITIALISE VARIABLES
 {% assign worksperformed = 0 %}
 {% assign worksperformedF = 0 %}
 {% assign worksperformedM = 0 %}
+{% assign ownworks = 0 %}
 {% assign relativeF = 0 %}
 {% assign relativeM = 0 %}
 {% assign relativeF_string = '' %}
@@ -34,6 +35,9 @@ PROCESS EVENT DATA
         {% assign eventM = eventM | plus: 1 %}
       {% else %}
         <p>No gender entered: {{ item.composer }} — {{ item.work }}</p>
+      {% endif %}
+      {% if item.composer == 'Chris Swithinbank' %}
+        {% assign ownworks = ownworks | plus: 1 %}
       {% endif %}
     {% endfor %}
 
@@ -104,6 +108,7 @@ PROCESS EVENT DATA
                                   that are all male
 * {{ earliestYear }}            — the earliest year an event occurred
 * {{ worksperformed }}          — the total number of works performed
+* {{ ownworks }}                — the total number of works by myself
 * {{ worksperconcert }}         — the average number of works per concert
 * {{ worksperformedF }}         — the total number of works by women performed
 * {{ worksperformedF_percent }} — the percentage of works performed by women
