@@ -180,7 +180,7 @@ PROCESS EVENT DATA
       </a>
       <span class="separator"> — </span>
       <span class="value">
-        {{ fraction | times: 100 | append: "" | truncate: 4, '' }}%
+        {{ fractionF_array[forloop.rindex0] }}
       </span>
     </li>
   {% endfor %}
