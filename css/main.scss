@@ -249,8 +249,21 @@ code, kbd, pre, samp {
   text-align: left;
 }
 .footnotes {
+  border-top: 1px solid $light-outline;
+  border-bottom: 1px solid $light-outline;
   ol {
+    &:before {
+      content: 'Notes';
+      font-weight: 400;
+      font-size: 1.3333333333em;
+      margin: 2.4em 0 1.2em 0;
+      line-height: 1.2;
+      display: block;
+    }
     li {
+      margin-bottom: 0.6em;
+      font-size: 0.9em;
+      line-height: 1.777777777;
       p {
         margin: 0;
       }
