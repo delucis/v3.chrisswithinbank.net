@@ -10,7 +10,7 @@ venue:
   address: 13 Pearson Street, London E2 8JD, United Kingdom
 facebook: https://www.facebook.com/events/385868611589470/
 works:
-  - name: Tomorrow I will build a house here, if I can hold still
+  - Tomorrow I will build a house here, if I can hold still
 programme:
   - composer: Chris Swithinbank
     work: Tomorrow I will build a house here, if I can hold still

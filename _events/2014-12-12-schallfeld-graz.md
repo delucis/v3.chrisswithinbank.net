@@ -9,7 +9,7 @@ venue:
   address: Leechgasse 22, 8010 Graz, Austria
 facebook: https://www.facebook.com/events/972589792755683/
 works:
-  - name: Tomorrow I will build a house here, if I can hold still
+  - Tomorrow I will build a house here, if I can hold still
 programme:
   - composer: Chris Swithinbank
     work: Tomorrow I will build a house here, if I can hold still

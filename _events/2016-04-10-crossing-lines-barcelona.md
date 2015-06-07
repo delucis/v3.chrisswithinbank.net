@@ -9,7 +9,7 @@ venue:
   url: https://www.auditori.cat/
   address: Carrer de Lepant, 150, 08013 Barcelona, Spain
 works:
-  - name: Small Atlas
+  - Small Atlas
 programme:
   - composer: Chris Swithinbank
     work: Small Atlas

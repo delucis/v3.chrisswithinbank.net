@@ -9,7 +9,7 @@ venue:
   url: http://www.halle-tanz-berlin.de/
   address: Eberswalder Straße 10, 10437 Berlin
 works:
-  - name: Tomorrow I will build a house here, if I can hold still
+  - Tomorrow I will build a house here, if I can hold still
 programme:
   - composer: Chris Swithinbank
     work: Tomorrow I will build a house here, if I can hold still

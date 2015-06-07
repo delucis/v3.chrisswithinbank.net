@@ -9,7 +9,7 @@ venue:
   url: http://www.conservatoiredeparis.fr/
   address: 209 Avenue Jean Jaurès, 75019 Paris, France
 works:
-  - name: something golden in the night
+  - something golden in the night
 programme:
   - composer: Chris Swithinbank
     work: something golden in the night

@@ -8,7 +8,7 @@ venue:
   name: Paine Hall, Harvard University
   address: Cambridge, MA 02138, United States
 works:
-  - name: traveller, standing in rooms {i … ii}
+  - traveller, standing in rooms {i … ii}
 programme:
   - composer: Chris Swithinbank
     work: traveller, standing in rooms {i … ii}

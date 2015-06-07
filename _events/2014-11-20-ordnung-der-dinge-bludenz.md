@@ -9,7 +9,7 @@ venue:
   url: http://btzm.at/
   address: Raiffeisenpl. 1, 6700 Bludenz, Austria
 works:
-  - name: rumour — distant land
+  - rumour — distant land
 programme:
   - composer: Chris Swithinbank
     work: rumour — distant land

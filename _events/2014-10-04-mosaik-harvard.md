@@ -8,7 +8,7 @@ venue:
   name: Paine Hall, Harvard University
   address: Cambridge, MA 02138, United States
 works:
-  - name: Tomorrow I will build a house here, if I can hold still
+  - Tomorrow I will build a house here, if I can hold still
 programme:
   - composer: Chris Swithinbank
     work: Tomorrow I will build a house here, if I can hold still
