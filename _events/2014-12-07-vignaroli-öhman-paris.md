@@ -29,5 +29,5 @@ programme:
     gender: M
   - composer: Kaija Saariaho
     work: Mirrors
-    gender: M
+    gender: F
 ---

@@ -27,7 +27,7 @@ programme:
     gender: M
   - composer: David Coonan
     gender: M
-  - compser: Josh Spear
+  - composer: Josh Spear
     gender: M
   - composer: Kate Whitley
     gender: F
