@@ -138,6 +138,8 @@ PROCESS EVENT DATA
 * {{ worksperconcert }}         — the average number of works per concert
 * {{ worksperformedF }}         — the total number of works by women performed
 * {{ worksperformedF_percent }} — the percentage of works performed by women
+* {{ othersF_percent }}         — the percentage of works by women in comparison
+                                  with men who are not me
 * {{ worksperformedM }}         — the total number of works by men performed
 * {{ worksperformedM_percent }} — the percentage of works performed by men
 * {{ relativeF }}               — the average percentage of works by women
@@ -154,6 +156,16 @@ PROCESS EVENT DATA
                                   {{ relativeF_array }}
 * {{ performers_array }}        — an array of performer names matching
                                   {{ relativeF_array }}
+* {{ composers_array }}         — an array of all composers’ names
+* {{ composers_total }}         — the total number of composers
+* {{ composersF_array }}        — an array of all the female composers’ names
+* {{ composersF_total }}        — the total number of female composers
+* {{ composersF_percent }}      — the number of female composers as a percentage
+* {{ composersM_array }}        — an array of all the male composers’ names
+* {{ composersM_total }}        — the total number of male composers
+* {{ composersM_percent }}      — the number of male composers as a percentage
+* {{ workspercomposerM }}       — average times a male composer is programmed
+* {{ workspercomposerF }}       — average times a female composer is programmed
 {% endcomment %}
 
 <h3>Since {{ earliestYear }} (when my records began)</h3>
