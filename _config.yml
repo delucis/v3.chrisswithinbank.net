@@ -15,27 +15,27 @@ sass:
     sass_dir: _sass
     style: compressed
 collections:
-  events:
-    output: true
-    permalink: events/:title/
+    events:
+        output: true
+        permalink: events/:title/
 defaults:
-  -
-    scope:
-      path: ""
-      type: "posts"
-    values:
-      layout: post
-  -
-    scope:
-      path: "music"
-      type: "posts"
-    values:
-      layout: music
-  -
-    scope:
-      path: ""
-      type: "events"
-    values:
-      layout: event
-      locationtype: MusicVenue
-      performertype: MusicGroup
+    -
+        scope:
+            path: ""
+            type: "posts"
+        values:
+            layout: post
+    -
+        scope:
+            path: "music"
+            type: "posts"
+        values:
+            layout: music
+    -
+        scope:
+            path: ""
+            type: "events"
+        values:
+            layout: event
+            locationtype: MusicVenue
+            performertype: MusicGroup
