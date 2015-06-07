@@ -14,6 +14,7 @@ INITIALISE VARIABLES
 {% assign urls_string = '' %}
 {% assign dates_string = '' %}
 {% assign performers_string = '' %}
+{% assign composers_string = '' %}
 {% assign earliestYear = site.time | date: '%Y' %}
 
 {% comment %}
@@ -29,6 +30,9 @@ PROCESS EVENT DATA
 
     {% for item in event.programme %}
       {% assign eventworks = eventworks | plus: 1 %}
+      {% unless composers_string contains item.composer %}
+        {% assign composers_string = composers_string | append: item.composer | append: '||' %}
+      {% endunless %}
       {% if item.gender == 'F' %}
         {% assign eventF = eventF | plus: 1 %}
       {% elsif item.gender == 'M' %}
