@@ -1,6 +1,6 @@
 ---
 title: Voix Nouvelles Royaumont
-date: 2012-09-22
+date: 2012-09-22 20:45
 performer:
   name: Marie Picaut, YunPeng Zhao & Guillaume Latour
 venue:
