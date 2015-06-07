@@ -1,4 +1,9 @@
 name: Chris Swithinbank
+description: Music, text, and concerts
+author:
+    name: Chris Swithinbank
+    email: swithinbank@gmail.com
+    uri: http://www.chrisswithinbank.net/
 markdown: kramdown
 highlighter: pygments
 permalink: /:categories/:title
