@@ -113,8 +113,13 @@ PROCESS EVENT DATA
 {% assign dates_array = dates_string | split: ' ' %}
 {% assign performers_array = performers_string | split: '||' %}
 {% assign composers_array = composers_string | split: '||' %}
+{% assign composers_total = composers_array.size %}
 {% assign composersF_array = composersF_string | split: '||' %}
+{% assign composersF_total = composersF_array.size %}
+{% assign composersF_percent = composersF_total | times: 100.0 | divided_by: composers_total | append: "" | truncate: 4, '' %}
 {% assign composersM_array = composersM_string | split: '||' %}
+{% assign composersM_total = composersM_array.size %}
+{% assign composersM_percent = composersM_total | times: 100.0 | divided_by: composers_total | append: "" | truncate: 4, '' %}
 
 {% comment %}
   === AVAILABLE DATA TAGS ===
