@@ -101,6 +101,7 @@ PROCESS EVENT DATA
 
 {% assign worksperformedF_percent = worksperformedF | times: 100.0 | divided_by: worksperformed | append: "" | truncate: 4, '' %}
 {% assign worksperformedM_percent = worksperformedM | times: 100.0 | divided_by: worksperformed | append: "" | truncate: 4, '' %}
+{% assign othersF_percent = worksperformedF | times: 100.0 | divided_by: othersworks | append: "" | truncate: 4, '' %}
 {% assign concertsAllM_percent = concertsAllM | times: 100.0 | divided_by: concerts | append: "" | truncate: 4, '' %}
 {% assign worksperconcert =  worksperformed | times: 1.0 | divided_by: concerts | append: "" | truncate: 3, '' %}
 {% assign nodata = site.events.size | minus: concerts %}
