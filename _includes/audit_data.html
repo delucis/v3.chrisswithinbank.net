@@ -185,6 +185,23 @@ PROCESS EVENT DATA
   </li>
 </ul>
 
+<h4>How often a composer is programmed</h4>
+<p>Average number of times a single composer features on concert programmes.</p>
+<ul class="chartlist">
+  <li>
+    <span class="label">Male composer</span>
+    <span class="value">{{ workspercomposerM }}</span>
+    <span class="percentage" style="width: {{ workspercomposerM | divided_by: 1.5 | times: 100 }}%;"></span>
+  </li>
+  <li>
+    <span class="label">Female composer</span>
+    <span class="value">{{ workspercomposerF }}</span>
+    <span class="percentage" style="width: {{ workspercomposerF | divided_by: 1.5 | times: 100 }}%;"></span>
+  </li>
+</ul>
+<p><em>(Unlike the other measures, this excludes my own performances, which of course hugely outnumber those of any other composer and distort this particular corpus of data.)</em>
+<p>Some composers are more or less frequently performed: there seems to be a tendency for the few female composers that are performed ({{ composersF_total }} and counting) to be programmed relatively more frequently. This represents a further shrinking of the representation of female composers in that the already small number of works performed, come from an even smaller group of composers. Taking my own works out of the equation, works by female composers are <strong>{{ othersF_percent }}%</strong> of all works performed. Female composers on the other hand represent only <strong>{{ composersF_percent }}%</strong> of the composers programmed.</p>
+
 <h4>All-male concert programmes</h4>
 <p>Total number of concerts: {{ concerts }}</p>
 <ul class="chartlist">
