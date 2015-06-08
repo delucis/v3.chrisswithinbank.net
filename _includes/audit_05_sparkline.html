@@ -1,0 +1,19 @@
+<figure>
+  <ul class="sparkchart donthyphenate">
+    {% for fraction in relativeF_array reversed %}
+      <li style="width: {{ 100.0 | divided_by: concerts }}%;">
+        <a href="{{ urls_array[forloop.rindex0]}}">
+          <span class="label" style="left: {{ -100.0 | times: forloop.rindex0 }}%; width: {{ concerts | times: 100 }}%;">
+            {{ dates_array[forloop.rindex0] }}: {{ performers_array[forloop.rindex0] }}
+          </span>
+          <span class="percentage" style="height: {{ fraction | times: 100 }}%;"></span>
+        </a>
+        <span class="separator"> — </span>
+        <span class="value">
+          {{ fractionF_array[forloop.rindex0] }}
+        </span>
+      </li>
+    {% endfor %}
+  </ul>
+  <figcaption>Proportion of works by female composers for every concert</figcaption>
+</figure>

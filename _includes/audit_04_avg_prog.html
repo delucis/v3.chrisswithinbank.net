@@ -1,0 +1,19 @@
+<figure>
+  <ul class="chartlist">
+    <li class="legend">
+      <span class="label">Works programmed</span><span class="separator"> — </span>
+      <span class="value">Total: {{ worksperconcert }}</span>
+    </li>
+    <li>
+      <span class="label">Works by male composers</span><span class="separator">:</span>
+      <span class="value">{{ relativeM | divided_by: 100 | times: worksperconcert | append: "" | truncate: 3, '' }}</span>
+      <span class="percentage"style="width: {{ relativeM }}%;"></span>
+    </li>
+    <li>
+      <span class="label">Works by female composers</span><span class="separator">:</span>
+      <span class="value">{{ relativeF | divided_by: 100 | times: worksperconcert | append: "" | truncate: 3, '' }}</span>
+      <span class="percentage" style="width: {{ relativeF }}%;"></span>
+    </li>
+  </ul>
+  <figcaption>The average concert programme</figcaption>
+</figure>
