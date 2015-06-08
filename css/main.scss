@@ -444,6 +444,11 @@ figcaption {
       z-index: 3;
     }
     &:hover {
+      a {
+        .percentage {
+          background: $chart-color;
+        }
+      }
       .value {
         text-indent: 0;
         overflow: visible;
