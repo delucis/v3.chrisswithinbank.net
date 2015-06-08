@@ -282,9 +282,9 @@ figcaption {
   margin: 0.8em 0;
 }
 .chartlist {
-  border-top: 1px solid #EEE;
-  border-right: 1px solid #EEE;
-  border-left: 1px solid #EEE;
+  border-top: 1px solid $light-outline;
+  border-right: 1px solid $light-outline;
+  border-left: 1px solid $light-outline;
   width: 100%;
   padding-left: 0;
   background: #fff;
@@ -293,7 +293,7 @@ figcaption {
   li {
     position: relative;
     display: block;
-    border-bottom: 1px solid #EEE;
+    border-bottom: 1px solid $light-outline;
     list-style: none;
     _zoom: 1;
     .label {
@@ -310,7 +310,7 @@ figcaption {
       margin: 0 0.4em;
       padding: 0.4em 0;
       text-align: right;
-      color: #999;
+      color: $text-light;
       font-weight: bold;
       z-index: 3;
     }
@@ -320,23 +320,23 @@ figcaption {
       top: 0;
       left: 0;
       height: 100%;
-      background: #B8E4F5;
+      background: rgba($chart-color, 0.4);
       text-indent: -9999px;
       overflow: hidden;
       line-height: 2em;
     }
     &:hover {
-      background: #EFEFEF;
+      background: $chart-hover;
       .percentage {
-        background: #85d4f2;
+        background: $chart-color;
       }
     }
   }
 }
 .sparkchart {
-  border: 1px solid #EEE;
   width: 100%;
   padding-left: 0;
+  border: 1px solid $light-outline;
   background: #fff;
   box-shadow: 0 0 15px -10px #000;
   margin-bottom: 3.2em;
@@ -377,12 +377,12 @@ figcaption {
         bottom: 0;
         left: 0;
         width: 100%;
-        background: #B8E4F5;
+        background: rgba($chart-color, 0.4);
         text-indent: -9999px;
         overflow: hidden;
       }
       &:hover {
-        background: #EFEFEF;
+        background: $chart-hover;
         color: $text-dark;
         .label {
           text-indent: 0;
