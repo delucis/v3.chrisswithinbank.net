@@ -324,6 +324,20 @@ figcaption {
       text-indent: -9999px;
       overflow: hidden;
       line-height: 2em;
+    &.legend {
+      font-size: 0.65em;
+      text-transform: uppercase;
+      letter-spacing: 0.1em;
+      background-color: $chart-hover;
+      color: $text-light;
+      font-weight: 700;
+      .label {
+        padding-left: 0.76923em;
+        padding-right: 6.923076em;
+      }
+      .value {
+        margin: 0 0.61538462em;
+      }
     }
     &:hover {
       background: $chart-hover;
