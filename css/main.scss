@@ -421,10 +421,8 @@ figcaption {
         color: $text-dark;
         .label {
           text-indent: 0;
-          overflow: visible;
-        }
-        .percentage {
-          background: #85d4f2;
+          overflow: hidden;
+          height: 2.4em;
         }
       }
     }
