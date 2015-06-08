@@ -302,6 +302,9 @@ figcaption {
       position: relative;
       z-index: 2;
     }
+    .separator {
+      display: none;
+    }
     .value {
       display: block;
       position: absolute;
