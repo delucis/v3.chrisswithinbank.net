@@ -382,11 +382,20 @@ figcaption {
       .label {
         display: block;
         position: absolute;
-        top: 5em;
+        top: 7.37em;
         height: 1px;
         text-indent: -9999px;
         overflow: hidden;
         z-index: 4;
+        padding: 0 0.76923em;
+        white-space: nowrap;
+        text-overflow: ellipsis;
+        font-size: 0.65em;
+        line-height: 2.461;
+        text-transform: uppercase;
+        letter-spacing: 0.1em;
+        color: $text-light;
+        font-weight: 700;
       }
       .percentage {
         display: block;
