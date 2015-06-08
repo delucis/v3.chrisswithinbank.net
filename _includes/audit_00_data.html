@@ -9,6 +9,7 @@ INITIALISE VARIABLES
 {% assign ownworks = 0 %}
 {% assign relativeF = 0 %}
 {% assign relativeM = 0 %}
+{% assign parity_count = 0 %}
 {% assign relativeF_string = '' %}
 {% assign fractionF_string = '' %}
 {% assign urls_string = '' %}
@@ -63,6 +64,10 @@ PROCESS EVENT DATA
     {% assign relativeF = relativeF | plus: event_relativeF %}
     {% assign event_relativeM = eventM | times: 1.00 | divided_by: eventworks %}
     {% assign relativeM = relativeM | plus: event_relativeM %}
+
+    {% if event_relativeF >= 0.5 %}
+      {% assign parity_count = parity_count | plus: 1 %}
+    {% endif %}
 
     {% assign relativeF_string = relativeF_string | append: event_relativeF | append: ' ' %}
     {% assign fractionF_string = fractionF_string | append: eventF | append: '/' | append: eventworks | append: ' ' %}
