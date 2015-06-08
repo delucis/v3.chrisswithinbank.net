@@ -189,9 +189,15 @@ h4 {
 .hyphenate {
   @include hyphens(auto);
 }
-p, blockquote {
-  margin:0 0 1.6em;
+blockquote {
   text-align: justify;
+  font-size: 0.9em;
+  line-height: 1.7777777777;
+  margin-bottom: 1.77777777em;
+}
+p {
+  text-align: justify;
+  margin:0 0 1.6em;
 }
 a {
   color: $link;
