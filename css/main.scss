@@ -289,6 +289,7 @@ figcaption {
   padding-left: 0;
   background: #fff;
   box-shadow: 0 0 15px -10px #000;
+  @include liningnums;
   li {
     position: relative;
     display: block;
@@ -339,6 +340,7 @@ figcaption {
   background: #fff;
   box-shadow: 0 0 15px -10px #000;
   margin-bottom: 3.2em;
+  @include liningnums;
   &:before,
   &:after {
     content: " ";
