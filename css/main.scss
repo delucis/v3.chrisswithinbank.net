@@ -328,6 +328,8 @@ figcaption {
       text-indent: -9999px;
       overflow: hidden;
       line-height: 2em;
+      border-right: 1px solid $chart-color;
+    }
     &.legend {
       font-size: 0.65em;
       text-transform: uppercase;
@@ -410,6 +412,7 @@ figcaption {
         left: 0;
         width: 100%;
         background: rgba($chart-color, 0.4);
+        border-top: 1px solid $chart-color;
         text-indent: -9999px;
         overflow: hidden;
       }
