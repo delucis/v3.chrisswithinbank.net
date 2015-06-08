@@ -603,11 +603,13 @@ figcaption {
 
     /*
      * Don't show links that are fragment identifiers,
-     * or use the `javascript:` pseudo protocol
+     * use the `javascript:` pseudo protocol, or would
+     * obstruct the display of chart data
      */
 
     a[href^="#"]:after,
-    a[href^="javascript:"]:after {
+    a[href^="javascript:"]:after,
+    .sparkchart a[href]:after {
         content: "";
     }
 
@@ -650,5 +652,15 @@ figcaption {
     h3,
     h4 {
         page-break-after: avoid;
+    }
+
+    /*
+    * Print better charts
+    */
+    .sparkchart li a .percentage {
+      border-top-width: 5px;
+    }
+    .chartlist li .percentage {
+      border-right-width: 5px;
     }
 }
