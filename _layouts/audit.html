@@ -6,3 +6,27 @@ layout: default
 
 {{ content }}
 {% include audit_data.html %}
+
+<h3>Some basic numbers</h3>
+
+{% include audit_01_works.html %}
+
+{% include audit_03_all-male.html %}
+
+{% include audit_04_avg_prog.html %}
+
+<h3>Performance frequency</h3>
+
+<p>Some composers are more or less frequently performed: there seems to be a tendency for the few female composers that are performed ({{ composersF_total }} and counting) to be programmed relatively more frequently. This represents a further shrinking of the representation of female composers — the already small number of works performed come from an even smaller group of composers. Taking my own works out of the equation, works by female composers are <strong>{{ othersF_percent }}%</strong> of all works performed. Female composers on the other hand represent only <strong>{{ composersF_percent }}%</strong> of the composers programmed.</p>
+
+{% include audit_02_frequency.html %}
+
+<p>Unlike the other measures, this excludes my own performances, which of course hugely outnumber those of any other composer and distort this particular corpus of data.</p>
+
+<h3>An overview of all the concerts</h3>
+
+{% include audit_05_sparkline.html %}
+
+<hr />
+
+<p>There are <strong>{{ nodata }} concerts</strong> missing programme data. These are ignored entirely in the statistics above.</p>
