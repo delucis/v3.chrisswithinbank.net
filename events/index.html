@@ -9,8 +9,13 @@ digest: Upcoming events
 
   <ul class="datalist">
     {% for event in site.events %}
-      {% assign date = event.date | date: '%Y%m%d' %}
-      {% if date >= now %}
+      {% assign eventdate = event.date | append: '' %}
+      {% if eventdate.size == 10 %}
+          {% assign then = eventdate | append: ' 20:00' | date: '%Y%m%d' %}
+        {% else %}
+          {% assign then = eventdate | date: '%Y%m%d' %}
+      {% endif %}
+      {% if then > now %}
         <li>
           <h3>
               {% if event.works.size == 1 %}
@@ -20,7 +25,7 @@ digest: Upcoming events
               {% endif %}
             <a href="{{ event.url }}" title="{{ headline | strip_html }}">{{ headline }}</a>
           </h3>
-          <p>{{ event.date | date: "%-d %B %Y, %k:%M" }}</p>
+          <p>{{ eventdate | date: "%-d %B %Y, %k:%M" }}</p>
           {% if event.performer %}
             <p class="performer">
               {% if event.performer.url %}
@@ -49,7 +54,7 @@ digest: Upcoming events
             "@type": "MusicEvent",
             "name": "{{ headline | strip_html }}",
             "url": "{{ event.url }}",
-            "startDate": "{{ event.date | date_to_xmlschema }}",
+            "startDate": "{{ eventdate | date_to_xmlschema }}",
             {% if event.endDate %}"endDate": "{{ event.endDate | date_to_xmlschema }}",{% endif %}
             {% if event.performer %}"performer": {
               "@type": "{{ event.performertype }}",
