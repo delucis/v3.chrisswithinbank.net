@@ -19,7 +19,7 @@ digest: Upcoming events
         <li>
           <h3>
               {% if event.works.size == 1 %}
-                {% assign headline = event.works[0].name %}
+                {% assign headline = event.works[0] %}
               {% else %}
                 {% assign headline = event.title %}
               {% endif %}
