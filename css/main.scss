@@ -498,21 +498,22 @@ figcaption {
         margin: 0;
         padding: 0;
         li:nth-child(odd) {
-          background-color: rgba($bg-light, 0.1);
+          background-color: rgba($link, 1);
         }
         li:nth-child(even) {
-          background-color: rgba($bg-light, 0.2);
+          background-color: rgba($link, 0.8);
         }
         li {
           a {
             text-decoration: none;
             display: block;
             padding: .5em 5%;
+            color: $bg-light;
           }
           &:hover {
-            background-color: $link;
+            background-color: $bg-light;
             a {
-              color: $bg-light;
+              color: $link-hover;
             }
           }
         }
