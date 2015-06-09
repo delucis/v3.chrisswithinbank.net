@@ -460,7 +460,7 @@ figcaption {
       height: auto;
     }
     .site-title {
-      display: inline-block;
+      display: block;
       height: 2.13333333em;
       width: 75%;
       margin: 0;
@@ -489,7 +489,6 @@ figcaption {
       text-transform: uppercase;
       letter-spacing: 0.1em;
       font-family: $display-font;
-      margin-top: -0.40106952em;
       font-weight: 700;
       &.active {
         display: block;
