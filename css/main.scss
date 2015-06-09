@@ -621,7 +621,7 @@ figcaption {
    Modify as content requires.
    ========================================================================== */
 
-@media only screen and (min-width: 30em) {
+@include smallbp {
     /* Style adjustments for viewports that meet the condition */
     html {
       font-size: 1.25em;
@@ -631,7 +631,7 @@ figcaption {
     }
 }
 
-@media only screen and (min-width: 65em) {
+@include largebp {
     /* Style adjustments for viewports that meet the condition */
     html {
       font-size: 1.375em;
