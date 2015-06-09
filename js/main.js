@@ -2,7 +2,7 @@
 (function(document, window, undefined) {
 
   'use strict';
-  
+
   // Vars
   var header = document.querySelector('.js-header'),
     menu = document.querySelector('.js-menu'),
@@ -15,17 +15,17 @@
   menuButton.setAttribute('aria-expanded', 'false');
   menuButton.setAttribute('aria-controls', 'menu');
   menuButton.innerHTML = '<span aria-hidden="true">Menu</span>';
-  
+
   // Menu properties
   menu.setAttribute('aria-hidden', 'true');
   menu.setAttribute('aria-labelledby', 'menu-button');
-  
+
   // Add button to page
   header.insertBefore(menuButton, menu);
 
   // Handle button click event
   menuButton.addEventListener('click', function () {
-    
+
     // If active...
     if (menu.classList.contains('active')) {
       // Hide
@@ -46,5 +46,5 @@
       menu.children[0].children[0].children[0].focus();
     }
   }, false);
-  
+
 })(document, window);
