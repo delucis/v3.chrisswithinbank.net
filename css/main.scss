@@ -147,22 +147,6 @@ body {
   font-feature-settings: "liga" 1, "dlig" 1;
   background-color: $bg-light;
 }
-h1 {
-  font-family: $display-font;
-  text-transform: uppercase;
-  font-weight:300;
-  font-size: 2em;
-  line-height: 1.2;
-  margin: 0 0 1.2em;
-  letter-spacing: -0.05em;
-  word-spacing: 0.15em;
-  &.site-title {
-    a {
-      text-decoration: none;
-      color: $text-dark;
-    }
-  }
-}
 h2 {
   font-family: $display-font;
   font-size: 1.5555555555em;
@@ -223,7 +207,7 @@ a:hover {
     margin-bottom: 0.6em;
   }
 }
-header, footer {
+footer {
   padding: 0 5%;
   background-color: $bg-light;
   ul {
@@ -463,6 +447,99 @@ figcaption {
   }
 }
 /* ==========================================================================
+   Menu Styling
+   ========================================================================== */
+#page {
+  margin: 0 auto;
+  overflow:hidden;
+  .site-header {
+    height: 3.2em;
+		color: $menu-text;
+		background: $menu-bg;
+    &.active {
+      height: auto;
+    }
+    .site-title {
+      display: inline-block;
+      height: 2.13333333em;
+      width: 75%;
+      margin: 0;
+			padding: 0 5%;
+      overflow: hidden;
+      white-space: nowrap;
+      text-overflow: ellipsis;
+			font-size: 1.5em;
+			line-height: 2.133333333;
+			font-family: $display-font;
+      text-transform: uppercase;
+      font-weight:300;
+      letter-spacing: -0.05em;
+      word-spacing: 0.15em;
+			.lowercase {
+				display: none;
+			}
+      a {
+        text-decoration: none;
+        color: $menu-text;
+      }
+
+    }
+    .menu {
+      display: none;
+      text-transform: uppercase;
+      letter-spacing: 0.1em;
+      font-family: $display-font;
+      margin-top: -0.40106952em;
+      font-weight: 700;
+      &.active {
+        display: block;
+      }
+      ul {
+        list-style-type: none;
+        margin: 0;
+        padding: 0;
+        li:nth-child(odd) {
+          background-color: rgba($bg-light, 0.1);
+        }
+        li:nth-child(even) {
+          background-color: rgba($bg-light, 0.2);
+        }
+        li {
+          a {
+            text-decoration: none;
+            display: block;
+            padding: .5em 5%;
+          }
+          &:hover {
+            background-color: $link;
+            a {
+              color: $bg-light;
+            }
+          }
+        }
+      }
+    }
+  }
+}
+
+.no-js .menu {
+  display: block;
+}
+
+.menu-button {
+  position: absolute; right: 0; top: 0;
+  width: 25%; height: 3.2em;
+  border: none;
+  line-height: 3.2;
+  background-color: $menu-highlight;
+  color: $menu-text;
+  font-family: $display-font;
+  font-weight: 700;
+  text-transform: uppercase;
+  letter-spacing: 0.1em;
+}
+
+/* ==========================================================================
    Helper classes
    ========================================================================== */
 
@@ -562,7 +639,7 @@ figcaption {
     html {
       font-size: 1.375em;
     }
-    .container,header,footer {
+    .container,footer {
       max-width: 28em;
       margin: 0 auto;
       padding-left: 0;
