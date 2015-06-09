@@ -10,9 +10,9 @@
       <!--[if lt IE 8]>
         <p class="browserupgrade">You are using an <strong>outdated</strong> browser. Please <a href="http://browsehappy.com/">upgrade your browser</a> to improve your experience.</p>
       <![endif]-->
-      <header role="banner">
-        <nav role="navigation">
       <div id="page">
+      <header class="header js-header" role="banner">
+        <nav id="menu" class="menu js-menu" role="navigation">
             <ul>
               {% for item in site.data.menu %}
                 <li><a href="{{ item.slug }}">{{ item.label }}</a></li>
