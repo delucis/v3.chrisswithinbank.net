@@ -527,7 +527,8 @@ figcaption {
 
 .menu-button {
   position: absolute; right: 0; top: 0;
-  width: 25%; height: 3.2em;
+  width: 25%; max-width: 7em;
+  height: 3.2em;
   border: none;
   line-height: 3.2;
   background-color: $menu-highlight;
