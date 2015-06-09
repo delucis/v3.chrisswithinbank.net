@@ -537,6 +537,9 @@ figcaption {
   text-transform: uppercase;
   letter-spacing: 0.1em;
 }
+.active .menu-button {
+  background-color: rgba($bg-light, 0.2);
+}
 
 /* ==========================================================================
    Helper classes
