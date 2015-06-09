@@ -1,6 +1,9 @@
 /* ==========================================================================
    SASS variables
    ========================================================================== */
+/* MQ BREAKPOINTS */
+$bp-small: 30em;
+$bp-large: 40em;
 /* FONTS */
 $body-font: Alegreya, serif;
 $display-font: Infini, Optima, sans-serif;
@@ -21,6 +24,16 @@ $menu-highlight: $link;
 /* ==========================================================================
    SASS mixins
    ========================================================================== */
+@mixin smallbp {
+  @media only screen and (min-width: #{$bp-small}) {
+    @content;
+  }
+}
+@mixin largebp {
+  @media only screen and (min-width: #{$bp-large}) {
+    @content;
+  }
+}
 @mixin hyphens($setting) {
   -webkit-hyphens: $setting;
   -moz-hyphens: $setting;
