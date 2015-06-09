@@ -1,32 +1,32 @@
-</div><!-- /.container -->
-<footer>
-  <ul>
-    <li>Elsewhere</li>
-    {% for item in site.data.footer %}
-      {% assign linkstart = item.href | truncate: 7, '' %}
-      <li><a href="{{ item.href }}"{% unless linkstart == 'mailto:' %} target="_blank" rel="me"{% endunless %}>{{ item.label }}</a></li>
-    {% endfor %}
-  </ul>
-</footer>
-</div><!-- /#page -->
-<script type="text/javascript" src="/js/main.js"></script>
-<script type="text/javascript" src="/js/hyphenator.js"></script>
-<script type="text/javascript" src="/js/hyphenator_loader.js"></script>
-{% if content contains 'fnref' %}
-  <script type="text/javascript" src="http://code.jquery.com/jquery-2.1.4.min.js"></script>
-  <script type="text/javascript" src="/js/bigfoot.min.js"></script>
-  <script type="text/javascript">
-      $.bigfoot();
-  </script>
-{% endif %}
-<!-- GOOGLE FROM HERE ON OUT -->
-<script type="application/ld+json">
-{ "@context" : "http://schema.org",
-  "@type" : "Person",
-  "name" : "Chris Swithinbank",
-  "url" : "http://www.chrisswithinbank.net",
-  "sameAs" : [ "https://soundcloud.com/swithinbank", "http://twitter.com/swithinbank", "https://github.com/delucis"]
-}
-</script>
-</body>
+      </div><!-- /.container -->
+      <footer>
+        <ul>
+          <li>Elsewhere</li>
+          {% for item in site.data.footer %}
+            {% assign linkstart = item.href | truncate: 7, '' %}
+            <li><a href="{{ item.href }}"{% unless linkstart == 'mailto:' %} target="_blank" rel="me"{% endunless %}>{{ item.label }}</a></li>
+          {% endfor %}
+        </ul>
+      </footer>
+    </div><!-- /#page -->
+    <script type="text/javascript" src="/js/main.js"></script>
+    <script type="text/javascript" src="/js/hyphenator.js"></script>
+    <script type="text/javascript" src="/js/hyphenator_loader.js"></script>
+    {% if content contains 'fnref' %}
+      <script type="text/javascript" src="http://code.jquery.com/jquery-2.1.4.min.js"></script>
+      <script type="text/javascript" src="/js/bigfoot.min.js"></script>
+      <script type="text/javascript">
+          $.bigfoot();
+      </script>
+    {% endif %}
+    <!-- GOOGLE FROM HERE ON OUT -->
+    <script type="application/ld+json">
+    { "@context" : "http://schema.org",
+      "@type" : "Person",
+      "name" : "Chris Swithinbank",
+      "url" : "http://www.chrisswithinbank.net",
+      "sameAs" : [ "https://soundcloud.com/swithinbank", "http://twitter.com/swithinbank", "https://github.com/delucis"]
+    }
+    </script>
+  </body>
 </html>
