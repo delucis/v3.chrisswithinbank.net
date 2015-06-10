@@ -139,10 +139,6 @@ If we are intent on ethical practices, we must be open and sensitive to the worl
 
 #### A more complete conclusion should really be here
 
-Dear Michael,
-I am very sorry. It is 5am CET, 16 December 2014 / 8pm PST, 15 December 2014. Having made you read this far I should have had the courtesy to construct a tighter conclusion at this point. However, it is not forthcoming at this point and although I glimpse some rays of light (not the sunrise, it is December), I suspect pushing wildly on will only muddy the waters. Below are some fragments and additional citations that may or may not find their way into my ultimate conclusion. Read into them what you will.
-If you permit me, I’ll get a completed version to you as soon as possible, but a deadline is a deadline, and I wanted to be sure to have given you something.
-Best, Chris.
 Elsewhere, Grosz draws on Deleuze and Guattari’s work to address the functioning of art, to ask if she can ground it in the body…
 Deleuze & Guattari, chaos, chaosmos, virtual
 ‘Chaos, the virtual in all its entwined complexity, can be understood as the ongoing possibility of infinite planes, or the plane of all planes that is the condition of every work and the ability of each work to somehow address the others with which it copopulates the plane.’
