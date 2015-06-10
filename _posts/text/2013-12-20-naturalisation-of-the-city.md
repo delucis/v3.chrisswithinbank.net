@@ -47,3 +47,16 @@ digest: "Environmental aesthetics in Italian cinema and literature from the mid-
 - Viano, Maurizio. ‘The Left according to the Ashes of Gramsci.’ *Social Text* no. 18 (December, 1987): 51–60. doi:10.2307/488690.
 - Warner, Marina. *Alone of All Her Sex: The Myth and Cult of the Virgin Mary*. London: Vintage, 2000.
 {: .bibliography}
+
+### Filmography (Chronological)
+
+- **1953** — *Tentato suicidio*. Directed by Michelangelo Antonioni. Part of *L’amore in città*, which also features episodes directed by Fellini, Lattuada, Lizzani, Maselli, and Zavattini.
+- **1954** — *Viaggio in Italia*. Directed by Roberto Rosselini.
+- **1960** — *L’avventura*. Directed by Michelangelo Antonioni.
+- **1960** — *La dolce vita*. Directed by Federico Fellini.
+- **1961** — *La notte*. Directed by Michelangelo Antonioni.
+- **1962** — *L’eclisse*. Directed by Michelangelo Antonioni.
+- **1963** — *Le mani sulla città*. Directed by Francesco Rosi.
+- **1964** — *Il vangelo secondo Matteo*. Directed by Pier Paolo Pasolini.
+- **1967** — *Playtime*. Directed by Jacques Tati.
+{: .bibliography}
