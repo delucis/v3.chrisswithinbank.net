@@ -453,11 +453,9 @@ figcaption {
   margin: 0 auto;
   overflow:hidden;
   .site-header {
-    height: 3.2em;
 		color: $menu-text;
 		background: $menu-bg;
     &.active {
-      height: auto;
     }
     .site-title {
       display: block;
