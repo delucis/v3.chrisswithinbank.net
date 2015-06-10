@@ -161,9 +161,9 @@ Elsewhere, Grosz draws on Deleuze and Guattari’s work to address the functioni
 
 Deleuze & Guattari, chaos, chaosmos, virtual
 
-‘Chaos, the virtual in all its entwined complexity, can be understood as the ongoing possibility of infinite planes, or the plane of all planes that is the condition of every work and the ability of each work to somehow address the others with which it copopulates the plane.’
+‘Chaos, the virtual in all its entwined complexity, can be understood as the ongoing possibility of infinite planes, or the plane of all planes that is the condition of every work and the ability of each work to somehow address the others with which it copopulates the plane.’ (Grosz, *Chaos, Territory, Art*, 28.)
 
-‘an ontology of music, looking at music's most elementary relations to chaos and to what all of life somehow extracts from chaos — a sense of the body and the earth’
+‘an ontology of music, looking at music's most elementary relations to chaos and to what all of life somehow extracts from chaos — a sense of the body and the earth’ (Grosz, *Chaos, Territory, Art*, 25.)
 
 ### Bibliography
 
