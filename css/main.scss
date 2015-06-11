@@ -620,7 +620,6 @@ figcaption {
    ========================================================================== */
 
 @include smallbp {
-    /* Style adjustments for viewports that meet the condition */
     html {
       font-size: 1.25em;
     }
@@ -630,7 +629,6 @@ figcaption {
 }
 
 @include largebp {
-    /* Style adjustments for viewports that meet the condition */
     html {
       font-size: 1.375em;
     }
