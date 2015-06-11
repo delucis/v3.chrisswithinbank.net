@@ -453,6 +453,10 @@ figcaption {
 .site-header {
 	color: $menu-text;
 	background: $menu-bg;
+  @include xlargebp {
+    color: $text-dark;
+    background: transparent;
+  }
   .menu-button {
     position: absolute; right: 0; top: 0;
     width: 25%; max-width: 7em; min-width: 4em;
@@ -487,10 +491,87 @@ figcaption {
     font-weight:300;
     letter-spacing: -0.05em;
     word-spacing: 0.15em;
+    @include xlargebp {
+      padding: 0;
+      width: 6.2em;
+      height: 2.25em;
+    }
     a {
       text-decoration: none;
       color: $menu-text;
-    }
+      @include xlargebp {
+        text-transform: none;
+        line-height: 1;
+        padding: 0.3em 0.3em 0.15em;
+        border: 0;
+        border-radius: 100%;
+        background: $bg-dark;
+        color: $bg-light;
+        display: inline-block;
+        position: relative;
+        height: 1.85em;
+        width: 2em;
+        -webkit-transition-property: background, height, width, border-radius;
+                transition-property: background, height, width, border-radius;
+        -webkit-transition-duration: 0.2s,       0.1s,   0.1s,  0.15s;
+                transition-duration: 0.2s,       0.1s,   0.1s,  0.15s;
+        -webkit-transition-delay:    0s,         0s,     0s,    0s;
+                transition-delay:    0s,         0s,     0s,    0s;
+        -webkit-transition-timing-function: ease-in, ease-in, ease-in, ease-out;
+                transition-timing-function: ease-in, ease-in, ease-in, ease-out;
+        .fname, .lname {
+          display: inline-block;
+          position: absolute;
+          white-space: nowrap;
+          overflow: hidden;
+        }
+        .fname {
+          width: 0.75em;
+          top: 0.25em;
+          left: 0.37em;
+          -webkit-transition-property: width,   top,      left,    color;
+                  transition-property: width,   top,      left,    color;
+          -webkit-transition-duration: 0.15s,   0.1s,     0.3s,    0.5s;
+                  transition-duration: 0.15s,   0.1s,     0.3s,    0.5s;
+          -webkit-transition-delay:    0s,      0s,       0.1s,      0s;
+                  transition-delay:    0s,      0s,       0.1s,      0s;
+          -webkit-transition-timing-function: ease-in, ease-out, cubic-bezier(0.68, -0.55, 0.265, 1.55), ease-out;
+                  transition-timing-function: ease-in, ease-out, cubic-bezier(0.68, -0.55, 0.265, 1.55), ease-out;
+        }
+        .lname {
+          width: 0.535em;
+          top: 0.65em;
+          left: 0.95em;
+          -webkit-transition-property: width,   top,      left,    color;
+                  transition-property: width,   top,      left,    color;
+          -webkit-transition-duration: 0.15s,   0.1s,     0.3s,    0.5s;
+                  transition-duration: 0.15s,   0.1s,     0.3s,    0.5s;
+          -webkit-transition-delay:    0s,      0s,       0s,      0s;
+                  transition-delay:    0s,      0s,       0s,      0s;
+          -webkit-transition-timing-function: ease-in, ease-out, ease-in, ease-out;
+                  transition-timing-function: ease-in, ease-out, ease-in, ease-out;
+        }
+        &:hover {
+          width: 6.2em;
+          height: 2.25em;
+          border-radius: 0em;
+          background: rgba($bg-light,0);
+          .fname, .lname {
+            color: $text-dark;
+          }
+          .fname {
+            width: 2.5em;
+            left: 1.07em;
+          }
+          .lname {
+            width: 5.5em;
+            left: 0.355em;
+            top: 1.02em;
+            color: $link-hover;
+          }
+        }
+      } // media-query XL
+    } // a
   } // .site-title
   .menu {
     display: none;
