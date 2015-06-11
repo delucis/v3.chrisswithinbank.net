@@ -450,96 +450,91 @@ figcaption {
 /* ==========================================================================
    Menu Styling
    ========================================================================== */
-#page {
-  margin: 0 auto;
-  overflow:hidden;
-  .site-header {
-		color: $menu-text;
-		background: $menu-bg;
-    &.active {
-    }
-    .site-title {
-      display: block;
-      height: 2.13333333em;
-      width: 75%;
-      margin: 0;
-			padding: 0 5%;
-      overflow: hidden;
-      white-space: nowrap;
-      text-overflow: ellipsis;
-			font-size: 1.5em;
-			line-height: 2.133333333;
-			font-family: $display-font;
-      text-transform: uppercase;
-      font-weight:300;
-      letter-spacing: -0.05em;
-      word-spacing: 0.15em;
-			.lowercase {
-				display: none;
-			}
-      a {
-        text-decoration: none;
-        color: $menu-text;
-      }
-
-    }
-    .menu {
-      display: none;
-      text-transform: uppercase;
-      letter-spacing: 0.1em;
-      font-family: $display-font;
-      font-weight: 700;
-      &.active {
-        display: block;
-      }
-      ul {
-        list-style-type: none;
-        margin: 0;
-        padding: 0;
-        li:nth-child(odd) {
-          background-color: rgba($link, 1);
-        }
-        li:nth-child(even) {
-          background-color: rgba($link, 0.8);
-        }
-        li {
-          a {
-            text-decoration: none;
-            display: block;
-            padding: .5em 5%;
-            color: $bg-light;
-          }
-          &:hover {
-            background-color: $bg-light;
-            a {
-              color: $link-hover;
-            }
-          }
-        }
-      }
+.site-header {
+	color: $menu-text;
+	background: $menu-bg;
+  .menu-button {
+    position: absolute; right: 0; top: 0;
+    width: 25%; max-width: 7em; min-width: 4em;
+    height: 3.2em;
+    border: none;
+    line-height: 3.2;
+    background-color: $menu-highlight;
+    color: $menu-text;
+    font-family: $display-font;
+    font-weight: 700;
+    text-transform: uppercase;
+    letter-spacing: 0.1em;
+  }
+  &.active {
+    .menu-button {
+      background-color: rgba($bg-light, 0.2);
     }
   }
-}
+  .site-title {
+    display: block;
+    height: 2.13333333em;
+    width: 75%;
+    margin: 0;
+		padding: 0 5%;
+    overflow: hidden;
+    white-space: nowrap;
+    text-overflow: ellipsis;
+		font-size: 1.5em;
+		line-height: 2.133333333;
+		font-family: $display-font;
+    text-transform: uppercase;
+    font-weight:300;
+    letter-spacing: -0.05em;
+    word-spacing: 0.15em;
+		.lowercase {
+			display: none;
+		}
+    a {
+      text-decoration: none;
+      color: $menu-text;
+    }
+
+  }
+  .menu {
+    display: none;
+    text-transform: uppercase;
+    letter-spacing: 0.1em;
+    font-family: $display-font;
+    font-weight: 700;
+    &.active {
+      display: block;
+    }
+    ul {
+      list-style-type: none;
+      margin: 0;
+      padding: 0;
+      li:nth-child(odd) {
+        background-color: rgba($link, 1);
+      }
+      li:nth-child(even) {
+        background-color: rgba($link, 0.8);
+      }
+      li {
+        a {
+          text-decoration: none;
+          display: block;
+          padding: .5em 5%;
+          color: $bg-light;
+        }
+        &:hover {
+          background-color: $bg-light;
+          a {
+            color: $link-hover;
+          }
+        }
+      } // .menu ul li
+    } // .menu ul
+  } // .menu
+} // .site-header
 
 .no-js .menu {
   display: block;
-}
-
-.menu-button {
-  position: absolute; right: 0; top: 0;
-  width: 25%; max-width: 7em; min-width: 4em;
-  height: 3.2em;
-  border: none;
-  line-height: 3.2;
-  background-color: $menu-highlight;
-  color: $menu-text;
-  font-family: $display-font;
-  font-weight: 700;
-  text-transform: uppercase;
-  letter-spacing: 0.1em;
-}
-.active .menu-button {
-  background-color: rgba($bg-light, 0.2);
 }
 
 /* ==========================================================================
