@@ -598,10 +598,8 @@ figcaption {
           display: block;
           padding: .5em 5%;
           color: $bg-light;
-        }
-        &:hover {
-          background-color: $bg-light;
-          a {
+          &:hover {
+            background-color: $bg-light;
             color: $link-hover;
           }
         }
