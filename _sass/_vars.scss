@@ -4,6 +4,7 @@
 /* MQ BREAKPOINTS */
 $bp-small: 30em;
 $bp-large: 40em;
+$bp-xlarge: 60em;
 /* FONTS */
 $body-font: Alegreya, serif;
 $display-font: Infini, Optima, sans-serif;
@@ -31,6 +32,11 @@ $menu-highlight: $link;
 }
 @mixin largebp {
   @media only screen and (min-width: #{$bp-large}) {
+    @content;
+  }
+}
+@mixin xlargebp {
+  @media only screen and (min-width: #{$bp-xlarge}) {
     @content;
   }
 }
