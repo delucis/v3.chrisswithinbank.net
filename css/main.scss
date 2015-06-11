@@ -465,12 +465,12 @@ figcaption {
     font-weight: 700;
     text-transform: uppercase;
     letter-spacing: 0.1em;
-  }
+  } // .menu-button
   &.active {
     .menu-button {
       background-color: rgba($bg-light, 0.2);
     }
-  }
+  } // &.active .menu-button
   .site-title {
     display: block;
     height: 2.13333333em;
@@ -491,8 +491,7 @@ figcaption {
       text-decoration: none;
       color: $menu-text;
     }
-
-  }
+  } // .site-title
   .menu {
     display: none;
     text-transform: uppercase;
