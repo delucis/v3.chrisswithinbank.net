@@ -456,6 +456,8 @@ figcaption {
   @include xlargebp {
     color: $text-dark;
     background: transparent;
+    width: $bp-xlarge * 2/3;
+    margin: 3em auto 4em;
   }
   .menu-button {
     position: absolute; right: 0; top: 0;
@@ -469,6 +471,9 @@ figcaption {
     font-weight: 700;
     text-transform: uppercase;
     letter-spacing: 0.1em;
+    @include xlargebp {
+      display: none;
+    }
   } // .menu-button
   &.active {
     .menu-button {
@@ -492,9 +497,12 @@ figcaption {
     letter-spacing: -0.05em;
     word-spacing: 0.15em;
     @include xlargebp {
+      display: block;
+      float: left;
       padding: 0;
       width: 6.2em;
       height: 2.25em;
+      font-size: 2em;
     }
     a {
       text-decoration: none;
@@ -539,7 +547,7 @@ figcaption {
                   transition-timing-function: ease-in, ease-out, cubic-bezier(0.68, -0.55, 0.265, 1.55), ease-out;
         }
         .lname {
-          width: 0.535em;
+          width: 0.5em;
           top: 0.65em;
           left: 0.95em;
           -webkit-transition-property: width,   top,      left,    color;
@@ -567,7 +575,7 @@ figcaption {
             width: 5.5em;
             left: 0.355em;
             top: 1.02em;
-            color: $link-hover;
+            color: $link;
           }
         }
       } // media-query XL
@@ -582,22 +590,42 @@ figcaption {
     &.active {
       display: block;
     }
+    @include xlargebp {
+      display: block;
+      float: left;
+      width: $bp-xlarge * 2/3 - 12.4;
+    }
     ul {
       list-style-type: none;
       margin: 0;
       padding: 0;
       li:nth-child(odd) {
         background-color: rgba($link, 1);
+        @include xlargebp {
+          background-color: transparent;
+        }
       }
       li:nth-child(even) {
         background-color: rgba($link, 0.8);
+        @include xlargebp {
+          background-color: transparent;
+        }
       }
       li {
+        @include xlargebp {
+          display: inline-block;
+          padding: 1.05em 0;
+          margin-right: 0.8em;
+        }
         a {
           text-decoration: none;
           display: block;
           padding: .5em 5%;
           color: $bg-light;
+          @include xlargebp {
+            color: $text-dark;
+            padding: 0;
+          }
           &:hover {
             background-color: $bg-light;
             color: $link-hover;
