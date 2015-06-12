@@ -472,8 +472,7 @@ figcaption {
    Menu Styling
    ========================================================================== */
 .site-header {
-	color: $menu-text;
-	background: $menu-bg;
+  transition: background-color 0.2s ease;
   @include xlargebp {
     color: $text-dark;
     background: transparent;
@@ -483,10 +482,11 @@ figcaption {
   .menu-button {
     position: absolute; right: 0; top: 0;
     width: 25%; max-width: 7em; min-width: 4em;
-    height: 3.2em;
+    height: 4em;
     border: none;
-    line-height: 3.2;
-    background-color: $menu-highlight;
+    font-size: 0.8em;
+    line-height: 4;
+    background-color: $menu-button;
     color: $menu-text;
     font-family: $display-font;
     font-weight: 700;
@@ -497,8 +497,9 @@ figcaption {
     }
   } // .menu-button
   &.active {
+    background-color: rgba($text-dark, 0.01);
     .menu-button {
-      background-color: rgba($bg-light, 0.2);
+      background-color: rgba($menu-button, 0.7);
     }
   } // &.active .menu-button
   .site-title {
@@ -527,7 +528,6 @@ figcaption {
     }
     a {
       text-decoration: none;
-      color: $menu-text;
       @include xlargebp {
         text-transform: none;
         line-height: 1;
@@ -632,9 +632,20 @@ figcaption {
     letter-spacing: 0.1em;
     font-family: $display-font;
     font-weight: 700;
-    transition: max-height 0.5s ease-in;
+    box-shadow: inset 0 0 0 0 rgba($text-dark, 0);
+    -webkit-transition-property:        max-height, box-shadow;
+            transition-property:        max-height, box-shadow;
+    -webkit-transition-duration:        0.5s,       0.3s;
+            transition-duration:        0.5s,       0.3s;
+    -webkit-transition-delay:           0s,         0.2s;
+            transition-delay:           0s,         0.2s;
+    -webkit-transition-timing-function: cubic-bezier(0.215, 0.610, 0.355, 1.000), cubic-bezier(0.215, 0.610, 0.355, 1.000);
+            transition-timing-function: cubic-bezier(0.215, 0.610, 0.355, 1.000), cubic-bezier(0.215, 0.610, 0.355, 1.000);
     &.active {
       max-height: 15em;
+      box-shadow: inset 0 -0.5em 1.111em -0.833em rgba($text-dark, 0.5);
+      -webkit-transition-timing-function: cubic-bezier(0.550, 0.055, 0.675, 0.190), cubic-bezier(0.550, 0.055, 0.675, 0.190);
+              transition-timing-function: cubic-bezier(0.550, 0.055, 0.675, 0.190), cubic-bezier(0.550, 0.055, 0.675, 0.190);
     }
     @include xlargebp {
       max-height: none;
@@ -645,18 +656,6 @@ figcaption {
       list-style-type: none;
       margin: 0;
       padding: 0;
-      li:nth-child(odd) {
-        background-color: rgba($link, 1);
-        @include xlargebp {
-          background-color: transparent;
-        }
-      }
-      li:nth-child(even) {
-        background-color: rgba($link, 0.8);
-        @include xlargebp {
-          background-color: transparent;
-        }
-      }
       li {
         @include xlargebp {
           display: inline-block;
@@ -664,17 +663,20 @@ figcaption {
           margin-right: 0.8em;
         }
         a {
+          transition: all 0.2s ease;
+          box-shadow: 0 -0.5em 1.222em -0.944em rgba($text-dark, 0.5);
           text-decoration: none;
           display: block;
           padding: .5em 5%;
-          color: $bg-light;
           @include xlargebp {
-            color: $text-dark;
             padding: 0;
+            box-shadow: none;
           }
           &:hover {
-            background-color: $bg-light;
-            color: $link-hover;
+            background-color: rgba($menu-highlight,0.2);
+            @include xlargebp {
+              background-color: transparent;
+            }
           }
         }
       } // .menu ul li
