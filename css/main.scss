@@ -573,10 +573,10 @@ figcaption {
           left: 0.95em;
           -webkit-transition-property: width,   top,      left,    color;
                   transition-property: width,   top,      left,    color;
-          -webkit-transition-duration: 0.15s,   0.3s,     0.1s,    0.4s;
-                  transition-duration: 0.15s,   0.3s,     0.1s,    0.4s;
-          -webkit-transition-delay:    0.1s,    0.1s,     0.1s,    0s;
-                  transition-delay:    0.1s,    0.1s,     0.1s,    0s;
+          -webkit-transition-duration: 0.15s,   0.3s,     0.2s,    0.4s;
+                  transition-duration: 0.15s,   0.3s,     0.2s,    0.4s;
+          -webkit-transition-delay:    0.1s,    0.2s,     0.1s,    0s;
+                  transition-delay:    0.1s,    0.2s,     0.1s,    0s;
           -webkit-transition-timing-function: ease-in, cubic-bezier(0.68, -0.55, 0.265, 1.55), ease-in, ease-out;
                   transition-timing-function: ease-in, cubic-bezier(0.68, -0.55, 0.265, 1.55), ease-in, ease-out;
         }
