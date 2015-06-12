@@ -189,7 +189,7 @@ a {
 }
 .container {
   a {
-    background-image: linear-gradient(rgba(0,0,0,0),rgba(0,0,0,0)), linear-gradient(rgba(0,0,0,0),rgba(0,0,0,0)), linear-gradient(rgba(180,227,234,1), rgba(180,227,234,1));
+    background-image: linear-gradient(rgba(0,0,0,0),rgba(0,0,0,0)), linear-gradient(rgba(0,0,0,0),rgba(0,0,0,0)), linear-gradient(rgba($link-underline,1), rgba($link-underline,1));
     background-size: .05em 2px, .05em 2px, 2px 2px;
     background-repeat: no-repeat, no-repeat, repeat-x;
     background-position: 0% 90%, 100% 90%, 0% 90%;
