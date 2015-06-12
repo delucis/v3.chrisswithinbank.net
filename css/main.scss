@@ -186,6 +186,9 @@ p {
 a {
   color: $text-dark;
   text-decoration: none;
+  &:hover {
+    color: $link-hover;
+  }
 }
 .container {
   a {
@@ -202,6 +205,7 @@ a {
     .08em -.03em $bg-light,.08em 0 $bg-light,.08em 0.03em $bg-light,.08em 0.06em $bg-light,.08em 0.08em $bg-light,
     -.08em -.03em $bg-light,-.08em 0 $bg-light,-.08em 0.03em $bg-light,-.08em 0.06em $bg-light,-.08em 0.08em $bg-light;
     &:hover {
+      color: $text-dark;
       background-image: linear-gradient(rgba(0,0,0,0),rgba(0,0,0,0)), linear-gradient(rgba(0,0,0,0),rgba(0,0,0,0)), linear-gradient($text-dark, $text-dark);
     }
   }
