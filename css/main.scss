@@ -523,10 +523,10 @@ figcaption {
                 transition-property: background, height, width, border-radius;
         -webkit-transition-duration: 0.2s,       0.1s,   0.1s,  0.15s;
                 transition-duration: 0.2s,       0.1s,   0.1s,  0.15s;
-        -webkit-transition-delay:    0s,         0s,     0s,    0s;
-                transition-delay:    0s,         0s,     0s,    0s;
-        -webkit-transition-timing-function: ease-in, ease-in, ease-in, ease-out;
-                transition-timing-function: ease-in, ease-in, ease-in, ease-out;
+        -webkit-transition-delay:    0.1s,       0s,     0s,    0s;
+                transition-delay:    0.1s,       0s,     0s,    0s;
+        -webkit-transition-timing-function: ease-out, ease-out, ease-out, ease-in;
+                transition-timing-function: ease-out, ease-out, ease-out, ease-in;
         .fname, .lname {
           display: inline-block;
           position: absolute;
@@ -539,12 +539,12 @@ figcaption {
           left: 0.37em;
           -webkit-transition-property: width,   top,      left,    color;
                   transition-property: width,   top,      left,    color;
-          -webkit-transition-duration: 0.15s,   0.1s,     0.3s,    0.5s;
-                  transition-duration: 0.15s,   0.1s,     0.3s,    0.5s;
-          -webkit-transition-delay:    0s,      0s,       0.1s,      0s;
-                  transition-delay:    0s,      0s,       0.1s,      0s;
-          -webkit-transition-timing-function: ease-in, ease-out, cubic-bezier(0.68, -0.55, 0.265, 1.55), ease-out;
-                  transition-timing-function: ease-in, ease-out, cubic-bezier(0.68, -0.55, 0.265, 1.55), ease-out;
+          -webkit-transition-duration: 0.15s,   0.1s,     0.3s,    0.4s;
+                  transition-duration: 0.15s,   0.1s,     0.3s,    0.4s;
+          -webkit-transition-delay:    0.1s,    0.1s,     0s,      0s;
+                  transition-delay:    0.1s,    0.1s,     0s,      0s;
+          -webkit-transition-timing-function: ease-in, ease-out, ease-out, ease-out;
+          transition-timing-function: ease-in, ease-out, ease-out, ease-out;
         }
         .lname {
           width: 0.5em;
@@ -552,30 +552,54 @@ figcaption {
           left: 0.95em;
           -webkit-transition-property: width,   top,      left,    color;
                   transition-property: width,   top,      left,    color;
-          -webkit-transition-duration: 0.15s,   0.1s,     0.3s,    0.5s;
-                  transition-duration: 0.15s,   0.1s,     0.3s,    0.5s;
-          -webkit-transition-delay:    0s,      0s,       0s,      0s;
-                  transition-delay:    0s,      0s,       0s,      0s;
-          -webkit-transition-timing-function: ease-in, ease-out, ease-in, ease-out;
-                  transition-timing-function: ease-in, ease-out, ease-in, ease-out;
+          -webkit-transition-duration: 0.15s,   0.3s,     0.1s,    0.4s;
+                  transition-duration: 0.15s,   0.3s,     0.1s,    0.4s;
+          -webkit-transition-delay:    0.1s,    0.1s,     0.1s,    0s;
+                  transition-delay:    0.1s,    0.1s,     0.1s,    0s;
+          -webkit-transition-timing-function: ease-in, cubic-bezier(0.68, -0.55, 0.265, 1.55), ease-in, ease-out;
+                  transition-timing-function: ease-in, cubic-bezier(0.68, -0.55, 0.265, 1.55), ease-in, ease-out;
         }
         &:hover {
           width: 6.2em;
           height: 2.25em;
           border-radius: 0em;
           background: rgba($bg-light,0);
+          -webkit-transition-property: background, height, width, border-radius;
+                  transition-property: background, height, width, border-radius;
+          -webkit-transition-duration: 0.2s,       0.1s,   0.1s,  0.15s;
+                  transition-duration: 0.2s,       0.1s,   0.1s,  0.15s;
+          -webkit-transition-delay:    0s,         0.2s,   0.2s,  0.2s;
+                  transition-delay:    0s,         0.2s,   0.2s,  0.2s;
+          -webkit-transition-timing-function: ease-in, ease-in, ease-in, ease-out;
+                  transition-timing-function: ease-in, ease-in, ease-in, ease-out;
           .fname, .lname {
             color: $text-dark;
           }
           .fname {
             width: 2.5em;
             left: 1.07em;
+            -webkit-transition-property: width,   top,      left,    color;
+                    transition-property: width,   top,      left,    color;
+            -webkit-transition-duration: 0.15s,   0.1s,     0.3s,    0.5s;
+                    transition-duration: 0.15s,   0.1s,     0.3s,    0.5s;
+            -webkit-transition-delay:    0s,      0s,       0.1s,      0s;
+                    transition-delay:    0s,      0s,       0.1s,      0s;
+            -webkit-transition-timing-function: ease-in, ease-out, cubic-bezier(0.68, -0.55, 0.265, 1.55), ease-out;
+                    transition-timing-function: ease-in, ease-out, cubic-bezier(0.68, -0.55, 0.265, 1.55), ease-out;
           }
           .lname {
             width: 5.5em;
             left: 0.355em;
             top: 1.02em;
             color: $link;
+            -webkit-transition-property: width,   top,      left,    color;
+                    transition-property: width,   top,      left,    color;
+            -webkit-transition-duration: 0.15s,   0.1s,     0.3s,    0.5s;
+                    transition-duration: 0.15s,   0.1s,     0.3s,    0.5s;
+            -webkit-transition-delay:    0s,      0s,       0s,      0s;
+                    transition-delay:    0s,      0s,       0s,      0s;
+            -webkit-transition-timing-function: ease-in, ease-out, ease-in, ease-out;
+                    transition-timing-function: ease-in, ease-out, ease-in, ease-out;
           }
         }
       } // media-query XL
