@@ -9,11 +9,11 @@
 
 {% if toread %}
   {% assign words = toread | number_of_words %}
-  {% if words < 180 %}
+  {% if words < 250 %}
       < 1 min
-    {% elsif words < 360 %}
+    {% elsif words < 500 %}
       1 min
     {% else %}
-      {{ words | divided_by:180 }} mins
+      {{ words | divided_by:250 }} mins
   {% endif %}
 {% endif %}
