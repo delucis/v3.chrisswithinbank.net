@@ -626,16 +626,18 @@ figcaption {
     } // a
   } // .site-title
   .menu {
-    display: none;
+    max-height: 0;
+    overflow: hidden;
     text-transform: uppercase;
     letter-spacing: 0.1em;
     font-family: $display-font;
     font-weight: 700;
+    transition: max-height 0.5s ease-in;
     &.active {
-      display: block;
+      max-height: 15em;
     }
     @include xlargebp {
-      display: block;
+      max-height: none;
       float: left;
       width: $bp-xlarge * 2/3 - 12.4;
     }
