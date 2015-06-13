@@ -506,6 +506,9 @@ figcaption {
   } // .menu-button
   &.active {
     background-color: rgba($text-dark, 0.01);
+    @include xlargebp {
+      background-color: transparent;
+    }
     .menu-button {
       background-color: rgba($menu-button, 0.7);
     }
@@ -653,6 +656,9 @@ figcaption {
       box-shadow: inset 0 -0.5em 1.111em -0.833em rgba($text-dark, 0.5);
       -webkit-transition-timing-function: cubic-bezier(0.550, 0.055, 0.675, 0.190), cubic-bezier(0.550, 0.055, 0.675, 0.190);
               transition-timing-function: cubic-bezier(0.550, 0.055, 0.675, 0.190), cubic-bezier(0.550, 0.055, 0.675, 0.190);
+      @include xlargebp {
+        box-shadow: none;
+      }
     }
     @include xlargebp {
       max-height: none;
