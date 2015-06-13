@@ -501,8 +501,6 @@ figcaption {
   @include xlargebp {
     color: $text-dark;
     background: transparent;
-    width: $bp-xlarge * 2/3;
-    margin: 3em auto 4em;
   }
   .menu-button {
     position: absolute; right: 0; top: 0;
@@ -548,11 +546,9 @@ figcaption {
     word-spacing: 0.15em;
     @include xlargebp {
       display: block;
-      float: left;
       padding: 0;
       width: 6.2em;
-      height: 2.25em;
-      font-size: 2em;
+      height: 2.133333333em;
     }
     a {
       text-decoration: none;
@@ -679,8 +675,7 @@ figcaption {
     }
     @include xlargebp {
       max-height: none;
-      float: left;
-      width: $bp-xlarge * 2/3 - 12.4;
+      margin-top: 1.6em;
     }
     ul {
       list-style-type: none;
@@ -688,9 +683,6 @@ figcaption {
       padding: 0;
       li {
         @include xlargebp {
-          display: inline-block;
-          padding: 1.05em 0;
-          margin-right: 0.8em;
         }
         a {
           -webkit-transition: all 0.15s ease-in;
@@ -728,14 +720,36 @@ figcaption {
   width: 100%;
   margin: 0;
   padding-bottom: 1.6em;
+  @include xlargebp {
+    padding-top: 0.01em;
+  }
 }
 .container, .site-footer {
-  padding: 0 5%;
+  padding-left: 5%;
+  padding-right: 5%;
   @include largebp {
     max-width: 28em;
     margin: 0 auto;
-    padding-left: 0;
-    padding-right: 0;
+    padding-left: 1.6em;
+    padding-right: 1.6em;
+  }
+  @include xlargebp {
+  }
+}
+@include xlargebp {
+  .wrapper {
+    width: 80%;
+    margin-left: 20%;
+    box-shadow: -5px -20px 20px -10px rgba(0, 0, 0, 0.3);
+  }
+}
+.site-header {
+  @include xlargebp {
+    position: fixed;
+    width: 20%;
+    height: 100%;
+    padding: 1.6em;
+    background-color: rgba($text-dark, 0.01);
   }
 }
 
