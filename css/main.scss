@@ -42,6 +42,12 @@
 html {
     color: $text-dark;
     font-size: 1.125em;
+    @include smallbp {
+      font-size: 1.25em;
+    }
+    @include largebp {
+      font-size: 1.375em;
+    }
     line-height: 1.6;
     font-family: $body-font;
     box-sizing: border-box;
@@ -126,7 +132,7 @@ textarea {
 }
 
 /* ==========================================================================
-   Author's custom styles
+   Basic Custom Styling
    ========================================================================== */
 body {
   -webkit-text-rendering: optimizeLegibility;
@@ -171,6 +177,54 @@ h4 {
   line-height: 1.4666666666;
   margin-top: 2.2em;
 }
+p {
+  text-align: justify;
+  margin:0 0 1.6em;
+}
+blockquote {
+  text-align: justify;
+  font-size: 0.9em;
+  line-height: 1.7777777777;
+  margin-bottom: 1.77777777em;
+}
+a {
+  color: $text-dark;
+  text-decoration: none;
+  &:hover {
+    color: $link-hover;
+  }
+}
+ul,
+ol,
+dl {
+  @include smallbp {
+    padding-left: 0;
+  }
+}
+pre {
+  background-color: $bg-light;
+  padding: 0.6em;
+  margin-left: -0.6em;
+  border-radius: 1em;
+  margin-right: -0.6em;
+  box-shadow: inset 0px 0px 15px -5px;
+}
+code, kbd, pre, samp {
+  font-size: 0.9em;
+  line-height: 1.7777777;
+  text-align: left;
+}
+figure {
+  margin: 1.6em 0;
+}
+figcaption {
+  font-style: italic;
+  color: $text-light;
+  margin: 0.8em 0;
+}
+/* ==========================================================================
+   Basic Class Selectors
+   ========================================================================== */
 .hyphenate {
   @include hyphens(auto);
 }
@@ -180,21 +234,26 @@ h4 {
     text-align: left;
   }
 }
-blockquote {
-  text-align: justify;
-  font-size: 0.9em;
-  line-height: 1.7777777777;
-  margin-bottom: 1.77777777em;
-}
-p {
-  text-align: justify;
-  margin:0 0 1.6em;
-}
-a {
-  color: $text-dark;
-  text-decoration: none;
-  &:hover {
-    color: $link-hover;
+.footnotes {
+  border-top: 1px solid $light-outline;
+  border-bottom: 1px solid $light-outline;
+  ol {
+    &:before {
+      content: 'Notes';
+      font-weight: 400;
+      font-size: 1.3333333333em;
+      margin: 2.4em 0 1.2em 0;
+      line-height: 1.2;
+      display: block;
+    }
+    li {
+      margin-bottom: 0.6em;
+      font-size: 0.9em;
+      line-height: 1.777777777;
+      p {
+        margin: 0;
+      }
+    }
   }
 }
 .container {
@@ -222,11 +281,6 @@ a {
     }
   }
 }
-.container {
-  width: 100%;
-  margin: 0;
-  padding: 0 5% 1.6em;
-}
 .datalist {
     list-style: none;
     padding-left: 0;
@@ -239,8 +293,7 @@ a {
     margin-bottom: 0.6em;
   }
 }
-footer {
-  padding: 0 5%;
+.site-footer {
   ul {
     padding: 1em 0;
     padding-left:0;
@@ -259,49 +312,6 @@ footer {
       }
     }
   }
-}
-pre {
-  background-color: $bg-light;
-  padding: 0.6em;
-  margin-left: -0.6em;
-  border-radius: 1em;
-  margin-right: -0.6em;
-  box-shadow: inset 0px 0px 15px -5px;
-}
-code, kbd, pre, samp {
-  font-size: 0.9em;
-  line-height: 1.7777777;
-  text-align: left;
-}
-.footnotes {
-  border-top: 1px solid $light-outline;
-  border-bottom: 1px solid $light-outline;
-  ol {
-    &:before {
-      content: 'Notes';
-      font-weight: 400;
-      font-size: 1.3333333333em;
-      margin: 2.4em 0 1.2em 0;
-      line-height: 1.2;
-      display: block;
-    }
-    li {
-      margin-bottom: 0.6em;
-      font-size: 0.9em;
-      line-height: 1.777777777;
-      p {
-        margin: 0;
-      }
-    }
-  }
-}
-figure {
-  margin: 1.6em 0;
-}
-figcaption {
-  font-style: italic;
-  color: $text-light;
-  margin: 0.8em 0;
 }
 /* ==========================================================================
    Data Viz Styling
@@ -709,6 +719,24 @@ figcaption {
 }
 
 /* ==========================================================================
+   Page Structure
+   ========================================================================== */
+.container, .site-footer {
+  padding: 0 5%;
+  @include largebp {
+    max-width: 28em;
+    margin: 0 auto;
+    padding-left: 0;
+    padding-right: 0;
+  }
+}
+.container {
+  width: 100%;
+  margin: 0;
+  padding-bottom: 1.6em;
+}
+
+/* ==========================================================================
    Helper classes
    ========================================================================== */
 
@@ -789,28 +817,6 @@ figcaption {
    These examples override the primary ('mobile first') styles.
    Modify as content requires.
    ========================================================================== */
-
-@include smallbp {
-    html {
-      font-size: 1.25em;
-    }
-    ul,ol,dl {
-      padding-left: 0;
-    }
-}
-
-@include largebp {
-    html {
-      font-size: 1.375em;
-    }
-    .container,footer {
-      max-width: 28em;
-      margin: 0 auto;
-      padding-left: 0;
-      padding-right: 0;
-    }
-}
-
 @media print,
        (-o-min-device-pixel-ratio: 5/4),
        (-webkit-min-device-pixel-ratio: 1.25),
