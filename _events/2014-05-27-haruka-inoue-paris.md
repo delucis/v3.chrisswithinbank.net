@@ -17,6 +17,9 @@ programme:
   - composer: Michael Jarrell
     work: Résurgences
     gender: M
+  - composer: Ichiro Nodaira
+    work: Dashu no sho
+    gender: M
   - composer: Franco Donatoni
     work: Hot
     gender: M
