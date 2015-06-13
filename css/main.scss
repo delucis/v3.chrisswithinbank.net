@@ -721,6 +721,11 @@ figcaption {
 /* ==========================================================================
    Page Structure
    ========================================================================== */
+.container {
+  width: 100%;
+  margin: 0;
+  padding-bottom: 1.6em;
+}
 .container, .site-footer {
   padding: 0 5%;
   @include largebp {
@@ -729,11 +734,6 @@ figcaption {
     padding-left: 0;
     padding-right: 0;
   }
-}
-.container {
-  width: 100%;
-  margin: 0;
-  padding-bottom: 1.6em;
 }
 
 /* ==========================================================================
