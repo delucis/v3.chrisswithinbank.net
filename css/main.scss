@@ -175,6 +175,12 @@ h4 {
 .hyphenate {
   @include hyphens(auto);
 }
+.donthyphenate {
+  text-align: left;
+  blockquote, p {
+    text-align: left;
+  }
+}
 blockquote {
   text-align: justify;
   font-size: 0.9em;
