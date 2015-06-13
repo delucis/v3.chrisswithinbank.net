@@ -693,7 +693,8 @@ figcaption {
           margin-right: 0.8em;
         }
         a {
-          transition: all 0.2s ease;
+          -webkit-transition: all 0.15s ease-in;
+          transition: all 0.15s ease-in;
           box-shadow: 0 -0.5em 1.222em -0.944em rgba($text-dark, 0.5);
           text-decoration: none;
           display: block;
@@ -701,6 +702,8 @@ figcaption {
           @include xlargebp {
             padding: 0;
             box-shadow: none;
+            -webkit-transition-timing-function: ease;
+                    transition-timing-function: ease;
           }
           &:hover {
             background-color: rgba($menu-highlight,0.2);
