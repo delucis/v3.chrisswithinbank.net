@@ -1,13 +1,14 @@
-      </div><!-- /.container -->
-      <footer class="site-footer">
-        <ul>
-          <li>Elsewhere</li>
-          {% for item in site.data.footer %}
-            {% assign linkstart = item.href | truncate: 7, '' %}
-            <li><a href="{{ item.href }}"{% unless linkstart == 'mailto:' %} target="_blank" rel="me"{% endunless %}>{{ item.label }}</a></li>
-          {% endfor %}
-        </ul>
-      </footer>
+        </div><!-- /.container -->
+        <footer class="site-footer">
+          <ul>
+            <li>Elsewhere</li>
+            {% for item in site.data.footer %}
+              {% assign linkstart = item.href | truncate: 7, '' %}
+              <li><a href="{{ item.href }}"{% unless linkstart == 'mailto:' %} target="_blank" rel="me"{% endunless %}>{{ item.label }}</a></li>
+            {% endfor %}
+          </ul>
+        </footer>
+      </div><!-- /.wrapper -->
     </div><!-- /#page -->
     <script type="text/javascript" src="/js/main.js"></script>
     <script type="text/javascript" src="/js/hyphenator.js"></script>
