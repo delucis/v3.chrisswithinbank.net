@@ -265,7 +265,7 @@ figcaption {
     background-image: linear-gradient(rgba(0,0,0,0),rgba(0,0,0,0)), linear-gradient(rgba(0,0,0,0),rgba(0,0,0,0)), linear-gradient(rgba($link-underline,1), rgba($link-underline,1));
     background-size: .05em 2px, .05em 2px, 2px 2px;
     background-repeat: no-repeat, no-repeat, repeat-x;
-    background-position: 0% 90%, 100% 90%, 0% 90%;
+    background-position: 0% 95%, 100% 95%, 0% 95%;
     text-shadow:
     0 -.03em $bg-light,0 0 $bg-light,0 .03em $bg-light,0 .06em $bg-light,0 .08em $bg-light,
     .03em -.03em $bg-light,.03em 0 $bg-light,.03em .03em $bg-light,.03em .06em $bg-light,.03em .08em $bg-light,
@@ -279,7 +279,8 @@ figcaption {
       background-image: linear-gradient(rgba(0,0,0,0),rgba(0,0,0,0)), linear-gradient(rgba(0,0,0,0),rgba(0,0,0,0)), linear-gradient($text-dark, $text-dark);
     }
   }
-  h3 {
+  h3,
+  h4 {
     a {
       background-position: 0% 85%, 100% 85%, 0% 85%;
     }
