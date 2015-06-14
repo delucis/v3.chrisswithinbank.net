@@ -364,7 +364,7 @@ figcaption {
       left: 0;
       height: 100%;
       background: rgba($chart-color, 0.4);
-      text-indent: -9999px;
+      text-indent: -999em;
       overflow: hidden;
       line-height: 2em;
       border-right: 1px solid $chart-color;
@@ -432,7 +432,7 @@ figcaption {
         position: absolute;
         top: 7.37em;
         height: 1px;
-        text-indent: -9999px;
+        text-indent: -999em;
         overflow: hidden;
         z-index: 4;
         padding: 0 0.76923em;
@@ -453,7 +453,7 @@ figcaption {
         width: 100%;
         background: rgba($chart-color, 0.4);
         border-top: 1px solid $chart-color;
-        text-indent: -9999px;
+        text-indent: -999em;
         overflow: hidden;
       }
       &:hover {
@@ -477,7 +477,7 @@ figcaption {
       top: -1.6em;
       left: -200%;
       text-align: center;
-      text-indent: 9999px;
+      text-indent: 999em;
       overflow: hidden;
       font-weight: 700;
       padding: 0 0.4em;
