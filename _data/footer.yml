@@ -9,3 +9,7 @@
 - label: GitHub
   icon: github
   href: https://github.com/delucis
+
+- label: Atom Feed
+  icon: rss-feed
+  href: /feed.xml
