@@ -776,8 +776,8 @@ figcaption {
   padding-right: 5%;
   @include largebp {
     margin: 0 auto;
-    padding-left: calc(44% - 12.8em);
-    padding-right: calc(56% - 12.8em);
+    padding-left: calc(3.2em);
+    padding-right: calc(100% - 28.8em);
   }
   @include xlargebp {
   }
