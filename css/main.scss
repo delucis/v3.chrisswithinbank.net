@@ -544,7 +544,7 @@ figcaption {
       background-color: transparent;
     }
     .menu-button {
-      background-color: rgba($menu-button, 0.7);
+      background-color: rgba($menu-button, 0.5);
     }
   } // &.active .menu-button
   .site-title {
@@ -718,7 +718,7 @@ figcaption {
           }
           &:hover {
             color: $menu-text;
-            background-color: rgba($menu-highlight,0.2);
+            background-color: $menu-highlight;
             @include xlargebp {
               color: $link-hover;
               background-color: transparent;
