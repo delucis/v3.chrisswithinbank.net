@@ -1,12 +1,12 @@
         </div><!-- /.container -->
         <footer class="site-footer">
-          <ul>
-            <li>Elsewhere</li>
+          <dl>
+            <dt>Elsewhere</dt>
             {% for item in site.data.footer %}
               {% assign linkstart = item.href | truncate: 7, '' %}
-              <li><a href="{{ item.href }}"{% unless linkstart == 'mailto:' %} target="_blank" rel="me"{% endunless %}>{{ item.label }}</a></li>
+              <dd><a href="{{ item.href }}"{% unless linkstart == 'mailto:' %} target="_blank" rel="me"{% endunless %}{% if item.icon %} class="icon {{ item.icon }}"{% endif %}>{{ item.label }}</a></dd>
             {% endfor %}
-          </ul>
+          </dl>
         </footer>
       </div><!-- /.wrapper -->
     </div><!-- /#page -->
