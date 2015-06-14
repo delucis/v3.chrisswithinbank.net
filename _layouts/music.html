@@ -1,9 +1,12 @@
 ---
 layout: default
 ---
-<h2>{{ page.title }}</h2>
-{% if page.audioembed %}<p>{{ page.audioembed }}</p>{% endif %}
-
-{{ content }}
-{% include music_details.html %}
-{% include music_performances.html %}
+<div class="primary">
+  <h2>{{ page.title }}</h2>
+  {% if page.audioembed %}<p>{{ page.audioembed }}</p>{% endif %}
+  {{ content }}
+</div>
+<div class="secondary">
+  {% include music_details.html %}
+  {% include music_performances.html %}
+</div>
