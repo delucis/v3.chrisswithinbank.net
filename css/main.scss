@@ -548,7 +548,7 @@ figcaption {
     @include xlargebp {
       display: block;
       padding: 0;
-      width: 6.2em;
+      width: 5.2em;
       height: 2.133333333em;
     }
     a {
@@ -739,16 +739,18 @@ figcaption {
 }
 @include xlargebp {
   .wrapper {
-    width: 80%;
-    margin-left: 20%;
+    width: 75%;
+    width: calc(100% - 10.8em);
+    margin-left: 10.8em;
     box-shadow: -5px -20px 20px -10px rgba(0, 0, 0, 0.3);
   }
 }
 .site-header {
   @include xlargebp {
     position: fixed;
-    width: 20%;
+    width: 10.8em;
     height: 100%;
+    overflow-y: scroll;
     padding: 1.6em;
     background-color: rgba($text-dark, 0.01);
   }
