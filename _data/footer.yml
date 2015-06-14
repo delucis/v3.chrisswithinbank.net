@@ -1,8 +1,11 @@
 - label: SoundCloud
+  icon: soundcloud
   href: https://soundcloud.com/swithinbank
 
 - label: Twitter
+  icon: twitter
   href: http://twitter.com/swithinbank
 
 - label: GitHub
+  icon: github
   href: https://github.com/delucis
