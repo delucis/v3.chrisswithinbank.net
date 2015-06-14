@@ -294,6 +294,10 @@ figcaption {
   }
 }
 .site-footer {
+  border-top: 4px double rgba($text-dark, 0.2);
+  @include xlargebp {
+    border-top: none;
+  }
   dl {
     color: rgba($text-dark, 0.55);
     padding: 1.6em 0;
