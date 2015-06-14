@@ -725,27 +725,31 @@ figcaption {
   margin: 0;
   padding-bottom: 1.6em;
   @include xlargebp {
-    padding-top: 0.01em;
+    padding-top: 0.8em;
+    border-top: 0.8em solid $text-dark;
+    box-shadow: 0 0 15px rgba(0, 0, 0, 0.1);
+    background-color: $bg-light;
   }
 }
 .container, .site-footer {
   padding-left: 5%;
   padding-right: 5%;
   @include largebp {
-    max-width: 28em;
     margin: 0 auto;
-    padding-left: 1.6em;
-    padding-right: 1.6em;
+    padding-left: calc(44% - 12.8em);
+    padding-right: calc(56% - 12.8em);
   }
   @include xlargebp {
   }
 }
 @include xlargebp {
+  body {
+    background-color: rgb(247, 249, 246);
+  }
   .wrapper {
     width: 75%;
     width: calc(100% - 10.8em);
     margin-left: 10.8em;
-    box-shadow: -5px -20px 20px -10px rgba(0, 0, 0, 0.3);
   }
 }
 .site-header {
@@ -755,7 +759,6 @@ figcaption {
     height: 100%;
     overflow-y: scroll;
     padding: 1.6em;
-    background-color: rgba($text-dark, 0.01);
   }
 }
 
