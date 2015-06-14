@@ -715,6 +715,7 @@ figcaption {
             color: $menu-text;
             background-color: rgba($menu-highlight,0.2);
             @include xlargebp {
+              color: $link-hover;
               background-color: transparent;
             }
           }
