@@ -140,13 +140,11 @@ body {
   -ms-text-rendering: optimizeLegibility;
   -o-text-rendering: optimizeLegibility;
   text-rendering: optimizeLegibility;
-  /* COMMENTED OUT AS NON-STANDARD
   -webkit-font-smoothing: antialiased;
   -moz-font-smoothing: antialiased;
   -ms-font-smoothing: antialiased;
   -o-font-smoothing: antialiased;
   font-smoothing: antialiased;
-  */
   -webkit-font-feature-settings: "liga" 1, "dlig" 1;
   -moz-font-feature-settings:"liga" 1, "dlig" 1;
   -moz-font-feature-settings: "liga=1, dlig=1";
