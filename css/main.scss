@@ -185,7 +185,10 @@ blockquote {
   text-align: justify;
   font-size: 0.9em;
   line-height: 1.7777777777;
-  margin-bottom: 1.77777777em;
+  margin: 0 10% 1.77777777em;
+  @include smallbp {
+    margin: 0 1.77777777em 1.77777777em;
+  }
 }
 a {
   color: $text-dark;
