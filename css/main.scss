@@ -197,6 +197,7 @@ a {
 ul,
 ol,
 dl {
+  padding-left: 1.2em;
   @include smallbp {
     padding-left: 0;
   }
