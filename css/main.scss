@@ -294,22 +294,26 @@ figcaption {
   }
 }
 .site-footer {
-  ul {
-    padding: 1em 0;
+  dl {
+    color: rgba($text-dark, 0.55);
+    padding: 1.6em 0;
     padding-left:0;
     margin: 0;
-    li {
+    dt,
+    dd {
       display: inline-block;
+      margin: 0 0.8em 0 0;
+    }
+    dt {
+      margin: 0 0.94117647em 0 0;
+      font-size: 0.85em;
+      line-height: 1.88235294em;
       text-transform: uppercase;
       letter-spacing: 0.1em;
-      margin-right: 1em;
       font-family: $display-font;
-      font-size: 0.85em;
-      font-weight: 700;
-      a {
-        font-weight: 400;
-        text-decoration: none;
-      }
+    }
+    dd:last-of-type {
+      margin: 0;
     }
   }
 }
