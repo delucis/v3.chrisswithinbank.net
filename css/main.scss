@@ -760,6 +760,42 @@ figcaption {
 }
 
 /* ==========================================================================
+   Social Media Icons
+   ========================================================================== */
+.icon {
+  display: inline-block;
+  background-size: 117.647059%;
+  background-position: center;
+  width: 1.6em;
+  height: 1.6em;
+  text-indent: -999em;
+  text-align: left;
+  opacity: 0.35;
+  -webkit-transition: opacity 0.15s ease-in;
+          transition: opacity 0.15s ease-in;
+  &:hover {
+    opacity: 0.75;
+  }
+  &.rss-feed {
+    background-size: 85%;
+  }
+}
+$icons: github rss-feed soundcloud twitter;
+$icons-url: "img/" !default;
+@each $icon in $icons {
+  .icon.#{$icon} {
+    background-image: url("#{$icons-url}#{$icon}.svg");
+  }
+}
+@media print {
+  .icon {
+    text-indent: 0;
+    width: auto !important;
+    height: auto !important;
+  }
+}
+
+/* ==========================================================================
    Helper classes
    ========================================================================== */
 
