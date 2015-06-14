@@ -505,6 +505,12 @@ figcaption {
   @include xlargebp {
     color: $text-dark;
     background: transparent;
+    opacity: 0.45;
+    transition: opacity 2s ease-out 0.5s;
+    &:hover {
+      opacity: 1;
+      transition: opacity 0.15s ease-in;
+    }
   }
   .menu-button {
     position: absolute; right: 0; top: 0;
