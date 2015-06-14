@@ -11,6 +11,7 @@ venue:
 facebook: https://www.facebook.com/events/533715060071844/
 works:
   - Tomorrow I will build a house here, if I can hold still
+premiere: true
 programme:
   - composer: Chris Swithinbank
     work: Tomorrow I will build a house here, if I can hold still
