@@ -238,14 +238,35 @@ Just as understanding his descriptions of the urban as natural would not necessa
   [^73]: Antonioni, *Architecture of Vision*, 276; and Moore, ‘Eclipsing the Commonplace’, 22.
   [^74]: Arrowsmith, *Antonioni*, 31.
 
+  <figure markdown="1">
+  ![Still of a distant figure on the island’s horizon from Antonioni’s L’avventura](/uploads/naturalisation_fig1a.png)
+  ![Still of a rocky landscape with people scattered across it from Antonioni’s L’avventura](/uploads/naturalisation_fig1b.png)
+  <figcaption>Fig. 1</figcaption>
+  </figure>
+
 William Arrowsmith reads the search for the missing Anna in *L’avventura* as happening against a backdrop of ‘informing immensity’, as a ‘vision of a limitless, and limitlessly violent, natural world’, which sunders the group, isolating the individuals and spreading them out against the island’s harsh terrain.[^75] The setting here is connotatedly natural — this is why these bourgeois day-trippers are here, to be *in* nature, floating in the far away idyll of non-humanity — so it is easy for us to see landscapes. The craggy surface of the island, the looming presence of the volcano in the mists across the sea, the stirring threat of a storm, all of these are what we know as landscapes. However, we must remember from Morton’s definition of ambient poetics that it is not “natural” content that is relevant but rather certain aesthetic uses of material — that may or may not be connotated as natural — that create an ambient relationship. An ambient poetics places its subject in a landscape and posits that it is ‘embedded’ in nature.[^76] This is precisely how Antonioni shoots the protagonists now scattered across the island (Fig.1). We are shown long shots of the wide-open landscape in which the human forms appear surrounded.
 
   [^75]: Arrowsmith, *Antonioni*, 35 & 39.
   [^76]: Morton, *Ecology without Nature*, 4.
 
+  <figure markdown="1">
+  ![Still from Antonioni’s La notte in which Lidia appears very small in the bottom-left of the frame, dwarfed by a concrete facade.](/uploads/naturalisation_fig2.png)
+  <figcaption>Fig. 2</figcaption>
+  </figure>
+
 It is through this mechanism that the city in *La notte* and *L’eclisse* is naturalised. Consider the shot from *La notte* shown in figure 2. It is a completely unorthodox framing of the scene. In the bottom-left corner, Lidia appears as she roams the streets of Milan following Giovanni’s book launch. But the shot does not ask us to concentrate on the individual whose story we are supposedly following. Indeed, one might easily miss Lidia entirely, and she is shot at such a distance that one is not sure at first if it is her, or just another anonymous city dweller. What dominates the frame is the fabric of the city: an enormous expanse of concrete façade. This is ecomimesis. By placing the parts of his composition in such a relationship to one another, Antonioni tells us that this is an environment, an ambience that surrounds, a strange form of naturalised city, an ‘informing immensity’ just like the island in *L’avventura*.
 
+<figure markdown="1">
+![Still from Antonioni’s La notte showing Lidia inside a car on a rainy night.](/uploads/naturalisation_fig3.png)
+<figcaption>Fig. 3</figcaption>
+</figure>
+
 We might also consider the marvellously symbolic scene in which Lidia is enclosed in the triple bubble of car, rain, and night, having escaped her husband with another guest at the party they are attending, thinking perhaps to seek revenge for Giovanni’s serial infidelity, though she ultimately cannot go through with this (Fig. 3). She is shown as sealed within several outsides: first, the body of the car; second, the glutinous skin of rain that wraps itself around the car; and third, the darkness of the night that dissolves around that. Her embeddedness here is absolute and deeply protective. From our position outside we cannot hear what is being said, and our vision of the inside is distorted. In the silence, our attention is drawn firmly towards the environment and we are forced to contemplate it as the rain bubbles and stretches the surface of the image.
+
+<figure markdown="1">
+![Still from the opening credits of Antonioni’s La notte featuring the reflective facade of the Pirelli Building.](/uploads/naturalisation_fig4.png)
+<figcaption>Fig. 4</figcaption>
+</figure>
 
 Ambient poetics can also be evoked by the use of ‘suspension’ — the gaps between things that reveal their environmental situatedness.[^77] It is through these gaps that Antonioni most often draws our attention to the city as environment. As the title sequence of *La notte* unfolds, we slide down the façade of the Pirelli Building in Milan, catching in its mirrored windows the city spread out below (Fig. 4).[^78] The suspension is subtle but present. The mirror opens up the environment of the city and we see the city-for the Pirelli building. The space between them is inscribed in the mirroring. The effect is similar to Olafur Eliasson’s 2010 work of video art, *Innen Stadt Außen* (a play on words in which we can understand either ‘inside instead of outside’ or ‘inner city outside’).[^79] The video consists of footage of a white van driving around Berlin with a large mirror attached to its side. The disorienting effect of seeing surfaces that at first appear real slide away and prove to be mirrored, and the bewilderment of hybrid images where the mirrored and the real are indistinguishable, produces an uncanny sensation of environment. We are forced to pay attention to the environment because the distance between us and the ambient is so great that we realise we cannot determine what it is. We are in a Romantic universe, desperately seeking contact with the reassuring waters of Nature.
 
