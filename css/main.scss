@@ -708,6 +708,7 @@ figcaption {
                     transition-timing-function: ease;
           }
           &:hover {
+            color: $menu-text;
             background-color: rgba($menu-highlight,0.2);
             @include xlargebp {
               background-color: transparent;
