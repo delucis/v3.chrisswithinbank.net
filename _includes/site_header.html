@@ -3,7 +3,13 @@
   <head>
     <meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
     <meta http-equiv="x-ua-compatible" content="ie=edge">
-    <title>{{ page.title }}{% if page.categories %} > {{ page.categories | first | capitalize }}{% endif %}{% if page.title == site.name %}, composer {% else %} > {{ site.name }}{% endif %}</title>
+    <title>
+      {% if page.url == '/index.html' %}
+        {{ site.name }}, composer
+      {% else %}
+        {{ page.title }}{% if page.categories %} > {{ page.categories | first | capitalize }}{% endif %} > {{ site.name }}
+      {% endif %}
+    </title>
     <meta name="description" content="{% if page.digest %}{{ page.digest | strip_html }}{% elsif page.excerpt %}{{ page.excerpt | strip_html | truncate: 159, '…' }}{% else %}{{ site.description }}{% endif %}">
     <meta name="viewport" content="width=device-width, initial-scale=1">
     <link rel="stylesheet" href="/css/main.css">
