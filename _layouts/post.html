@@ -5,8 +5,7 @@ layout: default
 {% if page.subtitle %}
 <h3>{{ page.subtitle }}</h3>
 {% endif %}
-<p class="meta">{{ page.date | date_to_string }} | {% include _reading-time.html type="page" %}</p>
-
+<p class="meta">{{ page.date | date: '%-d %B %Y' }}</p>
 <div class="post">
   {{ content }}
 </div>
