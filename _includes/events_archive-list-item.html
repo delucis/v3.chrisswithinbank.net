@@ -13,7 +13,7 @@
 {% endif %}
 
 {% if test %}
-  <li>
+  <li{% if postcount == 0 %} class="first"{% endif %}>
     <h3>
         {% if event.works.size == 1 %}
           {% assign headline = event.works[0] %}
