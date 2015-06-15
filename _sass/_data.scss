@@ -175,7 +175,7 @@
     &:hover {
       a {
         .percentage {
-          background: $chart-color;
+          background: rgba($chart-color,1);
         }
       }
       .value {
