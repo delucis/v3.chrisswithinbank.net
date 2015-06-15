@@ -1,3 +1,4 @@
+{% capture cache %}
 {% comment %}
 INITIALISE VARIABLES
 {% endcomment %}
@@ -154,3 +155,4 @@ PROCESS EVENT DATA
 
 {% assign composers_array_clean = composers_string_clean | split: '||' %}
 {% assign composers_array_count = composers_string_count | split: '||' %}
+{% endcapture %}{% assign cache = nil %}
