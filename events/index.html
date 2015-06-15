@@ -8,8 +8,4 @@ digest: Upcoming events
 
   <p><a href="/events/past/">Past events »</a></p>
 
-  <ul class="datalist">
-    {% for event in site.events %}
-      {% include events_archive-list.html scope="future" %}
-    {% endfor %}
-  </ul>
+  {% include events_archive-list.html scope="future" %}
