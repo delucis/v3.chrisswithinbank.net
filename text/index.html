@@ -8,8 +8,7 @@ digest: Long-form articles, some of which were first published elsewhere
 
 <ul class="datalist">
 
-  {% for post in site.posts %}
-    {% if post.categories contains 'text' %}
+  {% for post in site.categories.text %}
       <li>
         <h3><a href="{{ post.url }}" title="{{ post.title }}">{{ post.title }}</a></h3>
         {% if post.subtitle %}
@@ -20,6 +19,5 @@ digest: Long-form articles, some of which were first published elsewhere
         <p>{{ post.digest }}</p>
         {% endif %}
       </li>
-    {% endif %}
   {% endfor %}
 </ul>
