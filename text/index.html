@@ -15,7 +15,7 @@ digest: Long-form articles, some of which were first published elsewhere
         {% if post.subtitle %}
         <h4>{{ post.subtitle }}</h4>
         {% endif %}
-        <p class="meta">{{ post.date | date_to_long_string }} | {% include _reading-time.html type="post" %}</p>
+        <p class="meta">{{ post.date | date: '%-d %B %Y' }} | {% include _reading-time.html type="post" %}</p>
         {% if post.digest %}
         <p>{{ post.digest }}</p>
         {% endif %}
