@@ -28,6 +28,7 @@ defaults:
             type: "posts"
         values:
             layout: music
+            category: music
     -
         scope:
             path: "events"
