@@ -66,11 +66,13 @@ html {
 
 ::-moz-selection {
     background: $link-hover;
+    color: $bg-light;
     text-shadow: none;
 }
 
 ::selection {
     background: $link-hover;
+    color: $bg-light;
     text-shadow: none;
 }
 
