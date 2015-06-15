@@ -1,5 +1,6 @@
 ---
 layout: audit
+category: text
 title: Gender Audit
 digest: "Some basic numbers on gender (in)equality in my community"
 ---
