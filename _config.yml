@@ -10,7 +10,7 @@ highlighter: pygments
 gems:
     - jekyll-sitemap
     - jekyll-feed
-permalink: /:categories/:title
+permalink: /:year/:month/:title/
 timezone: Europe/Berlin
 sass:
     sass_dir: _sass
