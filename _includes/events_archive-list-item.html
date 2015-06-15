@@ -50,7 +50,7 @@
       "@context": "http://schema.org",
       "@type": "MusicEvent",
       "name": "{{ headline | strip_html }}",
-      "url": "{{ event.url }}",
+      "url": "{{ site.url }}{{ event.url }}",
       "startDate": "{{ eventdate | date_to_xmlschema }}",
       {% if event.endDate %}"endDate": "{{ event.endDate | date_to_xmlschema }}",{% endif %}
       {% if event.performer %}"performer": {
