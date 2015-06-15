@@ -1,6 +1,8 @@
 {% comment %}
 INITIALISE VARIABLES
 {% endcomment %}
+{% if include.mindate %}{% assign mindate = include.mindate | times: 1 %}{% else %}{% assign mindate = 0 %}{% endif %}
+{% if include.maxdate %}{% assign maxdate = include.maxdate | times: 1 %}{% else %}{% assign maxdate = 99999999 %}{% endif %}
 {% assign concerts = 0 %}
 {% assign concertsAllM = 0 %}
 {% assign worksperformed = 0 %}
@@ -25,83 +27,85 @@ INITIALISE VARIABLES
 PROCESS EVENT DATA
 {% endcomment %}
 {% for event in site.events %}
-  {% if event.programme %}
+  {% assign testdate = event.date | date: '%Y%m%d' | times: 1 %}
+  {% if testdate >= mindate and testdate <= maxdate %}
+    {% if event.programme %}
 
-    {% assign concerts = concerts | plus: 1 %}
-    {% assign eventworks = 0 %}
-    {% assign eventF = 0 %}
-    {% assign eventM = 0 %}
+      {% assign concerts = concerts | plus: 1 %}
+      {% assign eventworks = 0 %}
+      {% assign eventF = 0 %}
+      {% assign eventM = 0 %}
 
-    {% for item in event.programme %}
-      {% assign eventworks = eventworks | plus: 1 %}
-      {% unless composers_string contains item.composer %}
-        {% assign composers_string = composers_string | append: item.composer | append: '||' %}
-      {% endunless %}
-      {% if item.gender == 'F' %}
-        {% assign eventF = eventF | plus: 1 %}
-        {% unless composersF_string contains item.composer %}
-          {% assign composersF_string = composersF_string | append: item.composer | append: '||' %}
+      {% for item in event.programme %}
+        {% assign eventworks = eventworks | plus: 1 %}
+        {% unless composers_string contains item.composer %}
+          {% assign composers_string = composers_string | append: item.composer | append: '||' %}
         {% endunless %}
-        {% assign composers_string_verbose = composers_string_verbose | append: item.composer | append: '||' %}
-      {% elsif item.gender == 'M' %}
-        {% assign eventM = eventM | plus: 1 %}
-        {% unless composersM_string contains item.composer %}
-          {% assign composersM_string = composersM_string | append: item.composer | append: '||' %}
-        {% endunless %}
-      {% else %}
-        <p>No gender entered: {{ item.composer }} — {{ item.work }}</p>
-      {% endif %}
-      {% if item.composer == 'Chris Swithinbank' %}
-        {% assign ownworks = ownworks | plus: 1 %}
-      {% endif %}
-    {% endfor %}
-
-    {% assign worksperformed = worksperformed | plus: eventworks %}
-    {% assign worksperformedF = worksperformedF | plus: eventF %}
-    {% assign worksperformedM = worksperformedM | plus: eventM %}
-
-    {% assign event_relativeF = eventF | times: 1.00 | divided_by: eventworks %}
-    {% assign relativeF = relativeF | plus: event_relativeF %}
-    {% assign event_relativeM = eventM | times: 1.00 | divided_by: eventworks %}
-    {% assign relativeM = relativeM | plus: event_relativeM %}
-
-    {% if event_relativeF >= 0.5 %}
-      {% assign parity_count = parity_count | plus: 1 %}
-    {% endif %}
-
-    {% assign relativeF_string = relativeF_string | append: event_relativeF | append: ' ' %}
-    {% assign fractionF_string = fractionF_string | append: eventF | append: '/' | append: eventworks | append: ' ' %}
-
-    {% if event.url %}
-        {% assign urls_string = urls_string | append: event.url | append: ' ' %}
-      {% else %}
-        {% assign urls_string = urls_string | append: '0' | append: ' ' %}
-    {% endif %}
-
-    {% if event.date %}
-        {% assign eventyear = event.date | date: '%Y' %}
-        {% if eventyear < earliestYear %}
-          {% assign earliestYear = eventyear %}
+        {% if item.gender == 'F' %}
+          {% assign eventF = eventF | plus: 1 %}
+          {% unless composersF_string contains item.composer %}
+            {% assign composersF_string = composersF_string | append: item.composer | append: '||' %}
+          {% endunless %}
+          {% assign composers_string_verbose = composers_string_verbose | append: item.composer | append: '||' %}
+        {% elsif item.gender == 'M' %}
+          {% assign eventM = eventM | plus: 1 %}
+          {% unless composersM_string contains item.composer %}
+            {% assign composersM_string = composersM_string | append: item.composer | append: '||' %}
+          {% endunless %}
+        {% else %}
+          <p>No gender entered: {{ item.composer }} — {{ item.work }}</p>
         {% endif %}
+        {% if item.composer == 'Chris Swithinbank' %}
+          {% assign ownworks = ownworks | plus: 1 %}
+        {% endif %}
+      {% endfor %}
 
-        {% assign eventdate = event.date | date: '%-d/%-m/%Y' %}
-        {% assign dates_string = dates_string | append: eventdate | append: ' ' %}
-      {% else %}
-        {% assign dates_string = dates_string | append: '0' | append: ' ' %}
+      {% assign worksperformed = worksperformed | plus: eventworks %}
+      {% assign worksperformedF = worksperformedF | plus: eventF %}
+      {% assign worksperformedM = worksperformedM | plus: eventM %}
+
+      {% assign event_relativeF = eventF | times: 1.00 | divided_by: eventworks %}
+      {% assign relativeF = relativeF | plus: event_relativeF %}
+      {% assign event_relativeM = eventM | times: 1.00 | divided_by: eventworks %}
+      {% assign relativeM = relativeM | plus: event_relativeM %}
+
+      {% if event_relativeF >= 0.5 %}
+        {% assign parity_count = parity_count | plus: 1 %}
+      {% endif %}
+
+      {% assign relativeF_string = relativeF_string | append: event_relativeF | append: ' ' %}
+      {% assign fractionF_string = fractionF_string | append: eventF | append: '/' | append: eventworks | append: ' ' %}
+
+      {% if event.url %}
+          {% assign urls_string = urls_string | append: event.url | append: ' ' %}
+        {% else %}
+          {% assign urls_string = urls_string | append: '0' | append: ' ' %}
+      {% endif %}
+
+      {% if event.date %}
+          {% assign eventyear = event.date | date: '%Y' %}
+          {% if eventyear < earliestYear %}
+            {% assign earliestYear = eventyear %}
+          {% endif %}
+
+          {% assign eventdate = event.date | date: '%-d/%-m/%Y' %}
+          {% assign dates_string = dates_string | append: eventdate | append: ' ' %}
+        {% else %}
+          {% assign dates_string = dates_string | append: '0' | append: ' ' %}
+      {% endif %}
+
+      {% if event.performer.name %}
+          {% assign performers_string = performers_string | append: event.performer.name | append: '||' %}
+        {% else %}
+          {% assign performers_string = performers_string | append: '0' | append: '||' %}
+      {% endif %}
+
+      {% if eventF == 0 %}
+        {% assign concertsAllM = concertsAllM | plus: 1 %}
+      {% endif %}
+
     {% endif %}
-
-    {% if event.performer.name %}
-        {% assign performers_string = performers_string | append: event.performer.name | append: '||' %}
-      {% else %}
-        {% assign performers_string = performers_string | append: '0' | append: '||' %}
-    {% endif %}
-
-    {% if eventF == 0 %}
-      {% assign concertsAllM = concertsAllM | plus: 1 %}
-    {% endif %}
-
   {% endif %}
-
 {% endfor %}
 
 {% assign othersworks = worksperformed | minus: ownworks %}
