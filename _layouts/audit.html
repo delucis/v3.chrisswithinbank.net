@@ -38,3 +38,5 @@ layout: default
 <hr />
 
 <p>There are <strong>{{ nodata }} concerts</strong> missing programme data. These are ignored entirely in the statistics above.</p>
+    <h3>Career progression</h3>
+    <p>It is often stated that there is a gradual filtering out of women at every stage of career progression: from school-age music studies, throughout academic pathways, and later in professional contexts. Looking at my data, the proportion has never been excellent, but I can observe that in the 4 years I was an undergraduate and masters student at the University of Manchester — when the vast majority of my performances were in student contexts — <strong>{{ worksperformedF_percent_uni }}%</strong> of works performed were by female composers. Since then, just <strong>{{ worksperformedF_percent_since }}%</strong> have been, — a drop of {{ worksperformedF_percent_uni | minus: worksperformedF_percent_since | divided_by: worksperformedF_percent_uni | times: 100 | append: "" | truncate: 4, '' }}%.</p>
