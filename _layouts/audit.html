@@ -3,9 +3,12 @@ layout: default
 ---
 <h2>{{ page.title }}</h2>
 {% if page.digest %}<p><em>{{ page.digest }}</em></p>{% endif %}
-
+{% include audit_00_data.html mindate="20060901" maxdate="20100701" %}
+{% assign worksperformedF_percent_uni = worksperformedF_percent %}
+{% include audit_00_data.html mindate="20100702" maxdate=page.maxdate %}
+{% assign worksperformedF_percent_since = worksperformedF_percent %}
+{% include audit_00_data.html mindate=page.mindate maxdate=page.maxdate %}
 {{ content }}
-{% include audit_00_data.html %}
 
 <h3>Some basic numbers</h3>
 
