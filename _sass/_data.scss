@@ -1,0 +1,180 @@
+/* ==========================================================================
+   Data Viz Styling
+   ========================================================================== */
+.chartlist {
+  margin: 0;
+  border-top: 1px solid $light-outline;
+  border-right: 1px solid $light-outline;
+  border-left: 1px solid $light-outline;
+  width: 100%;
+  padding-left: 0;
+  background: #fff;
+  box-shadow: 0 0 15px -10px #000;
+  @include liningnums;
+  li {
+    position: relative;
+    display: block;
+    border-bottom: 1px solid $light-outline;
+    list-style: none;
+    _zoom: 1;
+    .label {
+      display: block;
+      padding: 0.4em 4.5em 0.4em 0.5em;
+      position: relative;
+      z-index: 2;
+    }
+    .separator {
+      display: none;
+    }
+    .value {
+      display: block;
+      position: absolute;
+      top: 0;
+      right: 0;
+      margin: 0 0.4em;
+      padding: 0.4em 0;
+      text-align: right;
+      color: $text-light;
+      font-weight: bold;
+      z-index: 3;
+    }
+    .percentage {
+      display: block;
+      position: absolute;
+      top: 0;
+      left: 0;
+      height: 100%;
+      background: rgba($chart-color, 0.4);
+      text-indent: -999em;
+      overflow: hidden;
+      line-height: 2em;
+      border-right: 1px solid $chart-color;
+    }
+    &.legend {
+      font-size: 0.65em;
+      text-transform: uppercase;
+      letter-spacing: 0.1em;
+      background-color: $chart-hover;
+      color: $text-light;
+      font-weight: 700;
+      .label {
+        padding-left: 0.76923em;
+        padding-right: 6.923076em;
+      }
+      .value {
+        margin: 0 0.61538462em;
+      }
+    }
+    &:hover {
+      background: $chart-hover;
+      .percentage {
+        background: $chart-color;
+      }
+    }
+  }
+}
+.sparkchart {
+  width: 100%;
+  margin: 1.6em 0 0;
+  padding-left: 0;
+  border: 1px solid $light-outline;
+  background: #fff;
+  box-shadow: 0 0 15px -10px #000;
+  @include liningnums;
+  &:before,
+  &:after {
+    content: " ";
+    display: table;
+  }
+  &:after {
+    clear: both;
+    height: 1.51986363636em;
+    width: 100%;
+    display: block;
+    background-color: $chart-hover;
+    border-top: 1px solid $light-outline;
+  }
+  li {
+    position: relative;
+    display: block;
+    float: right;
+    list-style: none;
+    _zoom: 1;
+    &:nth-child(even) {
+      background: #fafafa;
+    }
+    a {
+      display: block;
+      height: 4.8em;
+      background-image: none;
+      text-shadow: none;
+      .label {
+        display: block;
+        position: absolute;
+        top: 7.37em;
+        height: 1px;
+        text-indent: -999em;
+        overflow: hidden;
+        z-index: 4;
+        padding: 0 0.76923em;
+        white-space: nowrap;
+        text-overflow: ellipsis;
+        font-size: 0.65em;
+        line-height: 2.461;
+        text-transform: uppercase;
+        letter-spacing: 0.1em;
+        color: $text-light;
+        font-weight: 700;
+      }
+      .percentage {
+        display: block;
+        position: absolute;
+        bottom: 0;
+        left: 0;
+        width: 100%;
+        background: rgba($chart-color, 0.4);
+        border-top: 1px solid $chart-color;
+        text-indent: -999em;
+        overflow: hidden;
+      }
+      &:hover {
+        background: $chart-hover;
+        color: $text-dark;
+        .label {
+          text-indent: 0;
+          overflow: hidden;
+          height: 2.4em;
+        }
+      }
+    }
+    .separator {
+      display: none;
+    }
+    .value {
+      display: block;
+      position: absolute;
+      width: 500%;
+      height: 1px;
+      top: -1.6em;
+      left: -200%;
+      text-align: center;
+      text-indent: 999em;
+      overflow: hidden;
+      font-weight: 700;
+      padding: 0 0.4em;
+      z-index: 3;
+    }
+    &:hover {
+      a {
+        .percentage {
+          background: $chart-color;
+        }
+      }
+      .value {
+        text-indent: 0;
+        overflow: visible;
+        text-shadow: 0 0 4px #fff;
+      }
+    }
+  }
+}
