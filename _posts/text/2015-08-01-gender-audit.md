@@ -3,6 +3,11 @@ layout: audit
 category: text
 title: Gender Report 2015
 digest: "Some basic numbers on gender (in)equality in my community"
+maxdate: 20150901
+includes:
+  - basics
+  - career
+  - overview
 ---
 Since 2011 I have made occasional forays into gender auditing as a way of paying attention to my position in the remarkably unequal field of contemporary music composition. My attempts were occasional — a couple of analyses of my immediate environments in recognition of International Women’s Day, some (perhaps brash) comments upon finding myself programmed on all-male concerts — and their irregularity was problematic.
 
