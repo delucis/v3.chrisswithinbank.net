@@ -26,7 +26,7 @@ INITIALISE VARIABLES
 {% comment %}
 PROCESS EVENT DATA
 {% endcomment %}
-{% for event in site.events %}
+{% for event in site.categories.events reversed %}
   {% assign testdate = event.date | date: '%Y%m%d' | times: 1 %}
   {% if testdate >= mindate and testdate <= maxdate %}
     {% if event.programme %}
@@ -115,7 +115,7 @@ PROCESS EVENT DATA
 {% assign othersF_percent = worksperformedF | times: 100.0 | divided_by: othersworks | append: "" | truncate: 4, '' %}
 {% assign concertsAllM_percent = concertsAllM | times: 100.0 | divided_by: concerts | append: "" | truncate: 4, '' %}
 {% assign worksperconcert =  worksperformed | times: 1.0 | divided_by: concerts | append: "" | truncate: 3, '' %}
-{% assign nodata = site.events.size | minus: concerts %}
+{% assign nodata = site.categories.events.size | minus: concerts %}
 {% assign relativeF = relativeF | divided_by: concerts | times: 100.0 | append: "" | truncate: 4, '' %}
 {% assign relativeM = relativeM | divided_by: concerts | times: 100.0 | append: "" | truncate: 4, '' %}
 
