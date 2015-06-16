@@ -1,0 +1,40 @@
+---
+---
+{
+  "@context": "http://schema.org",
+  "@type": "ItemList",
+  "@numberOfItems": {{ site.categories.events.size }},
+  "@itemListElement": [
+  {% for event in site.categories.events reversed %}{% assign eventdate = event.date | append: '' %}{% if eventdate.size == 10 %}{% assign then = eventdate | append: ' 20:00' | date: '%Y%m%d' %}{% else %}{% assign then = eventdate | date: '%Y%m%d' %}{% endif %}
+    {
+      "@type": "MusicEvent",
+      "name": "{{ event.title | strip_html }}",
+      "url": "{{ site.url }}{{ event.url }}",{% if event.facebook %}
+      "sameAs": "{{ event.facebook }}",{% endif %}
+      "startDate": "{{ eventdate | date_to_xmlschema }}",
+      {% if event.endDate %}"endDate": "{{ event.endDate | date_to_xmlschema }}",{% endif %}
+      {% if event.performer %}"performer": {
+        "@type": "{% if event.performertype %}{{ event.performertype }}{% else %}MusicGroup{% endif %}",
+        "name": "{{ event.performer.name }}"{% if event.performer.url %},
+        "sameAs": "{{ event.performer.url }}"{% endif %}
+      },{% endif %}
+      {% if event.programme %}"workPerformed": [{% for item in event.programme %}
+       {
+        "@type": "MusicComposition",{% if item.work %}
+        "name": "{{ item.work }}",{% endif %}
+        "composer": {
+          "@type": "Person",
+          "name": "{{ item.composer }}",
+          "gender": "{{ item.gender }}"
+        }
+      }{% unless forloop.last %},{% endunless %}
+      {% endfor %}],{% endif %}
+      "location": {
+        "@type": "{% if event.locationtype %}{{ event.locationtype }}{% else %}MusicVenue{% endif %}",
+        "name": "{{ event.venue.name }}",
+        "address": "{{ event.venue.address }}"{% if event.venue.url %},
+        "sameAs": "{{ event.venue.url }}"{% endif %}
+      }
+    }{% unless forloop.last %},{% endunless %}{% endfor %}
+  ]
+}
