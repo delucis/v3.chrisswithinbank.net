@@ -34,5 +34,8 @@ layout: default
     <p>Unlike the other measures, this excludes my own performances, which of course hugely outnumber those of any other composer and distort this particular corpus of data.</p>
   {% when 'nodata' %}
     <p>There are <strong>{{ nodata }} concerts</strong> missing programme data. These are ignored entirely in the statistics above.</p>
+  {% when 'jsonlink' %}
+    <h3>The data</h3>
+    <p>If you would like to play around with the event data in more precise ways, download the <a href="/assets/eventdata.json" type="application/ld+json">event data JSON-LD file</a>. It contains data for every event in my archive, marked up with <a href="http://schema.org/">schema.org</a> vocabularies.</p>
 {% endcase %}
 {% endfor %}
