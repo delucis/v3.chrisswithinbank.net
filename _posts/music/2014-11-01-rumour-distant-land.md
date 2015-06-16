@@ -1,12 +1,14 @@
 ---
-title: "rumour — distant land"
+title: rumour — distant land
 category: music
 size: chamber
 instrumentation: for four performers
-duration: 9–16'
-instrumentationlist:
+duration: "9–16'"
+instrumentationlist: 
   - 4 performers
+published: true
 ---
-Materials to­wards a per­form­ance for four people.
 
-*ru­mour — dis­tant* land provides a frame­work for a per­form­ance that is as much visual and dra­matic as it is sonic, al­lowing four per­formers to present a series of im­ages and ac­tions, all of which touch around but never upon feel­ings of dis­tance, loss, re­min­is­cence and the mundane.
+Materials towards a performance for four people.
+
+*rumour — distant* land provides a framework for a performance that is as much visual and dramatic as it is sonic, allowing four performers to present a series of images and actions, all of which touch around but never upon feelings of distance, loss, reminiscence and the mundane.
