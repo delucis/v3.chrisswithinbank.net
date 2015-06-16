@@ -14,23 +14,23 @@ instrumentationlist:
   - Violinist
   - Cellist
 ---
-> All fixed, fast-frozen re­la­tions, with their train of an­cient and ven­er­able pre­ju­dices and opin­ions, are swept away, all new-formed ones be­come an­ti­quated be­fore they can os­sify. All that is solid melts into air, all that is holy is pro­faned, and man is at last com­pelled to face with sober senses his real con­di­tions of life, and his re­la­tions with his kind.
+> All fixed, fast-frozen relations, with their train of ancient and venerable prejudices and opinions, are swept away, all new-formed ones become antiquated before they can ossify. All that is solid melts into air, all that is holy is profaned, and man is at last compelled to face with sober senses his real conditions of life, and his relations with his kind.
 >
 > — Karl Marx & Friedrich Engels, *The Communist Manifesto*
 
-Imagine the stage is a uto­pian space. It is the arena where we are free to dream, to evoke im­ages, to cast spells. It is the forum where we can shake people awake with a mul­ti­pli­city of voices. We are free to build what we want, per­mitted to re­veal to others that which we must usu­ally con­ceal. Free to plant seeds, free to bear fruit.
+Imagine the stage is a utopian space. It is the arena where we are free to dream, to evoke images, to cast spells. It is the forum where we can shake people awake with a multiplicity of voices. We are free to build what we want, permitted to reveal to others that which we must usually conceal. Free to plant seeds, free to bear fruit.
 
-Now you realise that the stage is real. Its space is lim­ited, de­lin­eated. There is not enough time, you have to make com­prom­ises: the forest re­fuses to grow in one evening, the flower wilts, its petals do not un­fold as re­quested, the doves will not wait for their cue. You swear at their in­op­por­tune flapping.
+Now you realise that the stage is real. Its space is limited, delineated. There is not enough time, you have to make compromises: the forest refuses to grow in one evening, the flower wilts, its petals do not unfold as requested, the doves will not wait for their cue. You swear at their inopportune flapping.
 
-You light a match. In the shadows you realise there is a third space, a space between these first two: real, jagged, but filled with pos­sib­il­ities just out of sight. Before you can turn, a man is at your elbow, your match has gone out, he is talking into your ear. Other matches are being lit but each flame is quickly ex­tin­guished. The man’s voice seems to be res­on­ating off every sur­face and you are led, to­gether with the other match-lighters into a small stone house.
+You light a match. In the shadows you realise there is a third space, a space between these first two: real, jagged, but filled with possibilities just out of sight. Before you can turn, a man is at your elbow, your match has gone out, he is talking into your ear. Other matches are being lit but each flame is quickly extinguished. The man’s voice seems to be resonating off every surface and you are led, together with the other match-lighters into a small stone house.
 
 It is dark and no matter where you look, you cannot find your matches.
 
-You are there for a long time. At first, it is dif­fi­cult living in the dark — you bump into other people be­cause you cannot see them; the voice that led you here gives or­ders but fights break out about what they mean; scared, in the dark, no-one will con­cede any ground — but, slowly, you get used to this house. Many people cannot un­der­stand you when you ask them what colour they think the walls are. They do not re­member ever be­lieving in sight.
+You are there for a long time. At first, it is difficult living in the dark — you bump into other people because you cannot see them; the voice that led you here gives orders but fights break out about what they mean; scared, in the dark, no-one will concede any ground — but, slowly, you get used to this house. Many people cannot understand you when you ask them what colour they think the walls are. They do not remember ever believing in sight.
 
-At night, it is cold in the house. As you try fit­fully to sleep on the floor amongst the in­vis­ible, rest­less bodies, you dream about lighting matches. When you wake up, you are shiv­ering, but you know that your dreams cannot be­come reality, so you close your eyes and try to re­kindle those fleeting images.
+At night, it is cold in the house. As you try fitfully to sleep on the floor amongst the invisible, restless bodies, you dream about lighting matches. When you wake up, you are shivering, but you know that your dreams cannot become reality, so you close your eyes and try to rekindle those fleeting images.
 
-Even you can no longer ima­gine burning the house down.
+Even you can no longer imagine burning the house down.
 
 ### French Programme Note
 
