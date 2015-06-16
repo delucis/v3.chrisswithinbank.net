@@ -8,6 +8,7 @@ includes:
   - basics
   - career
   - overview
+  - jsonlink
 ---
 Since 2011 I have made occasional forays into gender auditing as a way of paying attention to my position in the remarkably unequal field of contemporary music composition. My attempts were occasional — a couple of analyses of my immediate environments in recognition of International Women’s Day, some (perhaps brash) comments upon finding myself programmed on all-male concerts — and their irregularity was problematic.
 
