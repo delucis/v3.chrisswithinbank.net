@@ -33,7 +33,6 @@ layout: default
     {% include audit_02_frequency.html %}
     <p>Unlike the other measures, this excludes my own performances, which of course hugely outnumber those of any other composer and distort this particular corpus of data.</p>
   {% when 'nodata' %}
-    <hr />
     <p>There are <strong>{{ nodata }} concerts</strong> missing programme data. These are ignored entirely in the statistics above.</p>
 {% endcase %}
 {% endfor %}
