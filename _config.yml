@@ -24,20 +24,18 @@ defaults:
             path: ""
             type: "posts"
         values:
-            layout: post
+            layout: "post"
     -
         scope:
             path: "music"
             type: "posts"
         values:
-            layout: music
-            category: music
+            layout: "music"
+            category: "music"
     -
         scope:
             path: "events"
             type: "posts"
         values:
-            layout: event
-            category: events
-            locationtype: MusicVenue
-            performertype: MusicGroup
+            layout: "event"
+            category: "events"
