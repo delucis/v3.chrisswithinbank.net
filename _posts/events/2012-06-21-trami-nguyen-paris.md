@@ -4,6 +4,7 @@ date: 2012-06-21 20:30
 performer:
   name: Trami Nguyen
   url: http://www.trami-nguyen.com/
+performertype: Person
 venue:
   name: Cité des Arts
   url: http://www.citedesartsparis.net/

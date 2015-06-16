@@ -4,6 +4,7 @@ date: 2009-05-09
 performer:
   name: Robert Guy
   url: http://robert-guy.com/
+performertype: Person
 venue:
   name: Oriel Wrecsam
   url: https://www.facebook.com/OrielWrecsam

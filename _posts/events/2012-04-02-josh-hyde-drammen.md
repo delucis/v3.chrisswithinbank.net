@@ -4,6 +4,7 @@ date: 2012-04-02 19:00
 performer:
   name: Joshua Hyde
   url: http://www.joshuahyde.com/
+performertype: Person
 venue:
   name: Scandinavian Saxophone Festival
   address: Grønland 60, 3045 Drammen, Norway

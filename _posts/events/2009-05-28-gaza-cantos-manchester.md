@@ -4,6 +4,7 @@ date: 2009-05-28 14:00 +00:00
 performer:
   name: Robert Guy
   url: http://robert-guy.com/
+performertype: Person
 venue:
   name: Martin Harris Centre for Music and Drama
   url: http://www.martinharriscentre.manchester.ac.uk/

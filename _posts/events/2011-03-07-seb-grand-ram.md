@@ -4,6 +4,7 @@ date: 2011-03-07 14:00 +00:00
 performer:
   name: Sebastian Grand
   url: http://sebastiangrand.com/
+performertype: Person
 venue:
   name: David Josefowitz Recital Hall
   url: http://www.ram.ac.uk/

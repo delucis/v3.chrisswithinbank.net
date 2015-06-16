@@ -4,6 +4,7 @@ date: 2010-04-26 13:10 +00:00
 performer:
   name: Steve Pycroft
   url: http://www.stevepycroft.com/
+performertype: Person
 venue:
   name: Martin Harris Centre for Music and Drama
   url: http://www.martinharriscentre.manchester.ac.uk/

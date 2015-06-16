@@ -4,6 +4,7 @@ date: 2012-03-31 16:00
 performer:
   name: Haruka Inoue
   url: http://harukainoue123.wix.com/haruka-inoue
+performertype: Person
 venue:
   name: IRCAM
   url: http://www.ircam.fr/

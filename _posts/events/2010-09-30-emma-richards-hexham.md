@@ -4,6 +4,7 @@ date: 2010-09-30 13:00 +00:00
 performer:
   name: Emma Richards
   url: http://www.emmarichards.net/
+performertype: Person
 venue:
   name: Hexham Abbey
   url: http://www.hexhamabbey.org.uk/

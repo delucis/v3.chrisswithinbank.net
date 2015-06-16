@@ -4,6 +4,7 @@ date: 2014-05-27 10:00
 performer:
   name: Haruka Inoue
   url: http://harukainoue123.wix.com/haruka-inoue
+performertype: Person
 venue:
   name: CNSMdP
   url: http://www.conservatoiredeparis.fr/
