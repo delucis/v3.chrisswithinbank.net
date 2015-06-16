@@ -65,8 +65,11 @@
         "name": "{{ item.work }}",{% endif %}
         "composer": {
           "@type": "Person",
-          "name": "{{ item.composer }}"{% if item.composer == 'Chris Swithinbank' %},
-          "sameAs": "{{ site.url }}"{% endif %}
+          "name": "{{ item.composer }}",
+          "gender": "{{ item.gender }}"{% if site.data.composers.[item.composer].sameAs %},
+          "sameAs": "{{ site.data.composers.[item.composer].sameAs }}"{% endif %}{% if site.data.composers.[item.composer].birthDate %},
+          "birthDate": "{{ site.data.composers.[item.composer].birthDate }}"{% endif %}{% if site.data.composers.[item.composer].nationality %},
+          "nationality": {% if site.data.composers.[item.composer].nationality.size > 1 %}[{% for nationality in site.data.composers.[item.composer].nationality %}"{{ nationality }}"{% unless forloop.last %},{% endunless %}{% endfor %}]{% else %}"{{ site.data.composers.[item.composer].nationality }}"{% endif %}{% endif %}
         }
       }{% unless forloop.last %},{% endunless %}
       {% endfor %}],{% elsif event.works %}
