@@ -54,20 +54,20 @@
       "startDate": "{{ eventdate | date_to_xmlschema }}",
       {% if event.endDate %}"endDate": "{{ event.endDate | date_to_xmlschema }}",{% endif %}
       {% if event.performer %}"performer": {
-        "@type": "{{ event.performertype }}",
+        "@type": "{% if event.performertype %}{{ event.performertype }}{% else %}MusicGroup{% endif %}",
         "name": "{{ event.performer.name }}",
         "sameAs": "{{ event.performer.url }}"
       },{% endif %}
       {% if event.works %}{% for work in event.works %}
       "workPerformed": {
         "@type": "CreativeWork",
-        {% for post in site.categories.music %}{% if post.title == work.name %}"sameAs": "{{ post.url }}",{% endif %}{% endfor %}
-        "name": "{{ work.name }}",
-        "author": "{% if work.author %}{{ work.author }}{% else %}http://www.chrisswithinbank.net/{% endif %}"
+        {% for post in site.categories.music %}{% if post.title == work %}"sameAs": "{{ post.url }}",{% endif %}{% endfor %}
+        "name": "{{ work }}",
+        "author": "http://www.chrisswithinbank.net/"
       },
       {% endfor %}{% endif %}
       "location": {
-        "@type": "{{ event.locationtype }}",
+        "@type": "{% if event.locationtype %}{{ event.locationtype }}{% else %}MusicVenue{% endif %}",
         "name": "{{ event.venue.name }}",
         "address": "{{ event.venue.address }}",
         "sameAs": "{{ event.venue.url }}"
