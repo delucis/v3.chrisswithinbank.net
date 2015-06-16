@@ -9,6 +9,7 @@ venue:
   name: Oriel Wrecsam
   url: https://www.facebook.com/OrielWrecsam
   address: Rhosddu Rd, Wrexham, Clwyd LL11 1AU, United Kingdom
+locationtype: ArtGallery
 works:
   - Gaza Cantos
 programme:

@@ -8,6 +8,7 @@ venue:
   name: What’s Next Festival
   url: http://whats-next.be/
   address: 21, rue de Manchester, 1080 Sint-Jans-Molenbeek, Belgium
+locationtype: PerformingArtsTheater
 works:
   - All that is solid melts into air
 programme:

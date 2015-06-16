@@ -8,6 +8,7 @@ venue:
   name: ODC Theater
   url: http://www.odctheater.org/performance.php?param=86
   address: 3153 17th St, San Francisco, CA 94110, United States
+locationtype: PerformingArtsTheater
 works:
   - La leggerezza delle città
 programme:

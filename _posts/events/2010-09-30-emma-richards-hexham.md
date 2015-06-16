@@ -9,6 +9,7 @@ venue:
   name: Hexham Abbey
   url: http://www.hexhamabbey.org.uk/
   address: Beaumont Street, Hexham NE46 3NB, United Kingdom
+locationtype: Church
 works:
   - Gaza Cantos
 programme:
