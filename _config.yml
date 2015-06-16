@@ -5,6 +5,9 @@ author:
     name: Chris Swithinbank
     email: swithinbank@gmail.com
     uri: http://www.chrisswithinbank.net/
+    twitter: https://twitter.com/swithinbank
+    github: https://github.com/delucis
+    soundcloud: https://soundcloud.com/swithinbank
 markdown: kramdown
 highlighter: pygments
 gems:
