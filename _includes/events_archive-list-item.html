@@ -5,6 +5,9 @@
   {% else %}
     {% assign then = eventdate | date: '%Y%m%d' %}
 {% endif %}
+{% if event.enddate %}
+  {% assign enddate = event.enddate | append: '' %}
+{% endif %}
 {% assign test = false %}
 {% if include.scope == 'past' %}
     {% if then < now %}{% assign test = true %}{% endif %}
@@ -34,8 +37,8 @@
       "name": "{{ headline | strip_html }}",
       "url": "{{ site.url }}{{ event.url }}",{% if event.facebook %}
       "sameAs": "{{ event.facebook }}",{% endif %}
-      "startDate": "{{ eventdate | date_to_xmlschema }}",{% if event.endDate %}
-      "endDate": "{{ event.endDate | date_to_xmlschema }}",{% endif %}
+      "startDate": "{{ eventdate | date_to_xmlschema }}",{% if event.enddate %}
+      "endDate": "{{ enddate | date_to_xmlschema }}",{% endif %}
       {% if event.performer %}"performer": {
         "@type": "{% if event.performertype %}{{ event.performertype }}{% else %}MusicGroup{% endif %}",
         "name": "{{ event.performer.name }}"{% if event.performer.url %},
