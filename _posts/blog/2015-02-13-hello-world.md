@@ -1,7 +1,6 @@
 ---
 title: "Hello world!"
 date: 2015-02-13
-category: updates
 ---
 
 This is a test post, using Jekyll + GitHub Pages.
