@@ -3,12 +3,9 @@
   <head>
     <meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
     <meta http-equiv="x-ua-compatible" content="ie=edge">
-    <title>
-      {% if page.url == '/index.html' %}
-        {{ site.name }}, composer
-      {% else %}
-        {{ page.title }}{% if page.categories %} > {{ page.categories | first | capitalize }}{% endif %} > {{ site.name }}
-      {% endif %}
+    <title>{% if page.url == '/index.html' %}
+      {{ site.name }}, composer{% else %}
+      {{ page.title }}{% if page.categories %} > {{ page.categories | first | capitalize }}{% endif %} > {{ site.name }}{% endif %}
     </title>
     <meta name="description" content="{% if page.digest %}{{ page.digest | strip_html }}{% elsif page.excerpt %}{{ page.excerpt | strip_html | truncate: 159, '…' }}{% else %}{{ site.description }}{% endif %}">
     <meta name="viewport" content="width=device-width, initial-scale=1">
@@ -26,11 +23,9 @@
           <a href="{% if page.url == '/index.html' %}#{% else %}/{% endif %}"><span class="fname">Chris </span><span class="lname">Swithinbank</span></a>
         </h1>
         <nav id="menu" class="menu js-menu" role="navigation">
-            <ul>
-              {% for item in site.data.menu %}
-                <li><a href="{{ item.slug }}">{{ item.label }}</a></li>
-              {% endfor %}
-            </ul>
+          <ul>{% for item in site.data.menu %}
+            <li><a href="{{ item.slug }}">{{ item.label }}</a></li>{% endfor %}
+          </ul>
         </nav>
       </header>
       <div class="wrapper">
