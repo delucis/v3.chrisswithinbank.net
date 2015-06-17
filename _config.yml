@@ -44,3 +44,9 @@ defaults:
         values:
             layout: "event"
             category: "events"
+    -
+        scope:
+            path: ""
+            type: "pages"
+        values:
+            category: "page"
