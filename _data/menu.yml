@@ -7,11 +7,14 @@
 - label: Text
   slug: /text/
 
+- label: Diary
+  slug: /diary/
+
 - label: About
   slug: /bio/
 
-- label: Diary
-  slug: /diary/
+- label: Blog
+  slug: /blog/
 
 #- label: Code
 #  slug: /code/
