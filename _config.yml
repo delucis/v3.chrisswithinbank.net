@@ -30,6 +30,8 @@ defaults:
             type: "posts"
         values:
             layout: "post"
+            tags:
+              - single-post
     -
         scope:
             path: "music"
@@ -37,6 +39,8 @@ defaults:
         values:
             layout: "music"
             category: "music"
+            tags:
+              - single-music
     -
         scope:
             path: "events"
@@ -44,6 +48,8 @@ defaults:
         values:
             layout: "event"
             category: "events"
+            tags:
+              - single-event
     -
         scope:
             path: ""
