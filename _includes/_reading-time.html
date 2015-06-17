@@ -1,3 +1,4 @@
+{% capture cache %}
 {% case include.type %}
   {% when 'page' %}
     {% assign toread = page.content %}
@@ -9,11 +10,12 @@
 
 {% if toread %}
   {% assign words = toread | number_of_words %}
-  {% if words < 250 %}
-      < 1 min
-    {% elsif words < 500 %}
-      1 min
-    {% else %}
-      {{ words | divided_by:250 }} mins
-  {% endif %}
-{% endif %}
+  {% case words %}
+  {% when < 250 %}
+    {% assign output = "< 1 min" %}
+  {% when < 500 %}
+    {% assign output = "1 min" %}
+  {% else %}
+    {% assign output = words | divided_by:250 | append: ' mins' %}
+  {% endcase %}
+{% endif %}{% endcapture %}{% assign cache = nil %}{{ output }}
