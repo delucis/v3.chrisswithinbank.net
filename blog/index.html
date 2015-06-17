@@ -1,20 +1,15 @@
 ---
-title: News
-digest: Latest updates and activity
+title: Blog
 tags:
   - blog
 ---
 <h2>{{ page.title }}</h1>
 {% if page.digest %}<p><em>{{ page.digest }}</em></p>{% endif %}
 
-<ul class="datalist">
-
-  {% for post in site.posts %}
-    {% if post.categories contains 'updates' %}
-      <li>
-        <h3><a href="{{ post.url }}" title="{{ post.title }}">{{ post.title }}</a></h2>
-        <p class="meta">{{ post.date | date_to_long_string }}</p>
-      </li>
-    {% endif %}
-  {% endfor %}
-</ul>
+{% for post in site.categories.blog %}
+<article id="{{ post.title | slugify }}" class="hentry">
+  <h3 class="entry-title"><a href="{{ post.url }}" rel="bookmark">{{ post.title }}</a></h3>
+  <p class="entry-meta"><time class="published" datetime="{{ post.date | date: '%Y-%m-%d'}}">{{ post.date | date: "%-d %B %Y" }}</time></p>
+  <p class="entry-summary">{{ post.excerpt | remove: '<p>' | remove: '</p>' }}</p>
+  <a href="{{ post.url }}">Read more »</a>
+</article>{% endfor %}
