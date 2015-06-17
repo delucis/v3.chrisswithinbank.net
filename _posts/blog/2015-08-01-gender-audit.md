@@ -1,6 +1,5 @@
 ---
 layout: audit
-category: text
 title: Gender Report 2015
 digest: "Some basic numbers on gender (in)equality in my community"
 maxdate: 20150901
