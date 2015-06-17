@@ -1,4 +1,4 @@
-{% assign now = site.time | date: '%Y%m%d' %}
+{% capture cache %}{% assign now = site.time | date: '%Y%m%d' %}
 {% assign eventdate = event.date | append: '' %}
 {% if eventdate.size == 10 %}
     {% assign then = eventdate | append: ' 20:00' | date: '%Y%m%d' %}
@@ -10,40 +10,22 @@
     {% if then < now %}{% assign test = true %}{% endif %}
   {% elsif include.scope == 'future' %}
     {% if then >= now %}{% assign test = true %}{% endif %}
-{% endif %}
-
-{% if test %}
+{% endif %}{% endcapture %}{% assign cache = nil %}{% if test %}
   <li{% if postcount == 0 %} class="first"{% endif %}>
-    <h3>
-        {% if event.works.size == 1 %}
-          {% assign headline = event.works[0] %}
-        {% else %}
-          {% assign headline = event.title %}
-        {% endif %}
+    <h3>{% if event.works.size == 1 %}{% assign headline = event.works[0] %}{% else %}
+        {% assign headline = event.title %}{% endif %}
       <a href="{{ event.url }}" title="{{ headline | strip_html }}">{{ headline }}</a>
     </h3>
-    <p>{{ eventdate | date: "%-d %B %Y, %k:%M" }}</p>
-    {% if event.performer %}
-      <p class="performer">
-        {% if event.performer.url %}
-          <a href="{{ event.performer.url }}">{{ event.performer.name }}</a>
-        {% else %}
-          {{ event.performer.name }}
-        {% endif %}
-      </p>
-    {% endif %}
-    {% if event.venue %}
-      <p class="venue">
-        {% if event.venue.url %}
-          <span class="name"><a href="{{ event.venue.url }}">{{ event.venue.name }}</a></span>
-        {% else %}
-          <span class="name">{{ event.venue.name }}</dt>
-        {% endif %}
-        {% if event.venue.address %}
-          <br /><span class="address">{{ event.venue.address }}</span>
-        {% endif %}
-      </p>
-    {% endif %}
+    <p>{{ eventdate | date: "%-d %B %Y, %k:%M" }}</p>{% if event.performer %}
+    <p class="performer">{% if event.performer.url %}
+      <a href="{{ event.performer.url }}">{{ event.performer.name }}</a>{% else %}
+      {{ event.performer.name }}{% endif %}
+    </p>{% endif %}{% if event.venue %}
+    <p class="venue">{% if event.venue.url %}
+      <span class="name"><a href="{{ event.venue.url }}">{{ event.venue.name }}</a></span>{% else %}
+      <span class="name">{{ event.venue.name }}</dt>{% endif %}{% if event.venue.address %}
+      <br /><span class="address">{{ event.venue.address }}</span>{% endif %}
+    </p>{% endif %}
   </li>
   <script type="application/ld+json">
     {
@@ -88,6 +70,4 @@
         "sameAs": "{{ event.venue.url }}"{% endif %}
       }
     }
-  </script>
-  {% assign postcount = postcount | plus: 1 %}
-{% endif %}
+  </script>{% assign postcount = postcount | plus: 1 %}{% endif %}

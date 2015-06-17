@@ -1,13 +1,2 @@
-<ul class="datalist">
-  {% assign postcount = 0 %}
-  {% case include.scope %}
-    {% when 'future' %}
-      {% for event in site.categories.events reversed %}
-        {% include events_archive-list-item.html scope="future" %}
-      {% endfor %}
-    {% when 'past' %}
-      {% for event in site.categories.events %}
-        {% include events_archive-list-item.html scope="past" %}
-      {% endfor %}
-  {% endcase %}
+<ul class="datalist">{% assign postcount = 0 %}{% case include.scope %}{% when 'future' %}{% for event in site.categories.events reversed %}{% include events_archive-list-item.html scope="future" %}{% endfor %}{% when 'past' %}{% for event in site.categories.events %}{% include events_archive-list-item.html scope="past" %}{% endfor %}{% endcase %}
 </ul>
