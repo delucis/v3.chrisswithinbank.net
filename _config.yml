@@ -30,6 +30,7 @@ defaults:
             type: "posts"
         values:
             layout: "post"
+            category: "blog"
             tags:
               - single-post
     -
