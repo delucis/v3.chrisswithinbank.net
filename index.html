@@ -4,7 +4,34 @@ digest: Latest updates and activity
 tags:
   - home
 ---
+<div class="primary hfeed">
+  <h2>{{ page.title }}</h2>
+  {% if page.digest %}<p><em>{{ page.digest }}</em></p>{% endif %}
+  {% for post in paginator.posts %}
+  <article id="{{ post.title | slugify }}" class="hentry{% if forloop.first %} first{% endif %}">
+    <h3 class="entry-title"><a href="{{ post.url }}" rel="bookmark">{{ post.title }}</a></h3>
+    <p class="entry-meta"><time class="published" datetime="{{ post.date | date: '%Y-%m-%d'}}">{{ post.date | date: "%-d %B %Y" }}</time></p>
+    <div class="entry-content">
+      {{ post.content }}
+    </div>{% if post.layout == 'audit' %}
+    <a href="{{ post.url }}">Read more »</a>{% endif %}
+  </article>{% endfor %}
 
+  <!-- Pagination links -->
+  <div class="pagination">
+    {% if paginator.previous_page %}
+      <a href="{{ paginator.previous_page_path }}" class="previous">Previous</a>
+    {% else %}
+      <span class="previous">Previous</span>
+    {% endif %}
+    <span class="page_number ">Page: {{ paginator.page }} of {{ paginator.total_pages }}</span>
+    {% if paginator.next_page %}
+      <a href="{{ paginator.next_page_path }}" class="next">Next</a>
+    {% else %}
+      <span class="next ">Next</span>
+    {% endif %}
+  </div>
+</div>
 <div class="secondary">
   <h2>Microbiography</h2>
   <p>My name is Chris Swithinbank and I write <a href="/works/"><strong>music</strong></a> using acoustic instruments and electronic sounds. Occasionally, I also write <a href="/text/"><strong>text</strong></a> about music or related subjects. I am currently a student at Harvard University with Chaya Czernowin. <a href="/bio/">More about me »</a></p>
