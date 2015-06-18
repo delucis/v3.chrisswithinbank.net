@@ -18,6 +18,10 @@ timezone: Europe/Berlin
 sass:
     sass_dir: _sass
     style: compressed
+paginate: 5
+paginate_path: "/page/:num/"
+paginate_per_category: true
+default_category: "blog"
 defaults:
     -
         scope:
