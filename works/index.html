@@ -8,19 +8,13 @@ tags:
 <div class="primary hfeed">
   <h2>{{ page.title }}</h2>
   {% if page.digest %}<p><em>{{ page.digest }}</em></p>{% endif %}
-
-  <ul class="datalist">
-
-    {% for post in site.posts %}
-      {% if post.categories contains 'music' %}
-        <li>
-          <h3>
-            <a href="{{ post.url }}" title="{{ post.title }}">{{ post.title }}</a>
-            ({{ post.date | date: '%Y' }})
-          </h2>
-          <p class="meta">{{ post.instrumentation }} | {{ post.duration }}</p>
-        </li>
-      {% endif %}
-    {% endfor %}
-  </ul>
+  {% for post in site.categories.music %}
+  <article id="{{ post.title | slugify }}" class="hentry{% if forloop.first %} first{% endif %}">
+    <h3 class="entry-title">
+      <a href="{{ post.url }}" rel="bookmark">{{ post.title }}</a>
+      <time class="published" datetime="{{ post.date | date: '%Y-%m-%d'}}">({{ post.date | date: '%Y' }})</time>
+    </h3>
+    <p class="entry-meta">{{ post.instrumentation }} | {{ post.duration }}</p>
+  </article>
+  {% endfor %}
 </div>

@@ -5,16 +5,14 @@ tags:
   - archive
   - text
 ---
-<h2>{{ page.title }}</h2>
-{% if page.digest %}<p><em>{{ page.digest }}</em></p>{% endif %}
-
-<ul class="datalist">{% for post in site.categories.text %}
-      <li>
-        <h3><a href="{{ post.url }}" title="{{ post.title }}">{{ post.title }}</a></h3>{% if post.subtitle %}
-        <h4>{{ post.subtitle }}</h4>{% endif %}
-        <p class="meta">{{ post.date | date: '%-d %B %Y' }} | {% include _reading-time.html type="post" %}</p>{% if post.digest %}
-        <p>{{ post.digest }}</p>{% endif %}
-      </li>{% endfor %}
-</ul>
 <div class="primary hfeed">
+  <h2>{{ page.title }}</h2>
+  {% if page.digest %}<p><em>{{ page.digest }}</em></p>{% endif %}
+  {% for post in site.categories.text %}
+    <article id="{{ post.title | slugify }}" class="hentry">
+      <h3 class="entry-title"><a href="{{ post.url }}" rel="bookmark">{{ post.title }}</a></h3>{% if post.subtitle %}
+      <h4>{{ post.subtitle }}</h4>{% endif %}
+      <p class="entry-meta"><time class="published" datetime="{{ post.date | date: '%Y-%m-%d'}}">{{ post.date | date: "%-d %B %Y" }}</time> | {% include _reading-time.html type="post" %}</p>{% if post.digest %}
+      <p class="entry-summary">{{ post.digest }}</p>{% endif %}
+    </article>{% endfor %}
 </div>
