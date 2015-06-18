@@ -4,10 +4,14 @@ digest: Latest updates and activity
 tags:
   - home
 ---
-<p>My name is Chris Swithinbank and I write <a href="/works/"><strong>music</strong></a> using acoustic instruments and electronic sounds. Occasionally, I also write <a href="/text/"><strong>text</strong></a> about music or related subjects. I am currently a student at Harvard University with Chaya Czernowin. <a href="/bio/">More about me »</a></p>
 
-{% capture nextevent %}{% include events_archive-list.html scope="future" limit="1" %}{% endcapture %}{% if nextevent %}<div class="events">
-  <h2>Next event</h2>
-  {{ nextevent }}
-  <a href="/diary/">See all upcoming events »</a>
-</div>{% endif %}
+<div class="secondary">
+  <h2>Microbiography</h2>
+  <p>My name is Chris Swithinbank and I write <a href="/works/"><strong>music</strong></a> using acoustic instruments and electronic sounds. Occasionally, I also write <a href="/text/"><strong>text</strong></a> about music or related subjects. I am currently a student at Harvard University with Chaya Czernowin. <a href="/bio/">More about me »</a></p>
+
+  {% capture nextevent %}{% include events_archive-list.html scope="future" limit="1" %}{% endcapture %}{% if nextevent %}<div class="events">
+    <h2>Next event</h2>
+    {{ nextevent }}
+    <a href="/diary/">See all upcoming events »</a>
+  </div>{% endif %}
+</div>
