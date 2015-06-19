@@ -9,7 +9,6 @@ author:
     github: https://github.com/delucis
     soundcloud: https://soundcloud.com/swithinbank
 markdown: kramdown
-highlighter: pygments
 gems:
     - jekyll-sitemap
     - jekyll-feed
