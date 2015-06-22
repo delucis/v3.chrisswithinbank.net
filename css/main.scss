@@ -359,7 +359,7 @@ figcaption {
    ========================================================================== */
 .site-header {
   transition: background-color 0.2s ease;
-  @include xlargebp {
+  @include largebp {
     color: $text-dark;
     background: transparent;
     opacity: 0.45;
@@ -382,13 +382,13 @@ figcaption {
     font-weight: 700;
     text-transform: uppercase;
     letter-spacing: 0.1em;
-    @include xlargebp {
+    @include largebp {
       display: none;
     }
   } // .menu-button
   &.active {
     background-color: rgba($text-dark, 0.01);
-    @include xlargebp {
+    @include largebp {
       background-color: transparent;
     }
     .menu-button {
@@ -411,7 +411,7 @@ figcaption {
     font-weight:300;
     letter-spacing: -0.05em;
     word-spacing: 0.15em;
-    @include xlargebp {
+    @include largebp {
       display: block;
       padding: 0;
       width: 5.2em;
@@ -419,7 +419,7 @@ figcaption {
     }
     a {
       text-decoration: none;
-      @include xlargebp {
+      @include largebp {
         text-transform: none;
         line-height: 1;
         padding: 0.3em 0.3em 0.15em;
@@ -536,11 +536,11 @@ figcaption {
       box-shadow: inset 0 -0.5em 1.111em -0.833em rgba($text-dark, 0.5);
       -webkit-transition-timing-function: cubic-bezier(0.550, 0.055, 0.675, 0.190), cubic-bezier(0.550, 0.055, 0.675, 0.190);
               transition-timing-function: cubic-bezier(0.550, 0.055, 0.675, 0.190), cubic-bezier(0.550, 0.055, 0.675, 0.190);
-      @include xlargebp {
+      @include largebp {
         box-shadow: none;
       }
     }
-    @include xlargebp {
+    @include largebp {
       max-height: none;
       margin-top: 1.6em;
     }
@@ -549,7 +549,7 @@ figcaption {
       margin: 0;
       padding: 0;
       li {
-        @include xlargebp {
+        @include largebp {
         }
         a {
           -webkit-transition: all 0.15s ease-in;
@@ -558,7 +558,7 @@ figcaption {
           text-decoration: none;
           display: block;
           padding: .5em 5%;
-          @include xlargebp {
+          @include largebp {
             padding: 0;
             box-shadow: none;
             -webkit-transition-timing-function: ease;
@@ -567,7 +567,7 @@ figcaption {
           &:hover {
             color: $menu-text;
             background-color: $menu-highlight;
-            @include xlargebp {
+            @include largebp {
               color: $link-hover;
               background-color: transparent;
             }
@@ -592,7 +592,7 @@ figcaption {
   @include mediumbp {
     margin: 1.6em auto 0;
   }
-  @include xlargebp {
+  @include largebp {
     margin-top: 0;
     padding-top: 0.8em;
     border-top: 0.8em solid $text-dark;
@@ -606,7 +606,7 @@ figcaption {
   .secondary {
     max-width: 25.6em;
     border-top: 4px double rgba($text-dark, 0.2);
-    @include xlargebp {
+    @include largebp {
       border-top: none;
     }
   }
@@ -615,7 +615,7 @@ figcaption {
   margin: 0;
   padding: 0 5%;
   border-top: 4px double rgba($text-dark, 0.2);
-  @include xlargebp {
+  @include largebp {
     border-top: none;
   }
   @include mediumbp {
@@ -624,7 +624,7 @@ figcaption {
     padding-right: calc(100% - 28.8em);
   }
 }
-@include xlargebp {
+@include largebp {
   body {
     background-color: rgb(247, 249, 246);
   }
