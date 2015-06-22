@@ -5,6 +5,7 @@
 $bp-small: 30em;
 $bp-large: 45em;
 $bp-xlarge: 60em;
+$bp-xxlarge: 70em;
 /* FONTS */
 $body-font: Alegreya, serif;
 $display-font: Infini, Optima, sans-serif;
@@ -39,6 +40,11 @@ $menu-button: $text-dark;
 }
 @mixin xlargebp {
   @media only screen and (min-width: #{$bp-xlarge}) {
+    @content;
+  }
+}
+@mixin xxlargebp {
+  @media only screen and (min-width: #{$bp-xxlarge}) {
     @content;
   }
 }
