@@ -327,10 +327,6 @@ figcaption {
   }
 }
 .site-footer {
-  border-top: 4px double rgba($text-dark, 0.2);
-  @include xlargebp {
-    border-top: none;
-  }
   dl {
     color: rgba($text-dark, 0.55);
     padding: 1.6em 0;
@@ -592,7 +588,10 @@ figcaption {
 .container {
   width: 100%;
   margin: 1.6em 0 0;
-  padding-bottom: 1.6em;
+  padding: 0 5% 1.6em;
+  @include largebp {
+    margin: 1.6em auto 0;
+  }
   @include xlargebp {
     margin-top: 0;
     padding-top: 0.8em;
@@ -600,36 +599,46 @@ figcaption {
     box-shadow: 0 0 15px rgba(0, 0, 0, 0.1);
     background-color: $bg-light;
   }
+  .primary {
+    margin-bottom: 1.6em;
+    max-width: 25.6em;
+  }
+  .secondary {
+    max-width: 25.6em;
+    border-top: 4px double rgba($text-dark, 0.2);
+    @include xlargebp {
+      border-top: none;
+    }
+  }
 }
-.container, .site-footer {
-  padding-left: 5%;
-  padding-right: 5%;
+.site-footer {
+  margin: 0;
+  padding: 0 5%;
+  border-top: 4px double rgba($text-dark, 0.2);
+  @include xlargebp {
+    border-top: none;
+  }
   @include largebp {
-    margin-left: auto;
-    margin-right: auto;
+    margin: 0 auto;
     padding-left: calc(3.2em);
     padding-right: calc(100% - 28.8em);
-  }
-  @include xlargebp {
   }
 }
 @include xlargebp {
   body {
     background-color: rgb(247, 249, 246);
   }
+  .site-header {
+      position: fixed;
+      width: 10.8em;
+      height: 100%;
+      overflow-y: scroll;
+      padding: 1.6em;
+  }
   .wrapper {
     width: 75%;
     width: calc(100% - 10.8em);
     margin-left: 10.8em;
-  }
-}
-.site-header {
-  @include xlargebp {
-    position: fixed;
-    width: 10.8em;
-    height: 100%;
-    overflow-y: scroll;
-    padding: 1.6em;
   }
 }
 
