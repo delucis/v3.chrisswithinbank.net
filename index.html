@@ -5,9 +5,9 @@ tags:
   - home
 layout: default
 ---
-<div class="primary hfeed">
   <h2>{{ page.title }}</h2>
   {% if page.digest %}<p><em>{{ page.digest }}</em></p>{% endif %}
+<section class="primary hfeed">
   {% for post in paginator.posts %}
   <article id="{{ post.title | slugify }}" class="hentry{% if forloop.first %} first{% endif %}">
     <h3 class="entry-title"><a href="{{ post.url }}" rel="bookmark">{{ post.title }}</a></h3>
@@ -26,9 +26,9 @@ layout: default
     <a href="{{ paginator.next_page_path }}" class="next">Newer</a>{% else %}
     <span class="next ">Newer</span>{% endif %}
   </div>
-</div>
   <h2>Microbiography</h2>
   <p>My name is Chris Swithinbank and I write <a href="/works/"><strong>music</strong></a> using acoustic instruments and electronic sounds. Occasionally, I also write <a href="/text/"><strong>text</strong></a> about music or related subjects. I am currently a student at Harvard University with Chaya Czernowin. <a href="/bio/">More about me »</a></p>
+</section>
 <aside class="secondary" role="complementary">
 
   {% capture nextevent %}{% include events_archive-list.html scope="future" limit="1" %}{% endcapture %}{% if nextevent %}<div class="events">
