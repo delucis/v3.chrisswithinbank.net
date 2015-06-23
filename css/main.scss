@@ -203,6 +203,7 @@ a {
 ul,
 ol,
 dl {
+  margin: 0;
   padding-left: 1.2em;
   @include smallbp {
     padding-left: 0;
@@ -546,7 +547,6 @@ figcaption {
     }
     ul {
       list-style-type: none;
-      margin: 0;
       padding: 0;
       li {
         @include largebp {
