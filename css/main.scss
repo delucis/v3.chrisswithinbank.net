@@ -588,7 +588,6 @@ figcaption {
 .container {
   width: 100%;
   margin: 1.6em 0 0;
-  padding: 0 5% 1.6em;
   @include mediumbp {
     margin: 1.6em auto 0;
   }
@@ -600,13 +599,14 @@ figcaption {
     background-color: $bg-light;
   }
   .primary {
-    margin-bottom: 1.6em;
+    padding: 0 5% 1.6em;
     max-width: 25.6em;
     @include xlargebp {
       float: left;
     }
   }
   .secondary {
+    padding: 0 5% 1.6em;
     max-width: 25.6em;
     border-top: 4px double rgba($text-dark, 0.2);
     @include xlargebp {
