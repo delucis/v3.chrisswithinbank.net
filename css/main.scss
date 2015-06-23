@@ -653,6 +653,45 @@ figcaption {
 }
 
 /* ==========================================================================
+   Sidebar Styling
+   ========================================================================== */
+.secondary {
+  background: $bg-dark;
+  color: $bg-light;
+  a {
+    color: $bg-light;
+    text-shadow:
+      0 -.03em $bg-dark,0 0 $bg-dark,0 .03em $bg-dark,0 .06em $bg-dark,0 .08em $bg-dark,
+      .03em -.03em $bg-dark,.03em 0 $bg-dark,.03em .03em $bg-dark,.03em .06em $bg-dark,.03em .08em $bg-dark,
+      -.03em -.03em $bg-dark,-.03em 0 $bg-dark,-.03em .03em $bg-dark,-.03em .06em $bg-dark,-.03em .08em $bg-dark,
+      .06em -.03em $bg-dark,.06em 0 $bg-dark,.06em .03em $bg-dark,.06em .06em $bg-dark,.06em .08em $bg-dark,
+      -.06em -.03em $bg-dark,-.06em 0 $bg-dark,-.06em .03em $bg-dark,-.06em .06em $bg-dark,-.06em .08em $bg-dark,
+      .08em -.03em $bg-dark,.08em 0 $bg-dark,.08em 0.03em $bg-dark,.08em 0.06em $bg-dark,.08em 0.08em $bg-dark,
+      -.08em -.03em $bg-dark,-.08em 0 $bg-dark,-.08em 0.03em $bg-dark,-.08em 0.06em $bg-dark,-.08em 0.08em $bg-dark;
+    &:hover {
+      color: $bg-light;
+      background-image: linear-gradient(rgba(0,0,0,0),rgba(0,0,0,0)), linear-gradient(rgba(0,0,0,0),rgba(0,0,0,0)), linear-gradient($link-hover, $link-hover);
+    }
+  }
+  section {
+    ul {
+      list-style: none;
+      padding-left: 0;
+    }
+    margin-bottom: 3.2em;
+    h3 {
+      margin-top: 1.2em;
+    }
+  }
+  @include xlargebp {
+    text-align: left;
+    blockquote, p {
+      text-align: left;
+    }
+  }
+}
+
+/* ==========================================================================
    Social Media Icons
    ========================================================================== */
 .icon {
