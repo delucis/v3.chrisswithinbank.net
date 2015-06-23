@@ -1,3 +1,4 @@
+{% capture cache %}
 {% assign workhasperformances = null %}
 {% for event in site.categories.events %}
   {% if workhasperformances %}
@@ -6,19 +7,14 @@
   {% if event.works contains page.title %}
     {% assign workhasperformances = 1 %}
   {% endif %}
-{% endfor %}
-
-{% if workhasperformances %}
+{% endfor %}{% endcapture %}{% assign cache = nil %}{% if workhasperformances %}
 <section class="performances">
   <h3>Performances</h3>
-  <ul>
-    {% for event in site.categories.events %}{% if event.works contains page.title %}
-        <li>
-          <h4>{{ event.date | date: '%-d %B %Y' }}</h4>
-          {% if event.premiere == true %}<p class="premiere">First Performance</p>{% endif %}
-          <p>{% if event.performer.url %}<a href="{{ event.performer.url }}">{{ event.performer.name }}</a>{% else %}{{ event.performer.name }}{% endif %}{% if event.venue.url %}, <a href="{{ event.venue.url }}">{{ event.venue.name }}</a>{% else %}, {{ event.venue.name }}{% endif %}</p>
-        </li>
-    {% endif %}{% endfor %}
+  <ul>{% for event in site.categories.events %}{% if event.works contains page.title %}
+    <li>
+      <h4>{{ event.date | date: '%-d %B %Y' }}</h4>{% if event.premiere == true %}
+      <p class="premiere">First Performance</p>{% endif %}
+      <p>{% if event.performer.url %}<a href="{{ event.performer.url }}">{{ event.performer.name }}</a>{% else %}{{ event.performer.name }}{% endif %}{% if event.venue.url %}, <a href="{{ event.venue.url }}">{{ event.venue.name }}</a>{% else %}, {{ event.venue.name }}{% endif %}</p>
+    </li>{% endif %}{% endfor %}
   </ul>
-</section>
-{% endif %}
+</section>{% endif %}
