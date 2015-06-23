@@ -599,7 +599,7 @@ figcaption {
   }
   .primary {
     padding: 0 5% 1.6em;
-    max-width: 25.6em;
+    max-width: calc(25.6em + 10%);
     @include largebp {
       padding-top: 0.8em;
     }
@@ -609,21 +609,15 @@ figcaption {
   }
   .secondary {
     padding: 0 5% 1.6em;
-    max-width: 25.6em;
-    border-top: 4px double rgba($text-dark, 0.2);
+    border-top: 4px double rgba($bg-light, 0.2);
     @include largebp {
       padding-top: 0.8em;
     }
     @include xlargebp {
       float: left;
-      margin-left: 5%;
-      width: calc(95% - 25.6em);
-      max-width: 15.8em;
+      width: calc(90% - 25.6em);
+      max-width: calc(15.8em + 10%);
       border-top: none;
-      text-align: left;
-      blockquote, p {
-        text-align: left;
-      }
     }
   }
 }
