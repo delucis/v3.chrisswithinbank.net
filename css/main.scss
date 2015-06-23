@@ -581,7 +581,98 @@ figcaption {
 .no-js .menu {
   display: block;
 }
-
+/* ==========================================================================
+   Pagination
+   ========================================================================== */
+.pagination {
+  height: 3.11111em;
+  width: 100%;
+  line-height: 3.11111;
+  text-align: center;
+  font-family: $display-font;
+  .separator {
+    display: none;
+  }
+  .page_number {
+    display: block;
+    float: left;
+    height: 3.11111em;
+    width: 3.6em;
+    border-left: 0.2em solid $bg-light;
+    border-right: 0.2em solid $bg-light;
+    border-radius: 0.3em;
+    display: block;
+    background: $light-outline; /* Old browsers */
+    background: -moz-linear-gradient(-45deg,  $light-outline 0%, $light-outline 49%, $text-dark 49%, $text-dark 51%, $light-outline 51%, $light-outline 100%); /* FF3.6+ */
+    background: -webkit-gradient(linear, left top, right bottom, color-stop(0%,$light-outline), color-stop(49%,$light-outline), color-stop(49%,$text-dark), color-stop(51%,$text-dark), color-stop(51%,$light-outline), color-stop(100%,$light-outline)); /* Chrome,Safari4+ */
+    background: -webkit-linear-gradient(-45deg,  $light-outline 0%,$light-outline 49%,$text-dark 49%,$text-dark 51%,$light-outline 51%,$light-outline 100%); /* Chrome10+,Safari5.1+ */
+    background: -o-linear-gradient(-45deg,  $light-outline 0%,$light-outline 49%,$text-dark 49%,$text-dark 51%,$light-outline 51%,$light-outline 100%); /* Opera 11.10+ */
+    background: -ms-linear-gradient(-45deg,  $light-outline 0%,$light-outline 49%,$text-dark 49%,$text-dark 51%,$light-outline 51%,$light-outline 100%); /* IE10+ */
+    background: linear-gradient(135deg,  $light-outline 0%,$light-outline 49%,$text-dark 49%,$text-dark 51%,$light-outline 51%,$light-outline 100%); /* W3C */
+    .numerator, .denominator {
+      line-height: 1.6;
+      display: block;
+      width: 66%;
+    }
+    .denominator {
+      margin-left: 33.33%;
+    }
+  }
+  .arrow {
+    display: block;
+    position: relative;
+    float: left;
+    height: 3.11111em;
+    width: calc(50% - 2.8em);
+    background: $light-outline;
+    color: $text-light;
+    &.newer {
+      margin-right: 1em;
+      &:after {
+        content: "";
+        position: absolute;
+        right: -1.15555em;
+        top: 0;
+        border-top: 1.6em solid transparent;
+        border-bottom: 1.6em solid transparent;
+        border-left: 1.2em solid $light-outline;
+      }
+    }
+    &.older {
+      margin-left: 1em;
+      &:before {
+        content: "";
+        position: absolute;
+        left: -1.15555em;
+        top: 0;
+        border-top: 1.6em solid transparent;
+        border-bottom: 1.6em solid transparent;
+        border-right: 1.2em solid $light-outline;
+      }
+    }
+  }
+  a.arrow {
+    background: $link-underline;
+    color: $text-dark;
+    text-shadow: none;
+    &:hover {
+      color: $bg-light;
+      background: $link-hover;
+      &.newer:after {
+        border-left-color: $link-hover;
+      }
+      &.older:before {
+        border-right-color: $link-hover;
+      }
+    }
+    &.newer:after {
+      border-left-color: $link-underline;
+    }
+    &.older:before {
+      border-right-color: $link-underline;
+    }
+  }
+}
 /* ==========================================================================
    Page Structure
    ========================================================================== */
