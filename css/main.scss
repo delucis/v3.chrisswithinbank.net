@@ -593,7 +593,6 @@ figcaption {
   }
   @include largebp {
     margin-top: 0;
-    padding-top: 0.8em;
     border-top: 0.8em solid $text-dark;
     box-shadow: 0 0 15px rgba(0, 0, 0, 0.1);
     background-color: $bg-light;
@@ -601,6 +600,9 @@ figcaption {
   .primary {
     padding: 0 5% 1.6em;
     max-width: 25.6em;
+    @include largebp {
+      padding-top: 0.8em;
+    }
     @include xlargebp {
       float: left;
     }
@@ -609,6 +611,9 @@ figcaption {
     padding: 0 5% 1.6em;
     max-width: 25.6em;
     border-top: 4px double rgba($text-dark, 0.2);
+    @include largebp {
+      padding-top: 0.8em;
+    }
     @include xlargebp {
       float: left;
       margin-left: 5%;
