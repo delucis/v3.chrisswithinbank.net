@@ -5,13 +5,17 @@ tags:
   - home
 layout: default
 ---
-  <h2>{{ page.title }}</h2>
-  {% if page.digest %}<p><em>{{ page.digest }}</em></p>{% endif %}
 <section class="primary hfeed">
+  <header>
+    <h2>{{ page.title }}</h2>{% if page.digest %}
+    <p><em>{{ page.digest }}</em></p>{% endif %}
+  </header>
   {% for post in paginator.posts %}
   <article id="{{ post.title | slugify }}" class="hentry{% if forloop.first %} first{% endif %}">
-    <h3 class="entry-title"><a href="{{ post.url }}" rel="bookmark">{{ post.title }}</a></h3>
-    <p class="entry-meta"><time class="published" datetime="{{ post.date | date: '%Y-%m-%d'}}">{{ post.date | date: "%-d %B %Y" }}</time></p>
+    <header>
+      <h3 class="entry-title"><a href="{{ post.url }}" rel="bookmark">{{ post.title }}</a></h3>
+      <p class="entry-meta"><time class="published" datetime="{{ post.date | date: '%Y-%m-%d'}}">{{ post.date | date: "%-d %B %Y" }}</time></p>
+    </header>
     <div class="entry-content">
       {{ post.content }}
     </div>{% if post.layout == 'audit' %}
