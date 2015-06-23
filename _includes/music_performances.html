@@ -9,7 +9,7 @@
 {% endfor %}
 
 {% if workhasperformances %}
-
+<section class="performances">
   <h3>Performances</h3>
   <ul>
     {% for event in site.categories.events %}{% if event.works contains page.title %}
@@ -20,5 +20,5 @@
         </li>
     {% endif %}{% endfor %}
   </ul>
-
+</section>
 {% endif %}
