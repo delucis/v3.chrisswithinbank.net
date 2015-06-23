@@ -1,11 +1,13 @@
 ---
 layout: default
 ---
-<h2>{{ page.title }}</h2>
-{% if page.subtitle %}
-<h3>{{ page.subtitle }}</h3>
-{% endif %}
-<p class="meta">{{ page.date | date: '%-d %B %Y' }}</p>
-<div class="post">
-  {{ content }}
+<div class="primary">
+  <h2>{{ page.title }}</h2>
+  {% if page.subtitle %}
+  <h3>{{ page.subtitle }}</h3>
+  {% endif %}
+  <p class="meta">{{ page.date | date: '%-d %B %Y' }}</p>
+  <div class="post">
+    {{ content }}
+  </div>
 </div>

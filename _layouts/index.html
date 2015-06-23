@@ -1,22 +1,24 @@
 ---
 layout: default
 ---
-<h2>{{ page.title }}</h2>
-{% if page.digest %}<p><em>{{ page.digest }}</em></p>{% endif %}
+<div class="primary">
+  <h2>{{ page.title }}</h2>
+  {% if page.digest %}<p><em>{{ page.digest }}</em></p>{% endif %}
 
-{{ content }}
+  {{ content }}
 
-{% if site.data.[page.datafile] %}
-<ul class="datalist">
-  {% for project in site.data.[page.datafile] %}
-  <li>
-    <h3><a href="{{ project.link }}">{{ project.name }}</a></h3>
-    <p>
-      {{ project.description }}
-      <br />
-      <a href="{{ project.repo }}">See the code »</a>
-    </p>
-  </li>
-  {% endfor %}
-</ul>
-{% endif %}
+  {% if site.data.[page.datafile] %}
+  <ul class="datalist">
+    {% for project in site.data.[page.datafile] %}
+    <li>
+      <h3><a href="{{ project.link }}">{{ project.name }}</a></h3>
+      <p>
+        {{ project.description }}
+        <br />
+        <a href="{{ project.repo }}">See the code »</a>
+      </p>
+    </li>
+    {% endfor %}
+  </ul>
+  {% endif %}
+</div>
