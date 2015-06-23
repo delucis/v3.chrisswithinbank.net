@@ -1,13 +1,11 @@
-{% if page.instrumentationlist %}
-<h3>Instrumentation</h3>
-<ul>
-{% for item in page.instrumentationlist %}
-<li>{{ item }}</li>
-{% endfor %}
-</ul>
-{% endif %}
-
 {% if page.duration %}
-<h3>Duration</h3>
-<p>{{ page.duration }}</p>
-{% endif %}
+<section class="duration">
+  <h3>Duration</h3>
+  <p>{{ page.duration }}</p>
+</section>{% endif %}{% if page.instrumentationlist %}
+<section class="instrumentation">
+  <h3>Instrumentation</h3>
+  <ul>{% for item in page.instrumentationlist %}
+    <li>{{ item }}</li>{% endfor %}
+  </ul>
+</section>{% endif %}
