@@ -1,5 +1,6 @@
 ---
 title: About me
+layout: page
 ---
 ## {{ page.title }}
 
