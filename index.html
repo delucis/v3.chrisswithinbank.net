@@ -23,12 +23,19 @@ layout: default
   </article>{% endfor %}
 
   <!-- Pagination links -->
-    <a href="{{ paginator.previous_page_path }}" class="previous">Older</a>{% else %}
-    <span class="previous">Older</span>{% endif %}
-    <span class="page_number ">Page: {{ paginator.page }} of {{ paginator.total_pages }}</span>{% if paginator.next_page %}
-    <a href="{{ paginator.next_page_path }}" class="next">Newer</a>{% else %}
-    <span class="next ">Newer</span>{% endif %}
   <footer class="pagination clearfix">{% if paginator.previous_page %}
+    <a href="{{ paginator.previous_page_path }}" class="arrow older">Older</a>{% else %}
+    <span class="arrow older">Older</span>{% endif %}
+    <span class="separator">—</span>
+    <span class="page_number">
+      <span class="visuallyhidden">Page</span>
+      <span class="numerator">{{ paginator.page }}</span>
+      <span class="visuallyhidden">of</span>
+      <span class="denominator">{{ paginator.total_pages }}</span>
+    </span>
+    <span class="separator">—</span>{% if paginator.next_page %}
+    <a href="{{ paginator.next_page_path }}" class="arrow newer">Newer</a>{% else %}
+    <span class="arrow newer">Newer</span>{% endif %}
   </footer>
 </section>
 <aside class="secondary" role="complementary">
