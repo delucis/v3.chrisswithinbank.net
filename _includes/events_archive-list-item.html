@@ -19,7 +19,7 @@
         {% assign headline = event.title %}{% endif %}
       <a href="{{ event.url }}" title="{{ headline | strip_html }}">{{ headline }}</a>
     </h3>
-    <time datetime="{{ eventdate | date_to_xmlschema }}" class="eventdate">{{ eventdate | date: "%-d %B %Y, %k:%M" }}</time>{% if event.performer %}
+    <time datetime="{{ eventdate | date_to_xmlschema }}" class="eventdate">{{ eventdate | date: "%-d %B %Y, %-I" }}{% assign eventminutes = eventdate | date: '%M' %}{% if eventminutes == '00' %}{{ eventdate | date: '%p' | downcase }}{% else %}{{ eventdate | date: ':%M%p' | downcase }}{% endif %}</time>{% if event.performer %}
     <p class="performer">{% if event.performer.url %}
       <a href="{{ event.performer.url }}">{{ event.performer.name }}</a>{% else %}
       {{ event.performer.name }}{% endif %}
