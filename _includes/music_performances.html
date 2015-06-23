@@ -1,5 +1,5 @@
 {% assign workhasperformances = null %}
-{% for event in site.events %}
+{% for event in site.categories.events %}
   {% if workhasperformances %}
     {% break %}
   {% endif %}
@@ -12,7 +12,7 @@
 
   <h3>Performances</h3>
   <ul>
-    {% for event in site.events reversed %}{% if event.works contains page.title %}
+    {% for event in site.categories.events %}{% if event.works contains page.title %}
         <li>
           <h4>{{ event.date | date: '%-d %B %Y' }}</h4>
           {% if event.premiere == true %}<p class="premiere">First Performance</p>{% endif %}
