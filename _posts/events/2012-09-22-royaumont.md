@@ -10,6 +10,7 @@ venue:
   address: 95270 Asnières-sur-Oise, France
 works:
   - All the time that you have what we have. / All the time that you have.
+premiere: All the time that you have what we have. / All the time that you have.
 programme:
   - composer: Chris Swithinbank
     work: All the time that you have what we have. / All the time that you have.

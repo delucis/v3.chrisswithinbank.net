@@ -12,8 +12,10 @@
   <h3>Performances</h3>
   <ul>{% for event in site.categories.events %}{% if event.works contains page.title %}
     <li>
-      <h4>{{ event.date | date: '%-d %B %Y' }}</h4>{% if event.premiere == true %}
-      <p class="premiere">First Performance</p>{% endif %}
+      <h4>{% if event.premiere == page.title %}
+        <abbr class="premiere" title="World Premiere">WP</abbr> {% endif %}
+        {{ event.date | date: '%-d %B %Y' }}
+      </h4>
       <p>{% if event.performer.url %}<a href="{{ event.performer.url }}">{{ event.performer.name }}</a>{% else %}{{ event.performer.name }}{% endif %}{% if event.venue.url %}, <a href="{{ event.venue.url }}">{{ event.venue.name }}</a>{% else %}, {{ event.venue.name }}{% endif %}</p>
     </li>{% endif %}{% endfor %}
   </ul>

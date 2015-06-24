@@ -10,6 +10,7 @@ venue:
 facebook: https://www.facebook.com/events/455532684486948/
 works:
   - The Incredulity of St Thomas
+premiere: The Incredulity of St Thomas
 programme:
   - composer: Chris Swithinbank
     work: The Incredulity of St Thomas

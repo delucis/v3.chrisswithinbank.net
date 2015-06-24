@@ -12,6 +12,7 @@ venue:
 locationtype: PerformingArtsTheater
 works:
   - rumour — distant land
+premiere: rumour — distant land
 programme:
   - composer: Chris Swithinbank
     work: rumour — distant land

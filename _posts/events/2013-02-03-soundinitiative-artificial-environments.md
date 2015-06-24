@@ -12,6 +12,7 @@ venue:
 works:
   - All that is solid melts into air
   - All the time that you have what we have. / All the time that you have.
+premiere: All that is solid melts into air
 programme:
   - composer: Chris Swithinbank
     work: All the time that you have what we have. / All the time that you have.
