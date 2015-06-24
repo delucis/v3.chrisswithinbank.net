@@ -8,6 +8,7 @@ performer:
 venue:
   name:
   url:
+  shortaddress:
   address:
 facebook:
 works:
