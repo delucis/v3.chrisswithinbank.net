@@ -652,11 +652,10 @@ figcaption {
     }
   }
   a.arrow {
-    background: $link-underline;
-    color: $text-dark;
+    background: $bg-dark;
+    color: $bg-light;
     text-shadow: none;
     &:hover {
-      color: $bg-light;
       background: $link-hover;
       &.newer:after {
         border-left-color: $link-hover;
@@ -666,10 +665,10 @@ figcaption {
       }
     }
     &.newer:after {
-      border-left-color: $link-underline;
+      border-left-color: $bg-dark;
     }
     &.older:before {
-      border-right-color: $link-underline;
+      border-right-color: $bg-dark;
     }
   }
 }
