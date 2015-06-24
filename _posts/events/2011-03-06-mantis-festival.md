@@ -7,6 +7,7 @@ performer:
 venue:
   name: Islington Mill
   url: http://www.islingtonmill.com/
+  shortaddress: Salford, UK
   address: 1 James Street, Salford, Lancashire M3 5HW, United Kingdom
 facebook: https://www.facebook.com/events/107309719349647/
 works:

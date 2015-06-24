@@ -8,6 +8,7 @@ performertype: Person
 venue:
   name: Hexham Abbey
   url: http://www.hexhamabbey.org.uk/
+  shortaddress: UK
   address: Beaumont Street, Hexham NE46 3NB, United Kingdom
 locationtype: Church
 works:

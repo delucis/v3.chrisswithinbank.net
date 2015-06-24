@@ -7,6 +7,7 @@ performer:
 venue:
   name: Martin Harris Centre for Music and Drama
   url: http://www.martinharriscentre.manchester.ac.uk/
+  shortaddress: Manchester, UK
   address: The University of Manchester, Bridgeford Street, Manchester M13 9PL, United Kingdom
 facebook: https://www.facebook.com/events/64188134251/
 works:

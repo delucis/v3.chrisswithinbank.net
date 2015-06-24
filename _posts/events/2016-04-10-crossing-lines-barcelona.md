@@ -7,6 +7,7 @@ performer:
 venue:
   name: L’Auditori
   url: https://www.auditori.cat/
+  shortaddress: Barcelona
   address: Carrer de Lepant, 150, 08013 Barcelona, Spain
 works:
   - Small Atlas

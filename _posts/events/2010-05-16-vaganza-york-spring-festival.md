@@ -7,6 +7,7 @@ performer:
 venue:
   name: York Spring Festival of New Music
   url: http://www.yorkspringfestival.co.uk/
+  shortaddress: UK
   address: Department of Music, University of York, York, UK YO10 5DD, United Kingdom
 facebook: https://www.facebook.com/events/186340652629/
 works:

@@ -7,6 +7,7 @@ performer:
 venue:
   name: Collège Franco-Britannique
   url: http://www.ciup.fr/college-franco-britannique/
+  shortaddress: Paris
   address: 9B Boulevard Jourdan, 75014 Paris, France
 facebook: https://www.facebook.com/events/1497426750545237/
 works:

@@ -7,6 +7,7 @@ performer:
 venue:
   name: International Anthony Burgess Foundation
   url: http://www.anthonyburgess.org/
+  shortaddress: Manchester, UK
   address: 3 Cambridge Street, Manchester M1 5BY, United Kingdom
 facebook: https://www.facebook.com/event.php?eid=249614118407108
 works:

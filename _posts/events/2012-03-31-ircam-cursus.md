@@ -8,6 +8,7 @@ performertype: Person
 venue:
   name: IRCAM
   url: http://www.ircam.fr/
+  shortaddress: Paris
   address: 1 Place Igor-Stravinsky, 75004 Paris, France
 facebook: https://www.facebook.com/events/305322429532912/
 works:

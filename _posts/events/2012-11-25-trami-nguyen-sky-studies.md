@@ -7,6 +7,7 @@ performer:
 performertype: Person
 venue:
   name: Église de Vincey
+  shortaddress: France
   address: 19 Rue du Pincieux, 88450 Vincey, France
 locationtype: Church
 works:

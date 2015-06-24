@@ -7,6 +7,7 @@ performer:
 venue:
   name: Le Regard du Cygne
   url: http://www.leregarducygne.com/
+  shortaddress: Paris
   address: 210 Rue de Belleville, 75020 Paris, France
 facebook: https://www.facebook.com/events/533715060071844/
 works:

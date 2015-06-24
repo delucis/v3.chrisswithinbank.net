@@ -6,6 +6,7 @@ performer:
 venue:
   name: Fundación Antonio Pérez
   url: http://www.fundacionantonioperez.es/
+  shortaddress: Cuenca, Spain
   address: Calle de Julián Romero, 20, 16001 Cuenca, Spain
 works:
   - La leggerezza delle città

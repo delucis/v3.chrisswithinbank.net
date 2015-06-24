@@ -6,6 +6,7 @@ performer:
   url: http://www.fonemaconsort.com/
 venue:
   name: Wentz Concert Hall
+  shortaddress: Naperville, IL
   address: 171 E Chicago Ave, Naperville, IL 60540, United States
 facebook: https://www.facebook.com/events/206924012844172/
 works:

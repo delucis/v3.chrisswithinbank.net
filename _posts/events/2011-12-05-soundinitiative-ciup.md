@@ -7,6 +7,7 @@ performer:
 venue:
   name: Fondation Biermans-Lapôtre
   url: http://www.fbl-paris.org/
+  shortaddress: Paris
   address: 9A Boulevard Jourdan, 75014 Paris, France
 facebook: https://www.facebook.com/events/156768824420249/
 works:

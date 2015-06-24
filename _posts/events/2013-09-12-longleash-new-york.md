@@ -7,6 +7,7 @@ performer:
 venue:
   name: Opera America
   url: http://www.operaamerica.org/
+  shortaddress: New York
   address: 330 7th Ave, New York, NY 10001, United States
 works:
   - Icebloom

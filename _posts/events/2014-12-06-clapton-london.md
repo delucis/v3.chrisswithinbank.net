@@ -7,6 +7,7 @@ performer:
 venue:
   name: Hundred Years Gallery
   url: http://www.hundredyearsgallery.com/
+  shortaddress: London
   address: 13 Pearson Street, London E2 8JD, United Kingdom
 locationtype: ArtGallery
 facebook: https://www.facebook.com/events/385868611589470/

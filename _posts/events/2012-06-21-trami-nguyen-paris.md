@@ -8,6 +8,7 @@ performertype: Person
 venue:
   name: Cité des Arts
   url: http://www.citedesartsparis.net/
+  shortaddress: Paris
   address: 18 Rue de l'Hôtel de ville, 75180 Paris, France
 facebook: https://www.facebook.com/events/247297432049484/
 works:

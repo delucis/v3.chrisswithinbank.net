@@ -7,6 +7,7 @@ performer:
 venue:
   name: Royal Northern College of Music
   url: http://www.rncm.ac.uk/
+  shortaddress: Manchester, UK
   address: 124 Oxford Road, Manchester M13 9RD, United Kingdom
 works:
   - "Mikrokonzert: I Swear I Saw the Sun Falling"

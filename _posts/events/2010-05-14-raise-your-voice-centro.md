@@ -6,6 +6,7 @@ performer:
   url: http://www.raise-your-voice.org/
 venue:
   name: Centro Bar
+  shortaddress: Manchester, UK
   address: 74 Tib Street, Manchester M4 1LG, United Kingdom
 works:
   - The Golden Lion Hotel

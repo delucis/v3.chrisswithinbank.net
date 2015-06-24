@@ -7,6 +7,7 @@ performer:
 venue:
   name: MadLab
   url: http://madlab.org.uk/
+  shortaddress: Manchester, UK
   address: 36-40 Edge Street, Manchester M4 1HN, United Kingdom
 works:
   - La leggerezza delle città

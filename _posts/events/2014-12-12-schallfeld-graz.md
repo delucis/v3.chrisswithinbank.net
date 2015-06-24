@@ -6,6 +6,7 @@ performer:
   url: http://www.schallfeldensemble.com/
 venue:
   name: Veranstaltungssaal der KHG Graz
+  shortaddress: Austria
   address: Leechgasse 22, 8010 Graz, Austria
 facebook: https://www.facebook.com/events/972589792755683/
 works:

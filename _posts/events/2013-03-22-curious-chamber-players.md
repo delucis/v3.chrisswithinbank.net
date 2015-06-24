@@ -7,6 +7,7 @@ performer:
 venue:
   name: Vårflod Festival
   url: http://samtidamusik.se/samtid/sv/konsert/v-rflod-garth-knox-och
+  shortaddress: Stockholm
   address: Sankt Eriksgatan 82, 113 62 Stockholm, Sweden
 works:
   - The Incredulity of St Thomas

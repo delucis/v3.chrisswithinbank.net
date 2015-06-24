@@ -8,6 +8,7 @@ performertype: Person
 venue:
   name: David Josefowitz Recital Hall
   url: http://www.ram.ac.uk/
+  shortaddress: London
   address: Marylebone Road, London NW1 5HT, United Kingdom
 works:
   - 3 Sunsets

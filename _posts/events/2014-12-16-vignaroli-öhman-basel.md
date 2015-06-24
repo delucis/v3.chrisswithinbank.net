@@ -7,6 +7,7 @@ performer:
 venue:
   name: Unternehmen Mitte
   url: http://www.mitte.ch/
+  shortaddress: Basel
   address: Gerbergasse 30, 4001 Basel, Switzerland
 facebook: https://www.facebook.com/events/1538739263033263/
 works:

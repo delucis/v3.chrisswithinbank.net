@@ -8,6 +8,7 @@ performertype: Person
 venue:
   name: CNSMdP
   url: http://www.conservatoiredeparis.fr/
+  shortaddress: Paris
   address: 209 Avenue Jean Jaurès, 75019 Paris, France
 works:
   - something golden in the night

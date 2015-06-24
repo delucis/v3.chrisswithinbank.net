@@ -7,6 +7,7 @@ performer:
 venue:
   name: What’s Next Festival
   url: http://whats-next.be/
+  shortaddress: Brussels
   address: 21, rue de Manchester, 1080 Sint-Jans-Molenbeek, Belgium
 locationtype: PerformingArtsTheater
 works:

@@ -8,6 +8,7 @@ performer:
 venue:
   name: KAPU
   url: http://www.kapu.or.at/
+  shortaddress: Linz, Austria
   address: Kapuzinerstraße 36, 4020 Linz, Austria
 facebook: https://www.facebook.com/events/156913547724254/
 works:

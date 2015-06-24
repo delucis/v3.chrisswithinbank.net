@@ -7,6 +7,7 @@ performer:
 venue:
   name: Conservatoire de Saint-Cloud
   url: http://www.conservatoiresaintcloud.com/
+  shortaddress: France
   address: 30 Ter Boulevard de la République, 92210 Saint-Cloud, France
 facebook: https://www.facebook.com/events/276712919027359/
 works:

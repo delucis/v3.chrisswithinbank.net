@@ -8,6 +8,7 @@ performertype: Person
 venue:
   name: Scandinavian Saxophone Festival
   address: Grønland 60, 3045 Drammen, Norway
+  shortaddress: Drammen, Norway
 facebook: https://www.facebook.com/events/314723328551145/
 works:
   - something golden in the night

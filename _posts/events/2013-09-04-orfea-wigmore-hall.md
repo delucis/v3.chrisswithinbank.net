@@ -7,6 +7,7 @@ performer:
 venue:
   name: Wigmore Hall
   url: http://www.wigmore-hall.org.uk/
+  shortaddress: London
   address: 36 Wigmore Street, London W1U 2BP, United Kingdom
 works:
   - still point

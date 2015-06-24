@@ -6,6 +6,7 @@ performer:
 venue:
   name: Abbaye de Neumünster
   url: https://www.neimenster.lu/
+  shortaddress: Luxembourg
   address: 28 Rue Münster, 2160 Luxembourg
 works:
   - Reflections

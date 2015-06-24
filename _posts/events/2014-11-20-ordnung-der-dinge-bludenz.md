@@ -7,6 +7,7 @@ performer:
 venue:
   name: Bludenzer Tage zeit­gemäßer Musik
   url: http://btzm.at/
+  shortaddress: Austria
   address: Raiffeisenpl. 1, 6700 Bludenz, Austria
 locationtype: PerformingArtsTheater
 works:

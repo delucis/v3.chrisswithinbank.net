@@ -7,6 +7,7 @@ performer:
 venue:
   name: St Michael and All Angels Church
   url: http://www.stmichaels-macclesfield.org.uk/
+  shortaddress: Macclesfield
   address: Market Place, Macclesfield, Cheshire East SK10 1HW, United Kingdom
 locationtype: Church
 works:

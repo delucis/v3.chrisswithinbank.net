@@ -7,6 +7,7 @@ performer:
 venue:
   name: Pick-Staiger Concert Hall
   url: http://www.pickstaiger.org/
+  shortaddress: Evanston, IL
   address: 50 Arts Cir Dr, Evanston, IL 60208, United States
 works:
   - The Incredulity of St Thomas

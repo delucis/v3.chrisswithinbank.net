@@ -6,6 +6,7 @@ performer:
 venue:
   name: Biennale di Venezia
   url: http://www.labiennale.org/it/musica/index.html
+  shortaddress: Italy
   address: San Marco, 1364, Venezia, Italy
 works:
   - All the time that you have what we have. / All the time that you have.
