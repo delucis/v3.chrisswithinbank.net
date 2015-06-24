@@ -40,13 +40,13 @@ layout: default
 </section>
 <aside class="secondary" role="complementary">
   <section>
-    <h2>Microbiography</h2>
+    <h3>Microbiography</h3>
     <p>My name is Chris Swithinbank and I write <a href="/works/"><strong>music</strong></a> using acoustic instruments and electronic sounds. Occasionally, I also write <a href="/text/"><strong>text</strong></a> about music or related subjects. I am currently a student at Harvard University with Chaya Czernowin. <a href="/bio/">More about me »</a></p>
   </section>
 
   {% capture nextevent %}{% include events_archive-list.html scope="future" limit="1" %}{% endcapture %}{% if nextevent %}
   <section class="events">
-    <h2>Next event</h2>
+    <h3>Next event</h3>
     {{ nextevent }}
     <a href="/diary/">See all upcoming events »</a>
   </section>{% endif %}
