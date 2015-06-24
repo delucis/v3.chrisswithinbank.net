@@ -13,12 +13,16 @@
     {% if then < now %}{% assign test = true %}{% endif %}
   {% elsif include.scope == 'future' %}
     {% if then >= now %}{% assign test = true %}{% endif %}
+{% endif %}
+{% if include.context %}
+    {% assign context = include.context %}
+  {% else %}
+    {% assign context = 'main' %}
 {% endif %}{% endcapture %}{% assign cache = nil %}{% if test %}
   <li{% if postcount == 0 %} class="first"{% endif %}>
-    <h4>{% if event.works.size == 1 %}{% assign headline = event.works[0] %}{% else %}
+    {% if context == 'aside' %}<h4>{% else %}<h3>{% endif %}{% if event.works.size == 1 %}{% assign headline = event.works[0] %}{% else %}
         {% assign headline = event.title %}{% endif %}
       <a href="{{ event.url }}" title="{{ headline | strip_html }}">{{ headline }}</a>
-    </h4>
     <time datetime="{{ eventdate | date_to_xmlschema }}" class="eventdate">{{ eventdate | date: "%-d %B %Y, %-I" }}{% assign eventminutes = eventdate | date: '%M' %}{% if eventminutes == '00' %}{{ eventdate | date: '%p' | downcase }}{% else %}{{ eventdate | date: ':%M%p' | downcase }}{% endif %}</time>{% if event.performer %}
     <p class="performer">{% if event.performer.url %}
       <a href="{{ event.performer.url }}">{{ event.performer.name }}</a>{% else %}
@@ -27,6 +31,7 @@
     <p class="venue">{% if event.venue.url %}
       <span class="name"><a href="{{ event.venue.url }}">{{ event.venue.name }}</a></span>{% else %}
       <span class="name">{{ event.venue.name }}</span>{% endif %}{% if event.venue.shortaddress %}{% if event.venue.name %}, {% endif %}<span class="address">{{ event.venue.shortaddress }}</span>{% endif %}
+    {% if context == 'aside' %}</h4>{% else %}</h3>{% endif %}
     </p>{% endif %}
   </li>
   <script type="application/ld+json">
