@@ -611,12 +611,18 @@ figcaption {
     background: -ms-linear-gradient(-45deg,  $light-outline 0%,$light-outline 49%,$text-dark 49%,$text-dark 51%,$light-outline 51%,$light-outline 100%); /* IE10+ */
     background: linear-gradient(135deg,  $light-outline 0%,$light-outline 49%,$text-dark 49%,$text-dark 51%,$light-outline 51%,$light-outline 100%); /* W3C */
     .numerator, .denominator {
-      line-height: 1.6;
+      font-size: 0.8em;
+      line-height: 1.4;
       display: block;
       width: 66%;
+      font-weight: 700;
+    }
+    .numerator {
+      margin-top: 0.4em;
     }
     .denominator {
       margin-left: 33.33%;
+      margin-bottom: 0.8em;
     }
   }
   .arrow {
