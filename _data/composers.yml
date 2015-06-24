@@ -4,11 +4,11 @@
 "Richard Barrett":
   sameAs: https://en.wikipedia.org/wiki/Richard_Barrett_(composer)
   nationality: GB
-  birthDate: 1959-11-07
+  birthDate: 1959
 "Pierre Boulez":
   sameAs: https://en.wikipedia.org/wiki/Pierre_Boulez
   nationality: FR
-  birthDate: 1925-03-26
+  birthDate: 1925
 "Aureliano Cattaneo":
   sameAs: http://www.aurelianocattaneo.com/
   nationality: IT
@@ -26,7 +26,7 @@
   birthDate: 1985
   nationality: CH
 "Clara Iannotta":
-  birthDate: 1983-04-19
+  birthDate: 1983
   sameAs: http://claraiannotta.com/
   nationality: IT
 "Wen-Cheh Lee":
@@ -36,18 +36,18 @@
 "György Ligeti":
   sameAs: https://en.wikipedia.org/wiki/Gy%C3%B6rgy_Ligeti
   nationality: AT
-  birthDate: 1923-05-28
-  deathDate: 2006-06-12
+  birthDate: 1923
+  deathDate: 2006
 "Timothy McCormack":
-  birthDate: 1984-08-20
+  birthDate: 1984
   sameAs: http://www.timothy-mccormack.com/
   nationality: US
 "Michael Pelzel":
   sameAs: https://de.wikipedia.org/wiki/Michael_Pelzel
-  birthDate: 1978-03-20
+  birthDate: 1978
   nationality: CH
 "Rebecca Saunders":
-  birthDate: 1967-12-19
+  birthDate: 1967
   sameAs: https://en.wikipedia.org/wiki/Rebecca_Saunders
   nationality: GB
 "Stefan Streich":
@@ -55,7 +55,7 @@
   birthDate: 1961
   nationality: DE
 "Chris Swithinbank":
-  birthDate: 1988-08-08
+  birthDate: 1988
   sameAs: http://www.chrisswithinbank.net/
   nationality:
     - GB
@@ -66,11 +66,11 @@
 "James Tenney":
   sameAs: https://en.wikipedia.org/wiki/James_Tenney
   nationality: US
-  birthDate: 1934-08-10
-  deathDate: 2006-08-24
+  birthDate: 1934
+  deathDate: 2006
 "Jorge Vázquez":
   nationality: AR
 "Jürg Wyttenbach":
   sameAs: https://de.wikipedia.org/wiki/J%C3%BCrg_Wyttenbach
-  birthDate: 1935-12-02
+  birthDate: 1935
   nationality: CH
