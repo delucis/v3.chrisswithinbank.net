@@ -24,7 +24,7 @@ layout: default
 
   <!-- Pagination links -->
   <footer class="pagination clearfix">{% if paginator.previous_page %}
-    <a href="{{ paginator.previous_page_path }}" class="arrow older">Older</a>{% else %}
+    <a href="{{ paginator.previous_page_path }}" class="arrow older" rel="prev">Older</a>{% else %}
     <span class="arrow older">Older</span>{% endif %}
     <span class="separator">—</span>
     <span class="page_number">
@@ -34,7 +34,7 @@ layout: default
       <span class="denominator">{{ paginator.total_pages }}</span>
     </span>
     <span class="separator">—</span>{% if paginator.next_page %}
-    <a href="{{ paginator.next_page_path }}" class="arrow newer">Newer</a>{% else %}
+    <a href="{{ paginator.next_page_path }}" class="arrow newer" rel="next">Newer</a>{% else %}
     <span class="arrow newer">Newer</span>{% endif %}
   </footer>
 </section>
