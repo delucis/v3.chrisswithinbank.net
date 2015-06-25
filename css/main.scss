@@ -791,7 +791,6 @@ figcaption {
 .premiere {
   display: inline-block;
   vertical-align: text-bottom;
-  border: none;
   font-size: 0.7em;
   font-weight: 700;
   background-color: $bg-light;
@@ -803,6 +802,9 @@ figcaption {
   text-align: center;
   cursor: help;
   margin-right: 0.2em;
+  &[title] {
+    border-bottom: none;
+  }
 }
 
 /* ==========================================================================
