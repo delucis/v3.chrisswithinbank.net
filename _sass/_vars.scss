@@ -9,6 +9,26 @@ $bp-xlarge: 70em;
 /* FONTS */
 $body-font: Alegreya, serif;
 $display-font: Infini, Optima, sans-serif;
+/* BASE FONT SIZES */
+$fs-base:  1.125em;        // 1.125  * 16px = 18px
+$fs-sbp:   1.25em;         // 1.25   * 16px = 20px
+$fs-mbp:   1.3125em;       // 1.3125 * 16px = 21px
+/* BASE LINE SPACING */
+$lh-base:  1.6666666666em; // base: 30px; sbp: 33.3…px; mbp: 35px
+/* FONT SIZE HELPERS */
+$fs-small: $lh-base / 2;   // base: 15px; sbp: 16.6…px; mbp: 17.5px
+/* HEADINGS */
+$fs-h4:    1.2222222222em; // base: 22px; sbp: 24.4…px; mbp: 25.6…px
+$fs-h3:    1.3888888888em; // base: 25px; sbp: 27.7…px; mbp: 29.16…px
+$fs-h2:    1.7222222222em; // base: 31px; sbp: 34.4…px; mbp: 36.16…px
+$fs-h1:    1.5em;          // base: 27px; sbp: 30px;    mbp: 31.5px
+/* LINE HEIGHTS */
+$lh-p:     $lh-base;
+$lh-small: $lh-base / $fs-small;
+$lh-h4:    $lh-base / $fs-h4;
+$lh-h3:    $lh-base / $fs-h3;
+$lh-h2:    $lh-base / $fs-h2;
+$lh-h1:    $lh-base / $fs-h1;
 /* COLOURS */
 $text-dark: rgb(51, 73, 76);
 $text-light: rgb(153, 153, 153);
