@@ -79,7 +79,7 @@
 }
 .sparkchart {
   width: 100%;
-  margin: 1.6em 0 0;
+  margin: $lh-base 0 0;
   padding-left: 0;
   border: 1px solid $light-outline;
   background: #fff;
@@ -109,13 +109,13 @@
     }
     a {
       display: block;
-      height: 4.8em;
+      height: $lh-base * 3;
       background-image: none;
       text-shadow: none;
       .label {
         display: block;
         position: absolute;
-        top: 7.37em;
+        bottom: -2.461em;
         height: 1px;
         text-indent: -999em;
         overflow: hidden;
