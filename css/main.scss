@@ -66,14 +66,14 @@ Base styles: opinionated defaults */
 
 html {
     color: $text-dark;
-    font-size: 1.125em;
+    font-size: $fs-base;
     @include smallbp {
-      font-size: 1.25em;
+      font-size: $fs-sbp;
     }
     @include mediumbp {
-      font-size: 1.3125em;
+      font-size: $fs-mbp;
     }
-    line-height: 1.6;
+    line-height: $lh-base;
     font-family: $body-font;
     box-sizing: border-box;
 }
@@ -193,16 +193,16 @@ body {
 }
 h2 {
   font-family: $display-font;
-  font-size: 1.5em;
-  margin: 1.066666666em 0 0;
-  line-height: 1.066666666;
+  font-size: $fs-h2;
+  margin: ($lh-h2 * 1em) 0 0;
+  line-height: $lh-h2 * 1.5;
 }
 h3 {
   font-family: $display-font;
   font-weight: 400;
-  font-size: 1.3333333333em;
-  margin: 2.4em 0 1.2em 0;
-  line-height: 1.2;
+  font-size: $fs-h3;
+  margin: ($lh-h3 * 2em) 0 ($lh-h3 * 1em) 0;
+  line-height: $lh-h3;
 }
 h4 {
   font-family: $display-font;
@@ -210,13 +210,13 @@ h4 {
   font-style: normal;
   text-transform: none;
   margin-bottom: 0;
-  font-size: 1.090909090909em;
-  line-height: 1.4666666666;
-  margin: 1.4666666666em 0 0;
+  font-size: $fs-h4;
+  line-height: $lh-h4;
+  margin: ($lh-h4 * 1em) 0 0;
 }
 p {
   text-align: justify;
-  margin:0 0 1.6em;
+  margin:0 0 $lh-base;
 }
 blockquote {
   text-align: justify;
@@ -257,12 +257,12 @@ code, kbd, pre, samp {
   text-align: left;
 }
 figure {
-  margin: 1.6em 0;
+  margin: $lh-base 0;
 }
 figcaption {
   font-style: italic;
   color: $text-light;
-  margin: 0.8em 0;
+  margin: ($lh-base / 2) 0;
 }
 
 /*
@@ -284,7 +284,7 @@ Embed Styles */
 	overflow: hidden;
 	max-width: 100%;
 	height: auto;
-	margin-bottom:1.5em;
+	margin-bottom: $lh-base;
 }
 .embed-container iframe,
 .embed-container object,
@@ -324,9 +324,9 @@ Basic Class Selectors */
     &:before {
       content: 'Notes';
       font-weight: 400;
-      font-size: 1.3333333333em;
-      margin: 2.4em 0 1.2em 0;
-      line-height: 1.2;
+      font-size: $fs-h3;
+      margin: ($lh-h3 * 2) 0 $lh-h3 0;
+      line-height: $lh-h3;
       display: block;
     }
     li {
@@ -374,27 +374,27 @@ Basic Class Selectors */
 }
 .bibliography {
   list-style: none;
-  text-indent: -3.2em;
-  padding-left: 3.2em;
+  text-indent: $lh-base * -2;
+  padding-left: $lh-base * 2;
   li {
-    margin-bottom: 0.6em;
+    margin-bottom: $lh-base / 2;
   }
 }
 .site-footer {
   dl {
     color: rgba($text-dark, 0.55);
-    padding: 1.6em 0;
+    padding: $lh-base 0;
     padding-left:0;
     margin: 0;
-    dt,
     dd {
       display: inline-block;
-      margin: 0 0.8em 0 0;
+      margin: 0 ($lh-base / 2) 0 0;
     }
     dt {
-      margin: 0 0.94117647em 0 0;
-      font-size: 0.85em;
-      line-height: 1.88235294em;
+      display: inline-block;
+      margin: 0 ($lh-small * 1em / 2) 0 0;
+      font-size: $fs-small;
+      line-height: $lh-small;
       text-transform: uppercase;
       letter-spacing: 0.1em;
       font-family: $display-font;
@@ -445,10 +445,10 @@ Menu Styling */
   .menu-button {
     position: absolute; right: 0; top: 0;
     width: 25%; max-width: 7em; min-width: 4em;
-    height: 4em;
+    height: $lh-small * 2em;
     border: none;
-    font-size: 0.8em;
-    line-height: 4;
+    font-size: $fs-small;
+    line-height: $lh-small;
     background-color: $menu-button;
     color: $menu-text;
     font-family: $display-font;
@@ -470,15 +470,15 @@ Menu Styling */
   } // &.active .menu-button
   .site-title {
     display: block;
-    height: 2.13333333em;
+    height: $lh-h1 * 2em;
     width: 75%;
     margin: 0;
 		padding: 0 5%;
     overflow: hidden;
     white-space: nowrap;
     text-overflow: ellipsis;
-		font-size: 1.5em;
-		line-height: 2.133333333;
+		font-size: $fs-h1;
+		line-height: $lh-h1 * 2em;
 		font-family: $display-font;
     text-transform: uppercase;
     font-weight:300;
@@ -488,7 +488,7 @@ Menu Styling */
       display: block;
       padding: 0;
       width: 5.2em;
-      height: 2.133333333em;
+      height: $lh-h1 * 2em;
     }
     a {
       text-decoration: none;
@@ -605,7 +605,7 @@ Menu Styling */
     -webkit-transition-timing-function: cubic-bezier(0.215, 0.610, 0.355, 1.000), cubic-bezier(0.215, 0.610, 0.355, 1.000);
             transition-timing-function: cubic-bezier(0.215, 0.610, 0.355, 1.000), cubic-bezier(0.215, 0.610, 0.355, 1.000);
     &.active {
-      max-height: 15em;
+      max-height: $menu-item-count * 2 * $lh-base;
       box-shadow: inset 0 -0.5em 1.111em -0.833em rgba($text-dark, 0.5);
       -webkit-transition-timing-function: cubic-bezier(0.550, 0.055, 0.675, 0.190), cubic-bezier(0.550, 0.055, 0.675, 0.190);
               transition-timing-function: cubic-bezier(0.550, 0.055, 0.675, 0.190), cubic-bezier(0.550, 0.055, 0.675, 0.190);
@@ -615,7 +615,7 @@ Menu Styling */
     }
     @include largebp {
       max-height: none;
-      margin-top: 1.6em;
+      margin-top: $lh-base;
     }
     ul {
       list-style-type: none;
@@ -629,7 +629,7 @@ Menu Styling */
           box-shadow: 0 -0.5em 1.222em -0.944em rgba($text-dark, 0.5);
           text-decoration: none;
           display: block;
-          padding: .5em 5%;
+          padding: ($lh-base / 2) 5%;
           @include largebp {
             padding: 0;
             box-shadow: none;
@@ -667,10 +667,10 @@ Menu Styling */
 Pagination */
 
 .pagination {
-  margin: 3.2em 0 1.6889em;
-  height: 3.11111em;
+  margin: ($lh-base * 2) 0 1.6889em;
+  height: ($lh-base * 2);
   width: 100%;
-  line-height: 3.11111;
+  line-height: ($lh-base * 2);
   text-align: center;
   font-family: $display-font;
   .separator {
@@ -679,7 +679,7 @@ Pagination */
   .page_number {
     display: block;
     float: left;
-    height: 3.11111em;
+    height: ($lh-base * 2);
     width: 3.6em;
     border-left: 0.2em solid $bg-light;
     border-right: 0.2em solid $bg-light;
@@ -693,25 +693,24 @@ Pagination */
     background: -ms-linear-gradient(-45deg,  $light-outline 0%,$light-outline 49%,$text-dark 49%,$text-dark 51%,$light-outline 51%,$light-outline 100%); /* IE10+ */
     background: linear-gradient(135deg,  $light-outline 0%,$light-outline 49%,$text-dark 49%,$text-dark 51%,$light-outline 51%,$light-outline 100%); /* W3C */
     .numerator, .denominator {
-      font-size: 0.8em;
-      line-height: 1.4;
+      font-size: $fs-small;
+      line-height: $lh-small;
       display: block;
       width: 66%;
       font-weight: 700;
     }
     .numerator {
-      margin-top: 0.4em;
+      margin-top: 0;
     }
     .denominator {
       margin-left: 33.33%;
-      margin-bottom: 0.8em;
     }
   }
   .arrow {
     display: block;
     position: relative;
     float: left;
-    height: 3.11111em;
+    height: ($lh-base * 2);
     width: calc(50% - 2.8em);
     background: $light-outline;
     color: $text-light;
@@ -722,8 +721,8 @@ Pagination */
         position: absolute;
         right: -1.15555em;
         top: 0;
-        border-top: 1.6em solid transparent;
-        border-bottom: 1.6em solid transparent;
+        border-top: $lh-base solid transparent;
+        border-bottom: $lh-base solid transparent;
         border-left: 1.2em solid $light-outline;
       }
     }
@@ -734,8 +733,8 @@ Pagination */
         position: absolute;
         left: -1.15555em;
         top: 0;
-        border-top: 1.6em solid transparent;
-        border-bottom: 1.6em solid transparent;
+        border-top: $lh-base solid transparent;
+        border-bottom: $lh-base solid transparent;
         border-right: 1.2em solid $light-outline;
       }
     }
@@ -776,31 +775,31 @@ Page Structure */
 
 .container {
   width: 100%;
-  margin: 1.6em 0 0;
+  margin: $lh-base 0 0;
   @include mediumbp {
-    margin: 1.6em auto 0;
+    margin: $lh-base auto 0;
   }
   @include largebp {
     margin-top: 0;
-    border-top: 0.8em solid $text-dark;
+    border-top: ($lh-base / 2) solid $text-dark;
     box-shadow: 0 0 15px rgba(0, 0, 0, 0.1);
     background-color: $bg-light;
   }
   .primary {
-    padding: 0 5% 1.6em;
+    padding: 0 5% $lh-base;
     max-width: calc(25.6em + 10%);
     @include largebp {
-      padding-top: 0.8em;
+      padding-top: ($lh-base / 2);
     }
     @include xlargebp {
       float: left;
     }
   }
   .secondary {
-    padding: 0 5% 1.6em;
+    padding: 0 5% $lh-base;
     border-top: 4px double rgba($bg-light, 0.2);
     @include largebp {
-      padding-top: 0.8em;
+      padding-top: ($lh-base / 2);
     }
     @include xlargebp {
       float: left;
@@ -819,7 +818,7 @@ Page Structure */
   }
   @include mediumbp {
     margin: 0 auto;
-    padding-left: calc(3.2em);
+    padding-left: $lh-base * 2;
     padding-right: calc(100% - 28.8em);
   }
 }
@@ -832,7 +831,7 @@ Page Structure */
       width: 10.8em;
       height: 100%;
       overflow-y: scroll;
-      padding: 1.6em;
+      padding: $lh-base;
   }
   .wrapper {
     width: 75%;
@@ -876,7 +875,7 @@ Sidebar Styling */
       list-style: none;
       padding-left: 0;
     }
-    margin-bottom: 3.2em;
+    margin-bottom: $lh-base * 2;
     h3 {
       margin-top: 1.2em;
     }
@@ -885,6 +884,22 @@ Sidebar Styling */
     text-align: left;
     blockquote, p {
       text-align: left;
+    }
+    section {
+      font-size: $lh-base / 2;
+      line-height: 2;
+      margin-bottom: 4em;
+      h3 {
+        line-height: 1.5;
+        margin: 1.5em 0;
+      }
+      h4 {
+        line-height: 1.83333333;
+        margin-top: 1.83333333em;
+      }
+      p {
+        margin-bottom: 2em;
+      }
     }
   }
 }
@@ -924,8 +939,8 @@ Social Media Icons */
   display: inline-block;
   background-size: 117.647059%;
   background-position: center;
-  width: 1.6em;
-  height: 1.6em;
+  width: $lh-base;
+  height: $lh-base;
   text-indent: -999em;
   text-align: left;
   opacity: 0.35;
