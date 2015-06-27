@@ -15,20 +15,25 @@ $fs-sbp:   1.25em;         // 1.25   * 16px = 20px
 $fs-mbp:   1.3125em;       // 1.3125 * 16px = 21px
 /* BASE LINE SPACING */
 $lh-base:  1.6666666666em; // base: 30px; sbp: 33.3…px; mbp: 35px
-/* FONT SIZE HELPERS */
-$fs-small: $lh-base / 2;   // base: 15px; sbp: 16.6…px; mbp: 17.5px
 /* HEADINGS */
 $fs-h4:    1.2222222222em; // base: 22px; sbp: 24.4…px; mbp: 25.6…px
 $fs-h3:    1.3888888888em; // base: 25px; sbp: 27.7…px; mbp: 29.16…px
 $fs-h2:    1.7222222222em; // base: 31px; sbp: 34.4…px; mbp: 36.16…px
 $fs-h1:    1.5em;          // base: 27px; sbp: 30px;    mbp: 31.5px
+/* SECONDARY SCALE */
+$fs-small: 0.85em;         // base: 15px; sbp: 16.6…px; mbp: 17.5px
+$fs-s-h4:  1.2em;          // base: 18px; sbp: 19.9…px; mbp: 21px
+$fs-s-h3:  1.4em;          // base: 21px; sbp: 23.3…px; mbp: 24.5px
 /* LINE HEIGHTS */
-$lh-p:     $lh-base;
-$lh-small: $lh-base / $fs-small;
-$lh-h4:    $lh-base / $fs-h4;
-$lh-h3:    $lh-base / $fs-h3;
-$lh-h2:    $lh-base / $fs-h2;
-$lh-h1:    $lh-base / $fs-h1;
+$lh-p:      $lh-base;
+$lh-h4:     ($lh-base / $fs-h4) * 1em;
+$lh-h3:     ($lh-base / $fs-h3) * 1em;
+$lh-h2:     ($lh-base / $fs-h2) * 1em;
+$lh-h1:     ($lh-base / $fs-h1) * 1em;
+$lh-s-base: ($lh-base / $fs-small) * 1;
+$lh-small:  ($lh-base / $fs-small) * 1em;
+$lh-s-h4:   ($lh-s-base / $fs-s-h4) / (($lh-s-base / $fs-s-h4) * 0 + 1) * 1em;
+$lh-s-h3:   ($lh-s-base / $fs-s-h3) / (($lh-s-base / $fs-s-h3) * 0 + 1) * 1em;
 /* COLOURS */
 $text-dark: rgb(51, 73, 76);
 $text-light: rgb(153, 153, 153);
