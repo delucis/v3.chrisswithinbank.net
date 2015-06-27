@@ -669,13 +669,14 @@ Pagination */
 $centre-block-border-w: 0.2em;
 $centre-block-w:        ($lh-base * 2) + ($centre-block-border-w * 2);
 $arrow-margin:          0.5em;
+$arrow-height:          $lh-base * 2;
 $arrow-size:            1em;
 
 .pagination {
-  margin: ($lh-base * 2) 0 1.6889em;
-  height: ($lh-base * 2);
+  margin: $arrow-height 0 1.6889em;
+  height: $arrow-height;
   width: 100%;
-  line-height: ($lh-base * 2);
+  line-height: $arrow-height;
   text-align: center;
   font-family: $display-font;
   .separator {
@@ -684,7 +685,7 @@ $arrow-size:            1em;
   .page_number {
     display: block;
     float: left;
-    height: ($lh-base * 2);
+    height: $arrow-height;
     width: $centre-block-w;
     border-left: $centre-block-border-w solid $bg-light;
     border-right: $centre-block-border-w solid $bg-light;
@@ -714,7 +715,7 @@ $arrow-size:            1em;
     display: block;
     position: relative;
     float: left;
-    height: ($lh-base * 2);
+    height: $arrow-height;
     width: calc(50% - #{$centre-block-w / 2 + $arrow-margin});
     background: $light-outline;
     color: $text-light;
@@ -726,8 +727,8 @@ $arrow-size:            1em;
         position: absolute;
         right: $arrow-size * -1;
         top: 0;
-        border-top: $lh-base solid transparent;
-        border-bottom: $lh-base solid transparent;
+        border-top: ($arrow-height / 2) solid transparent;
+        border-bottom: ($arrow-height / 2) solid transparent;
         border-left: $arrow-size solid $light-outline;
       }
     }
@@ -739,8 +740,8 @@ $arrow-size:            1em;
         position: absolute;
         left: $arrow-size * -1;
         top: 0;
-        border-top: $lh-base solid transparent;
-        border-bottom: $lh-base solid transparent;
+        border-top: ($arrow-height / 2) solid transparent;
+        border-bottom: ($arrow-height / 2) solid transparent;
         border-right: $arrow-size solid $light-outline;
       }
     }
