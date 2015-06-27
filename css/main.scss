@@ -194,14 +194,14 @@ body {
 h2 {
   font-family: $display-font;
   font-size: $fs-h2;
-  margin: ($lh-h2 * 1em) 0 0;
+  margin: $lh-h2 0 0;
   line-height: $lh-h2 * 1.5;
 }
 h3 {
   font-family: $display-font;
   font-weight: 400;
   font-size: $fs-h3;
-  margin: ($lh-h3 * 2em) 0 ($lh-h3 * 1em) 0;
+  margin: ($lh-h3 * 2) 0 $lh-h3 0;
   line-height: $lh-h3;
 }
 h4 {
@@ -212,7 +212,7 @@ h4 {
   margin-bottom: 0;
   font-size: $fs-h4;
   line-height: $lh-h4;
-  margin: ($lh-h4 * 1em) 0 0;
+  margin: $lh-h4 0 0;
 }
 p {
   text-align: justify;
@@ -392,7 +392,7 @@ Basic Class Selectors */
     }
     dt {
       display: inline-block;
-      margin: 0 ($lh-small * 1em / 2) 0 0;
+      margin: 0 ($lh-small / 2) 0 0;
       font-size: $fs-small;
       line-height: $lh-small;
       text-transform: uppercase;
@@ -445,7 +445,7 @@ Menu Styling */
   .menu-button {
     position: absolute; right: 0; top: 0;
     width: 25%; max-width: 7em; min-width: 4em;
-    height: $lh-small * 2em;
+    height: $lh-small * 2;
     border: none;
     font-size: $fs-small;
     line-height: $lh-small;
@@ -470,7 +470,7 @@ Menu Styling */
   } // &.active .menu-button
   .site-title {
     display: block;
-    height: $lh-h1 * 2em;
+    height: $lh-h1 * 2;
     width: 75%;
     margin: 0;
 		padding: 0 5%;
@@ -478,7 +478,7 @@ Menu Styling */
     white-space: nowrap;
     text-overflow: ellipsis;
 		font-size: $fs-h1;
-		line-height: $lh-h1 * 2em;
+		line-height: $lh-h1 * 2;
 		font-family: $display-font;
     text-transform: uppercase;
     font-weight:300;
@@ -488,7 +488,7 @@ Menu Styling */
       display: block;
       padding: 0;
       width: 5.2em;
-      height: $lh-h1 * 2em;
+      height: $lh-h1 * 2;
     }
     a {
       text-decoration: none;
@@ -884,7 +884,7 @@ Sidebar Styling */
     }
     margin-bottom: $lh-base * 2;
     h3 {
-      margin-top: 1.2em;
+      margin-top: $lh-h3 * 1;
     }
   }
   @include xlargebp {
@@ -893,19 +893,21 @@ Sidebar Styling */
       text-align: left;
     }
     section {
-      font-size: $lh-base / 2;
-      line-height: 2;
-      margin-bottom: 4em;
+      font-size: $fs-small;
+      line-height: $lh-small;
+      margin-bottom: $lh-small * 2;
       h3 {
-        line-height: 1.5;
-        margin: 1.5em 0;
+        font-size: $fs-s-h3;
+        line-height: $lh-s-h3;
+        margin: $lh-s-h3 0;
       }
       h4 {
-        line-height: 1.83333333;
-        margin-top: 1.83333333em;
+        font-size: $fs-s-h4;
+        line-height: $lh-s-h4;
+        margin-top: $lh-s-h4;
       }
       p {
-        margin-bottom: 2em;
+        margin-bottom: $lh-small * 1;
       }
     }
   }
