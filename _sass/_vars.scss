@@ -21,9 +21,9 @@ $fs-h3:    1.3888888888em; // base: 25px; sbp: 27.7…px; mbp: 29.16…px
 $fs-h2:    1.7222222222em; // base: 31px; sbp: 34.4…px; mbp: 36.16…px
 $fs-h1:    1.5em;          // base: 27px; sbp: 30px;    mbp: 31.5px
 /* SECONDARY SCALE */
-$fs-small: 0.85em;         // base: 15px; sbp: 16.6…px; mbp: 17.5px
+$fs-small: 0.8333333333em; // base: 15px; sbp: 16.6…px; mbp: 17.5px
 $fs-s-h4:  1.2em;          // base: 18px; sbp: 19.9…px; mbp: 21px
-$fs-s-h3:  1.4em;          // base: 21px; sbp: 23.3…px; mbp: 24.5px
+$fs-s-h3:  1em;            // base: 15px; sbp: 16.6…px; mbp: 17.5px
 /* LINE HEIGHTS */
 $lh-p:      $lh-base;
 $lh-h4:     ($lh-base / $fs-h4) * 1em;
