@@ -26,7 +26,7 @@
     {% if context == 'aside' %}</h4>{% else %}</h3>{% endif %}
     <time datetime="{{ eventdate | date_to_xmlschema }}" class="eventdate">
       <span class="m">{% assign m = eventdate | date: "%-m" %}{% case m %}{% when '5' or '6' or '7' %}{{ eventdate | date: "%B" }}{% else %}{{ eventdate | date: "%b" }}.{% endcase %}</span>
-      <span class="d">{{ eventdate | date: "%-d" }}</span>
+      <span class="d">{{ eventdate | date: "%-d" }}</span><span class="visuallyhidden">,</span>
       <span class="y">{{ eventdate | date: "%Y" }}</span>
     </time>{% if event.performer or event.venue %}
     <p>{% if event.performer %}
