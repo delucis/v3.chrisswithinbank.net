@@ -961,6 +961,88 @@ Sidebar Styling */
 
 /*
 
+######## ##     ## ######## ##    ## ########  ######
+##       ##     ## ##       ###   ##    ##    ##    ##
+##       ##     ## ##       ####  ##    ##    ##
+######   ##     ## ######   ## ## ##    ##     ######
+##        ##   ##  ##       ##  ####    ##          ##
+##         ## ##   ##       ##   ###    ##    ##    ##
+########    ###    ######## ##    ##    ##     ######
+
+Events page layout */
+
+.event-card {
+  h3,
+  h4 {
+    float: right;
+    width:70.6%;
+    margin: 0;
+    font-size: 1em;
+    line-height: $lh-base;
+    font-weight: 700;
+  }
+  .eventdate {
+    float: left;
+    margin-right: 5%;
+    width: 24.3%;
+    text-transform: uppercase;
+    letter-spacing: 0.1em;
+    -webkit-font-feature-settings: "lnum" 1;
+    text-align: center;
+    background-color: $bg-dark;
+    color: $bg-light;
+    font-family: $display-font;
+    font-weight: 700;
+    span {
+      display: block;
+      font-size: $fs-small;
+      line-height: $lh-small;
+      &.d {
+        font-weight: 400;
+        font-size: 2em;
+        line-height: $lh-base / 2;
+      }
+    }
+  }
+  p {
+    float: right;
+    width:70.6%;
+    text-align: left;
+    overflow: hidden;
+    text-overflow: ellipsis;
+    white-space: nowrap;
+  }
+}
+.secondary {
+  .event-card {
+    h4 {
+      margin-top: 0;
+      font-size: 1em;
+      line-height: $lh-base;
+    }
+  }
+}
+
+@include mediumbp {
+  .archive.events .primary {
+    max-width: 100%;
+    width: 100%;
+    .event-card {
+      width: 47.5%;
+      margin-right: 5%;
+      float: left;
+      &:nth-child(2n) {
+        margin-right: 0;
+      }
+      &:nth-child(2n+1) {
+        clear: left;
+      }
+    }
+  }
+}
+
+/*
+
 ####  ######   #######  ##    ##  ######
  ##  ##    ## ##     ## ###   ## ##    ##
  ##  ##       ##     ## ####  ## ##
