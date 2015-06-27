@@ -811,9 +811,9 @@ Page Structure */
     @include xlargebp {
       float: left;
       width: calc(90% - 25.6em);
-      max-width: calc(15.8em + 5%);
+      max-width: calc(15.8em + 6%);
       border-top: none;
-      padding-left: 0;
+      padding-left: 1%;
     }
   }
 }
