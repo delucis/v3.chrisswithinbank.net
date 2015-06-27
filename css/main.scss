@@ -1021,6 +1021,14 @@ Events page layout */
       font-size: 1em;
       line-height: $lh-base;
     }
+    .eventdate {
+      background-color: $bg-light;
+      color: $text-dark;
+      @include xlargebp {
+        background-color: $bg-dark;
+        color: $bg-light;
+      }
+    }
   }
 }
 
