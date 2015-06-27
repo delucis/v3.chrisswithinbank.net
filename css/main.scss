@@ -720,6 +720,7 @@ $arrow-size:            1em;
     color: $text-light;
     &.newer {
       margin-right: $arrow-margin;
+      text-indent: $arrow-size / 2;
       &:after {
         content: "";
         position: absolute;
@@ -732,6 +733,7 @@ $arrow-size:            1em;
     }
     &.older {
       margin-left: $arrow-margin;
+      text-indent: $arrow-size / -2;
       &:before {
         content: "";
         position: absolute;
