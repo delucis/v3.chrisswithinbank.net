@@ -904,7 +904,7 @@ Sidebar Styling */
     }
     margin-bottom: $lh-base * 2;
     h3 {
-      margin: ($lh-h3 * 1) 0 0;
+      margin: $lh-h3 0;
     }
   }
   @include xlargebp {
