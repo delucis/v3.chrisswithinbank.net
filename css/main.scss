@@ -919,7 +919,8 @@ Sidebar Styling */
       h3 {
         font-size: $fs-s-h3;
         line-height: $lh-s-h3;
-        margin: $lh-s-h3 0 0;
+        margin: $lh-s-h3 0 ($lh-s-h3 - 0.15em);
+        border-bottom: 0.15em solid;
         text-transform: uppercase;
         font-weight: 700;
         letter-spacing: 0.05em;
