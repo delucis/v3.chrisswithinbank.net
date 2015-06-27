@@ -721,7 +721,7 @@ $arrow-size:            1em;
     color: $text-light;
     &.newer {
       margin-right: $arrow-margin;
-      text-indent: $arrow-size / 2;
+      // text-indent: $arrow-size / 2; // throws-off arrow tip in FF
       &:after {
         content: "";
         position: absolute;
@@ -734,7 +734,7 @@ $arrow-size:            1em;
     }
     &.older {
       margin-left: $arrow-margin;
-      text-indent: $arrow-size / -2;
+      // text-indent: $arrow-size / -2;  // throws-off arrow tip in FF
       &:before {
         content: "";
         position: absolute;
