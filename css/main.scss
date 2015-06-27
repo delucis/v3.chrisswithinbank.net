@@ -988,7 +988,7 @@ Events page layout */
     width: 24.3%;
     text-transform: uppercase;
     letter-spacing: 0.1em;
-    -webkit-font-feature-settings: "lnum" 1;
+    @include liningnums;
     text-align: center;
     background-color: $bg-dark;
     color: $bg-light;
