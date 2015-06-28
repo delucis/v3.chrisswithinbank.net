@@ -37,7 +37,16 @@ picture:
         width: "512"
       source_default:
         width: "324"
+    sidebar:
+      ppi: [1, 1.5, 2]
+      source_large:
+        media: "(min-width: 70em)"
+        width: "350"
+      source_medium:
+        media: "(min-width: 22.5em)"
         width: "512"
+      source_default:
+        width: "324"
 defaults:
     -
         scope:
