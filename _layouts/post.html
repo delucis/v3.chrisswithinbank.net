@@ -12,7 +12,7 @@ layout: default
   </div>
 </div>
 {% if page.featured_image %}
-<div class="secondary">
-  {% picture sidebar {{ page.featured_image}} alt="{{ page.title }} featured image" class="featured-image" %}
+<div class="secondary">{% if page.featured_image_alt %}{% assign alttext = page.featured_image_alt %}{% else %}{% assign alttext = page.title | append: ' featured image' %}{% endif %}
+  {% picture sidebar {{ page.featured_image}} alt="{{ alttext }}" class="featured-image" %}
 </div>
 {% endif %}
