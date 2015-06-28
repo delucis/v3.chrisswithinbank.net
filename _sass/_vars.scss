@@ -2,6 +2,7 @@
    SASS variables
    ========================================================================== */
 /* MEDIA-QUERY BREAKPOINTS */
+$bp-tiny: 22.5em;
 $bp-small: 30em;
 $bp-medium: 45em;
 $bp-large: 60em;
@@ -54,6 +55,11 @@ $menu-button: $text-dark;
 /* ==========================================================================
    SASS mixins
    ========================================================================== */
+@mixin tinybp {
+ @media only screen and (min-width: #{$bp-tiny}) {
+   @content;
+ }
+}
 @mixin smallbp {
   @media only screen and (min-width: #{$bp-small}) {
     @content;
