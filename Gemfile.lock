@@ -23,7 +23,7 @@ GEM
     fast-stemmer (1.0.2)
     fastimage (1.6.8)
       addressable (~> 2.3, >= 2.3.5)
-    ffi (1.9.8)
+    ffi (1.9.9)
     gemoji (2.1.0)
     github-pages (38)
       RedCloth (= 4.2.9)
@@ -121,7 +121,7 @@ GEM
     safe_yaml (1.0.4)
     sass (3.4.15)
     subexec (0.2.3)
-    terminal-table (1.4.5)
+    terminal-table (1.5.1)
     thread_safe (0.3.5)
     timers (4.0.1)
       hitimes
