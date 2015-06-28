@@ -12,6 +12,7 @@ markdown: kramdown
 gems:
     - jekyll-sitemap
     - jekyll-feed
+    - jekyll-picture-tag
 permalink: /:year/:month/:title/
 timezone: Europe/Berlin
 sass:
@@ -21,6 +22,18 @@ paginate: 5
 paginate_path: "/page/:num/"
 paginate_per_category: true
 default_category: "blog"
+picture:
+  source: "assets/images/_fullsize"
+  output: "uploads"
+  markup: "picture"
+  presets:
+    default:
+      ppi: [1, 1.5, 2]
+      source_large:
+        media: "(min-width: 45em)"
+        width: "538"
+      source_default:
+        width: "512"
 defaults:
     -
         scope:
