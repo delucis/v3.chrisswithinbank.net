@@ -14,10 +14,10 @@
     <script type="text/javascript" src="/js/hyphenator.js"></script>
     <script type="text/javascript" src="/js/hyphenator_loader.js"></script>
     {% if content contains 'fnref' %}
-      <script type="text/javascript" src="http://code.jquery.com/jquery-2.1.4.min.js" async></script>
-      <script type="text/javascript" src="/js/bigfoot.min.js" async></script>
+      <script type="text/javascript" src="/js/jquery-2.1.4.min.js"></script>
       <script type="text/javascript">
-          $.bigfoot();
+          $.ajaxSetup({ cache: true });
+          $.getScript("/js/bigfoot.min.js", function(){ $.bigfoot() });
       </script>
     {% endif %}
   </body>
