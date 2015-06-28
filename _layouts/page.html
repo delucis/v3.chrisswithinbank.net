@@ -4,3 +4,8 @@ layout: default
 <div class="primary">
   {{ content }}
 </div>
+{% if page.featured_image %}
+<div class="secondary">
+  {% picture sidebar {{ page.featured_image }} alt="{{ page.title }} featured image" %}
+</div>
+{% endif %}
