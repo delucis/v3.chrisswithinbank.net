@@ -1,6 +1,7 @@
 ---
 title: About me
 layout: page
+featured_image: bio_portrait.jpg
 ---
 ## {{ page.title }}
 
