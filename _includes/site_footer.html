@@ -15,11 +15,10 @@
     <script type="text/javascript" src="/js/hyphenator_loader.js" async></script>
     <script type="text/javascript" src="https://cdnjs.cloudflare.com/ajax/libs/picturefill/2.3.1/picturefill.min.js" async></script>
     {% if content contains 'fnref' %}
-      <script type="text/javascript" src="/js/jquery-2.1.4.min.js"></script>
-      <script type="text/javascript">
-          $.ajaxSetup({ cache: true });
-          $.getScript("/js/bigfoot.min.js", function(){ $.bigfoot() });
-      </script>
-    {% endif %}
+    <script type="text/javascript" src="/js/jquery-2.1.4.min.js"></script>
+    <script type="text/javascript">
+      $.ajaxSetup({ cache: true });
+      $.getScript("/js/bigfoot.min.js", function(){ $.bigfoot() });
+    </script>{% endif %}
   </body>
 </html>
