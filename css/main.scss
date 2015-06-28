@@ -298,6 +298,50 @@ Embed Styles */
 
 /*
 
+#### ##     ##    ###     ######   ########  ######
+ ##  ###   ###   ## ##   ##    ##  ##       ##    ##
+ ##  #### ####  ##   ##  ##        ##       ##
+ ##  ## ### ## ##     ## ##   #### ######    ######
+ ##  ##     ## ######### ##    ##  ##             ##
+ ##  ##     ## ##     ## ##    ##  ##       ##    ##
+#### ##     ## ##     ##  ######   ########  ######
+
+Classes for easy image alignment */
+@include tinybp {
+  img {
+    &.alignright {
+      float:right;
+      margin:0 0 $lh-p $lh-p;
+    }
+    &.alignleft {
+      float:left;
+      margin:0 $lh-p $lh-p 0;
+    }
+    &.aligncenter {
+      display: block;
+      margin-left: auto;
+      margin-right: auto;
+    }
+  }
+  a img {
+    &.alignright {
+      float:right;
+      margin:0 0 $lh-p $lh-p;
+    }
+    &.alignleft {
+      float:left;
+      margin:0 $lh-p $lh-p 0;
+    }
+    &.aligncenter {
+      display: block;
+      margin-left: auto;
+      margin-right: auto;
+    }
+  }
+}
+
+/*
+
      ######  ######## ##       ########  ######  ########  #######  ########   ######
     ##    ## ##       ##       ##       ##    ##    ##    ##     ## ##     ## ##    ##
     ##       ##       ##       ##       ##          ##    ##     ## ##     ## ##
