@@ -47,6 +47,15 @@ picture:
         width: "512"
       source_default:
         width: "324"
+    alignright:
+      ppi: [1, 1.5, 2]
+      attr:
+        class: "alignright"
+      source_large:
+        media: "(min-width: 45em)"
+        width: "190"
+      source_default:
+        width: "150"
 defaults:
     -
         scope:
