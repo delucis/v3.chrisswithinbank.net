@@ -263,6 +263,9 @@ figcaption {
   font-style: italic;
   color: $text-light;
   margin: ($lh-base / 2) 0;
+  em {
+    font-style: normal;
+  }
 }
 
 /*
