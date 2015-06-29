@@ -37,7 +37,7 @@ $lh-s-h4:   ($lh-s-base / $fs-s-h4) / (($lh-s-base / $fs-s-h4) * 0 + 1) * 1em;
 $lh-s-h3:   ($lh-s-base / $fs-s-h3) / (($lh-s-base / $fs-s-h3) * 0 + 1) * 1em;
 /* COLOURS */
 $text-dark: rgb(51, 73, 76);
-$text-light: rgb(153, 153, 153);
+$text-light: rgba($text-dark, 0.6);
 $link: rgb(31, 108, 180);
 $link-hover: rgb(255, 65, 54);
 $link-underline: rgb(180,227,234);
