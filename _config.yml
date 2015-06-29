@@ -57,7 +57,7 @@ picture:
         class: "picture alignright"
       source_large:
         media: "(min-width: 45em)"
-        width: "190"
+        width: "189"
       source_medium:
         media: "(min-width: 22.5em)"
         width: "150"
