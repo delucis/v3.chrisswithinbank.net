@@ -373,6 +373,15 @@ figure .picture {
   margin: 0;
 }
 
+.single-post img.wide {
+  @include mediumbp {
+    max-width: 123%;
+  }
+  @include xlargebp {
+    max-width: 150%;
+  }
+}
+
 /*
 
      ######  ######## ##       ########  ######  ########  #######  ########   ######
