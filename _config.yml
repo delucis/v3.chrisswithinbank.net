@@ -29,6 +29,8 @@ picture:
   presets:
     default:
       ppi: [1, 1.5, 2]
+      attr:
+        class: "picture default"
       source_large:
         media: "(min-width: 45em)"
         width: "538"
@@ -39,6 +41,8 @@ picture:
         width: "324"
     sidebar:
       ppi: [1, 1.5, 2]
+      attr:
+        class: "picture sidebar"
       source_large:
         media: "(min-width: 70em)"
         width: "350"
@@ -50,7 +54,7 @@ picture:
     alignright:
       ppi: [1, 1.5, 2]
       attr:
-        class: "alignright"
+        class: "picture alignright"
       source_large:
         media: "(min-width: 45em)"
         width: "190"
