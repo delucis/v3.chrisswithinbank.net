@@ -19,7 +19,7 @@
   {% else %}
     {% assign context = 'main' %}
 {% endif %}{% endcapture %}{% assign cache = nil %}{% if test %}
-  <li class="event-card clearfix {% if postcount == 0 %} first{% endif %}">
+  <li class="event-card clearfix{% if postcount == 0 %} first{% endif %}">
     {% if context == 'aside' %}<h4>{% else %}<h3>{% endif %}{% if event.works.size == 1 %}{% assign headline = event.works[0] %}{% else %}
         {% assign headline = event.title %}{% endif %}
       <a href="{{ event.url }}" title="{{ headline | strip_html }}">{{ headline }}</a>
