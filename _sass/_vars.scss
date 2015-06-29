@@ -43,7 +43,7 @@ $link-hover: rgb(255, 65, 54);
 $link-underline: rgb(180,227,234);
 $bg-light: rgb(250,252,249);
 $bg-dark: $text-dark;
-$light-outline: rgb(204, 204, 204);
+$light-outline: rgba($text-dark, 0.15);
 $chart-color: rgb(133, 212, 242);
 $chart-hover: rgb(239, 239, 239);
 // $chart-color-light: #B8E4F5;
