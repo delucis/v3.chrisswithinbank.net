@@ -1069,26 +1069,35 @@ Events page layout */
     line-height: $lh-base;
     font-weight: 700;
   }
-  .eventdate {
-    float: left;
-    margin-right: 5%;
-    width: 24.3%;
-    text-transform: uppercase;
-    letter-spacing: 0.1em;
-    @include liningnums;
-    text-align: center;
-    background-color: $bg-dark;
-    color: $bg-light;
-    font-family: $display-font;
-    font-weight: 700;
-    span {
-      display: block;
-      font-size: $fs-small;
-      line-height: $lh-small;
-      &.d {
-        font-weight: 400;
-        font-size: 2em;
-        line-height: $lh-base / 2;
+  a {
+    .eventdate {
+      float: left;
+      margin-right: 5%;
+      width: 24.3%;
+      text-transform: uppercase;
+      letter-spacing: 0.1em;
+      @include liningnums;
+      text-align: center;
+      background-color: $bg-dark;
+      color: $bg-light;
+      font-family: $display-font;
+      font-weight: 700;
+      text-shadow: none;
+      transition: background-color 0.15s ease-in;
+      span {
+        display: block;
+        font-size: $fs-small;
+        line-height: $lh-small;
+        &.d {
+          font-weight: 400;
+          font-size: 2em;
+          line-height: $lh-base / 2;
+        }
+      }
+    }
+    &:hover {
+      .eventdate {
+        background-color: rgba($bg-dark, 0.6);
       }
     }
   }
@@ -1108,12 +1117,22 @@ Events page layout */
       font-size: 1em;
       line-height: $lh-base;
     }
-    .eventdate {
-      background-color: $bg-light;
-      color: $text-dark;
-      @include xlargebp {
-        background-color: $bg-dark;
-        color: $bg-light;
+    a {
+      .eventdate {
+        background-color: $bg-light;
+        color: $text-dark;
+        @include xlargebp {
+          background-color: $bg-dark;
+          color: $bg-light;
+        }
+      }
+      &:hover {
+        .eventdate {
+          background-color: rgba($bg-light, 0.6);
+          @include xlargebp {
+            background-color: rgba($bg-dark, 0.6);
+          }
+        }
       }
     }
   }
