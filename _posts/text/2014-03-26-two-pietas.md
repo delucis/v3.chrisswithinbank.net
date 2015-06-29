@@ -6,6 +6,7 @@ digest: 'What representation might mean for music by way of an analysis of the P
 abstract: "Two Pietàs in different media, the first by French painter William-Adolphe Bouguereau (1825–1905) and the second by Swedish composer Lisa Streich (1985-), permit an examination of the Pietà trope itself by laying open a range of its symbolic aspects. Bouguereau’s Pietà (1876) is discussed in terms of the grief and joy that are both present in the theological and mythological Virgin Mary at the crucifixion and allows us to touch on a potential functioning of the painting, while Streich’s Pietà (2012), for cello, motors and electronics, takes this apparent dichotomy and combines it with a more active reflection on Christ’s crucified body. This latter also allows us to ask: what is depicted in a piece of music? And suggests that the visual & physical dimensions — the instrument as canvas or stage — are as vital as the sonic dimensions in the apprehension of this work."
 featured_image: 2014/03/bouguereau-pieta.jpg
 featured_image_alt: William-Adolphe Bouguereau’s Pietà
+featured_image_caption: Bouguereau’s *Pietà* (1876)
 ---
 
 #### 1. Mater Dolorosa — Joyous Mother?
