@@ -31,7 +31,7 @@ Last year I put together a [lengthy look at good stuff I’d seen, heard and rea
 
 **Evan Parker, Peter Evans & Okkyung Lee** — Parker’s reputation barely needs any burnishing and [performing in this trio in November](http://www.instantschavires.com/spip.php?article481) he was liquid brilliance as was to be expected, but it was young American trumpeter [Peter Evans](http://iceorg.org/about/artist/evans) who really shone. Improvising at its best.
 
-**Helmut Lachenmann / EIC, _Concertini _**— [Ensemble Intercontemporain](http://www.ensembleinter.com/)’s performance of Lachenmann’s spatialised ensemble work _Concertini_ at the end of November reminded me that he is without equal.
+**Helmut Lachenmann / EIC, _Concertini_** — [Ensemble Intercontemporain](http://www.ensembleinter.com/)’s performance of Lachenmann’s spatialised ensemble work _Concertini_ at the end of November reminded me that he is without equal.
 
 **Drew Baker, _[microscript](http://drewbakermusic.bandcamp.com/track/microscript)_** — This 10-minute work, played here by Chicago’s [Ensemble Dal Niente](http://dalniente.com/), was one of my favourite recordings found online this year.
 
