@@ -895,9 +895,6 @@ Page Structure */
     border-top: none;
   }
   @include mediumbp {
-    margin: 0 auto;
-    padding-left: $lh-base * 2;
-    padding-right: calc(100% - 28.8em);
   }
 }
 @include largebp {
