@@ -14,7 +14,10 @@ layout: default
     <p>Posted on <strong><time class="published" datetime="{{ post.date | date: '%Y-%m-%d'}}">{{ page.date | date: '%A, %-d %B %Y' }}</time></strong></p>
   </footer>
 </article>{% if page.featured_image %}
-<div class="secondary">{% if page.featured_image_alt %}{% assign alttext = page.featured_image_alt %}{% else %}{% assign alttext = page.title | append: ' featured image' %}{% endif %}
-  {% picture sidebar {{ page.featured_image}} alt="{{ alttext }}" class="picture sidebar featured-image" %}
+<div class="secondary">{% if page.featured_image_caption %}
+  <figure>{% endif %}{% if page.featured_image_alt %}{% assign alttext = page.featured_image_alt %}{% else %}{% assign alttext = page.title | append: ' featured image' %}{% endif %}
+    {% picture sidebar {{ page.featured_image}} alt="{{ alttext }}" class="picture sidebar featured-image" %}{% if page.featured_image_caption %}
+    <figcaption>{{ page.featured_image_caption | markdownify }}</figcaption>
+  </figure>{% endif %}
 </div>
 {% endif %}
