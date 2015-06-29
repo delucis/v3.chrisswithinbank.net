@@ -65,7 +65,7 @@ Much of this reflection has been a fairly visual assessment of the instrument as
 _Pietà_ is, for the most part, pervaded by a sense of calm. The gestures of both the cellist and the motors on the instrument body are measured and deliberate, taking time between events and rarely rushing. Repetition and iteration play a large part in maintaining this calm. Indeed repetition and small, local variation of this type can be seen as a performance of reflection or meditation — the slight change of an object in its restatement denoting small shifts in perspective as contemplation progresses. This calm series of iterations is most obvious in the held notes of the cello (whether high as in bb. 8, 21, 24–6 and 32, or lower as in bb. 11, 15, 17 and 24–5, as well as elsewhere). The holding of these and the reoccurrence of specific pitches, permit a movement towards a closer contemplation, transforming them from flat surfaces into detailed topographies. This pervading calm is interrupted, fairly abruptly, in the middle of the work by sharply accented, distorted gestures that seem to rend holes in the fine fabric of the piece (bb. 33–70), but even these sonic eruptions are made to become objects of contemplation in their repetition, and this contemplation leads us back to the quietude of the work’s opening.
 
 <figure markdown="1">
-{% picture 2014/03/streich-score-example.jpg alt="Musical score excerpt" %}
+{% picture wide 2014/03/streich-score-example.jpg alt="Musical score excerpt" %}
 <figcaption markdown="1">
 bb.7–22 (cello part) from Lisa Streich’s *Pietà*.
 </figcaption>
