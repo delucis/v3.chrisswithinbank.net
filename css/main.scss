@@ -362,7 +362,8 @@ Classes for easy image alignment */
     margin-top: $lh-p * 2;
   }
 }
-p .picture {
+p .picture,
+figure .picture {
   margin: 0;
 }
 
