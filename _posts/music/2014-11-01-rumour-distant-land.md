@@ -4,7 +4,7 @@ category: music
 size: chamber
 instrumentation: for four performers
 duration: "9–16'"
-instrumentationlist: 
+instrumentationlist:
   - 4 performers
 published: true
 ---
@@ -12,3 +12,13 @@ published: true
 Materials towards a performance for four people.
 
 *rumour — distant* land provides a framework for a performance that is as much visual and dramatic as it is sonic, allowing four performers to present a series of images and actions, all of which touch around but never upon feelings of distance, loss, reminiscence and the mundane.
+
+<figure>
+  {% picture 2014/11/bludenz-ordnung-der-dinge-2.jpg alt="rumour — distant land, from the first performance" %}
+
+  <figcaption markdown="1">
+
+  Iñigo Giner Miranda and Vera Kardos of [DieOrdnungDerDinge](http://www.dieordnungderdinge.com/) during the first performance of *rumour — distant land* at the Bludenzer Tage zeitgemäßer Musik.
+
+  </figcaption>
+</figure>
