@@ -277,6 +277,11 @@ Ambient poetics can also be evoked by the use of ‘suspension’ — the gaps b
   [^78]: Bruno, *Atlas of Emotion*, 98.
   [^79]: Eliasson, *Innen Stadt Außen*.
 
+<figure markdown="1">
+{% picture 2013/12/naturalisation_fig5.png alt="Four stills from Antonioni’s L’eclisse demonstrating temps mort." %}
+<figcaption>Fig. 5</figcaption>
+</figure>
+
 What is commonly referred to as *temps mort* — a celebrated feature of Antonioni’s filmmaking — is a technical mechanism for the generation of ambient poetics through suspension *par excellence*. Figure 5 shows two examples from *L’eclisse* of shots where Monica Vitti’s Vittoria either arrives or departs from the frame but the environment remains static around her. (‘Thinking things as Nature is thinking them as a more or less static, or metastable’.)[^80] When the frame is ‘empty’ we become aware of the environment. Even though in the first we are looking at an architectural space — a window cutting a square of illumination into the night; our gaze resting on the open window; the empty frames of the window and the film strip mirroring one another — the space is made environmental. We are told that this landscape of light and shadow is the outside, it is that within which Vittoria is embedded. These lingering moments happen again and again, especially in *La notte* and *L’eclisse*, and it is in the latter that they achieve their apotheosis.
 
   [^80]: Morton, *Hyperobjects*, 72.
