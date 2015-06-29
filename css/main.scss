@@ -457,6 +457,18 @@ Basic Class Selectors */
     margin-bottom: $lh-base / 2;
   }
 }
+footer.entry-meta {
+  padding: $lh-p / 2;
+  color: rgba($text-dark, 0.55);
+  background-color: $bg-shade;
+  box-shadow: rgba($text-dark,0.1) 0px 0px 15px inset;
+  p {
+    margin: 0;
+    font-size: $fs-small;
+    line-height: $lh-small;
+    font-family: $display-font;
+  }
+}
 .site-footer {
   dl {
     color: rgba($text-dark, 0.55);
