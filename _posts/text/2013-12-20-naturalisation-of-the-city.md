@@ -2,6 +2,9 @@
 title: "The Naturalisation of the City After the End of the World"
 category: text
 digest: "Environmental aesthetics in Italian cinema and literature from the mid-20th century. Plus bonus Tati."
+featured_image: 2013/12/CityLights_PatriciaThompson052.gif
+featured_image_alt: Patricia Thompson, Bobsted (2010)
+featured_image_caption: Patricia Thompson, *Bobsted* (2010), 105 × 70 cm
 ---
 ### Fall of Rome
 
