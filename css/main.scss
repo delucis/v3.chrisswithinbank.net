@@ -233,6 +233,9 @@ a {
   &:hover {
     color: $link-hover;
   }
+  abbr {
+    border-bottom: none;
+  }
 }
 ul,
 ol,
