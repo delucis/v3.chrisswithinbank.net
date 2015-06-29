@@ -312,10 +312,18 @@ Classes for easy image alignment */
     &.alignright {
       float:right;
       margin:0 0 $lh-p $lh-p;
+      max-width: 8.333333333em;
+      @include mediumbp {
+        max-width: 9em;
+      }
     }
     &.alignleft {
       float:left;
       margin:0 $lh-p $lh-p 0;
+      max-width: 8.333333333em;
+      @include mediumbp {
+        max-width: 9em;
+      }
     }
     &.aligncenter {
       display: block;
@@ -327,10 +335,18 @@ Classes for easy image alignment */
     &.alignright {
       float:right;
       margin:0 0 $lh-p $lh-p;
+      max-width: 8.333333333em;
+      @include mediumbp {
+        max-width: 9em;
+      }
     }
     &.alignleft {
       float:left;
       margin:0 $lh-p $lh-p 0;
+      max-width: 8.333333333em;
+      @include mediumbp {
+        max-width: 9em;
+      }
     }
     &.aligncenter {
       display: block;
