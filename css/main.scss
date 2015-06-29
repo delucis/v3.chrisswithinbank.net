@@ -906,7 +906,7 @@ Page Structure */
 }
 @include largebp {
   body {
-    background-color: rgb(247, 249, 246);
+    background-color: $bg-shade;
   }
   .site-header {
       position: fixed;
