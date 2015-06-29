@@ -75,6 +75,21 @@ picture:
         width: "150"
       source_default:
         width: "324"
+    wide:
+      ppi: [1, 1.5, 2]
+      attr:
+        class: "picture wide"
+      source_xlarge:
+        media: "(min-width: 70em)"
+        width: "807"
+      source_large:
+        media: "(min-width: 45em)"
+        width: "661"
+      source_medium:
+        media: "(min-width: 22.5em)"
+        width: "512"
+      source_default:
+        width: "324"
 defaults:
     -
         scope:
