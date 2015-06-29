@@ -237,7 +237,7 @@ a {
 ul,
 ol,
 dl {
-  margin: 0;
+  margin: 0 0 $lh-p;
   padding-left: 1.2em;
   @include smallbp {
     padding-left: 0;
