@@ -1,6 +1,6 @@
 ---
 title: <em>Tomorrow I will build a house…</em> at Harvard
-date: 2014-10-04 20:00
+date: 2014-10-04 20:00 -05:00
 performer:
   name: ensemble mosaik
   url: http://www.ensemble-mosaik.de/
