@@ -63,6 +63,18 @@ picture:
         width: "150"
       source_default:
         width: "324"
+    alignleft:
+      ppi: [1, 1.5, 2]
+      attr:
+        class: "picture alignleft"
+      source_large:
+        media: "(min-width: 45em)"
+        width: "189"
+      source_medium:
+        media: "(min-width: 22.5em)"
+        width: "150"
+      source_default:
+        width: "324"
 defaults:
     -
         scope:
