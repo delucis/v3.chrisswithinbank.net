@@ -356,6 +356,16 @@ Classes for easy image alignment */
   }
 }
 
+.picture {
+  margin: $lh-p 0;
+  &.sidebar {
+    margin-top: $lh-p * 2;
+  }
+}
+p .picture {
+  margin: 0;
+}
+
 /*
 
      ######  ######## ##       ########  ######  ########  #######  ########   ######
