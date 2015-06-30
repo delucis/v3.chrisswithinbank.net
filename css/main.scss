@@ -498,6 +498,11 @@ Basic Class Selectors */
     padding-left: $lh-base;
   }
 }
+.music.archive {
+  .entry-title {
+    margin-bottom: 0;
+  }
+}
 footer.entry-meta {
   padding: $lh-p / 2;
   color: rgba($text-dark, 0.55);
