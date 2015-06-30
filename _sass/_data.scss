@@ -24,6 +24,14 @@
     }
   }
 }
+.blog .chart.wide {
+  @include mediumbp {
+    width: 123%;
+  }
+  @include xlargebp {
+    width: 150%;
+  }
+}
 .chartlist {
   border-top: 1px solid $light-outline;
   border-right: 1px solid $light-outline;
