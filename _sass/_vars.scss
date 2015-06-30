@@ -27,9 +27,12 @@ $fs-s-h4:  1.2em;          // base: 18px; sbp: 19.9…px; mbp: 21px
 $fs-s-h3:  1em;            // base: 15px; sbp: 16.6…px; mbp: 17.5px
 /* EXTRA SMALL TYPE */
 $fs-meta:  0.6666666666em; // base: 12px; sbp: 13.3…px; mbp: 24px
+/* EXTRA BIG TYPE */
+$fs-big:   2em;            // base: 36px; sbp: 40px;    mbp: 42px
 /* LINE HEIGHTS */
 $lh-p:      $lh-base;
 $lh-meta:   ($lh-base / $fs-meta) * 1em;
+$lh-big:    ($lh-base / $fs-big) * 2em;
 $lh-h4:     ($lh-base / $fs-h4) * 1em;
 $lh-h3:     ($lh-base / $fs-h3) * 1em;
 $lh-h2:     ($lh-base / $fs-h2) * 1em;
