@@ -7,8 +7,7 @@ layout: default
 ---
 <section class="primary hfeed">
   <header>
-    <h2>{{ page.title }}</h2>{% if page.digest %}
-    <p><em>{{ page.digest }}</em></p>{% endif %}
+    <h2>{{ page.title }}{% unless paginator.page == 1 %} / p.{{ paginator.page }}{% endunless %}</h2>
   </header>
   {% unless paginator.page == 1 %}
   <!-- Pagination links -->
