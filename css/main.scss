@@ -273,6 +273,14 @@ figcaption {
     font-style: normal;
   }
 }
+.secondary {
+  figcaption {
+    color: $bg-light;
+    @include xlargebp {
+      color: $text-light;
+    }
+  }
+}
 
 /*
 
