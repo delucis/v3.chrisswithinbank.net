@@ -13,6 +13,7 @@ tags:
 - HGNM
 - traveller standing in rooms
 featured_image: 2014/05/elision-hgnm-poster.png
+featured_image_alt: "HGNM ELISION poster"
 ---
 
 This week, [ELISION Ensemble](http://www.elision.org.au/) will be in residence at Harvard University, culminating on Saturday 17 May in a concert of new music by graduate composers at Harvard that will also include the US première of [Richard Barrett](http://richardbarrettmusic.com/)’s [_Lens_](http://vimeo.com/72911962), for flugelhorn and electric lap-steel guitar.
