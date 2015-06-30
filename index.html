@@ -10,6 +10,23 @@ layout: default
     <h2>{{ page.title }}</h2>{% if page.digest %}
     <p><em>{{ page.digest }}</em></p>{% endif %}
   </header>
+  {% unless paginator.page == 1 %}
+  <!-- Pagination links -->
+  <div class="pagination clearfix">{% if paginator.next_page %}
+    <a href="{{ paginator.next_page_path }}" class="arrow older" rel="prev">Older</a>{% else %}
+    <span class="arrow older">Older</span>{% endif %}
+    <span class="separator">—</span>
+    <span class="page_number">
+      <span class="visuallyhidden">Page</span>
+      <span class="numerator">{{ paginator.page }}</span>
+      <span class="visuallyhidden">of</span>
+      <span class="denominator">{{ paginator.total_pages }}</span>
+    </span>
+    <span class="separator">—</span>{% if paginator.previous_page %}
+    <a href="{{ paginator.previous_page_path }}" class="arrow newer" rel="next">Newer</a>{% else %}
+    <span class="arrow newer">Newer</span>{% endif %}
+  </div>
+  {% endunless %}
   {% for post in paginator.posts %}
   <article id="{{ post.title | slugify }}" class="hentry{% if forloop.first %} first{% endif %}">
     <header>
