@@ -25,4 +25,6 @@ programme:
   - composer: Trevor Bača
     work: Krummzeit
     gender: M
+featured_image: 2014/10/mosaik-hgnm-poster.png
+featured_image_alt: "HGNM ensemble mosaik poster"
 ---
