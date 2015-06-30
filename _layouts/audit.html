@@ -1,36 +1,6 @@
 ---
 layout: post
 ---
-  {% include audit_00_data.html mindate="20060901" maxdate="20100701" %}
-  {% assign worksperformedF_percent_uni = worksperformedF_percent %}
-  {% include audit_00_data.html mindate="20100702" maxdate=page.maxdate %}
-  {% assign worksperformedF_percent_since = worksperformedF_percent %}
-  {% include audit_00_data.html mindate=page.mindate maxdate=page.maxdate %}
   {{ content }}
-  {% for include in page.includes %}{% case include %}
-    {% when 'basics' %}
-      <h3>Some basic numbers</h3>
-      {% include audit_01_works.html %}
-      {% include audit_03_all-male.html %}
-      {% include audit_04_avg_prog.html %}
-    {% when 'career' %}
-      <h3>Career progression</h3>
-      <p>It is often stated that there is a gradual filtering out of women at every stage of career progression: from school-age music studies, throughout academic pathways, and later in professional contexts. My data is limited, but I can compare the 4 years I was an undergraduate and masters student at the University of Manchester — when the vast majority of my performances were in student contexts and <strong>{{ worksperformedF_percent_uni }}%</strong> of works performed were by female composers — with the period since then, for which that figure is just <strong>{{ worksperformedF_percent_since }}%</strong>. That amounts to a drop in representation of {{ worksperformedF_percent_uni | minus: worksperformedF_percent_since | divided_by: worksperformedF_percent_uni | times: 100 | append: "" | truncate: 4, '' }}% in the 5 years since my Masters graduation.</p>
-    {% when 'overview' %}
-      <h3>An overview of all the concerts</h3>
-      {% include audit_05_sparkline.html %}
-      <ul>
-        <li>Just {% if parity_count == 1 %}<strong>{{ parity_count }} concert</strong> (of {{ concerts }}) has{% else %}<strong>{{ parity_count }} concerts</strong> (of {{ concerts }}) have{% endif %} featured a programme where half or more of the works are by female composers.</li>
-        <li>On average just <strong>{{ worksperformedF_percent }}%</strong> of works played are by female composers.</li>
-      </ul>
-    {% when 'frequency' %}
-      <h3>Performance frequency</h3>
-      <p>Some composers are more or less frequently performed: there seems to be a tendency for the few female composers that are performed ({{ composersF_total }} and counting) to be programmed relatively more frequently. This represents a further shrinking of the representation of female composers — the already small number of works performed come from an even smaller group of composers. Taking my own works out of the equation, works by female composers are <strong>{{ othersF_percent }}%</strong> of all works performed. Female composers on the other hand represent only <strong>{{ composersF_percent }}%</strong> of the composers programmed.</p>
-      {% include audit_02_frequency.html %}
-      <p>Unlike the other measures, this excludes my own performances, which of course hugely outnumber those of any other composer and distort this particular corpus of data.</p>
-    {% when 'nodata' %}
-      <p>There are <strong>{{ nodata }} concerts</strong> missing programme data. These are ignored entirely in the statistics above.</p>
-    {% when 'jsonlink' %}
-      <h3>The data</h3>
-      <p>If you are code-minded and would like to play around with the event data, download the <a href="/assets/eventdata.json" type="application/ld+json">event data JSON-LD file</a>. It contains data for every event in my archive, marked up with <a href="http://schema.org/">schema.org</a> vocabularies.</p>
-  {% endcase %}{% endfor %}
+  {% include audit_layout_setup.html %}
+  {% include audit_layout_content.html %}
