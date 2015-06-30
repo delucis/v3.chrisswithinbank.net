@@ -32,6 +32,13 @@ At night, it is cold in the house. As you try fitfully to sleep on the floor amo
 
 Even you can no longer imagine burning the house down.
 
+<figure>
+{% picture 2013/01/Swithinbank-All-that-is-solid-performance-photos-4.png alt="A guitarist playing by candlelight" %}
+<figcaption markdown="1">
+Kobe van Cauwenberghe at the premiere of *All that is solid melts into air*
+</figcaption>
+</figure>
+
 ### French Programme Note
 
 #### Translation in collaboration with [Karim Barkati](http://karim.barkati.online.fr/)
