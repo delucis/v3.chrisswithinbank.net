@@ -468,8 +468,12 @@ Basic Class Selectors */
 }
 .bibliography {
   list-style: none;
-  text-indent: $lh-base * -2;
-  padding-left: $lh-base * 2;
+  text-indent: $lh-base * -1;
+  padding-left: $lh-base * 1;
+  @include mediumbp {
+    text-indent: $lh-base * -2;
+    padding-left: $lh-base * 2;
+  }
   li {
     margin-bottom: $lh-base / 2;
   }
