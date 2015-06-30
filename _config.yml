@@ -24,7 +24,7 @@ paginate_per_category: true
 default_category: "blog"
 picture:
   source: "assets/images/_fullsize"
-  output: "uploads"
+  output: "wp-content/uploads"
   markup: "picture"
   presets:
     default:
