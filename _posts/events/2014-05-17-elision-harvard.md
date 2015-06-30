@@ -9,6 +9,7 @@ venue:
   address: Cambridge, MA 02138, United States
 works:
   - traveller, standing in rooms {i … ii}
+premiere: traveller, standing in rooms {i … ii}
 programme:
   - composer: Chris Swithinbank
     work: traveller, standing in rooms {i … ii}

@@ -11,6 +11,7 @@ venue:
   address: 36 Wigmore Street, London W1U 2BP, United Kingdom
 works:
   - still point
+premiere: still point
 programme:
   - composer: Chris Swithinbank
     work: still point

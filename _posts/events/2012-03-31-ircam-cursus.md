@@ -13,6 +13,7 @@ venue:
 facebook: https://www.facebook.com/events/305322429532912/
 works:
   - something golden in the night
+premiere: something golden in the night
 programme:
   - composer: Chris Swithinbank
     work: something golden in the night

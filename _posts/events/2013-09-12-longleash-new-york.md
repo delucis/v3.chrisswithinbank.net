@@ -11,6 +11,7 @@ venue:
   address: 330 7th Ave, New York, NY 10001, United States
 works:
   - Icebloom
+premiere: Icebloom
 programme:
   - composer: Chris Swithinbank
     work: Icebloom
