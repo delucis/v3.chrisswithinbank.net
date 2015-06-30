@@ -3,9 +3,9 @@
   <head>
     <meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
     <meta http-equiv="x-ua-compatible" content="ie=edge">
-    <title>{% if page.url == '/index.html' %}
-      {{ site.name }}, composer{% else %}
-      {{ page.title }}{% if page.categories %} > {{ page.categories | first | capitalize }}{% endif %} > {{ site.name }}{% endif %}
+    <title>{% if page.title == 'Home' %}
+      {{ site.name }}, composer{% unless paginator.page == 1 %} - part {{ paginator.page }}{% endunless %}{% else %}
+      {{ page.title }}{% if page.subtitle %}: {{ page.subtitle }}{% endif %}{% if page.categories.first == 'music' or page.categories.first ==  'text' or page.categories.first ==  'events' %} | {{ page.categories | first | capitalize }}{% endif %} | {{ site.name }}{% endif %}
     </title>
     <meta name="description" content="{% if page.digest %}{{ page.digest | strip_html }}{% elsif page.excerpt %}{{ page.excerpt | strip_html | truncate: 159, '…' }}{% else %}{{ site.description }}{% endif %}">
     <meta name="viewport" content="width=device-width, initial-scale=1">
