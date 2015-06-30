@@ -194,7 +194,10 @@ body {
 h2 {
   font-family: $display-font;
   font-size: $fs-h2;
-  margin: $lh-h2 0 0;
+  margin: 0;
+  @include largebp {
+    margin: $lh-h2 0 0;
+  }
   line-height: $lh-h2 * 1.5;
 }
 h3 {
