@@ -1,42 +1,48 @@
 /* ==========================================================================
    Data Viz Styling
    ========================================================================== */
-.chartlist {
-  margin: 0;
-  border-top: 1px solid $light-outline;
-  border-right: 1px solid $light-outline;
-  border-left: 1px solid $light-outline;
+.chart {
   width: 100%;
-  padding-left: 0;
   background: #fff;
   box-shadow: 0 0 15px -10px #000;
+  padding-left: 0;
+  margin: 0;
   @include liningnums;
   li {
     position: relative;
     display: block;
-    border-bottom: 1px solid $light-outline;
     list-style: none;
     _zoom: 1;
-    .label {
-      display: block;
-      padding: 0.4em 4.5em 0.4em 0.5em;
-      position: relative;
-      z-index: 2;
-    }
     .separator {
       display: none;
     }
     .value {
       display: block;
       position: absolute;
+      z-index: 3;
+      font-weight: 700;
+    }
+  }
+}
+.chartlist {
+  border-top: 1px solid $light-outline;
+  border-right: 1px solid $light-outline;
+  border-left: 1px solid $light-outline;
+  li {
+    border-bottom: 1px solid $light-outline;
+    .label {
+      display: block;
+      padding: 0.4em 4.5em 0.4em 0.5em;
+      position: relative;
+      z-index: 2;
+    }
+    .value {
       top: 0;
       right: 0;
       margin: 0 0.4em;
       padding: 0.4em 0;
       text-align: right;
       color: $text-light;
-      font-weight: bold;
-      z-index: 3;
     }
     .percentage {
       display: block;
@@ -78,13 +84,8 @@
   }
 }
 .sparkchart {
-  width: 100%;
-  margin: $lh-base 0 0;
-  padding-left: 0;
+  margin-top: $lh-base;
   border: 1px solid $light-outline;
-  background: #fff;
-  box-shadow: 0 0 15px -10px #000;
-  @include liningnums;
   &:before,
   &:after {
     content: " ";
@@ -99,11 +100,7 @@
     border-top: 1px solid $light-outline;
   }
   li {
-    position: relative;
-    display: block;
     float: right;
-    list-style: none;
-    _zoom: 1;
     &:nth-child(even) {
       background: #fafafa;
     }
@@ -155,12 +152,7 @@
         }
       }
     }
-    .separator {
-      display: none;
-    }
     .value {
-      display: block;
-      position: absolute;
       width: 500%;
       height: 1px;
       top: -1.6em;
@@ -168,9 +160,7 @@
       text-align: center;
       text-indent: 999em;
       overflow: hidden;
-      font-weight: 700;
       padding: 0 0.4em;
-      z-index: 3;
     }
     &:hover {
       a {
