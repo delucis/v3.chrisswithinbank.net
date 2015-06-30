@@ -32,7 +32,7 @@ I won’t elaborate on my own feelings here, I’ve done that enough in other fo
 
 This short clip sparked a lot of debate and today, feeling it necessary to explain himself, Mantovani used the CNSMdP Facebook page to issue [a defensive, clarifying statement](https://www.facebook.com/conservatoiredeparis.cnsmdp/posts/520629861364907), which I translate below:
 
-> ### Where are the women in classical music? Continuation and end
+> #### Where are the women in classical music? Continuation and end
 
 > Just as ‘there is no love, only demonstrations of love’, I think that there is no machismo, only demonstrations of machismo, or better still, that there is no anti-machismo, only demonstrations of anti-machismo. The interview I gave to France Musqiue as director of the Conservatoire National Supérieur de Musique et de Danse on the presence of women in the conducting profession has been creating controversy on social networks. It is first in my role as a composer that I would like to remind all those who are ready to participate in such easy public condemnation, that the author of these lines has dedicated four works to Laurence Equilbey, has recorded a CD with Susanna Mälkki, has requested that the Opéra de Paris engage this latter for his first stage work at the Bastille opera, and is currently working on a melodrama with Claire Gibault. There are only demonstrations, I said, and here are some irrefutable demonstrations, that should already be enough to silence the ill-informed prosecutors.
 
