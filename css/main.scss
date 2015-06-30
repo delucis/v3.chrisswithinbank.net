@@ -471,6 +471,22 @@ Basic Class Selectors */
     margin-bottom: $lh-base / 2;
   }
 }
+.home, .text.archive {
+  .entry-title {
+    margin-bottom: 0;
+  }
+  .entry-meta {
+    font-family: Infini;
+    font-size: $fs-meta;
+    line-height: $lh-meta;
+    margin-bottom: $lh-meta;
+    font-weight: 700;
+    text-transform: uppercase;
+    letter-spacing: 0.1em;
+    color: $text-light;
+    @include liningnums;
+  }
+}
 footer.entry-meta {
   padding: $lh-p / 2;
   color: rgba($text-dark, 0.55);
