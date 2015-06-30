@@ -1,7 +1,17 @@
 ---
 layout: default
 ---
-{% assign event = page %}
+{% capture cache %}{% assign event = page %}
+{% assign now = site.time | date: '%Y%m%d' %}
+{% assign eventdate = event.date | append: '' %}
+{% if eventdate.size == 10 %}
+    {% assign then = eventdate | append: ' 20:00' | date: '%Y%m%d' %}
+  {% else %}
+    {% assign then = eventdate | date: '%Y%m%d' %}
+{% endif %}
+{% if event.enddate %}
+  {% assign enddate = event.enddate | append: '' %}
+{% endif %}{% endcapture %}{% assign cache = nil %}
 <div class="primary">
   <h2>
     {% if event.works.size == 1 %}
@@ -33,4 +43,5 @@ layout: default
       {% endif %}
     </p>
   {% endif %}
+  {% include events_json-ld.html %}
 </div>
