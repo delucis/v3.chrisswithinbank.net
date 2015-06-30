@@ -487,6 +487,17 @@ Basic Class Selectors */
     @include liningnums;
   }
 }
+.text.archive {
+  .subtitle {
+    margin: 0;
+  }
+  .entry-meta {
+    margin: 0;
+  }
+  .entry-summary {
+    padding-left: $lh-base;
+  }
+}
 footer.entry-meta {
   padding: $lh-p / 2;
   color: rgba($text-dark, 0.55);
