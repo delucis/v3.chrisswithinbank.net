@@ -536,6 +536,12 @@ Basic Class Selectors */
     margin-bottom: 0;
   }
 }
+.single-music,
+.page {
+  .entry-title {
+    margin-bottom: $lh-h2;
+  }
+}
 .text.single-post {
   .subtitle {
     margin-top: 0;
