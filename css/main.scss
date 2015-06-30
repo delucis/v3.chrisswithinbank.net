@@ -474,6 +474,14 @@ Basic Class Selectors */
     margin-bottom: $lh-base / 2;
   }
 }
+.home {
+  .hentry {
+    margin-bottom: $lh-base * 3;
+    @include mediumbp {
+      margin-bottom: $lh-base * 4;
+    }
+  }
+}
 .home, .text.archive {
   .entry-title {
     margin-bottom: 0;
