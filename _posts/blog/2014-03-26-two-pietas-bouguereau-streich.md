@@ -18,4 +18,4 @@ The most recent edition of the [CeReNeM Journal](http://www.hud.ac.uk/research/r
 
 Lisa’s music is wonderful, you should go listen to it, and as a small bonus if you are reading the article online, you can refer to [this selective timeline of Bouguereau’s paintings](http://chrisswithinbank.net/bouguereau/), which I created as an aid to my research.
 
-<div data-configid="2175216/7245407" style="width: 540px; height: 382px;" class="issuuembed"></div><script type="text/javascript" src="//e.issuu.com/embed.js" async="true"></script>
+<div class="embed-container"><div data-configid="2175216/7245407" style="width: 540px; height: 382px;" class="issuuembed"></div><script type="text/javascript" src="//e.issuu.com/embed.js" async="true"></script></div>
