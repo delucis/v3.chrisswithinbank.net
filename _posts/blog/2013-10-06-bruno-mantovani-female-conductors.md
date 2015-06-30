@@ -14,7 +14,7 @@ featured_image_alt: "Christoph Weigel (1698) Ständebuch Page title: Der Kantor 
 
 The question of gender inequity in classical music is hardly a new one and just a few days ago, Alex Ross [posted in the New Yorker](http://www.newyorker.com/online/blogs/culture/2013/10/women-gays-and-classical-music.html) including some more recent upsetting comments from Russian conductors about their female counterparts. Meanwhile in the francophone world, there has been heated debate about [remarks made this week](https://soundcloud.com/france-musique/bruno-mantovani-directeur-du) by Bruno Mantovani, composer and — more importantly in this context — director of the Conservatoire National Supérieur de Musique et de Danse de Paris, in an interview with France Musique:
 
-<iframe src="https://w.soundcloud.com/player/?url=http%3A%2F%2Fapi.soundcloud.com%2Ftracks%2F113623252&amp;color=77101c&amp;auto_play=false&amp;show_artwork=false" height="166" width="100%" frameborder="no" scrolling="no"></iframe>
+<p><iframe src="https://w.soundcloud.com/player/?url=http%3A%2F%2Fapi.soundcloud.com%2Ftracks%2F113623252&amp;color=77101c&amp;auto_play=false&amp;show_artwork=false" height="166" width="100%" frameborder="no" scrolling="no"></iframe></p>
 
 I won’t elaborate on my own feelings here, I’ve done that enough in other fora, but in the interest of this being available to those who don’t speak French, here is a translated transcript of his remarks (with thanks to [Fabienne Séveillac](http://www.fabienneseveillac.com/) for the French transcription):
 
