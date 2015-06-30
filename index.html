@@ -36,7 +36,8 @@ layout: default
       <a href="{{ post.url }}">{% picture alignright {{ post.featured_image }} alt="{{ alttext }}" %}</a>{% endif %}
       {{ post.content }}
     </div>{% if post.layout == 'audit' %}
-    <a href="{{ post.url }}">Read more »</a>{% endif %}
+    {% include audit_layout_setup.html %}
+    {% include audit_layout_content.html %}{% endif %}
   </article>{% endfor %}
 
   <!-- Pagination links -->
