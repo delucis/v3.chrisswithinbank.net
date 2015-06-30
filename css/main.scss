@@ -510,14 +510,25 @@ Basic Class Selectors */
   }
 }
 .text.archive {
+  .entry-title {
+    font-size: $fs-h2;
+    line-height: $lh-h2 * 1.5;
+    margin-top: $lh-h2 * 2;
+  }
   .subtitle {
     margin: 0;
   }
   .entry-meta {
     margin: 0;
+    @include mediumbp {
+      padding-left: $lh-meta;
+    }
   }
   .entry-summary {
-    padding-left: $lh-base;
+    font-style: italic;
+    @include mediumbp {
+      padding-left: $lh-base;
+    }
   }
 }
 .music.archive {
