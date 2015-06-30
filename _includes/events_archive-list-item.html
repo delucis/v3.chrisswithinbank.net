@@ -1,4 +1,5 @@
 {% capture cache %}{% assign now = site.time | date: '%Y%m%d' %}
+{% assign eventurl = nil %}
 {% assign eventdate = event.date | append: '' %}
 {% if eventdate.size == 10 %}
     {% assign then = eventdate | append: ' 20:00' | date: '%Y%m%d' %}
@@ -19,11 +20,23 @@
   {% else %}
     {% assign context = 'main' %}
 {% endif %}{% endcapture %}{% assign cache = nil %}{% if test %}
-  <li class="event-card clearfix{% if postcount == 0 %} first{% endif %}">
-    {% if context == 'aside' %}<h4>{% else %}<h3>{% endif %}{% if event.works.size == 1 %}{% assign headline = event.works[0] %}{% else %}
-        {% assign headline = event.title %}{% endif %}
-      <a href="{{ event.url }}" title="{{ headline | strip_html }}">{{ headline }}</a>
-    {% if context == 'aside' %}</h4>{% else %}</h3>{% endif %}
+<li class="event-card clearfix{% if postcount == 0 %} first{% endif %}">
+    {% if context == 'aside' %}<h4>{% else %}<h3>{% endif %}{% capture cache %}
+      {% if event.works.size == 1 %}
+        {% assign headline = event.works[0] %}
+        {% for post in site.categories.music %}
+          {% if post.title == headline %}
+            {% assign eventurl = post.url %}
+            {% break %}
+          {% endif %}
+        {% endfor %}
+      {% else %}
+        {% assign headline = event.title %}
+        {% assign eventurl = event.url %}
+    {% endif %}{% endcapture %}{% assign cache = nil %}{% if eventurl %}
+      <a href="{{ eventurl }}">{{ headline }}</a>{% else %}
+      {{ headline }}{% endif %}{% if context == 'aside' %}
+    </h4>{% else %}</h3>{% endif %}
     <a href="{{ event.url }}"><time datetime="{{ eventdate | date_to_xmlschema }}" class="eventdate">
       <span class="m">{% assign m = eventdate | date: "%-m" %}{% case m %}{% when '5' or '6' or '7' %}{{ eventdate | date: "%B" }}{% else %}{{ eventdate | date: "%b" }}.{% endcase %}</span>
       <span class="d">{{ eventdate | date: "%-d" }}</span><span class="visuallyhidden">,</span>
