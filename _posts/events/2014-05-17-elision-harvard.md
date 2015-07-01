@@ -32,4 +32,6 @@ programme:
   - composer: Timothy McCormack
     work: subsidence
     gender: M
+featured_image: 2014/05/elision-hgnm-poster.png
+featured_image_alt: HGNM ELISION Ensemble poster
 ---

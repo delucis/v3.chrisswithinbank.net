@@ -38,4 +38,6 @@ programme:
   - composer: Timothy McCormack
     work: Apparatus
     gender: M
+featured_image: 2014/03/handwerk-hgnm-poster.jpg
+featured_image_alt: HGNM hand werk poster
 ---

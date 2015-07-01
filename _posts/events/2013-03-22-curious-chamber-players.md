@@ -34,4 +34,6 @@ programme:
   - composer: Joakim Sandgren
     work: Endroites Susceptibles
     gender: M
+featured_image: 2013/03/stthomas.jpg
+featured_image_alt: Detail from Caravaggio’s Incredulity of St Thomas
 ---

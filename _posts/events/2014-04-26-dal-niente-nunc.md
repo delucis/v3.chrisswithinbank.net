@@ -19,4 +19,6 @@ programme:
     gender: M
   - composer: Jacob Gotlib
     gender: M
+featured_image: 2014/04/pick-staiger-concert-hall.jpg
+featured_image_alt: Pick-Staiger Concert Hall
 ---
