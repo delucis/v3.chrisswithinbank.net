@@ -14,7 +14,7 @@ layout: default
 {% endif %}{% endcapture %}{% assign cache = nil %}
 <div class="primary">
   <h2>{% if event.performer.url %}
-    <a href="event.performer.url">{{ event.performer.name }}</a>{% else %}
+    <a href="{{ event.performer.url }}">{{ event.performer.name }}</a>{% else %}
     {{ event.performer.name }}{% endif %}
   </h2>
   <p class="entry-meta">
