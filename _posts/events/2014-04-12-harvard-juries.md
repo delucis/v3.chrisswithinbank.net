@@ -5,7 +5,7 @@ performer:
   name: Callithumpian Consort
   url: http://www.callithumpian.org/
 venue:
-  name: Music Building, Harvard University
+  name: Music Building
   url: http://www.music.fas.harvard.edu/
   address: Cambridge, MA 02138, United States
 works:

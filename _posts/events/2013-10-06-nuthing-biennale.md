@@ -8,6 +8,7 @@ venue:
   url: http://www.labiennale.org/it/musica/index.html
   shortaddress: Italy
   address: San Marco, 1364, Venezia, Italy
+  map_address_only: true
 works:
   - All the time that you have what we have. / All the time that you have.
 programme:

@@ -9,6 +9,7 @@ venue:
   url: http://www.yorkspringfestival.co.uk/
   shortaddress: UK
   address: Department of Music, University of York, York, UK YO10 5DD, United Kingdom
+  map_address_only: true
 facebook: https://www.facebook.com/events/186340652629/
 works:
   - "Mikrokonzert: I Swear I Saw the Sun Falling"

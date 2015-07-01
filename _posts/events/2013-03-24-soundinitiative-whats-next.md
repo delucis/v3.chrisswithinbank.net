@@ -9,6 +9,7 @@ venue:
   url: http://whats-next.be/
   shortaddress: Brussels
   address: 21, rue de Manchester, 1080 Sint-Jans-Molenbeek, Belgium
+  map_address_only: true
 locationtype: PerformingArtsTheater
 works:
   - All that is solid melts into air

@@ -9,6 +9,7 @@ venue:
   url: http://btzm.at/
   shortaddress: Austria
   address: Raiffeisenpl. 1, 6700 Bludenz, Austria
+  map_address_only: true
 locationtype: PerformingArtsTheater
 works:
   - rumour — distant land

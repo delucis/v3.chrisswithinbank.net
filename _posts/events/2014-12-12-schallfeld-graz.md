@@ -8,6 +8,7 @@ venue:
   name: Veranstaltungssaal der KHG Graz
   shortaddress: Austria
   address: Leechgasse 22, 8010 Graz, Austria
+  map_address_only: true
 facebook: https://www.facebook.com/events/972589792755683/
 works:
   - Tomorrow I will build a house here, if I can hold still

@@ -9,6 +9,7 @@ venue:
   url: http://samtidamusik.se/samtid/sv/konsert/v-rflod-garth-knox-och
   shortaddress: Stockholm
   address: Sankt Eriksgatan 82, 113 62 Stockholm, Sweden
+  map_address_only: true
 works:
   - The Incredulity of St Thomas
 programme:
