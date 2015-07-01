@@ -22,8 +22,6 @@ layout: default
       {{ event.date | date: "%A, %-d %B %Y, %-I" }}{% assign eventminutes = event.date | date: '%M' %}{% if eventminutes == '00' %}{{ event.date | date: '%p' | downcase }}{% else %}{{ event.date | date: ':%M%p' | downcase }}{% endif %}
     </time>
   </p>
-  {% if event.facebook %}
-  <a href="{{ event.facebook }}">Facebook</a>
   {% endif %}
   {% if event.venue %}
     <h4>Where</h4>
@@ -54,11 +52,27 @@ layout: default
   {% endif %}
   {% include events_json-ld.html %}
 </div>
-{% if page.featured_image %}
-<div class="secondary">{% if page.featured_image_caption %}
-  <figure>{% endif %}{% if page.featured_image_alt %}{% assign alttext = page.featured_image_alt %}{% else %}{% assign alttext = page.title | append: ' featured image' %}{% endif %}
-    {% picture sidebar {{ page.featured_image}} alt="{{ alttext }}" class="picture sidebar featured-image" %}{% if page.featured_image_caption %}
-    <figcaption>{{ page.featured_image_caption | markdownify }}</figcaption>
-  </figure>{% endif %}
+{% if event.featured_image or event.facebook %}
+<div class="secondary">
+  {% if event.facebook %}
+  <a href="{{ event.facebook }}" class="facebook-link"><span class="icon facebook"></span> See event on Facebook</a>
+  {% endif %}
+  {% if event.featured_image %}
+    {% if event.featured_image_alt %}
+      {% assign alttext = event.featured_image_alt %}
+      {% else %}
+      {% assign alttext = event.title | append: ' featured image' %}
+    {% endif %}
+    {% if event.featured_image_caption %}
+      <figure>
+        {% picture sidebar {{ event.featured_image}} alt="{{ alttext }}" class="picture sidebar featured-image" %}
+        <figcaption>
+          {{ event.featured_image_caption | markdownify }}
+        </figcaption>
+      </figure>
+    {% else %}
+      {% picture sidebar {{ event.featured_image}} alt="{{ alttext }}" class="picture sidebar featured-image" %}
+    {% endif %}
+  {% endif %}
 </div>
 {% endif %}
