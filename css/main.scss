@@ -1275,7 +1275,7 @@ Social Media Icons */
     background-size: 85%;
   }
 }
-$icons: github rss-feed soundcloud twitter;
+$icons: github rss-feed soundcloud twitter facebook;
 $icons-url: "img/" !default;
 @each $icon in $icons {
   .icon.#{$icon} {
