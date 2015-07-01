@@ -858,9 +858,6 @@ $arrow-size:            1em;
   line-height: $arrow-height;
   text-align: center;
   font-family: $display-font;
-  .separator {
-    display: none;
-  }
   .page_number {
     display: block;
     float: left;
@@ -1317,7 +1314,7 @@ Helper classes */
  * http://snook.ca/archives/html_and_css/hiding-content-for-accessibility
  */
 
-.visuallyhidden {
+.visuallyhidden, .separator {
     border: 0;
     clip: rect(0 0 0 0);
     height: 1px;
