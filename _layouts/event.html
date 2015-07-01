@@ -22,6 +22,7 @@ layout: default
   <a href="{{ event.facebook }}">Facebook</a>
   {% endif %}
   {% if event.venue %}
+    <h4>Where</h4>
     <p class="venue">
       {% if event.venue.url %}
         <span class="name"><a href="{{ event.venue.url }}">{{ event.venue.name }}</a></span>
