@@ -1249,6 +1249,18 @@ Events page layout */
   }
 }
 
+.archive.events {
+  h3 {
+    font-size: $fs-h2;
+    line-height: $lh-h2 * 2;
+    margin: ($lh-h2 * 2) 0 ($lh-h2 * 2 - 0.1em);
+    border-bottom: 0.08em solid;
+    text-transform: uppercase;
+    letter-spacing: 0.05em;
+    @include liningnums;
+  }
+}
+
 .single-event {
   .entry-meta {
     font-family: $display-font;
