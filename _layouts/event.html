@@ -13,13 +13,9 @@ layout: default
   {% assign enddate = event.enddate | append: '' %}
 {% endif %}{% endcapture %}{% assign cache = nil %}
 <div class="primary">
-  <h2>
-    {% if event.works.size == 1 %}
-      {% assign headline = event.works[0] %}
-    {% else %}
-      {% assign headline = event.title %}
-    {% endif %}
-    {{ headline }}
+  <h2>{% if event.performer.url %}
+    <a href="event.performer.url">{{ event.performer.name }}</a>{% else %}
+    {{ event.performer.name }}{% endif %}
   </h2>
   <p>{{ event.date | date: "%-d %B %Y, %k:%M" }}</p>
   {% if event.performer %}
