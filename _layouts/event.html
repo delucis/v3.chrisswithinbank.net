@@ -46,7 +46,14 @@ layout: default
       <ul class="programme">
         {% for composer in composers %}
         <li class="item">
-          <strong class="composer">{{ composer }}</strong><span class="separator"> — </span>
+          <strong class="composer">
+            {% if site.data.composers.[composer].sameAs %}
+              <a href="{{ site.data.composers.[composer].sameAs }}">{{ composer }}</a>
+            {% else %}
+              {{ composer }}
+            {% endif %}
+          </strong>
+          <span class="separator"> — </span>
           <em class="work">
             {% if event.works contains works[forloop.index0] %}
             {% assign testwork = works[forloop.index0] %}
