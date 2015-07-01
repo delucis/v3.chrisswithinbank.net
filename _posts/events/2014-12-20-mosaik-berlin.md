@@ -29,4 +29,6 @@ programme:
   - composer: Stefan Streich
     work: ritorno
     gender: M
+featured_image: 2014/12/toula-blind-date.jpg
+featured_image_alt: Ensemble Mosaik + Cie. Toula Limnaios poster
 ---
