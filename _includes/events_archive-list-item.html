@@ -20,8 +20,19 @@
   {% else %}
     {% assign context = 'main' %}
 {% endif %}{% endcapture %}{% assign cache = nil %}{% if test %}
+{% if include.scope == 'past' %}
+  {% assign datetest = eventdate | date: '%Y' %}
+  {% unless yeartracker == datetest %}
+    {% unless yeartracker == 0 %}
+    </ul>
+    {% endunless %}
+    <h3>{{ eventdate | date: '%Y' }}</h3>
+    <ul class="datalist clearfix">
+  {% endunless %}
+  {% assign yeartracker = eventdate | date: '%Y' %}
+{% endif %}
 <li class="event-card clearfix{% if postcount == 0 %} first{% endif %}">
-    {% if context == 'aside' %}<h4>{% else %}<h3>{% endif %}{% capture cache %}
+    <h4>{% capture cache %}
       {% if event.works.size == 1 %}
         {% assign headline = event.works[0] %}
         {% for post in site.categories.music %}
@@ -35,8 +46,8 @@
         {% assign eventurl = event.url %}
     {% endif %}{% endcapture %}{% assign cache = nil %}{% if eventurl %}
       <a href="{{ eventurl }}">{{ headline }}</a>{% else %}
-      {{ headline }}{% endif %}{% if context == 'aside' %}
-    </h4>{% else %}</h3>{% endif %}
+      {{ headline }}{% endif %}
+    </h4>
     <a href="{{ event.url }}"><time datetime="{{ eventdate | date_to_xmlschema }}" class="eventdate">
       <span class="m">{% assign m = eventdate | date: "%-m" %}{% case m %}{% when '5' or '6' or '7' %}{{ eventdate | date: "%B" }}{% else %}{{ eventdate | date: "%b" }}.{% endcase %}</span>
       <span class="d">{{ eventdate | date: "%-d" }}</span><span class="visuallyhidden">,</span>
