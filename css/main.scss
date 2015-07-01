@@ -1339,14 +1339,18 @@ Social Media Icons */
   height: $lh-base;
   text-indent: -999em;
   text-align: left;
-  opacity: 0.35;
-  -webkit-transition: opacity 0.15s ease-in;
-          transition: opacity 0.15s ease-in;
-  &:hover {
-    opacity: 1;
-  }
   &.rss-feed {
     background-size: 85%;
+  }
+}
+.site-footer {
+  .icon {
+    opacity: 0.35;
+    -webkit-transition: opacity 0.15s ease-in;
+            transition: opacity 0.15s ease-in;
+    &:hover {
+      opacity: 1;
+    }
   }
 }
 $icons: github rss-feed soundcloud twitter facebook;
