@@ -16,7 +16,7 @@ programme:
     work: Small Atlas
     gender: M
   - composer: Clara Iannotta
-    work:
+    work: New work
     gender: F
   - composer: Pedro Álvarez
     work: Monotypes
