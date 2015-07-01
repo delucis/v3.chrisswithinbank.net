@@ -17,7 +17,7 @@ layout: default
     <a href="event.performer.url">{{ event.performer.name }}</a>{% else %}
     {{ event.performer.name }}{% endif %}
   </h2>
-  <p>{{ event.date | date: "%A, %-d %B %Y, %-I" }}{% assign eventminutes = event.date | date: '%M' %}{% if eventminutes == '00' %}{{ event.date | date: '%p' | downcase }}{% else %}{{ event.date | date: ':%M%p' | downcase }}{% endif %}</p>
+  <p class="entry-meta"><time datetime="{{ event.date | date_to_xmlschema }}">{{ event.date | date: "%A, %-d %B %Y, %-I" }}{% assign eventminutes = event.date | date: '%M' %}{% if eventminutes == '00' %}{{ event.date | date: '%p' | downcase }}{% else %}{{ event.date | date: ':%M%p' | downcase }}{% endif %}</time</p>
   {% if event.facebook %}
   <a href="{{ event.facebook }}">Facebook</a>
   {% endif %}
