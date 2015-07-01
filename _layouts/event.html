@@ -22,6 +22,56 @@ layout: default
       {{ event.date | date: "%A, %-d %B %Y, %-I" }}{% assign eventminutes = event.date | date: '%M' %}{% if eventminutes == '00' %}{{ event.date | date: '%p' | downcase }}{% else %}{{ event.date | date: ':%M%p' | downcase }}{% endif %}
     </time>
   </p>
+  {% if event.programme %}
+    <h4>Programme</h4>
+    {% assign composers = '' %}
+    {% assign works = '' %}
+    {% for item in event.programme %}
+      {% if item.composer %}
+        {% assign composers = composers | append: item.composer %}
+        {% unless forloop.last %}
+          {% assign composers = composers | append: ',' %}
+        {% endunless %}
+      {% endif %}
+      {% if item.work %}
+        {% assign works = works | append: item.work %}
+        {% unless forloop.last %}
+          {% assign works = works | append: ',,' %}
+        {% endunless %}
+      {% endif %}
+    {% endfor %}
+    {% assign composers = composers | split: ',' %}
+    {% assign works = works | split: ',,' %}
+    {% if composers.size == works.size %}
+      <ul class="programme">
+        {% for composer in composers %}
+        <li class="item">
+          <strong class="composer">{{ composer }}</strong><span class="separator"> — </span>
+          <em class="work">
+            {% if event.works contains works[forloop.index0] %}
+            {% assign testwork = works[forloop.index0] %}
+              {% assign workurl = nil %}
+              {% for work in site.categories.music %}
+                {% if work.title == testwork %}
+                  {% assign workurl = work.url %}
+                  {% break %}
+                {% endif %}
+              {% endfor %}
+              {% if workurl %}
+                <a href="{{ workurl }}">{{ testwork }}</a>
+              {% else %}
+                {{ testwork }}
+              {% endif %}
+            {% else %}
+              {{ works[forloop.index0] }}
+            {% endif %}
+          </em>
+        </li>
+        {% endfor %}
+      </ul>
+      {% else %}
+      <p>Works by {{ composers | array_to_sentence_string }}.</p>
+    {% endif %}
   {% endif %}
   {% if event.venue %}
     <h4>Where</h4>
