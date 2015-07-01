@@ -1249,6 +1249,76 @@ Events page layout */
   }
 }
 
+.single-event {
+  .entry-meta {
+    font-family: $display-font;
+    font-weight: 700;
+    text-transform: uppercase;
+    letter-spacing: 0.08em;
+    color: $text-light;
+    @include liningnums;
+  }
+  .programme {
+    margin-top: $lh-p;
+    list-style: none;
+    padding-left: 0;
+    @include smallbp {
+      @include column-count(2);
+      @include column-gap($lh-p);
+      .item {
+        @include break-inside(avoid);
+      }
+    }
+    .composer, .work {
+      display: block;
+    }
+    .work {
+      margin-left: $lh-p;
+    }
+  }
+  .facebook-link {
+    display: block;
+    max-width: 25.6em;
+    margin-top: $lh-p;
+    line-height: $lh-p * 2;
+    padding: 0 ($lh-p / 2) 0 ($lh-p / 4);
+    text-shadow: none;
+    background-image: none;
+    background-color: $bg-light;
+    color: $text-dark;
+    @include xlargebp {
+      color: $bg-light;
+      background-color: $text-dark;
+    }
+    font-family: $display-font;
+    text-align: center;
+    white-space: nowrap;
+    overflow: hidden;
+    text-overflow: ellipsis;
+    -webkit-transition: background-color 0.15s ease-in, color 0.15s ease-in;
+            transition: background-color 0.15s ease-in, color 0.15s ease-in;
+    .facebook {
+      margin-right: $lh-p / 4;
+      vertical-align: middle;
+      -webkit-transition: -webkit-filter 0.15s ease-in;
+              transition: filter 0.15s ease-in;
+      @include xlargebp {
+        -webkit-filter: brightness(10);
+                filter: brightness(10);
+      }
+    }
+    &:hover {
+      color: $bg-light;
+      background-image: none;
+      background-color: $link-hover;
+      .facebook {
+        -webkit-filter: brightness(10);
+                filter: brightness(10);
+      }
+    }
+  }
+}
+
 /*
 
 ####  ######   #######  ##    ##  ######
