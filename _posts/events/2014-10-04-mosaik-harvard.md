@@ -7,6 +7,7 @@ performer:
 venue:
   name: Paine Hall, Harvard University
   address: Cambridge, MA 02138, United States
+facebook: https://www.facebook.com/events/1483582738560706
 works:
   - Tomorrow I will build a house here, if I can hold still
 programme:
