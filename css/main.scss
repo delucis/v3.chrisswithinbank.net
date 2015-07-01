@@ -1155,6 +1155,12 @@ Events page layout */
     font-size: 1em;
     line-height: $lh-base;
     font-weight: 700;
+    a {
+      background-position: 0% 92%, 100% 92%, 0% 92%;
+      @include smallbp {
+        background-position: 0% 86%, 100% 86%, 0% 86%;
+      }
+    }
   }
   a {
     .eventdate {
