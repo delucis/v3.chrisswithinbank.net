@@ -10,6 +10,7 @@ venue:
   url:
   shortaddress:
   address:
+  map_address_only: TRUE # disregards venue name in google maps query
 facebook:
 works:
   -
