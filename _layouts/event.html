@@ -33,6 +33,20 @@ layout: default
         <br /><span class="address">{{ event.venue.address }}</span>
       {% endif %}
     </p>
+    {% if event.venue.map_address_only %}
+      {% assign place = event.venue.address | cgi_escape %}
+    {% else %}
+      {% assign place = event.venue.name | append: ', ' | append: event.venue.address | cgi_escape %}
+    {% endif %}
+    <iframe
+      width="538"
+      height="350"
+      frameborder="0"
+      style="border:0"
+      src="https://www.google.com/maps/embed/v1/place?key={{ site.google.maps_api }}
+      &q={{ place }}
+      &attribution_source={{ site.name | cgi_escape }}" allowfullscreen>
+    </iframe>
   {% endif %}
   {% include events_json-ld.html %}
 </div>
