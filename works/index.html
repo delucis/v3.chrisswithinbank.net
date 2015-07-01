@@ -4,18 +4,14 @@ digest: Selected recent works
 tags:
   - archive
   - music
-layout: default
+layout: post
 ---
-<div class="primary hfeed">
-  <h2>{{ page.title }}</h2>
-  {% if page.digest %}<p><em>{{ page.digest }}</em></p>{% endif %}
-  {% for post in site.categories.music %}
-  <article id="{{ post.title | slugify }}" class="hentry{% if forloop.first %} first{% endif %}">
-    <h3 class="entry-title">
-      <a href="{{ post.url }}" rel="bookmark">{{ post.title }}</a>
-      <time class="published" datetime="{{ post.date | date: '%Y-%m-%d'}}">({{ post.date | date: '%Y' }})</time>
-    </h3>
-    <p class="entry-meta">{{ post.instrumentation }} | {{ post.duration }}</p>
-  </article>
-  {% endfor %}
-</div>
+{% for post in site.categories.music %}
+<article id="{{ post.title | slugify }}" class="hentry{% if forloop.first %} first{% endif %}">
+  <h3 class="entry-title">
+    <a href="{{ post.url }}" rel="bookmark">{{ post.title }}</a>
+    <time class="published" datetime="{{ post.date | date: '%Y-%m-%d'}}">({{ post.date | date: '%Y' }})</time>
+  </h3>
+  <p class="entry-meta">{{ post.instrumentation }} | {{ post.duration }}</p>
+</article>
+{% endfor %}
