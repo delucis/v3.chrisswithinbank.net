@@ -1106,10 +1106,6 @@ Sidebar Styling */
     }
   }
   @include xlargebp {
-    text-align: left;
-    blockquote, p {
-      text-align: left;
-    }
     section {
       font-size: $fs-small;
       line-height: $lh-small;
