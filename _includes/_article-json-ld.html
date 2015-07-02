@@ -2,8 +2,8 @@
 <script type="application/ld+json">
 {
   "@context": "http://schema.org",
-  "@type": "{% if article.category == 'blog' or article.categories contains 'blog' %}BlogPosting{% else %}NewsArticle{% endif %}",
   "headline": "{{ article.title }}",{% if article.featured_image %}
+  "@type": "{% if article.category == 'blog' or article.categories contains 'blog' %}BlogPosting{% else %}ScholarlyArticle{% endif %}",
   "image": "{{ site.url }}/wp-content/uploads/{{ article.featured_image }}",{% endif %}{% if article.date %}
   "datePublished": "{{ article.date | date_to_xmlschema }}",{% endif %}
   "description": "{% if article.digest %}{{ article.digest | strip_html }}{% elsif article.excerpt %}{{ article.excerpt | strip_html | truncate: 159, '…' }}{% else %}{{ site.description }}{% endif %}",
