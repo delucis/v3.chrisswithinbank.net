@@ -238,6 +238,9 @@ a {
   }
   abbr {
     border-bottom: none;
+    &[title] {
+      border-bottom: none;
+    }
   }
 }
 ul,
