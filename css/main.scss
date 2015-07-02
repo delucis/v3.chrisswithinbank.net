@@ -563,6 +563,13 @@ Basic Class Selectors */
   .subtitle {
     margin-top: 0;
   }
+  .previously-published {
+    font-size: $fs-small;
+    line-height: $lh-small;
+    padding: $lh-small / 2 - 0.3em;
+    margin-bottom: $lh-small;
+    border: 0.3em solid $light-outline;
+  }
 }
 footer.entry-meta {
   padding: $lh-p / 2;
