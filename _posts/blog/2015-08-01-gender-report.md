@@ -2,6 +2,7 @@
 layout: audit
 title: Gender Report 2015
 digest: Some basic numbers on gender (in)equality in my community
+date: 2015-08-01 12:00:00+02:00
 maxdate: 20150901
 includes:
   - basics
