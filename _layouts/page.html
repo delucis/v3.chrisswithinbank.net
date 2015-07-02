@@ -1,15 +1,20 @@
 ---
 layout: default
 ---
-<div class="primary">
-  <h2 class="entry-title">{{ page.title }}</h2>
-  {{ content }}
-</div>
+<article id="{{ page.title | slugify }}" class="hentry primary">
+  <header>
+    <h2 class="entry-title">{{ page.title }}</h2>{% if page.subtitle %}
+    <h3 class="subtitle">{{ page.subtitle }}</h3>{% endif %}
+  </header>
+  <div class="entry-content">
+    {{ content }}
+  </div>
+</article>
 {% if page.featured_image %}
-<div class="secondary">{% if page.featured_image_caption %}
+<aside class="secondary">{% if page.featured_image_caption %}
   <figure>{% endif %}{% if page.featured_image_alt %}{% assign alttext = page.featured_image_alt %}{% else %}{% assign alttext = page.title | append: ' featured image' %}{% endif %}
     {% picture sidebar {{ page.featured_image}} alt="{{ alttext }}" %}{% if page.featured_image_caption %}
     <figcaption>{{ page.featured_image_caption | markdownify }}</figcaption>
   </figure>{% endif %}
-</div>
+</aside>
 {% endif %}

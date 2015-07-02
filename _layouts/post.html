@@ -15,10 +15,10 @@ layout: default
     <p>This post first appeared on an older version of this site: <a href="http://v2.chrisswithinbank.net{{ page.url }}" rel="nofollow">v2.chrisswithinbank.net{{ page.url }}</a></p>{% endif %}
   </footer>
 </article>{% if page.featured_image %}
-<div class="secondary">{% if page.featured_image_caption %}
+<aside class="secondary">{% if page.featured_image_caption %}
   <figure>{% endif %}{% if page.featured_image_alt %}{% assign alttext = page.featured_image_alt %}{% else %}{% assign alttext = page.title | append: ' featured image' %}{% endif %}
     {% picture sidebar {{ page.featured_image}} alt="{{ alttext }}" %}{% if page.featured_image_caption %}
     <figcaption>{{ page.featured_image_caption | markdownify }}</figcaption>
   </figure>{% endif %}
-</div>
+</aside>
 {% endif %}
