@@ -7,6 +7,24 @@ abstract: "Two Pietàs in different media, the first by French painter William-A
 featured_image: 2014/03/bouguereau-pieta.jpg
 featured_image_alt: William-Adolphe Bouguereau’s Pietà
 featured_image_caption: Bouguereau’s *Pietà* (1876)
+publication:
+  name: CeReNeM Journal
+  volumeNumber: 1
+  issueNumber: 4
+  issueDate: March 2014
+  publisher: University of Huddersfield Center for Research in New Music
+editor:
+  name: Pedro Álvarez
+  sameAs: http://www.pedroalvarez.info/
+article:
+  pageStart: 120
+  pageEnd: 135
+  sameAs:
+tags:
+  - Contemporary Music
+  - Christian Theology
+  - Painting
+  - Music
 ---
 
 #### 1. Mater Dolorosa — Joyous Mother?
