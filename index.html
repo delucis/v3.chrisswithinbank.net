@@ -32,7 +32,7 @@ layout: default
       <h3 class="entry-title"><a href="{{ post.url }}" rel="bookmark">{{ post.title }}</a></h3>
       <p class="entry-meta">Posted on <time class="published" datetime="{{ post.date | date: '%Y-%m-%d'}}">{{ post.date | date: "%A, %-d %B %Y" }}</time></p>
     </header>
-    <div class="entry-content">{% if post.featured_image %}{% if post.featured_image_alt %}{% assign alttext = post.featured_image_alt %}{% else %}{% assign alttext = post.title | append: ' featured image' %}{% endif %}
+    <div class="entry-content hyphenate">{% if post.featured_image %}{% if post.featured_image_alt %}{% assign alttext = post.featured_image_alt %}{% else %}{% assign alttext = post.title | append: ' featured image' %}{% endif %}
       <a href="{{ post.url }}">{% picture alignright {{ post.featured_image }} alt="{{ alttext }}" %}</a>{% endif %}
       {{ post.content }}{% if post.layout == 'audit' %}
       {% include audit_layout_setup.html %}

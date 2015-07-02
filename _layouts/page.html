@@ -6,7 +6,7 @@ layout: default
     <h2 class="entry-title">{{ page.title }}</h2>{% if page.subtitle %}
     <h3 class="subtitle">{{ page.subtitle }}</h3>{% endif %}
   </header>
-  <div class="entry-content">
+  <div class="entry-content hyphenate">
     {{ content }}
   </div>{% if page.publication and page.article %}
   {% include text-json-ld.html %}{% elsif page.category == 'text' %}{% include _article-json-ld.html %}{% endif %}
