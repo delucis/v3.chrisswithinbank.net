@@ -8,7 +8,8 @@ layout: default
   </header>
   <div class="entry-content">
     {{ content }}
-  </div>
+  </div>{% if page.publication and page.article %}
+  {% include text-json-ld.html %}{% endif %}
 </article>
 {% if page.featured_image %}
 <aside class="secondary">{% if page.featured_image_caption %}
