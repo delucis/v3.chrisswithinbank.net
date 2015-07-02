@@ -2,7 +2,7 @@
 <script type="application/ld+json">
 {
   "@context": "http://schema.org",
-  "@type": "{% if article.category == 'blog' %}BlogPosting{% else %}NewsArticle{% endif %}",
+  "@type": "{% if article.category == 'blog' or article.categories contains 'blog' %}BlogPosting{% else %}NewsArticle{% endif %}",
   "headline": "{{ article.title }}",{% if article.featured_image %}
   "image": "{{ site.url }}/wp-content/uploads/{{ article.featured_image }}",{% endif %}
   "datePublished": "{{ article.date | date_to_xmlschema }}",
