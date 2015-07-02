@@ -38,6 +38,7 @@ layout: default
     </div>{% if post.layout == 'audit' %}
     {% include audit_layout_setup.html %}
     {% include audit_layout_content.html %}{% endif %}
+    {% include _article-json-ld.html context="feed" %}
   </article>{% endfor %}
 
   <!-- Pagination links -->
