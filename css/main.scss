@@ -535,9 +535,6 @@ Basic Class Selectors */
     line-height: $lh-h2 * 1.5;
     margin-top: $lh-h2 * 2;
   }
-  .subtitle {
-    margin: 0;
-  }
   .entry-meta {
     margin: 0;
     @include mediumbp {
@@ -562,7 +559,7 @@ Basic Class Selectors */
     margin-bottom: $lh-h2;
   }
 }
-.text.single-post {
+.text {
   .subtitle {
     margin-top: 0;
   }
