@@ -128,6 +128,15 @@ defaults:
               - single-event
     -
         scope:
+            path: "text"
+            type: "posts"
+        values:
+            layout: "page"
+            category: "text"
+            tags:
+              - single-text
+    -
+        scope:
             path: ""
             type: "pages"
         values:
