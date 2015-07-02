@@ -1,0 +1,45 @@
+<script type="application/ld+json">
+{
+  "@context": "http://schema.org",
+  "@graph": [
+    {
+        "@id": "#issue",
+        "@type": "PublicationIssue",
+        "issueNumber": "{{ page.publication.issueNumber }}",
+        "datePublished": "{{ page.publication.issueDate }}",{% if page.editor %}
+        "editor": {
+            "@type": "Person",
+            "name": "{{ page.editor.name }}"{% if page.editor.sameAs %},
+            "sameAs": "{{ page.editor.sameAs }}"{% endif %}
+        },{% endif %}
+        "isPartOf": {
+            "@id": "#periodical",
+            "@type": "PublicationVolume",
+            "name": "{{ page.publication.name }}",
+            "volumeNumber": "{{ page.publication.volumeNumber }}",
+            "publisher": "{{ page.publication.publisher }}"
+        }
+    },
+    {
+        "@type": "ScholarlyArticle",
+        "isPartOf": "#issue",
+        "description": "{% if page.abstract %}{{ page.abstract }}{% elsif page.digest %}{{ page.digest }}{% else %}{{ page.excerpt }}{% endif %}",
+        "sameAs": "{% if page.article.sameAs %}{{ page.article.sameAs }}{% else %}{{ site.url }}{{ page.url }}{% endif %}",{% if page.tags %}
+        "about": [
+          {% for tag in page.tags %}
+            "{{ tag }}"{% unless forloop.last %},
+            {% endunless %}
+          {% endfor %}
+        ],{% endif %}
+        "pageStart": "{{ page.article.pageStart }}",
+        "pageEnd": "{{ page.article.pageEnd }}",
+        "name": "{{ page.title }}{% if page.subtitle %}: {{ page.subtitle }}{% endif %}",
+        "author": {
+            "@type": "Person",
+            "name": "{{ site.author.name }}",
+            "sameAs": "{{ site.author.uri }}"
+        }
+    }
+  ]
+}
+</script>
