@@ -1,12 +1,14 @@
 ---
 layout: default
 ---
-<div class="primary">
+<article id="{{ page.title | slugify }}" class="primary">
   <h2 class="entry-title">{{ page.title }}</h2>
-  {% if page.audioembed %}<p>{{ page.audioembed }}</p>{% endif %}
-  {{ content }}
-</div>
-<div class="secondary">
+  <div class="entry-content hyphenate">{% if page.audioembed %}
+    <p>{{ page.audioembed }}</p>{% endif %}
+    {{ content }}
+  </div>
+</article>
+<aside class="secondary" role="complementary">
   {% include music_details.html %}
   {% include music_performances.html %}
-</div>
+</aside>
