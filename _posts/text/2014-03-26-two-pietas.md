@@ -27,6 +27,9 @@ tags:
   - Music
 ---
 
+This article first appeared as Chris Swithinbank, ‘Two Pietàs: William-Adolphe Bouguereau & Lisa Streich,’ [*CeReNeM Journal*](http://www.hud.ac.uk/research/researchcentres/cerenem/journal/), [Issue 4](issuu.com/cerenem/docs/cerenem_journal_issue_4) (March 2014), 120-135.
+{: .previously-published }
+
 #### 1. Mater Dolorosa — Joyous Mother?
 
 In William-Adolphe Bouguereau’s _Pietà_ of 1876, the Virgin Mary’s eyes brim with tears, ringed with the shadows of mourning, while Christ’s limp body droops in her arms, mirroring the swoon of Michelangelo’s San Pietro _Pietà_. At her feet lies a bloodied crown of thorns, staining a white sheet, and a throng of sorrowing angels surrounds her. Painted in the year following the premature death of Bouguereau’s son Georges, the canvas’s depiction of the individualised grief of mother and attendant angels have been seen as an expression of his “private feelings of loss and anguish” (Wissman, 1996, p. 74) and as “a tribute to passionate parental love overwhelmed by despair” (Christie’s, 2010).
