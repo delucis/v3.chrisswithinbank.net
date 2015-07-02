@@ -101,7 +101,7 @@ defaults:
             layout: "default"
     -
         scope:
-            path: ""
+            path: "blog"
             type: "posts"
         values:
             layout: "post"
