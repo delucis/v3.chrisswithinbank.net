@@ -122,13 +122,13 @@ layout: default
     {% endif %}
     {% if event.featured_image_caption %}
       <figure>
-        {% picture sidebar {{ event.featured_image}} alt="{{ alttext }}" class="picture sidebar featured-image" %}
+        {% picture sidebar {{ event.featured_image}} alt="{{ alttext }}" %}
         <figcaption>
           {{ event.featured_image_caption | markdownify }}
         </figcaption>
       </figure>
     {% else %}
-      {% picture sidebar {{ event.featured_image}} alt="{{ alttext }}" class="picture sidebar featured-image" %}
+      {% picture sidebar {{ event.featured_image}} alt="{{ alttext }}" %}
     {% endif %}
   {% endif %}
 </div>
