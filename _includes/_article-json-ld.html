@@ -4,7 +4,7 @@
   "@context": "http://schema.org",
   "@type": "{% if article.category == 'blog' %}BlogPosting{% else %}NewsArticle{% endif %}",
   "headline": "{{ article.title }}",{% if article.featured_image %}
-  "image": "{{ site.url }}/wp-content/uploads/{{ article.featured_image }}"{% endif %}
+  "image": "{{ site.url }}/wp-content/uploads/{{ article.featured_image }}",{% endif %}
   "datePublished": "{{ article.date | date_to_xmlschema }}",
   "description": "{% if article.digest %}{{ article.digest | strip_html }}{% elsif article.excerpt %}{{ article.excerpt | strip_html | truncate: 159, '…' }}{% else %}{{ site.description }}{% endif %}",
   "author": "{{ site.url }}/bio/"{% if article.tags %},
