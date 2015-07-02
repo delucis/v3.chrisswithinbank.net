@@ -118,10 +118,10 @@ html {
 
 hr {
     display: block;
-    height: 1px;
+    height: 0.0555555555555em;
     border: 0;
-    border-top: 1px solid $light-outline;
-    margin: 1em 0;
+    border-top: 0.0555555555555em solid $light-outline;
+    margin: ($lh-p - 0.0555555555555em) 0 $lh-p;
     padding: 0;
 }
 
