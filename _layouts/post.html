@@ -13,6 +13,7 @@ layout: default
   <footer class="entry-meta">
     <p>Posted on <strong><time class="published" datetime="{{ post.date | date: '%Y-%m-%d'}}">{{ page.date | date: '%A, %-d %B %Y' }}</time></strong></p>{% if page.wordpress_id %}
     <p>This post first appeared on an older version of this site: <a href="http://v2.chrisswithinbank.net{{ page.url }}" rel="nofollow">v2.chrisswithinbank.net{{ page.url }}</a></p>{% endif %}
+    {% include _article-json-ld.html %}
   </footer>
 </article>{% if page.featured_image %}
 <aside class="secondary">{% if page.featured_image_caption %}
