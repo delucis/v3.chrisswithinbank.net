@@ -43,17 +43,6 @@ Import SASS partials */
  @font-face {
    /* Infini, Sandrine Nugue / CNAP */
    font-family: 'Infini';
-   src: url('fonts/infini-italique.eot'); /* IE9 Compat Modes */
-   src: url('fonts/infini-italique.eot?#iefix') format('embedded-opentype'), /* IE6-IE8 */
-        url('fonts/infini-italique.woff') format('woff'), /* Pretty Modern Browsers */
-        url('fonts/infini-italique.ttf')  format('truetype'), /* Safari, Android, iOS */
-        url('fonts/infini-italique.svg#svgInfini') format('svg'); /* Legacy iOS */
-   font-weight: 400;
-   font-style: italic;
- }
- @font-face {
-   /* Infini, Sandrine Nugue / CNAP */
-   font-family: 'Infini';
    src: url('fonts/infini-gras.eot'); /* IE9 Compat Modes */
    src: url('fonts/infini-gras.eot?#iefix') format('embedded-opentype'), /* IE6-IE8 */
         url('fonts/infini-gras.woff') format('woff'), /* Pretty Modern Browsers */
