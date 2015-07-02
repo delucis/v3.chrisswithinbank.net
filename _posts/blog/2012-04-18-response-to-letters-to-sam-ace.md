@@ -101,7 +101,7 @@ As Sound and Music themselves recognised in [their response](http://www.soundand
 **Marc Yeats**, composer \\
 **Alistair Zaldua**, composer
 
-### Supplementary Signatories
+#### Supplementary Signatories
 
 **Panos Amelides**, composer \\
 **Kerry Andrew**, composer, performer \\
