@@ -284,6 +284,11 @@ figcaption {
     }
   }
 }
+table {
+  margin: $lh-p 0;
+  th { text-align: left; }
+  td { padding-right: $lh-p; }
+}
 
 /*
 
