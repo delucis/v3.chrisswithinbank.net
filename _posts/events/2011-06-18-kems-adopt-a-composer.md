@@ -12,6 +12,7 @@ venue:
 locationtype: Church
 works:
   - June Unfolding
+premiere: June Unfolding
 programme:
   - composer: Chris Swithinbank
     work: June Unfolding
