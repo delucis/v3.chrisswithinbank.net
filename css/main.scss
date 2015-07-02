@@ -229,11 +229,9 @@ h5 {
   line-height: $lh-small;
 }
 p {
-  text-align: justify;
   margin:0 0 $lh-base;
 }
 blockquote {
-  text-align: justify;
   font-size: 0.9em;
   line-height: 1.7777777777;
   margin: 0 10% 1.77777777em;
@@ -429,6 +427,9 @@ Basic Class Selectors */
 
 .hyphenate {
   @include hyphens(auto);
+  blockquote, p {
+    text-align: justify;
+  }
 }
 .donthyphenate {
   text-align: left;
