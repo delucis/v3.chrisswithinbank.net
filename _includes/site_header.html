@@ -7,7 +7,8 @@
       {{ site.name }}, composer{% unless paginator.page == 1 %} - part {{ paginator.page }}{% endunless %}{% else %}
       {{ page.title | strip_html }}{% if page.subtitle %}: {{ page.subtitle | strip_html }}{% endif %}{% if page.categories.first == 'music' or page.categories.first ==  'text' or page.categories.first ==  'events' %} | {{ page.categories | first | capitalize }}{% endif %} | {{ site.name }}{% endif %}
     </title>
-    <meta name="description" content="{% if page.digest %}{{ page.digest | strip_html }}{% elsif page.excerpt %}{{ page.excerpt | strip_html | truncate: 159, '…' }}{% else %}{{ site.description }}{% endif %}">
+    <meta name="description" content="{% if page.digest %}{{ page.digest | strip_html }}{% elsif page.excerpt %}{{ page.excerpt | strip_html | truncate: 159, '…' }}{% else %}{{ site.description }}{% endif %}">{% if page.tags %}
+    <meta name="keywords" content="{% for tag in page.tags %}{{ tag }}{% unless forloop.last %}, {% endunless %}{% endfor %}">{% endif %}
     <meta name="viewport" content="width=device-width, initial-scale=1">
     <link rel="stylesheet" href="/css/main.css">
     <link href='http://fonts.googleapis.com/css?family=Alegreya:400,700,400italic' rel='stylesheet' type='text/css'>
