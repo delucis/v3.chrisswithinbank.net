@@ -26,7 +26,7 @@ paginate_path: "/page/:num/"
 paginate_per_category: true
 default_category: "blog"
 picture:
-  source: "assets/images/_fullsize"
+  source: "wp-content/uploads"
   output: "wp-content/uploads"
   markup: "picture"
   presets:
