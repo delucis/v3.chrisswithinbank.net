@@ -32,7 +32,7 @@ picture:
     default:
       ppi: [1, 1.5, 2]
       attr:
-        class: "picture default"
+        class: "picture default multiply"
       source_large:
         media: "(min-width: 45em)"
         width: "538"
@@ -44,7 +44,7 @@ picture:
     sidebar:
       ppi: [1, 1.5, 2]
       attr:
-        class: "picture sidebar"
+        class: "picture sidebar multiply"
       source_large:
         media: "(min-width: 70em)"
         width: "350"
@@ -56,7 +56,7 @@ picture:
     alignright:
       ppi: [1, 1.5, 2]
       attr:
-        class: "picture alignright"
+        class: "picture alignright multiply"
       source_large:
         media: "(min-width: 45em)"
         width: "189"
@@ -68,7 +68,7 @@ picture:
     alignleft:
       ppi: [1, 1.5, 2]
       attr:
-        class: "picture alignleft"
+        class: "picture alignleft multiply"
       source_large:
         media: "(min-width: 45em)"
         width: "189"
@@ -80,7 +80,7 @@ picture:
     wide:
       ppi: [1, 1.5, 2]
       attr:
-        class: "picture wide"
+        class: "picture wide multiply"
       source_xlarge:
         media: "(min-width: 70em)"
         width: "807"
