@@ -231,6 +231,16 @@ h4 {
     font-style: normal;
   }
 }
+h5 {
+  font-family: $display-font;
+  font-weight: 700;
+  font-style: normal;
+  text-transform: uppercase;
+  letter-spacing: 0.1em;
+  margin: $lh-small 0 0;
+  font-size: $fs-small;
+  line-height: $lh-small;
+}
 p {
   text-align: justify;
   margin:0 0 $lh-base;
