@@ -1197,7 +1197,7 @@ Sidebar Styling */
     text-overflow: ellipsis;
     -webkit-transition: background-color 0.15s ease-in, color 0.15s ease-in;
             transition: background-color 0.15s ease-in, color 0.15s ease-in;
-    .facebook {
+    .facebook, .twitter {
       margin-right: $lh-p / 4;
       vertical-align: middle;
       -webkit-transition: -webkit-filter 0.15s ease-in;
@@ -1211,7 +1211,7 @@ Sidebar Styling */
       color: $bg-light;
       background-image: none;
       background-color: $link-hover;
-      .facebook {
+      .facebook, .twitter  {
         -webkit-filter: brightness(10);
                 filter: brightness(10);
       }
