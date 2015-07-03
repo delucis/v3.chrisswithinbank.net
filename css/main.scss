@@ -483,11 +483,9 @@ Basic Class Selectors */
       background-position: 0% 92%, 100% 92%, 0% 92%;
     }
   }
-  h2,
-  h3,
-  h4 {
+  h2 {
     a {
-      background-position: 0% 85%, 100% 85%, 0% 85%;
+      background-position: 0% 83%, 100% 83%, 0% 83%;
     }
   }
 }
@@ -1178,9 +1176,9 @@ Events page layout */
     line-height: $lh-base;
     font-weight: 700;
     a {
-      background-position: 0% 92%, 100% 92%, 0% 92%;
+      background-position: 0% 90%, 100% 90%, 0% 90%;
       @include smallbp {
-        background-position: 0% 86%, 100% 86%, 0% 86%;
+        background-position: 0% 83%, 100% 83%, 0% 83%;
       }
     }
   }
