@@ -20,11 +20,14 @@ layout: default
     <span class="separator">—</span>{% if page.previous_in_category %}
     <a href="{{ page.previous_in_category.url }}" class="arrow newer" rel="next"><span>{{ page.previous_in_category.title }}</span></a>{% endif %}
   </div>
-</article>{% if page.featured_image %}
-<aside class="secondary">{% if page.featured_image_caption %}
+</article>
+<aside class="secondary">{% if page.featured_image %}{% if page.featured_image_caption %}
   <figure>{% endif %}{% if page.featured_image_alt %}{% assign alttext = page.featured_image_alt %}{% else %}{% assign alttext = page.title | append: ' featured image' %}{% endif %}
     {% picture sidebar {{ page.featured_image}} alt="{{ alttext }}" %}{% if page.featured_image_caption %}
     <figcaption>{{ page.featured_image_caption | markdownify }}</figcaption>
-  </figure>{% endif %}
+  </figure>{% endif %}{% endif %}
+  {% assign titlestring = page.title %}{% if page.subtitle %}
+  {% assign titlestring = titlestring | append: ': ' | append: page.subtitle %}{% endif %}
+  {% assign titlestring = titlestring | strip_html | cgi_escape %}
+  <a href="http://www.facebook.com/sharer/sharer.php?u={{ site.url }}{{ page.url }}&title={{ titlestring }}" class="big-link" target="popup" onclick="window.open('http://www.facebook.com/sharer/sharer.php?u={{ site.url }}{{ page.url }}&title={{ titlestring }}','popup','width=520,height=350,top=screen.height/2-260'); return false;"><span class="icon facebook"></span> Share</a>
 </aside>
-{% endif %}
