@@ -1,6 +1,6 @@
 ---
 title: JACK Quartet at Harvard
-date: 2016-02-06 20:00 -05:00
+date: 2016-02-06 20:00
 enddate:
 performer:
   name: JACK Quartet
