@@ -583,6 +583,9 @@ footer.entry-meta {
     line-height: $lh-small;
     font-family: $display-font;
   }
+  a {
+    background-position: 0% 100%, 100% 100%, 0% 100%;
+  }
 }
 .site-footer {
   dl {
