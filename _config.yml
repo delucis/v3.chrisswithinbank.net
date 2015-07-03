@@ -8,9 +8,13 @@ author:
     twitter: https://twitter.com/swithinbank
     github: https://github.com/delucis
     soundcloud: https://soundcloud.com/swithinbank
+    facebook: https://www.facebook.com/chris.swithinbank
 google:
   maps_api: AIzaSyBZFz0P-h8lq_D58-9ciGn5wIVYDCkM-Kc
   analytics_id:
+facebook:
+  app_id: 1614752738807936
+  user_id: 61411247
 markdown: kramdown
 gems:
     - jekyll-sitemap
