@@ -201,6 +201,9 @@ h2 {
     margin: $lh-h2 0 0;
   }
   line-height: $lh-h2 * 1.5;
+  em {
+    font-style: normal;
+  }
 }
 h3 {
   font-family: $display-font;
@@ -208,6 +211,9 @@ h3 {
   font-size: $fs-h3;
   margin: ($lh-h3 * 2) 0 $lh-h3 0;
   line-height: $lh-h3;
+  em {
+    font-style: normal;
+  }
 }
 h4 {
   font-family: $display-font;
@@ -229,6 +235,9 @@ h5 {
   margin: $lh-small 0 0;
   font-size: $fs-small;
   line-height: $lh-small;
+  em {
+    font-style: normal;
+  }
 }
 p {
   margin:0 0 $lh-base;
