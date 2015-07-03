@@ -1,5 +1,5 @@
 ---
-title: '<em>La leggerezza delle città</em> at Harvard'
+title: 'La leggerezza delle città at Harvard'
 date: 2014-05-08 20:00
 performer:
   name: HYDRA

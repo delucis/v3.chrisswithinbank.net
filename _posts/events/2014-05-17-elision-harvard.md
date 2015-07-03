@@ -1,5 +1,5 @@
 ---
-title: "First performance of <em>traveller, standing in rooms {i … ii}</em>"
+title: "First performance of traveller, standing in rooms {i … ii}"
 date: 2014-05-17 20:00
 performer:
   name: ELISION Ensemble

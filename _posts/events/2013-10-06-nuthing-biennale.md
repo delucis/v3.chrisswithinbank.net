@@ -1,5 +1,5 @@
 ---
-title: '<em>All the time that you have…</em> at Biennale di Venezia'
+title: 'All the time that you have… at Biennale di Venezia'
 date: 2013-10-06 15:00
 performer:
   name: Laura Catrani & Quartetto Maurice
