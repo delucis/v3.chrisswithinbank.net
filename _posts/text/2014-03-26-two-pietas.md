@@ -7,6 +7,7 @@ abstract: "Two Pietàs in different media, the first by French painter William-A
 featured_image: 2014/03/bouguereau-pieta.jpg
 featured_image_alt: William-Adolphe Bouguereau’s Pietà
 featured_image_caption: Bouguereau’s *Pietà* (1876)
+pdf: 2014/03/swithinbank-two-pietas.pdf
 publication:
   name: CeReNeM Journal
   volumeNumber: 1
