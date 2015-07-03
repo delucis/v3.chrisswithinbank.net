@@ -5,7 +5,7 @@
   "@type": "{% if article.category == 'blog' or article.categories contains 'blog' %}BlogPosting{% else %}ScholarlyArticle{% endif %}",
   "headline": "{{ article.title }}{% if article.subtitle %}: {{ article.subtitle }}{% endif %}",{% if article.featured_image %}
   "image": "{{ site.url }}/wp-content/uploads/{{ article.featured_image }}",{% endif %}{% if article.date %}
-  "datePublished": "{{ article.date | date_to_xmlschema }}",{% endif %}
+  "datePublished": "{{ article.date | date_to_xmlschema | truncate: 19, '' }}",{% endif %}
   "description": "{% if article.digest %}{{ article.digest | strip_html }}{% elsif article.excerpt %}{{ article.excerpt | strip_html | truncate: 159, '…' }}{% else %}{{ site.description }}{% endif %}",
   "author": {
     "@type": "Person",

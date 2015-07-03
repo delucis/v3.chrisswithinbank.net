@@ -18,7 +18,7 @@ layout: default
     {{ event.performer.name }}{% endif %}
   </h2>
   <p class="entry-meta">
-    <time datetime="{{ event.date | date_to_xmlschema }}">
+    <time datetime="{{ event.date | date_to_xmlschema | truncate: 19, '' }}">
       {{ event.date | date: "%A, %-d %B %Y, %-I" }}{% assign eventminutes = event.date | date: '%M' %}{% if eventminutes == '00' %}{{ event.date | date: '%p' | downcase }}{% else %}{{ event.date | date: ':%M%p' | downcase }}{% endif %}
     </time>
   </p>

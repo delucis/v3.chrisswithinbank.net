@@ -48,7 +48,7 @@
       <a href="{{ eventurl }}">{{ headline }}</a>{% else %}
       {{ headline }}{% endif %}
     </h4>
-    <a href="{{ event.url }}"><time datetime="{{ eventdate | date_to_xmlschema }}" class="eventdate">
+    <a href="{{ event.url }}"><time datetime="{{ eventdate | date_to_xmlschema | truncate: 19, '' }}" class="eventdate">
       <span class="m">{% assign m = eventdate | date: "%-m" %}{% case m %}{% when '5' or '6' or '7' %}{{ eventdate | date: "%B" }}{% else %}{{ eventdate | date: "%b" }}.{% endcase %}</span>
       <span class="d">{{ eventdate | date: "%-d" }}</span><span class="visuallyhidden">,</span>
       <span class="y">{{ eventdate | date: "%Y" }}</span>

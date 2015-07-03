@@ -19,8 +19,8 @@
     "name": "{{ headline | strip_html }}",
     "url": "{{ site.url }}{{ event.url }}",{% if event.facebook %}
     "sameAs": "{{ event.facebook }}",{% endif %}
-    "startDate": "{{ eventdate | date_to_xmlschema }}",{% if event.enddate %}
-    "endDate": "{{ enddate | date_to_xmlschema }}",{% endif %}{% if event.featured_image %}
+    "startDate": "{{ eventdate | date_to_xmlschema | truncate: 19, '' }}",{% if event.enddate %}
+    "endDate": "{{ enddate | date_to_xmlschema | truncate: 19, '' }}",{% endif %}{% if event.featured_image %}
     "image": "{{ site.url }}/wp-content/uploads/{{ event.featured_image }}",{% endif %}{% if event.performer %}
     "performer": {
       "@type": "{% if event.performertype %}{{ event.performertype }}{% else %}MusicGroup{% endif %}",

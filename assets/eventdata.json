@@ -15,8 +15,8 @@ layout: none
       "name": "{{ event.title | strip_html }}",
       "url": "{{ site.url }}{{ event.url }}",{% if event.facebook %}
       "sameAs": "{{ event.facebook }}",{% endif %}
-      "startDate": "{{ startdate | date_to_xmlschema }}",{% if event.enddate %}
-      "endDate": "{{ enddate | date_to_xmlschema }}",{% endif %}{% if event.performer %}
+      "startDate": "{{ startdate | date_to_xmlschema | truncate: 19, '' }}",{% if event.enddate %}
+      "endDate": "{{ enddate | date_to_xmlschema | truncate: 19, '' }}",{% endif %}{% if event.performer %}
       "performer": {
         "@type": "{% if event.performertype %}{{ event.performertype }}{% else %}MusicGroup{% endif %}",
         "name": "{{ event.performer.name }}"{% if event.performer.url %},
