@@ -9,7 +9,7 @@
     <meta property="og:locale" content="en_UK">{% if page.featured_image %}
     <meta property="og:image" content="{{ site.url }}/wp-content/uploads/{{ page.featured_image }}">{% endif %}
 
-    <meta name="twitter:card" content="summary">
+    <meta name="twitter:card" content="{% if page.featured_image %}summary_large_image{% else %}summary{% endif %}">
     <meta name="twitter:site" content="@{{ site.author.twitter }}">
     <meta name="twitter:title" content="{{ page.title }}{% if page.subtitle %}: {{ page.subtitle }}{% endif %}">
     <meta name="twitter:description" content="{% if page.digest %}{{ page.digest | strip_html }}{% elsif page.excerpt %}{{ page.excerpt | strip_html | truncate: 159, '…' }}{% else %}{{ site.description }}{% endif %}">{% if page.featured_image %}
