@@ -915,13 +915,13 @@ $arrow-size:            1em;
   .arrow {
     display: block;
     position: relative;
-    float: left;
     height: $arrow-height;
     width: calc(50% - #{$centre-block-w / 2 + $arrow-margin});
     background: $light-outline;
     color: $text-light;
     &.newer {
       margin-right: $arrow-margin;
+      float: right;
       // text-indent: $arrow-size / 2; // throws-off arrow tip in FF
       &:after {
         content: "";
@@ -935,6 +935,7 @@ $arrow-size:            1em;
     }
     &.older {
       margin-left: $arrow-margin;
+      float: left;
       // text-indent: $arrow-size / -2;  // throws-off arrow tip in FF
       &:before {
         content: "";
@@ -944,6 +945,20 @@ $arrow-size:            1em;
         border-top: ($arrow-height / 2) solid transparent;
         border-bottom: ($arrow-height / 2) solid transparent;
         border-right: $arrow-size solid $light-outline;
+      }
+    }
+  }
+  &.post-nav {
+    .arrow {
+      width: calc(50% - 0.7em);
+      span {
+        display: block;
+        overflow: hidden;
+        text-overflow: ellipsis;
+        white-space: nowrap;
+        font-size: $fs-small;
+        line-height: $lh-small * 2;
+        padding: 0 (0.4em / $fs-small * 1em);
       }
     }
   }
