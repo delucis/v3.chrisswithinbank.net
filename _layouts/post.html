@@ -14,12 +14,12 @@ layout: default
     <p>Posted on <strong><time class="published" datetime="{{ post.date | date: '%Y-%m-%d'}}">{{ page.date | date: '%A, %-d %B %Y' }}</time></strong></p>{% if page.wordpress_id %}
     <p>This post first appeared on an older version of this site: <a href="http://v2.chrisswithinbank.net{{ page.url }}" rel="nofollow">v2.chrisswithinbank.net{{ page.url }}</a></p>{% endif %}
     {% include _article-json-ld.html %}
-  </footer>
+  </footer>{% if page.next_in_category or page.previous_in_category %}
   <div class="pagination clearfix post-nav">{% if page.next_in_category %}
     <a href="{{ page.next_in_category.url }}" class="arrow older" rel="prev"><span>{{ page.next_in_category.title }}</span></a>{% endif %}
     <span class="separator">—</span>{% if page.previous_in_category %}
     <a href="{{ page.previous_in_category.url }}" class="arrow newer" rel="next"><span>{{ page.previous_in_category.title }}</span></a>{% endif %}
-  </div>
+  </div>{% endif %}
 </article>
 <aside class="secondary">{% if page.featured_image %}{% if page.featured_image_caption %}
   <figure>{% endif %}{% if page.featured_image_alt %}{% assign alttext = page.featured_image_alt %}{% else %}{% assign alttext = page.title | append: ' featured image' %}{% endif %}
