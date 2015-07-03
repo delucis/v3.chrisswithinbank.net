@@ -1,0 +1,9 @@
+<meta name="citation_title" content="{{ page.title }}{% if page.subtitle %}: {{ page.subtitle }}{% endif %}">
+    <meta name="citation_author" content="{{ site.author.name }}">
+    <meta name="citation_publication_date" content="{{ page.date | date: '%Y/%m/%d' }}">
+    <meta name="citation_journal_title" content="{{ page.publication.name }}">
+    <meta name="citation_volume" content="{{ page.publication.volumeNumber }}">
+    <meta name="citation_issue" content="{{ page.publication.issueNumber }}">
+    <meta name="citation_firstpage" content="{{ page.article.pageStart }}">
+    <meta name="citation_lastpage" content="{{ page.article.pageEnd }}">{% if page.pdf %}
+    <meta name="citation_pdf_url" content="{{ site.url }}/wp-content/uploads/{{ page.pdf }}">{% endif %}
