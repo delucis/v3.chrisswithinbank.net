@@ -30,7 +30,8 @@
     <ul class="datalist clearfix">
   {% endunless %}
   {% assign yeartracker = eventdate | date: '%Y' %}
-{% endif %}
+  {% endif %}{% if context == 'aside' %}{% if limitcount == eventlimit %}{% break %}
+  {% else %}{% assign limitcount = limitcount | plus: 1 %}{% endif %}{% endif %}
 <li class="event-card clearfix{% if postcount == 0 %} first{% endif %}">
     <h4>{% capture cache %}
       {% if event.works.size == 1 %}
