@@ -14,6 +14,8 @@
     <link href='http://fonts.googleapis.com/css?family=Alegreya:400,700,400italic' rel='stylesheet' type='text/css'>
     <link href="http://delucis.github.io/feed.xml" type="application/atom+xml" rel="alternate" title="ATOM Feed of Chris Swithinbank’s latest posts">
     <link rel="canonical" href="{{ site.url }}{{ page.url }}">
+    <link rel="canonical" href="{{ site.url }}{{ page.url }}">{% if page.pdf %}
+    <link rel="alternate" href="{{ site.url }}/wp-content/uploads/{{ page.pdf }}" type="application/pdf">{% endif %}
   </head>
   {% capture bodyclass %}{% if page.categories %}{% for cat in page.categories %}{{ cat }} {% endfor %}{% elsif page.category %}{{ page.category }} {% endif %}{% for tag in page.tags %}{{ tag | slugify }}{% unless forloop.last %} {% endunless %}{% endfor %}{% endcapture %}<body{% if bodyclass %} class="{{ bodyclass }}"{% endif %}>
     <!--[if lt IE 8]>
