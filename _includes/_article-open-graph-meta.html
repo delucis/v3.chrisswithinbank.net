@@ -1,0 +1,16 @@
+<meta property="og:title" content="{{ page.title }}{% if page.subtitle %}: {{ page.subtitle }}{% endif %}">
+    <meta property="og:site_name" content="{{ site.name }}">
+    <meta property="og:url" content="{{ site.url }}{{ page.url }}">
+    <meta property="og:description" content ="{% if page.abstract %}{{ page.abstract | strip_html }}{% elsif page.digest %}{{ page.digest | strip_html }}{% else %}{{ page.excerpt | strip_html }}{% endif %}">
+    <meta property="fb:app_id" content="{{ site.facebook.app_id }}">{% if page.category == 'blog' or page.categories contains 'blog' or page.categories contains 'text' %}
+    <meta property="og:type" content="article">
+    <meta property="article:author" content="{{ site.facebook.user_id }}">
+    <meta property="article:published_time" content="{{ page.date }}">{% endif %}
+    <meta property="og:locale" content="en_UK">{% if page.featured_image %}
+    <meta property="og:image" content="{{ site.url }}/wp-content/uploads/{{ page.featured_image }}">{% endif %}
+
+    <meta name="twitter:card" content="summary">
+    <meta name="twitter:title" content="{{ page.title }}{% if page.subtitle %}: {{ page.subtitle }}{% endif %}">
+    <meta name="twitter:description" content="{% if page.digest %}{{ page.digest | strip_html }}{% elsif page.excerpt %}{{ page.excerpt | strip_html | truncate: 159, '…' }}{% else %}{{ site.description }}{% endif %}">{% if page.featured_image %}
+    <meta name="twitter:image" content="{{ site.url }}/wp-content/uploads/{{ page.featured_image }}">{% endif %}
+    <meta name="twitter:url" content="{{ site.url }}{{ page.url }}">
