@@ -34,6 +34,7 @@ Import SASS partials */
    font-family: 'Infini';
    src: url('fonts/infini-romain.eot'); /* IE9 Compat Modes */
    src: url('fonts/infini-romain.eot?#iefix') format('embedded-opentype'), /* IE6-IE8 */
+        url('fonts/infini-gras.woff2') format('woff2'),
         url('fonts/infini-romain.woff') format('woff'), /* Pretty Modern Browsers */
         url('fonts/infini-romain.ttf')  format('truetype'), /* Safari, Android, iOS */
         url('fonts/infini-romain.svg#svgInfini') format('svg'); /* Legacy iOS */
