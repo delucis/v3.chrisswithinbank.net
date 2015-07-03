@@ -1,0 +1,9 @@
+<meta itemprop="name" content="{{ page.title }}{% if page.subtitle %}: {{ page.subtitle }}{% endif %}">{% if page.featured_image %}
+    <meta itemprop="image" content="{{ site.url }}/wp-content/uploads/{{ page.featured_image }}">{% endif %}
+    <meta itemprop="description" content="{% if page.digest %}{{ page.digest | strip_html }}{% elsif page.excerpt %}{{ page.excerpt | strip_html | truncate: 159, '…' }}{% else %}{{ site.description }}{% endif %}">
+
+    <meta name="description" content="{% if page.digest %}{{ page.digest | strip_html }}{% elsif page.excerpt %}{{ page.excerpt | strip_html | truncate: 159, '…' }}{% else %}{{ site.description }}{% endif %}">
+    <meta name="author" content="{{ site.author.name }}">{% if page.tags %}
+    <meta name="keywords" content="{% for tag in page.tags %}{{ tag }}{% unless forloop.last %}, {% endunless %}{% endfor %}">{% endif %}
+    {% include _article-open-graph-meta.html %}{% if page.publication and page.article %}
+    {% include text-meta-tags.html %}{% endif %}
