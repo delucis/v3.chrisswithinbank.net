@@ -185,12 +185,12 @@ body {
   -ms-font-smoothing: antialiased;
   -o-font-smoothing: antialiased;
   font-smoothing: antialiased;
-  -webkit-font-feature-settings: "liga" 1, "dlig" 1;
-  -moz-font-feature-settings:"liga" 1, "dlig" 1;
-  -moz-font-feature-settings: "liga=1, dlig=1";
-  -ms-font-feature-settings: "liga" 1, "dlig" 1;
-  -o-font-feature-settings: "liga" 1, "dlig" 1;
-  font-feature-settings: "liga" 1, "dlig" 1;
+  -webkit-font-feature-settings: "liga" 1;
+  -moz-font-feature-settings:"liga" 1;
+  -moz-font-feature-settings: "liga=1";
+  -ms-font-feature-settings: "liga" 1;
+  -o-font-feature-settings: "liga" 1;
+  font-feature-settings: "liga" 1;
   background-color: $bg-light;
 }
 h2 {
@@ -655,6 +655,12 @@ Data Chart Styles */
 Menu Styling */
 
 .site-header {
+  -webkit-font-feature-settings: "liga" 1, "dlig" 1;
+  -moz-font-feature-settings:"liga" 1, "dlig" 1;
+  -moz-font-feature-settings: "liga=1, dlig=1";
+  -ms-font-feature-settings: "liga" 1, "dlig" 1;
+  -o-font-feature-settings: "liga" 1, "dlig" 1;
+  font-feature-settings: "liga" 1, "dlig" 1;
   transition: background-color 0.2s ease;
   @include largebp {
     color: $text-dark;
@@ -1054,6 +1060,12 @@ Page Structure */
   }
 }
 .site-footer {
+  -webkit-font-feature-settings: "liga" 1, "dlig" 1;
+  -moz-font-feature-settings:"liga" 1, "dlig" 1;
+  -moz-font-feature-settings: "liga=1, dlig=1";
+  -ms-font-feature-settings: "liga" 1, "dlig" 1;
+  -o-font-feature-settings: "liga" 1, "dlig" 1;
+  font-feature-settings: "liga" 1, "dlig" 1;
   margin: 0;
   padding: 0 5%;
   border-top: 4px double rgba($text-dark, 0.2);
