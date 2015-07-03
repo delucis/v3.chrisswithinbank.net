@@ -8,4 +8,8 @@ includes:
   - overview
   - nodata
   - jsonlink
+tags:
+  - gender
+  - data
+  - blog
 ---
