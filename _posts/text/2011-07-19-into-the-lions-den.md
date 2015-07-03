@@ -22,6 +22,7 @@ tags:
   - Contemporary Music
 featured_image: 2011/07/helmut-lachenmann.jpg
 featured_image_alt: Helmut Lachenmann
+pdf: 2011/07/S004029821100026Xa.pdf
 ---
 
 This article first appeared as Chris Swithinbank, [‘{{ page.title }}: {{ page.subtitle }},’]({{ page.article.sameAs }}) *{{ page.publication.name }}*, lxv/{{ page.publication.issueNumber }} ({{ page.publication.issueDate }}), {{ page.article.pageStart }}-{{ page.article.pageEnd }}.
