@@ -30,4 +30,5 @@ layout: default
   {% assign titlestring = titlestring | append: ': ' | append: page.subtitle %}{% endif %}
   {% assign titlestring = titlestring | strip_html | cgi_escape %}
   <a href="https://www.facebook.com/dialog/share?app_id={{ site.facebook.app_id }}&display=page&href={{ site.url }}{{ page.url }}&redirect_uri={{ site.url }}{{ page.url }}&title={{ titlestring }}" class="big-link"><span class="icon facebook"></span> Share</a>
+  <a href="https://twitter.com/share?url={{ site.url }}{{ page.url }}&text={{ titlestring }}&via={{ site.author.twitter }}" class="big-link"><span class="icon twitter"></span> Tweet</a>
 </aside>
