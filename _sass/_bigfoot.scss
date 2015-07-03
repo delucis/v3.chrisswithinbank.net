@@ -218,7 +218,9 @@ $button-transition-properties:      background-color !default;
   -webkit-font-smoothing: antialiased;
 
   // TRANSITIONS
+  -webkit-transition-property: $button-transition-properties;
   transition-property: $button-transition-properties;
+  -webkit-transition-duration: $popover-transition-default-duration;
   transition-duration: $popover-transition-default-duration;
 
   &:hover,
@@ -233,6 +235,7 @@ $button-transition-properties:      background-color !default;
 
   &.is-active {
     background-color: rgba($button-active-color, $button-active-opacity);
+    -webkit-transition-delay: $button-active-style-delay;
     transition-delay: $button-active-style-delay;
   }
 
@@ -397,7 +400,9 @@ $button-transition-properties:      background-color !default;
   transition-timing-function: $popover-transition-default-timing-function;
 
   // TRANSFORMS
+  -webkit-transform: $popover-initial-transform-state;
   transform: $popover-initial-transform-state;
+  -webkit-transform-origin: $popover-initial-transform-origin;
   transform-origin: $popover-initial-transform-origin;
 
   &.is-positioned-top {
@@ -406,6 +411,7 @@ $button-transition-properties:      background-color !default;
   }
 
   &.is-active {
+    -webkit-transform: $popover-active-transform-state;
     transform: $popover-active-transform-state;
     opacity: $popover-active-opacity;
   }
@@ -415,6 +421,7 @@ $button-transition-properties:      background-color !default;
     position: fixed;
     bottom: 0; top: auto;
     left: 0; right: auto;
+    -webkit-transform: translateY(100%);
     transform: translateY(100%);
 
     // DISPLAY AND SIZING
@@ -427,14 +434,17 @@ $button-transition-properties:      background-color !default;
     border-width: 1px 0 0;
 
     // TRANSITIONS
+    -webkit-transition: -webkit-transform 0.3s ease;
     transition: transform 0.3s ease;
 
     &.is-active {
+      -webkit-transform: translateY(0);
       transform: translateY(0);
     }
 
     .bigfoot-footnote__wrapper {
       margin: 0 0 0 50%;
+      -webkit-transform: translateX(-50%);
       transform: translateX(-50%);
       max-width: 100%;
     }
@@ -508,6 +518,7 @@ $button-transition-properties:      background-color !default;
     &:after,
     &:before {
       opacity: 0;
+      -webkit-transition-delay: 0;
       transition-delay: 0;
     }
   }
@@ -601,6 +612,7 @@ $button-transition-properties:      background-color !default;
   // Smaller by one border-width's worth
   width: $popover-tooltip-size;
   height: $popover-tooltip-size;
+  -webkit-transform: rotate(45deg);
   transform: rotate(45deg);
 
   // BACKDROP
@@ -658,6 +670,7 @@ $button-transition-properties:      background-color !default;
     // POSITION
     position: absolute;
     top: 50%; left: 50%;
+    -webkit-transform: translate(-50%, -50%);
     transform: translate(-50%, -50%);
 
     // DISPLAY AND SIZING
@@ -675,6 +688,7 @@ $button-transition-properties:      background-color !default;
     font-feature-settings: "lnum" 1;
 
     // TRANSITIONS
+    -webkit-transition: color $popover-transition-default-duration $popover-transition-default-timing-function;
     transition: color $popover-transition-default-duration $popover-transition-default-timing-function;
   }
 
