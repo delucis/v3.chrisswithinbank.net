@@ -11,11 +11,14 @@ layout: default
   </div>{% if page.publication and page.article %}
   {% include text-json-ld.html %}{% elsif page.category == 'text' %}{% include _article-json-ld.html %}{% endif %}
 </article>
-{% if page.featured_image %}
-<aside class="secondary">{% if page.featured_image_caption %}
+{% if page.featured_image or page.pdf %}
+<aside class="secondary">{% if page.featured_image %}{% if page.featured_image_caption %}
   <figure>{% endif %}{% if page.featured_image_alt %}{% assign alttext = page.featured_image_alt %}{% else %}{% assign alttext = page.title | append: ' featured image' %}{% endif %}
     {% picture sidebar {{ page.featured_image}} alt="{{ alttext }}" %}{% if page.featured_image_caption %}
     <figcaption>{{ page.featured_image_caption | markdownify }}</figcaption>
-  </figure>{% endif %}
+  </figure>{% endif %}{% endif %}
+  {% if page.pdf %}
+  <a download href="{{ site.url }}/wp-content/uploads/{{ page.pdf }}" class="big-link" rel="alternate" type="application/pdf">Download PDF</a>
+  {% endif %}
 </aside>
 {% endif %}
