@@ -423,6 +423,14 @@ figure .picture {
 .multiply {
   mix-blend-mode: multiply;
 }
+.secondary {
+  .multiply {
+    mix-blend-mode: normal;
+    @include xlargebp {
+      mix-blend-mode: multiply;
+    }
+  }
+}
 
 /*
 
