@@ -1111,7 +1111,7 @@ Sidebar Styling */
   background: $bg-dark;
   color: $bg-light;
   @include xlargebp {
-    background: $bg-light;
+    background: transparent;
     color: $text-dark;
   }
   a {
