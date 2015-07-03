@@ -29,5 +29,5 @@ layout: default
   {% assign titlestring = page.title %}{% if page.subtitle %}
   {% assign titlestring = titlestring | append: ': ' | append: page.subtitle %}{% endif %}
   {% assign titlestring = titlestring | strip_html | cgi_escape %}
-  <a href="http://www.facebook.com/sharer/sharer.php?u={{ site.url }}{{ page.url }}&title={{ titlestring }}" class="big-link" target="popup" onclick="window.open('http://www.facebook.com/sharer/sharer.php?u={{ site.url }}{{ page.url }}&title={{ titlestring }}','popup','width=520,height=350,top=screen.height/2-260'); return false;"><span class="icon facebook"></span> Share</a>
+  <a href="http://www.facebook.com/sharer/sharer.php?u={{ site.url }}{{ page.url }}&title={{ titlestring }}" class="big-link" target="popup" onclick="window.open('http://www.facebook.com/sharer/sharer.php?u={{ site.url }}{{ page.url }}&title={{ titlestring }}','popup','width=520,height=350'); return false;"><span class="icon facebook"></span> Share</a>
 </aside>
