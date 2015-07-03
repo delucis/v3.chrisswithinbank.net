@@ -1,6 +1,6 @@
 ---
 title: Mikrokonzert at the RNCM
-date: 2010-06-08 19:30 +00:00
+date: 2010-06-08 19:30
 performer:
   name: Vaganza
   url: http://www.vaganza.manchester.ac.uk/

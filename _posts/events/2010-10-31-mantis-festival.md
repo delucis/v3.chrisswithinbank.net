@@ -1,6 +1,6 @@
 ---
 title: La leggerezza delle città in Manchester
-date: 2010-10-31 19:30 +00:00
+date: 2010-10-31 19:30
 performer:
   name: MANTIS Festival
   url: http://www.mantisfestival.com/

@@ -1,6 +1,6 @@
 ---
 title: Trio Atem in Manchester
-date: 2010-02-26 17:30 +00:00
+date: 2010-02-26 17:30
 performer:
   name: Trio Atem
   url: http://www.trio-atem.co.uk/

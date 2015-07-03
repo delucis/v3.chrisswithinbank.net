@@ -1,6 +1,6 @@
 ---
 title: Harvard Summer Composition Institute
-date: 2012-08-25 20:00 -05:00
+date: 2012-08-25 20:00
 performer:
   name: Talea Ensemble
   url: http://taleaensemble.org/

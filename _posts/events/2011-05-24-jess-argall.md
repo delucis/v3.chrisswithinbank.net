@@ -1,6 +1,6 @@
 ---
 title: Jess Argall Exam
-date: 2011-05-24 12:45 +00:00
+date: 2011-05-24 12:45
 performer:
   name: Jess Argall
 performertype: Person

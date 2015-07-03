@@ -1,6 +1,6 @@
 ---
 title:  John McCabe at 70
-date: 2009-03-20 19:30 +00:00
+date: 2009-03-20 19:30
 performer:
   name: Vaganza
   url: http://www.vaganza.manchester.ac.uk/

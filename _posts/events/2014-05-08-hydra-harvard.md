@@ -1,6 +1,6 @@
 ---
 title: '<em>La leggerezza delle città</em> at Harvard'
-date: 2014-05-08 20:00 -05:00
+date: 2014-05-08 20:00
 performer:
   name: HYDRA
   url: http://huseac.fas.harvard.edu/hydra/

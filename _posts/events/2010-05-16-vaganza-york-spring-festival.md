@@ -1,6 +1,6 @@
 ---
 title: Mikrokonzert at York Spring Festival of New Music
-date: 2010-05-16 15:30 +00:00
+date: 2010-05-16 15:30
 performer:
   name: Vaganza
   url: http://www.vaganza.manchester.ac.uk/

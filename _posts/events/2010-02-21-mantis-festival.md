@@ -1,6 +1,6 @@
 ---
 title: Para cruzar el sueño at MANTIS
-date: 2010-02-21 14:00 +00:00
+date: 2010-02-21 14:00
 performer:
   name: MANTIS Festival
   url: http://www.mantisfestival.com/

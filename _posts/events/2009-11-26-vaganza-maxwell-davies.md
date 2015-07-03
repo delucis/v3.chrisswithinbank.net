@@ -1,6 +1,6 @@
 ---
 title: In celebration of Sir Peter Maxwell Davies
-date: 2009-11-26 15:00 +00:00
+date: 2009-11-26 15:00
 performer:
   name: Olivia Jageurs
 venue:

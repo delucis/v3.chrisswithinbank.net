@@ -1,6 +1,6 @@
 ---
 title: Incredulity at Harvard
-date: 2014-03-08 20:00 -05:00
+date: 2014-03-08 20:00
 performer:
   name: hand werk
   url: http://ensemble-handwerk.eu/

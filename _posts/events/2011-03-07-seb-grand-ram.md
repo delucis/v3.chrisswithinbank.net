@@ -1,6 +1,6 @@
 ---
 title: 3 Sunsets at the Royal Academy of Music
-date: 2011-03-07 14:00 +00:00
+date: 2011-03-07 14:00
 performer:
   name: Sebastian Grand
   url: http://sebastiangrand.com/

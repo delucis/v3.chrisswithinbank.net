@@ -1,6 +1,6 @@
 ---
 title: still point at Wigmore Hall
-date: 2013-09-04 19:30 +00:00
+date: 2013-09-04 19:30
 performer:
   name: Orfea Duo
   url: http://orfea.co.uk/

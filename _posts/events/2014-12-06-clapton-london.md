@@ -1,6 +1,6 @@
 ---
 title: Tomorrow I will build a house… in London
-date: 2014-12-06 20:30 +00:00
+date: 2014-12-06 20:30
 performer:
   name: clapTON Ensemble
   url: http://www.claptonensemble.com/

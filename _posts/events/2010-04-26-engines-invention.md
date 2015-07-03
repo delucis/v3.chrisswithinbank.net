@@ -1,6 +1,6 @@
 ---
 title: Engines of Invention
-date: 2010-04-26 13:10 +00:00
+date: 2010-04-26 13:10
 performer:
   name: Steve Pycroft
   url: http://www.stevepycroft.com/

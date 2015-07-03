@@ -1,6 +1,6 @@
 ---
 title: Incredulity in Chicago
-date: 2014-04-26 12:00 -06:00
+date: 2014-04-26 12:00
 performer:
   name: Ensemble Dal Niente
   url: http://dalniente.com/

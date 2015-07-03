@@ -1,6 +1,6 @@
 ---
 title: Gaza Cantos at Hexham Abbey
-date: 2010-09-30 13:00 +00:00
+date: 2010-09-30 13:00
 performer:
   name: Emma Richards
   url: http://www.emmarichards.net/

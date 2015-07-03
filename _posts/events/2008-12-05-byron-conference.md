@@ -1,6 +1,6 @@
 ---
 title: "Stanzas for Music: Byron in the 21st Century"
-date: 2008-12-05 13:10 +00:00
+date: 2008-12-05 13:10
 performer:
   name: Trio Atem
   url: http://www.trio-atem.co.uk/

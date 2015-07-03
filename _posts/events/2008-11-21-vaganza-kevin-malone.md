@@ -1,6 +1,6 @@
 ---
 title:  My Fellow Americans
-date: 2008-11-21 19:30 +00:00
+date: 2008-11-21 19:30
 performer:
   name: Vaganza
   url: http://www.vaganza.manchester.ac.uk/

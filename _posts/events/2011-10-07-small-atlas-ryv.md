@@ -1,6 +1,6 @@
 ---
 title: Small Atlas in Manchester
-date: 2011-10-07 19:00 +00:00
+date: 2011-10-07 19:00
 performer:
   name: Raise Your Voice Ensemble
   url: http://www.raise-your-voice.org/

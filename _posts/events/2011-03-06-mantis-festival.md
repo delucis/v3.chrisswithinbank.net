@@ -1,6 +1,6 @@
 ---
 title: Leggerezza at MANTIS
-date: 2011-03-06 17:00 +00:00
+date: 2011-03-06 17:00
 performer:
   name: MANTIS
   url: http://www.mantisfestival.com/

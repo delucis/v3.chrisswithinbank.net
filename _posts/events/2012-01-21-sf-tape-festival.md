@@ -1,6 +1,6 @@
 ---
 title: San Francisco Tape Music Festival 2012
-date: 2012-01-21 20:00 -08:00
+date: 2012-01-21 20:00
 performer:
   name: San Francisco Tape Music Festival
   url: http://sfsound.org/tape/Fest2012.html

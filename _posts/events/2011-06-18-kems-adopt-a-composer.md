@@ -1,6 +1,6 @@
 ---
 title: First performance of June Unfolding
-date: 2011-06-18 19:30 +00:00
+date: 2011-06-18 19:30
 performer:
   name: King Edward Musical Society
   url: http://www.kems.org.uk/

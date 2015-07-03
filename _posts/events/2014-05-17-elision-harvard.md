@@ -1,6 +1,6 @@
 ---
 title: "First performance of <em>traveller, standing in rooms {i … ii}</em>"
-date: 2014-05-17 20:00 -05:00
+date: 2014-05-17 20:00
 performer:
   name: ELISION Ensemble
   url: http://elision.org.au/

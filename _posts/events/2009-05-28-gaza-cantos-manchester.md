@@ -1,6 +1,6 @@
 ---
 title: Robert Guy in Manchester
-date: 2009-05-28 14:00 +00:00
+date: 2009-05-28 14:00
 performer:
   name: Robert Guy
   url: http://robert-guy.com/
