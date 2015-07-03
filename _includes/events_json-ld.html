@@ -1,3 +1,17 @@
+{% capture cache %}
+  {% unless headline %}
+  {% if event.works.size == 1 %}
+    {% assign headline = event.works[0] %}
+    {% for post in site.categories.music %}
+      {% if post.title == headline %}
+        {% assign eventurl = post.url %}
+        {% break %}
+      {% endif %}
+    {% endfor %}
+  {% else %}
+    {% assign headline = event.title %}
+    {% assign eventurl = event.url %}
+{% endif %}{% endunless %}{% endcapture %}{% assign cache = nil %}
 <script type="application/ld+json">
   {
     "@context": "http://schema.org",
