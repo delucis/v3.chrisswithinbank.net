@@ -1,5 +1,5 @@
 ---
-title: <em>Tomorrow I will build a house…</em> in Berlin
+title: Tomorrow I will build a house… in Berlin
 date: 2014-12-20 20:00
 performer:
   name: ensemble mosaik
