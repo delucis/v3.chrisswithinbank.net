@@ -1210,7 +1210,7 @@ Events page layout */
     }
     &:hover {
       .eventdate {
-        background-color: rgba($bg-dark, 0.6);
+        background-color: $link-hover;
       }
     }
   }
@@ -1241,10 +1241,7 @@ Events page layout */
       }
       &:hover {
         .eventdate {
-          background-color: rgba($bg-light, 0.6);
-          @include xlargebp {
-            background-color: rgba($bg-dark, 0.6);
-          }
+          background-color: $link-hover;
         }
       }
     }
