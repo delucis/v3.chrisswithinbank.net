@@ -26,6 +26,11 @@ layout: default
     {% picture sidebar {{ page.featured_image}} alt="{{ alttext }}" %}{% if page.featured_image_caption %}
     <figcaption>{{ page.featured_image_caption | markdownify }}</figcaption>
   </figure>{% endif %}{% endif %}
+  {% if page.featured_embed %}
+  <section class="featured_embed">
+    {{ page.featured_embed }}
+  </section>
+  {% endif %}
   {% assign titlestring = page.title %}{% if page.subtitle %}
   {% assign titlestring = titlestring | append: ': ' | append: page.subtitle %}{% endif %}
   {% assign titlestring = titlestring | strip_html | cgi_escape %}
