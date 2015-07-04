@@ -2,8 +2,8 @@
 layout: default
 ---
 <article id="{{ page.title | slugify }}" class="hentry primary">
-  <header>
-    <h2 class="entry-title">{{ page.title }}</h2>{% if page.subtitle %}
+  <header>{% unless page.title == 'No Content Found' %}
+    <h2 class="entry-title">{{ page.title }}</h2>{% endunless %}{% if page.subtitle %}
     <h3 class="subtitle">{{ page.subtitle }}</h3>{% endif %}{% if page.digest and page.category != 'text' %}
     <p><em>{{ page.digest }}</em></p>{% endif %}
   </header>
@@ -16,9 +16,9 @@ layout: default
     {% include _article-json-ld.html %}
   </footer>{% if page.next_in_category or page.previous_in_category %}
   <div class="pagination clearfix post-nav">{% if page.next_in_category %}
-    <a href="{{ page.next_in_category.url }}" class="arrow older" rel="prev"><span>{{ page.next_in_category.title }}</span></a>{% endif %}
+    <a href="{{ page.next_in_category.url }}" class="arrow older" rel="prev"><span>{% if page.next_in_category.title == 'No Content Found' %}{{ page.next_in_category.excerpt | strip_html | truncate: 30, '…' }}{% else %}{{ page.next_in_category.title }}{% endif %}</span></a>{% endif %}
     <span class="separator">—</span>{% if page.previous_in_category %}
-    <a href="{{ page.previous_in_category.url }}" class="arrow newer" rel="next"><span>{{ page.previous_in_category.title }}</span></a>{% endif %}
+    <a href="{{ page.previous_in_category.url }}" class="arrow newer" rel="next"><span>{% if page.previous_in_category.title == 'No Content Found' %}{{ page.previous_in_category.excerpt | strip_html | truncate: 30, '…' }}{% else %}{{ page.previous_in_category.title }}{% endif %}</span></a>{% endif %}
   </div>{% endif %}
 </article>
 <aside class="secondary">{% if page.featured_image %}{% if page.featured_image_caption %}
