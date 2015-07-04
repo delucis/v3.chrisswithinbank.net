@@ -456,6 +456,12 @@ Basic Class Selectors */
     text-align: left;
   }
 }
+.alignright {
+  text-align: right;
+}
+.aligncenter {
+  text-align: center;
+}
 .footnotes {
   border-top: 1px solid $light-outline;
   border-bottom: 1px solid $light-outline;
