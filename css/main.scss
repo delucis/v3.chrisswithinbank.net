@@ -1041,6 +1041,9 @@ Page Structure */
     max-width: calc(25.6em + 10%);
     @include largebp {
       padding-top: ($lh-base / 2);
+      &#no-content-found {
+        padding-top: $lh-base * 1.5;
+      }
     }
     @include xlargebp {
       float: left;
