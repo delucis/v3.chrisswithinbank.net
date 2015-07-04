@@ -66,3 +66,9 @@ DS: Waiting to see what Martin Margiela [will do](http://www.independent.co.uk/l
 Donal Sarsfield at the [Clockarium](http://www.clockarium.com/), Brussels (Photo by [Sam Salem](http://www.osamahsalem.co.uk/))
 </figcaption>
 </figure>
+
+### Links
+
+- [Donal Sarsfield on SoundCloud](https://soundcloud.com/donalsarsfield)
+- [Donal Sarsfield at the Contemporary Music Centre, Ireland](http://www.cmc.ie/composers/composer.cfm?composerID=186)
+- [Interview about *Gallivanting/The Suitcases Piece* from CMC Ireland](https://audioboom.com/boos/336633-interview-with-donal-sarsfield)
