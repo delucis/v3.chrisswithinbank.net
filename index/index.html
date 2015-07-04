@@ -1,0 +1,18 @@
+---
+title: Site Index
+layout: page
+---
+{% assign yeartracker = 0 %}
+{% for post in site.categories.blog %}
+{% assign datetest = post.date | date: '%Y' %}
+{% unless yeartracker == datetest %}
+  {% unless yeartracker == 0 %}
+</ul>
+  {% endunless %}
+<h3>{{ post.date | date: '%Y' }}</h3>
+<ul class="datalist indexlist">
+{% endunless %}
+{% assign yeartracker = post.date | date: '%Y' %}
+  <li id="{{ post.title | slugify }}" class="hentry"><time class="published" datetime="{{ post.date | date: '%Y-%m-%d'}}">{{ post.date | date: '%-d/%-m' }}</time> <span class="separator">—</span> <span class="entry-title"><a href="{{ post.url }}" rel="bookmark">{{ post.title }}</a></span></li>
+{% endfor %}
+</ul>
