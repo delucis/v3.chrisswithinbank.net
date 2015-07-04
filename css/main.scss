@@ -1162,6 +1162,9 @@ Sidebar Styling */
       font-size: $fs-small;
       line-height: $lh-small;
       margin-bottom: $lh-small * 2;
+      &.featured_embed {
+        margin-top: $lh-small;
+      }
       h3 {
         font-size: $fs-s-h3;
         line-height: $lh-s-h3;
