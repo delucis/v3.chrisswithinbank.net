@@ -511,6 +511,27 @@ Basic Class Selectors */
     padding-left: 0;
     margin-bottom: 0;
 }
+.indexlist {
+  .hentry {
+    .published {
+      width: $fs-base * 2.666666666;
+      display: inline-block;
+      text-align: right;
+      padding-right: $lh-base / 2;
+      font-family: $display-font;
+    }
+    .entry-title {
+      width: calc(100% - #{$fs-base * 3});
+      display: inline-block;
+      vertical-align: top;
+      padding-left: $lh-base / 2;
+      border-left: 2px solid $light-outline;
+      &:hover {
+        border-left-color: $text-dark;
+      }
+    }
+  }
+}
 .bibliography {
   list-style: none;
   text-indent: $lh-base * -1;
