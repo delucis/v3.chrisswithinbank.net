@@ -23,10 +23,10 @@ where the poem begins and ends?’
 
 > Nur noch die Geige Einsteins ist zu hören.
 
-The title is taken from a statement made by John Cage shortly before  his death, in an interview with Charles Amirkhanian:
+The title is taken from a statement made by John Cage shortly before his death, in an interview with Charles Amirkhanian:
 
-> We live in a time I think not of mainstream but of many  streams or even, if you insist on a river of time, that we have come to  delta, maybe even beyond delta to an ocean which is going back to the  skies.
+> We live in a time I think not of mainstream but of many streams or even, if you insist on a river of time, that we have come to delta, maybe even beyond delta to an ocean which is going back to the skies.
 
-Written for [Trio Atem](http://www.myspace.com/trioatem), _…going  back to the skies_ had its first performance in a ‘beat  the rush hour’ concert on February 26 2010 in the Cosmo Rodewald Concert  Hall at the University of Manchester. The concert featured several  new works by Manchester-based composers commissioned for the occasion.
+Written for [Trio Atem](http://www.myspace.com/trioatem), _…going back to the skies_ had its first performance in a ‘beat the rush hour’ concert on February 26 2010 in the Cosmo Rodewald Concert Hall at the University of Manchester. The concert featured several new works by Manchester-based composers commissioned for the occasion.
 
 A revised version of this work was premiered by Trio Atem at King’s Place on Monday, 4 April 2011.

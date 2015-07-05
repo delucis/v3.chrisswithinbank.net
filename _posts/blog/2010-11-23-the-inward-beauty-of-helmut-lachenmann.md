@@ -33,13 +33,13 @@ The late ‘60s saw Lachenmann focus heavily on writing for voice, composing _Co
 _Consolation II_ sets an eighth-century prayer known as the Wessobrunner Gebet and, in a fashion not uncommon for the 1960s, fragments the semantic material, leaving only the phonetic material exposed as the bare bones of the text. The prayer’s meditation on finding God in the nothingness before time is dissolved into a shuddering landscape of letters, hissing with a hollow wind, shivering with rolled ‘R’s, stuttering away into the nothingness where God can perhaps be found, ending on the ‘t’ of ‘Gott’, not sung but struck: two fingers coming together in a quiet clap.
 
 > Mir gestand der Sterblichen Staunen als Höchstes \\
-> Das  Erde nicht war, noch oben Himmel \\
-> Noch Baum, noch irgend ein Berg  nicht war \\
+> Das Erde nicht war, noch oben Himmel \\
+> Noch Baum, noch irgend ein Berg nicht war \\
 > Noch die Sonne, nicht Licht war \\
-> Noch der Mond nicht  leuchtete \\
+> Noch der Mond nicht leuchtete \\
 > Noch das gewaltige Meer \\
 > Da noch nirgends nichts war \\
-> An  Enden und Wenden \\
+> An Enden und Wenden \\
 > Da war der eine allmächtige Gott
 >
 > Mortal wonder as the greatest was confided in me \\
@@ -56,7 +56,7 @@ _Consolation II_ sets an eighth-century prayer known as the Wessobrunner Gebet a
 
 ##### _Trio fluido_, for clarinet, viola and percussion (1966)
 
-Though written six years after Lachenmann left Venice and full-time  study with Luigi Nono, _Trio fluido_ is still heavily influenced by Nono’s  punctualist music. Rather than accepting this concept fully, it  explores the various potential developments of and escapes from such  point-to-point writing. In the course of the work the separated sequence  of sounds is gradually both dissolved and paralysed, pushing the music  at different points into the extreme world of sparse, separated gestures  common in his music as well as a more continuous, cohesive texture of  blown, bowed, rubbed and stroked sounds. The kind of gestural material  that is increasingly vital in Lachenmann’s later music is foreshadowed  in _Trio fluido_ by a form of pitch gesture where instruments move through  narrower and wider fields of pitch, and the elevated importance of  instrumental techniques and physical gesture also foreshadow his more  complete move away from pitch that began not long after this piece was  completed.
+Though written six years after Lachenmann left Venice and full-time study with Luigi Nono, _Trio fluido_ is still heavily influenced by Nono’s punctualist music. Rather than accepting this concept fully, it explores the various potential developments of and escapes from such point-to-point writing. In the course of the work the separated sequence of sounds is gradually both dissolved and paralysed, pushing the music at different points into the extreme world of sparse, separated gestures common in his music as well as a more continuous, cohesive texture of blown, bowed, rubbed and stroked sounds. The kind of gestural material that is increasingly vital in Lachenmann’s later music is foreshadowed in _Trio fluido_ by a form of pitch gesture where instruments move through narrower and wider fields of pitch, and the elevated importance of instrumental techniques and physical gesture also foreshadow his more complete move away from pitch that began not long after this piece was completed.
 
 
 ##### _Guero_ — Study for Piano (1970)
