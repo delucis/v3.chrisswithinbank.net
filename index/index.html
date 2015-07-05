@@ -9,7 +9,7 @@ layout: page
   {% unless yeartracker == 0 %}
 </ul>
   {% endunless %}
-<h3>{{ post.date | date: '%Y' }}</h3>
+<h3 id="{{ post.date | date: '%Y' | slugify }}">{{ post.date | date: '%Y' }}</h3>
 <ul class="datalist indexlist">
 {% endunless %}
 {% assign yeartracker = post.date | date: '%Y' %}
