@@ -435,6 +435,12 @@ figure .picture {
     }
   }
 }
+a .multiply {
+  &.default,
+  &.aligncenter {
+    mix-blend-mode: normal;
+  }
+}
 
 /*
 
