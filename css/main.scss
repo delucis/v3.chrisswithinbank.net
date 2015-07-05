@@ -465,6 +465,15 @@ Basic Class Selectors */
   @include hyphens(auto);
   blockquote, p {
     text-align: justify;
+    &.alignright {
+      text-align: right;
+    }
+    &.aligncenter {
+      text-align: center;
+    }
+    &.alignleft {
+      text-align: left;
+    }
   }
 }
 .donthyphenate {
