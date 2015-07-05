@@ -1,30 +1,18 @@
 ---
-author: christopherlux
-comments: false
-date: 2009-12-20 14:38:59+00:00
-layout: post
-slug: three-sky-studies
 title: Three Sky Studies
-wordpress_id: 581
-categories:
-- Works
-tags:
-- '2009'
-- audio
-- piano
-- solo
+date: 2009-12-20 14:38:59+00:00
+category: music
+size: solo
+instrumentation: for solo piano
+duration: 12'
+instrumentationlist: Piano
+audioembed: <iframe width="100%" height="20" scrolling="no" frameborder="no" src="https://w.soundcloud.com/player/?url=https%3A//api.soundcloud.com/tracks/116529351&amp;color=ff5500&amp;inverse=false&amp;auto_play=false&amp;show_user=true"></iframe>
 ---
 
-
-	
-  1. Chant-cris
-
-	
-  2. Notturno/Abschiedslied I
-
-	
-  3. Aubade/Abschiedslied II
-
+1. Chant-cris
+2. Notturno/Abschiedslied I
+3. Aubade/Abschiedslied II
+{: type="I"}
 
 _Three Sky Studies_, for solo piano, were composed over the course of 2009, with 'Chant-cris', a virtuosic scattering of notes inspired by birdsong and Elliott Carter's [_Caténaires_](http://www.youtube.com/watch?v=54CYVr0_acY), acting as a kind of short prelude to the second and third movements, which were written with pianist friends in mind. The first and last movements were [workshopped by Richard Casey](http://www.chrisswithinbank.net/2009/12/piano-workshop/) in December 2009.
 
