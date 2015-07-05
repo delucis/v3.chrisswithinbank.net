@@ -2,6 +2,7 @@
 title: About me
 layout: page
 featured_image: 2015/07/bio_portrait.jpg
+featured_image_alt: Chris Swithinbank
 ---
 I work with various permutations of instrumental and electronic resources, mainly focusing on creating musical experiences with a relatively fixed structure (be that scored or on tape). I am interested in the performance experience in terms of the human exchange between performer and audience member, and with each work hope to open up doors to worlds that might otherwise not exist.
 
