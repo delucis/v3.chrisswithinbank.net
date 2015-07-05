@@ -12,6 +12,7 @@ venue:
 facebook: https://www.facebook.com/events/321859600226/
 works:
   - Books of Moses
+premiere: Books of Moses
 programme:
     - composer: Chris Swithinbank
       work: Books of Moses

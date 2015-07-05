@@ -12,6 +12,7 @@ venue:
 facebook: https://www.facebook.com/events/43116238932/
 works:
   - 3 Sunsets
+premiere: 3 Sunsets
 programme:
   - composer: Chris Swithinbank
     work: 3 Sunsets

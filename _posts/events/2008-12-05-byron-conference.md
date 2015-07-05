@@ -11,6 +11,7 @@ venue:
   address: The University of Manchester, Bridgeford Street, Manchester M13 9PL, United Kingdom
 works:
   - "Detached Thought #100"
+premiere: "Detached Thought #100"
 programme:
   - composer: Chris Swithinbank
     work: "Detached Thought #100"
