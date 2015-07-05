@@ -1,6 +1,6 @@
 ---
 title: Raise Your Voice at Centro Bar
-date: 2010-05-14 20:00
+date: 2010-02-28 20:00
 performer:
   name: Raise Your Voice Ensemble
   url: http://www.raise-your-voice.org/
