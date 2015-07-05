@@ -462,6 +462,11 @@ Basic Class Selectors */
 .aligncenter {
   text-align: center;
 }
+.small {
+  font-size: $fs-small;
+  line-height: $lh-small;
+  margin: 0 0 $lh-small;
+}
 .footnotes {
   border-top: 1px solid $light-outline;
   border-bottom: 1px solid $light-outline;
@@ -509,6 +514,15 @@ Basic Class Selectors */
   h2 {
     a {
       background-position: 0% 83%, 100% 83%, 0% 83%;
+    }
+  }
+  .ui {
+    font-family: $display-font;
+    a {
+      background-position: 0 98%,100% 98%,0 98%;
+      @include smallbp {
+        background-position: 0 95%,100% 95%,0 95%;
+      }
     }
   }
 }
