@@ -2,7 +2,7 @@
 layout: default
 ---
 <article id="{{ page.title | slugify }}" class="hentry primary">
-  <header>{% unless page.title == 'No Content Found' %}
+  <header class="single-post-header">{% unless page.title == 'No Content Found' %}
     <h2 class="entry-title">{{ page.title }}</h2>{% endunless %}{% if page.subtitle %}
     <h3 class="subtitle">{{ page.subtitle }}</h3>{% endif %}{% if page.digest and page.category != 'text' %}
     <p><em>{{ page.digest }}</em></p>{% endif %}
