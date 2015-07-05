@@ -1,6 +1,6 @@
 ---
 title: Books of Moses at MANTIS
-date: 2010-02-21 18:00
+date: 2009-10-31 18:00
 performer:
   name: MANTIS Festival
   url: http://www.mantisfestival.com/
