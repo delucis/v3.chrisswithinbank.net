@@ -1,0 +1,33 @@
+---
+author: christopherlux
+comments: true
+date: 2010-05-03 14:25:01+00:00
+layout: post
+slug: mahler-in-manchester
+title: 'Mahler in Manchester: Take Eight'
+wordpress_id: 746
+categories:
+- Musings
+tags:
+- BBC Philharmonic
+- Hallé
+- Mahler
+- Manchester
+featured_image: 2010/05/mahler_in_manchester.jpg
+featured_image_alt: Mahler in Manchester 2010 Logo
+---
+
+The [Mahler in Manchester](http://www.bridgewater-hall.co.uk/content/WhatsOn/MahlerFestival.aspx) concert series is reaching its climax as we clamber up to the final, vast symphonies whose ambitions outdid all predecessors and Mahler 8 is the largest of them all, combining the forces of [BBC Philharmonic](http://www.bbc.co.uk/orchestras/philharmonic/), [Hallé](http://www.halle.co.uk/), [Hallé Choir](http://www.halle.co.uk/publishedSite/choirdiscover.asp), [Hallé Youth Choir](http://www.halle.co.uk/publishedSite/hyohycdiscover.asp#hyc) and [CBSO Chorus](http://www.cbso.co.uk/?page=performers/cbsochorus.html), not to mention conductor Mark Elder and the eight vocal soloists. The journey has been an interesting one, enlivened by the conceit of pairing each symphony with some new, specially commissioned music, usually bearing some relationship with its symphonic cousin. The new works have been variously successful (as are, of course, the Mahler symphonies) and while the hapless tinkering of Uri Caine’s piano playing frequently being swallowed by the directionless mélange that was his _Scenes from Childhood_ programmed alongside Mahler 5 may not have pleased everyone, it is the potential for serendipity that is appealing. Besides, as Gustav’s granddaughter Marina notes in the programme, ‘an open, curious, demanding ear, willing to listen, always searching for something lovely, something true in the music of our own time — this is truly honouring Mahler’s music.’
+
+Sunday night’s pairing with Mahler 8 couldn’t have been more fitting. The ecstatic religious element of the symphony was echoed in a 20-minute improvisation on the Gregorian hymn ‘Veni, Creator Spiritus’, the text of which forms the first part of the Mahler, performed by organist Olivier Latry. Latry has held one of the four posts as organist at Notre Dame de Paris since 1985 and is steeped in the French tradition of organ improvisation as the main musical accompaniment to the Catholic mass. This tradition is strikingly modernist when one compares it to the liturgical organ tradition of the British Isles and Latry’s musical ancestry can clearly be traced back to the devout, if unorthodox, Catholic Olivier Messiaen, who held a similar post at the Église de la Sainte-Trinité for 61 years, until his death.<!-- more -->
+
+Opening with the unadulterated plainchant line, which dates from the 9th Century, Latry quickly set about moving through kaleidoscopic worlds of timbral and motivic variation, exploiting every possible colour and register of the 5,500-pipe Bridgewater organ. He moved with ease and agility through raucous sequences of chords flung about the pipes to vanish and reveal the quiet, air-shaking depths of the lowest pedal notes. High babbling textures with an almost electronic feel, reminiscent of the gurgling boys’ voices in Stockhausen’s _Gesang der Jünglinge_, segued into gaping horror movie chords. The improvisation seemed to become a series of interlocking chorales and arias, and its symphonic ambition was clear as the theme returned and evolved before burning out in the — only slightly incongruous — final, fiery glow of an apocalyptically joyous wall of major key sound. That is, of course, precisely how Mahler 8 finishes and despite Latry’s note in the programme that ‘an improvisation must be spontaneous […] I won’t listen to Mahler’s Symphony No.8 before the performance,’ one wonders whether he may have at least half-planned the ending’s spirit.
+
+Mahler’s Eighth Symphony is an unusual work, closer in many ways to an oratorio than a traditional symphony, but one of the most surprising things about Mahler’s music today — a century since this symphony’s first performance — is its modernity. The symphony is replete with jagged, dissonant lines, composite sounds built from cymbal attacks and string decays, strange juxtapositions such as choir and wayward solo violin, and of course the harmonium and mandolins expanding the standard orchestral palette yet further. The first chorus of Part Two, gently disturbing an orchestral stillness with syllable-by-syllable text setting, is still stunning and was performed with great restraint by the massed choirs, evoking Goethe’s awestruck poetry. The sublime quiet of the pre-climax final stanza, ‘Alles vergängliche / Ist nur ein Gleichnis’ [Everything transitory / is but an image], was sung with similar delicacy. A good vocal soloist is hard to find, let alone eight, but [Gerald Finley](http://www.geraldfinley.com/) (of course) stood out as Pater Ecstaticus. The Canadian baritone must rarely have so little to do in a concert — just twelve short lines — but his voice and stage presence rarely fail. Second soprano [Aga Mikolaj](http://www.mikolaj.name/), singing the role of the penitent, also impressed with control and feeling as she sang ‘Neige, neige / Du Ohnegleiche’.
+
+With 121 instrumentalists, 383 chorus members and 8 soloists on stage, Mahler was never going to end the ‘Symphony of a Thousand’ quietly. After the awe-filled hush of ‘Alles vergängliche’ the orchestra gradually stirs before rising to one of the loudest and most orgasmic finales of the repertoire. The Bridgewater Hall can only rarely have been treated to such a gripping and physically powerful sound that conveys the passion and strength of five hundred plus performers emptying the last ounces of their energy into those final notes. This is the passage of which Maher wrote, ‘that the universe begins to vibrate and resound. These are no longer human voices, but planets and suns rotating.’ It was greeted with rapturous applause and a standing ovation.
+
+The symphony is dedicated to Mahler’s wife, Alma, and, to return to Messiaen, it is striking how, 40 years before _Turangalîla_, the combination of ecstatic, human love and a belief in the holy joy of God resulted in a musical outpouring on a similarly large scale. It takes a lot of time, planning and effort to arrange a performance of this symphony — it took Mahler three years after its composition to organise the premiere — and the collaborative efforts of BBC Philharmonic, Hallé and the various choirs should be celebrated as a wonderful musical gift. It is the turn of the Ninth Symphony in a few weeks. It will take quite something to outshine Sunday’s performance.
+
+  *[BBC]: British Broadcasting Corporation
+  *[CBSO]: City of Birmingham Symphony Orchestra

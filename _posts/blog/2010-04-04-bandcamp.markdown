@@ -1,0 +1,20 @@
+---
+author: christopherlux
+comments: true
+date: 2010-04-04 15:35:52+00:00
+layout: post
+slug: bandcamp
+title: Bandcamp!
+wordpress_id: 593
+categories:
+- News
+tags:
+- audio
+- bandcamp
+- free downloads
+- website
+---
+
+You can now hear some of my music online at [my Bandcamp page](http://www.hear.chrisswithinbank.net) and I'll be adding some more recordings in a few weeks. [Bandcamp](http://bandcamp.com/) lets you upload high-quality audio and offer it for both streaming and download in a wide range of formats, so if you like what you hear, help yourself to a free download in whichever shape or size suits you.
+
+The contemporary music collective [Raise Your Voice](http://www.raise-your-voice.org/), which I run with [Rob Guy](http://www.robert-guy.com/) and [Steve Pycroft](http://www.stevepycroft.com), is also using Bandcamp. Check out the recording of the Raise Your Voice launch night [here](http://www.hear.raise-your-voice.org/).
