@@ -13,6 +13,7 @@ venue:
 facebook: https://www.facebook.com/events/186340652629/
 works:
   - "Mikrokonzert: I Swear I Saw the Sun Falling"
+premiere: "Mikrokonzert: I Swear I Saw the Sun Falling"
 programme:
   - composer: Chris Swithinbank
     work: "Mikrokonzert: I Swear I Saw the Sun Falling"

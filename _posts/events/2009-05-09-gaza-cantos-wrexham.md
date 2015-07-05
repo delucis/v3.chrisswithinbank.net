@@ -13,6 +13,7 @@ venue:
 locationtype: ArtGallery
 works:
   - Gaza Cantos
+premiere: Gaza Cantos
 programme:
   - composer: Chris Swithinbank
     work: Gaza Cantos

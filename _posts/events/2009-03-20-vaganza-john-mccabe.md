@@ -12,6 +12,7 @@ venue:
 facebook: https://www.facebook.com/events/64188134251/
 works:
   - Excavations
+premiere: Excavations
 programme:
   - composer: Chris Swithinbank
     work: Excavations
