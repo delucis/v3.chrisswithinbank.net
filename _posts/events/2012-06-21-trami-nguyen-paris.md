@@ -13,6 +13,7 @@ venue:
 facebook: https://www.facebook.com/events/247297432049484/
 works:
   - Three Sky Studies
+premiere: Three Sky Studies
 programme:
   - composer: Chris Swithinbank
     work: Three Sky Studies
