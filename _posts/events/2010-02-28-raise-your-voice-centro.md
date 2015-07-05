@@ -10,6 +10,7 @@ venue:
   address: 74 Tib Street, Manchester M4 1LG, United Kingdom
 works:
   - This is Water!
+premiere: This is Water!
 programme:
   - composer: Chris Swithinbank
     work: This is Water!

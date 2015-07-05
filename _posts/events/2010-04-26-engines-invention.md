@@ -13,6 +13,7 @@ venue:
 facebook: https://www.facebook.com/events/113774435305855/
 works:
   - The Golden Lion Hotel
+premiere: The Golden Lion Hotel
 programme:
   - composer: Chris Swithinbank
     work: The Golden Lion Hotel

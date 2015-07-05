@@ -11,6 +11,7 @@ venue:
 works:
   - La leggerezza delle città
   - Para cruzar el sueño
+premiere: La leggerezza delle città
 programme:
   - composer: Chris Swithinbank
     work: La leggerezza delle città

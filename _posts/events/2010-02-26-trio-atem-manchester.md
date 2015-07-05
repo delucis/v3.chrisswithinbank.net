@@ -11,6 +11,7 @@ venue:
   address: The University of Manchester, Bridgeford Street, Manchester M13 9PL, United Kingdom
 works:
   - …going back to the skies
+premiere: …going back to the skies
 programme:
   - composer: Chris Swithinbank
     work: …going back to the skies
