@@ -27,7 +27,7 @@ programme:
   - composer: Cecilia Arditto
     work: El libro de los gestos
     gender: F
-  - composer: Peter Streif
+  - composer: Peter Streiff
     work: Hors d'oeuvre
     gender: M
   - composer: Iñigo Giner Miranda

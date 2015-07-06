@@ -24,7 +24,7 @@ programme:
   - composer: Beat Furrer
     work: Invocation VI
     gender: M
-  - composer: Joan Arnau Pamies
+  - composer: Joan Arnau Pàmies
     work: Palimpsestus
     gender: M
   - composer: Simon Steen-Andersen
