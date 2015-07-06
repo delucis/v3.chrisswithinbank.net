@@ -192,6 +192,18 @@ body {
   -o-font-feature-settings: "liga" 1;
   font-feature-settings: "liga" 1;
   background-color: $bg-light;
+  @include xlargebp {
+    &::-webkit-scrollbar-track {
+      background-color: $bg-light;
+    }
+    &::-webkit-scrollbar {
+      width: 14px;
+      background-color: $bg-light;
+    }
+    &::-webkit-scrollbar-thumb {
+      background-color: $text-dark;
+    }
+  }
 }
 h2 {
   font-family: $display-font;
