@@ -1110,6 +1110,7 @@ Page Structure */
 }
 .container {
   width: 100%;
+  max-width: 53em;
   margin: $lh-base 0 0;
   @include mediumbp {
     margin: $lh-base auto 0;
