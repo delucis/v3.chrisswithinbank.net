@@ -1,34 +1,120 @@
 "Pedro Álvarez":
   sameAs: http://www.pedroalvarez.info/
   nationality: CL
+"Dieter Ammann":
+  sameAs: http://www.dieterammann.ch/
+  nationality: CH
+  birthDate: 1962
+"Cecilia Arditto":
+  sameAs: http://www.ceciliaarditto.com/
+  birthDate: 1966
+  nationality: AR
+"Trevor Bača":
+  sameAs: http://www.trevorbaca.com/
+  birthDate: 1975
+  nationality: US
 "Richard Barrett":
   sameAs: https://en.wikipedia.org/wiki/Richard_Barrett_(composer)
   nationality: GB
   birthDate: 1959
+"Edgar Barroso":
+  sameAs: http://edgarbarroso.net/
+  nationality: MX
+  birthDate: 1977
 "Pierre Boulez":
   sameAs: https://en.wikipedia.org/wiki/Pierre_Boulez
   nationality: FR
   birthDate: 1925
+"Emanuele Casale":
+  sameAs: http://emanuelecasale.com/
+  nationality: IT
+  birthDate: 1974
 "Aureliano Cattaneo":
   sameAs: http://www.aurelianocattaneo.com/
   nationality: IT
   birthDate: 1974
+"Fabio Cifariello Ciardi":
+  sameAs: https://en.wikipedia.org/wiki/Fabio_Cifariello_Ciardi
+  nationality: IT
+  birthDate: 1960
+"Ann Cleare":
+  sameAs: http://annclearecomposer.com/
+  birthDate: 1983
+  nationality: IE
+"Sivan Cohen-Elias":
+  sameAs: https://soundcloud.com/sivan-cohen-elias
+  birthDate: 1976
+  nationality: IL
+"Mario Diaz de León":
+  nationality: US
+  birthDate: 1979
+  sameAs: http://www.ikatmethod.com/
 "Santiago Díez-Fischer":
   sameAs: https://fr.wikipedia.org/wiki/Santiago_Diez_Fischer
   nationality: AR
   birthDate: 1977
+"James Dillon":
+  sameAs: https://en.wikipedia.org/wiki/James_Dillon_(composer)
+  birthDate: 1950
+  nationality: GB
+"Franco Donatoni":
+  sameAs: https://en.wikipedia.org/wiki/Franco_Donatoni
+  birthDate: 1927
+  deathDate: 2000
+  nationality: IT
+"Aurélio Edler-Copes":
+  nationality: BR
+  sameAs: http://www.edler-copes.com/
+  birthDate: 1976
+"Beat Furrer":
+  sameAs: https://en.wikipedia.org/wiki/Beat_Furrer
+  birthDate: 1954
+  nationality: AT
+"Reiko Füting":
+  sameAs: http://www.reiko-fueting.de/
+  nationality: DE
+  birthDate: 1970
 "Bernhard Gander":
   sameAs: http://www.bernhardgander.at/
   nationality: AT
   birthDate: 1969
+"Marta Gentilucci":
+  sameAs: http://martagentilucci.com/
+  nationality: IT
+  birthDate: 1973
 "Jannik Giger":
   sameAs: http://www.jannikgiger.ch/
   birthDate: 1985
   nationality: CH
+"Jacob Gotlib":
+  sameAs: http://www.jacobgotlib.com/
+  birthDate: 1984
+  nationality: US
+"Joseph Haydn":
+  birthDate: 1732
+  deathDate: 1809
+  sameAs: https://en.wikipedia.org/wiki/Joseph_Haydn
+  nationality: AT
+"Justin Hoke":
+  sameAs: http://www.justinhoke.com/
+  birthDate: 1987
+  nationality: US
 "Clara Iannotta":
   birthDate: 1983
   sameAs: http://claraiannotta.com/
   nationality: IT
+"Kristian Ireland":
+  sameAs: http://www.kristianireland.com/
+  birthDate: 1975
+  nationality: AU
+"Kurt Isaacson":
+  sameAs: http://kurtisaacson.com/
+  nationality: US
+  birthDate: 1986
+"Michael Jarrell":
+  birthDate: 1958
+  nationality: CH
+  sameAs: https://en.wikipedia.org/wiki/Michael_Jarrell
 "Wen-Cheh Lee":
   sameAs: http://db.musicaustria.at/node/81900
   nationality: TW
@@ -38,28 +124,110 @@
   nationality: AT
   birthDate: 1923
   deathDate: 2006
+"Jessie Marino":
+  birthDate: 1984
+  sameAs: http://www.jessiemarino.com/
+  nationality: US
 "Timothy McCormack":
   birthDate: 1984
   sameAs: http://www.timothy-mccormack.com/
   nationality: US
+"Manuela Meier":
+  sameAs: http://mm.mur.at/
+  nationality: AT
+"Iñigo Giner Miranda":
+  birthDate: 1980
+  sameAs: http://www.iginermiranda.com/
+  nationality: ES
+"Valerio Murat":
+  birthDate: 1976
+  nationality: IT
+"Ichiro Nodaira":
+  birthDate: 1953
+  nationality: JP
+  sameAs: http://ichironodaira.com/
+"Younghi Pagh-Paan":
+  birthDate: 1945
+  nationality: KR
+  sameAs: https://en.wikipedia.org/wiki/Younghi_Pagh-Paan
+"Joan Arnau Pàmies":
+  sameAs: http://www.joanarnaupamies.com/
+  birthDate: 1988
+  nationality: ES
 "Michael Pelzel":
   sameAs: https://de.wikipedia.org/wiki/Michael_Pelzel
   birthDate: 1978
   nationality: CH
+"Marek Poliks":
+  sameAs: http://www.marekpoliks.com/
+  birthDate: 1989
+  nationality: US
+"Kai Johannes Polzhofer":
+  sameAs: http://kaijohannespolzhofer.com/
+  nationality:
+    - DE
+    - AT
+  birthDate: 1989
+"Ian Power":
+  birthDate: 1984
+  nationality: US
+  sameAs: http://ianpower.net/
+"Stefan Prins":
+  sameAs: http://www.stefanprins.be/
+  birthDate: 1979
+  nationality: BE
+"Kaija Saariaho":
+  sameAs: http://saariaho.org/
+  birthDate: 1952
+  nationality: FI
+"Joakim Sandgren":
+  sameAs: http://www.joakimsandgren.com/
+  birthDate: 1965
+  nationality: SE
 "Rebecca Saunders":
   birthDate: 1967
   sameAs: https://en.wikipedia.org/wiki/Rebecca_Saunders
   nationality: GB
+"Giacinto Scelsi":
+  birthDate: 1905
+  deathDate: 1988
+  sameAs: https://en.wikipedia.org/wiki/Giacinto_Scelsi
+  nationality: IT
+"Sabrina Schroeder":
+  sameAs: http://sabrinaschroeder.com/
+  birthDate: 1979
+  nationality: CA
+"Franz Schubert":
+  sameAs: https://en.wikipedia.org/wiki/Franz_Schubert
+  birthDate: 1797
+  deathDate: 1828
+  nationality: AT
+"Denis Schuler":
+  sameAs: http://www.schulerdenis.name/
+  nationality: CH
+  birthDate: 1977
+"Simon Steen-Andersen":
+  birthDate: 1976
+  nationality: DK
+  sameAs: https://en.wikipedia.org/wiki/Simon_Steen-Andersen
 "Stefan Streich":
   sameAs: http://stefan-streich.de/
   birthDate: 1961
   nationality: DE
+"Peter Streiff":
+  nationality: CH
+  sameAs: http://www.musinfo.ch/index.php?content=maske_personen&pers_id=50
+  birthDate: 1944
 "Chris Swithinbank":
   birthDate: 1988
   sameAs: http://www.chrisswithinbank.net/
   nationality:
     - GB
     - NL
+"Steven Kazuo Takasugi":
+  sameAs: http://steventakasugi.com/
+  nationality: US
+  birthDate: 1960
 "Januibe Tejera":
   birthDate: 1979
   nationality: BR
@@ -70,6 +238,18 @@
   deathDate: 2006
 "Jorge Vázquez":
   nationality: AR
+"Ute Wassermann":
+  sameAs: http://femmes-savantes.net/en/les-femmes-savantes/ute-wassermann
+  nationality: DE
+  birthDate: 1960
+"Christopher Wendell Jones":
+  sameAs: http://www.sfsound.org/~chris/
+  birthDate: 1961
+  nationality: US
+"Josiah Wolf Oberholtzer":
+  sameAs: http://josiahwolfoberholtzer.com/
+  nationality: US
+  birthDate: 1984
 "Jürg Wyttenbach":
   sameAs: https://de.wikipedia.org/wiki/J%C3%BCrg_Wyttenbach
   birthDate: 1935
