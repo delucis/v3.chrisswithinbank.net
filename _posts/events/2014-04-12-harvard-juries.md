@@ -1,6 +1,6 @@
 ---
 title: Harvard Music Department Juries
-date: 2014-04-12 11:30 -0500
+date: 2014-04-12 11:30
 performer:
   name: Callithumpian Consort
   url: http://www.callithumpian.org/

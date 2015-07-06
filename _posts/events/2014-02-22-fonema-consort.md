@@ -1,6 +1,6 @@
 ---
 title: Small Atlas at North Central College
-date: 2014-02-22 19:30 -0600
+date: 2014-02-22 19:30
 performer:
   name: Fonema Consort
   url: http://www.fonemaconsort.com/

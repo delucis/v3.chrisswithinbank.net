@@ -1,6 +1,6 @@
 ---
 title: Longleash première Icebloom
-date: 2013-09-12 19:00 -0500
+date: 2013-09-12 19:00
 performer:
   name: Longleash
   url: http://longleashtrio.com/
