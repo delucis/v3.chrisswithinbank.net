@@ -27,7 +27,7 @@ By some spectacular fluke of nature — or rather the spectacular initiative of
 * 07.12 \| [**Paris**](https://www.facebook.com/events/1497426750545237/) \| Paolo Vignaroli + Karolina Öhman
 * 12.12 \| [**Graz**](https://www.facebook.com/events/972589792755683/) \| Zinajda Kodrič + Myriam Garcia Fidalgo
 * 16.12 \| [**Basel**](https://www.facebook.com/events/1538739263033263/) \| Paolo Vignaroli + Karolina Öhman
-* 20.12 \| [**Berlin**](www.halle-tanz-berlin.de/SEITEN/stuecke/blinddate.html) \| Bettina Junge + Mathis Mayr
+* 20.12 \| [**Berlin**](http://www.halle-tanz-berlin.de/SEITEN/stuecke/blinddate.html) \| Bettina Junge + Mathis Mayr
 
 There are fascinating differences to be discovered in the way each duo handles the piece, so suffice it to say it’s a pretty exciting month for me.
 
