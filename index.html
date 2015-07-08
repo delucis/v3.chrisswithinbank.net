@@ -22,7 +22,7 @@ layout: default
       <span class="denominator">{{ paginator.total_pages }}</span>
     </span>
     <span class="separator">—</span>{% if paginator.previous_page %}
-    <a href="{{ paginator.previous_page_path }}" class="arrow newer" rel="next">Newer</a>{% else %}
+    <a href="{{ site.url }}{% if paginator.previous_page_path == '/index.html' %}/{% else %}{{ paginator.previous_page_path }}{% endif %}" class="arrow newer" rel="next">Newer</a>{% else %}
     <span class="arrow newer">Newer</span>{% endif %}
   </div>
   {% endunless %}
@@ -53,7 +53,7 @@ layout: default
       <span class="denominator">{{ paginator.total_pages }}</span>
     </span>
     <span class="separator">—</span>{% if paginator.previous_page %}
-    <a href="{{ paginator.previous_page_path }}" class="arrow newer" rel="next">Newer</a>{% else %}
+    <a href="{{ site.url }}{% if paginator.previous_page_path == '/index.html' %}/{% else %}{{ paginator.previous_page_path }}{% endif %}" class="arrow newer" rel="next">Newer</a>{% else %}
     <span class="arrow newer">Newer</span>{% endif %}
   </footer>
   <p class="aligncenter small ui"><a href="/index/">See an index of all posts</a></p>
