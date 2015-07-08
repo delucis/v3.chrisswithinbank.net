@@ -430,7 +430,7 @@ figure .picture {
   margin: 0;
 }
 
-.single-post img.wide {
+.single-post img.wide, .text img.wide {
   @include mediumbp {
     max-width: 123%;
   }
