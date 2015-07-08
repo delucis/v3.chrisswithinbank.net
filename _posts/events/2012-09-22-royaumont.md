@@ -21,7 +21,7 @@ programme:
   - composer: Eric Maestri
     work: Due parole (Endeared III)
     gender: M
-  - composer: Joan Magrane Figuera
+  - composer: Joan Magrané Figuera
     work: Madrigal (Musik mit Gesualdo)
     gender: M
   - composer: Benjamin Scheuer

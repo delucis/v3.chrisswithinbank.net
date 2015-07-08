@@ -25,7 +25,7 @@ programme:
     gender: M
   - composer: Chris Roe
     gender: M
-  - composer: Danny Saleeb
+  - composer: Daniel Saleeb
     gender: M
   - composer: David Coonan
     gender: M
@@ -37,7 +37,7 @@ programme:
     gender: F
   - composer: Matthew Kaner
     gender: M
-  - composer: Phil O’Meara
+  - composer: Philip O’Meara
     gender: M
   - composer: Robert Peate
     gender: M
