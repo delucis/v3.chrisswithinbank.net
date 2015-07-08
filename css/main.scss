@@ -673,6 +673,9 @@ Basic Class Selectors */
     border: 0.3em solid $light-outline;
   }
 }
+#disqus_thread {
+  margin: $lh-p 0;
+}
 footer.entry-meta {
   padding: $lh-p / 2;
   color: rgba($text-dark, 0.55);
