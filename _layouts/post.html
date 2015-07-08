@@ -20,7 +20,7 @@ layout: default
     <span class="separator">—</span>{% if page.previous_in_category %}
     <a href="{{ page.previous_in_category.url }}" class="arrow newer" rel="next"><span>{% if page.previous_in_category.title == 'No Content Found' %}{{ page.previous_in_category.excerpt | strip_html | truncate: 30, '…' }}{% else %}{{ page.previous_in_category.title }}{% endif %}</span></a>{% endif %}
   </div>{% endif %}
-  {% if page.comments == 'true' %}
+  {% if page.comments == true %}
   <!-- DISQUS COMMENTS -->
   <div id="disqus_thread"></div>
   <script type="text/javascript">
