@@ -29,4 +29,4 @@ What follows below is the result of restructuring this site. I have built a mech
 
   [^methodology]: Caroline Moser makes clear the challenges implicit in carrying out gender audits in [‘An Introduction to Gender Audit Methodology: Its Design and Implementation in DFID Malawi’](http://www.odi.org.uk/publications/1195-introduction-gender-audit-methodology-its-design-implementation-dfid-malawi), London: Overseas Development Institute, 2005.
 
-The data on this page includes events since 2007, running up until the time of posting.
+The data on this page includes events since 2007, running up until the time of posting. I don’t currently have the data to analyse how a composer’s age factors into this, but I’m working on it.
