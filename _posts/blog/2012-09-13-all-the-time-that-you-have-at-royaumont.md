@@ -1,6 +1,6 @@
 ---
 author: christopherlux
-comments: true
+comments: false
 date: 2012-09-13 23:45:27+00:00
 excerpt: Information about the première of ‘All the time that you have what we have.
   / All the time that you have.’ at Fondation Royaumont, 22 September 2012.

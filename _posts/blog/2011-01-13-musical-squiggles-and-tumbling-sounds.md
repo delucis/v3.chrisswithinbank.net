@@ -1,6 +1,6 @@
 ---
 author: christopherlux
-comments: true
+comments: false
 date: 2011-01-13 21:36:43+00:00
 layout: post
 slug: musical-squiggles-and-tumbling-sounds

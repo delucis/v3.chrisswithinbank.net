@@ -1,6 +1,6 @@
 ---
 author: christopherlux
-comments: true
+comments: false
 date: 2009-03-20 19:30:30+00:00
 layout: post
 slug: excavations-performed

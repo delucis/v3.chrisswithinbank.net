@@ -1,6 +1,6 @@
 ---
 author: christopherlux
-comments: true
+comments: false
 date: 2011-07-12 06:00:16+00:00
 excerpt: Information about the première of Chris Swithinbank’s ‘Small Atlas’ at the
   Arsenal, Metz, France, July 2011 as part of Centre Acanthes.

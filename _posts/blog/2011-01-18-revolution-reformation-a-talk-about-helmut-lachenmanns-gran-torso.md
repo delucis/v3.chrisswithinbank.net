@@ -1,6 +1,6 @@
 ---
 author: christopherlux
-comments: true
+comments: false
 date: 2011-01-18 14:29:06+00:00
 layout: post
 slug: revolution-reformation-a-talk-about-helmut-lachenmanns-gran-torso

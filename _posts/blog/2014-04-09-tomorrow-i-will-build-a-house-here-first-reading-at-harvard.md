@@ -1,6 +1,6 @@
 ---
 author: christopherlux
-comments: true
+comments: false
 date: 2014-04-09 19:49:07+00:00
 layout: post
 slug: tomorrow-i-will-build-a-house-here-first-reading-at-harvard

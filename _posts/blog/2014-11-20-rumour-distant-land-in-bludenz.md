@@ -1,6 +1,6 @@
 ---
 author: christopherlux
-comments: true
+comments: false
 date: 2014-11-20 10:52:50+00:00
 layout: post
 slug: rumour-distant-land-in-bludenz

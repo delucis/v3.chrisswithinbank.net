@@ -1,6 +1,6 @@
 ---
 author: christopherlux
-comments: true
+comments: false
 date: 2010-05-03 15:04:07+00:00
 layout: post
 slug: getting-it-right

@@ -1,6 +1,6 @@
 ---
 author: christopherlux
-comments: true
+comments: false
 date: 2011-03-08 18:40:23+00:00
 layout: post
 slug: where-are-the-women-in-your-local-music-scene

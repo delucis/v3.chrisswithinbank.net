@@ -1,6 +1,6 @@
 ---
 author: christopherlux
-comments: true
+comments: false
 date: 2012-01-09 08:30:10+00:00
 excerpt: Saturday, 21 January 2012, 20:00 — La leggerezza delle città, San Francisco
   Tape Music Festival, ODC Theatre, San Francisco CA, 94110, USA.

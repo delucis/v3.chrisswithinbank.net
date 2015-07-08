@@ -1,6 +1,6 @@
 ---
 author: christopherlux
-comments: true
+comments: false
 date: 2010-02-21 13:00:47+00:00
 layout: post
 slug: para-cruzar-el-sueno

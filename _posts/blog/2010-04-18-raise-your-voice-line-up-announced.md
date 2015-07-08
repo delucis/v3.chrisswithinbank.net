@@ -1,6 +1,6 @@
 ---
 author: christopherlux
-comments: true
+comments: false
 date: 2010-04-18 12:50:33+00:00
 layout: post
 slug: raise-your-voice-line-up-announced

@@ -1,6 +1,6 @@
 ---
 author: christopherlux
-comments: true
+comments: false
 date: 2011-03-05 15:31:53+00:00
 layout: post
 slug: backwards-through-a-telescope-brian-ferneyhough-at-the-rncm

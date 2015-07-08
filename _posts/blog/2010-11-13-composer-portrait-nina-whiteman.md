@@ -1,6 +1,6 @@
 ---
 author: christopherlux
-comments: true
+comments: false
 date: 2010-11-13 14:23:01+00:00
 layout: post
 slug: composer-portrait-nina-whiteman

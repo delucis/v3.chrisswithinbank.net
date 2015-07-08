@@ -1,6 +1,6 @@
 ---
 author: christopherlux
-comments: true
+comments: false
 date: 2010-04-30 16:00:27+00:00
 layout: post
 slug: wegen-waldstille-performed

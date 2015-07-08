@@ -1,6 +1,6 @@
 ---
 author: christopherlux
-comments: true
+comments: false
 date: 2008-05-02 18:30:13+00:00
 layout: post
 slug: non-vogliono-camminano

@@ -1,6 +1,6 @@
 ---
 author: christopherlux
-comments: true
+comments: false
 date: 2010-09-24 05:30:37+00:00
 layout: post
 slug: gaza-cantos-at-hexham-abbey-festival

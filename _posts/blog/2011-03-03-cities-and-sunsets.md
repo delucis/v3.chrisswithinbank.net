@@ -1,6 +1,6 @@
 ---
 author: christopherlux
-comments: true
+comments: false
 date: 2011-03-03 18:14:23+00:00
 layout: post
 slug: cities-and-sunsets

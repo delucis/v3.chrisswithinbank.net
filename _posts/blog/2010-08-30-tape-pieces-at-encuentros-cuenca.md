@@ -1,6 +1,6 @@
 ---
 author: christopherlux
-comments: true
+comments: false
 date: 2010-08-30 05:45:45+00:00
 layout: post
 slug: tape-pieces-at-encuentros-cuenca

@@ -1,6 +1,6 @@
 ---
 author: christopherlux
-comments: true
+comments: false
 date: 2009-05-28 13:00:05+00:00
 layout: post
 slug: gaza-cantos-performed2

@@ -1,6 +1,6 @@
 ---
 author: christopherlux
-comments: true
+comments: false
 date: 2010-06-11 20:53:22+00:00
 layout: post
 slug: some-new-sounds-to-listen-to

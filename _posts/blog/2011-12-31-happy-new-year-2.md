@@ -1,6 +1,6 @@
 ---
 author: christopherlux
-comments: true
+comments: false
 date: 2011-12-31 16:08:59+00:00
 layout: post
 slug: happy-new-year-2

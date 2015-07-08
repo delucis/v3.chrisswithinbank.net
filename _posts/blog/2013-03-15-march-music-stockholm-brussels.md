@@ -1,6 +1,6 @@
 ---
 author: christopherlux
-comments: true
+comments: false
 date: 2013-03-15 09:00:44+00:00
 layout: post
 slug: march-music-stockholm-brussels

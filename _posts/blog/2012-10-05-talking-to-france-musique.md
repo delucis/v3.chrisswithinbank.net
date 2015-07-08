@@ -1,6 +1,6 @@
 ---
 author: christopherlux
-comments: true
+comments: false
 date: 2012-10-05 16:15:43+00:00
 excerpt: Talking to France Musique’s Pierre Rigaudière about my stay at Fondation
   Royaumont as part of ‘Les lundis de la contemporaine’.

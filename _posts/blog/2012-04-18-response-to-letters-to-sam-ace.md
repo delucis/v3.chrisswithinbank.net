@@ -1,6 +1,6 @@
 ---
 author: christopherlux
-comments: true
+comments: false
 date: 2012-04-18 17:07:14+00:00
 excerpt: A response to Colin Matthews’s and Nicola Le Fanu’s open letter criticising
   the activities of Sound & Music and Arts Council England. Open to new signatories.

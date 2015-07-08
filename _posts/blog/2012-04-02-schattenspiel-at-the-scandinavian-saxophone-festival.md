@@ -1,6 +1,6 @@
 ---
 author: christopherlux
-comments: true
+comments: false
 date: 2012-04-02 07:00:42+00:00
 excerpt: Performance of Schattenspiel for soprano saxophone and electronics given
   by Joshua Hyde at the Scandinavian Saxophone Festival 2012.

@@ -1,6 +1,6 @@
 ---
 author: christopherlux
-comments: true
+comments: false
 date: 2014-03-08 04:29:56+00:00
 layout: post
 slug: hand-werk-incredulous-in-harvard

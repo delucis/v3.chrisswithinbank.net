@@ -1,6 +1,6 @@
 ---
 author: christopherlux
-comments: true
+comments: false
 date: 2010-09-18 14:04:24+00:00
 layout: post
 slug: hear-la-leggerezza-delle-citta

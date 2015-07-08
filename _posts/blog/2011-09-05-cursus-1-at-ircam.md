@@ -1,6 +1,6 @@
 ---
 author: christopherlux
-comments: true
+comments: false
 date: 2011-09-05 07:00:16+00:00
 layout: post
 slug: cursus-1-at-ircam

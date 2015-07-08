@@ -1,6 +1,6 @@
 ---
 author: christopherlux
-comments: true
+comments: false
 date: 2010-07-17 09:57:48+00:00
 layout: post
 slug: curios-in-metz

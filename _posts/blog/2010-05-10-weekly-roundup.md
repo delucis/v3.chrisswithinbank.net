@@ -1,6 +1,6 @@
 ---
 author: christopherlux
-comments: true
+comments: false
 date: 2010-05-10 12:11:16+00:00
 layout: post
 slug: weekly-roundup

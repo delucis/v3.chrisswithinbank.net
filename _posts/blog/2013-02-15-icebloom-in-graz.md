@@ -1,6 +1,6 @@
 ---
 author: christopherlux
-comments: true
+comments: false
 date: 2013-02-15 05:19:11+00:00
 excerpt: Stockholm’s Curious Chamber Players will read Icebloom, a piano trio with
   music box drawing on Schubert’s Winterreise, as part of Impuls Academy, Graz, Austria.

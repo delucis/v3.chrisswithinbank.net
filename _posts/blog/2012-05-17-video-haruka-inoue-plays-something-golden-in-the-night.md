@@ -1,6 +1,6 @@
 ---
 author: christopherlux
-comments: true
+comments: false
 date: 2012-05-17 10:24:06+00:00
 excerpt: Video of ‘something golden in the night’ performed by Haruka Inoue at IRCAM,
   31 March 2012.

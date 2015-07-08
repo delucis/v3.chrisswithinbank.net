@@ -1,6 +1,6 @@
 ---
 author: christopherlux
-comments: true
+comments: false
 date: 2011-05-06 14:42:39+00:00
 layout: post
 slug: composer-portrait-donal-sarsﬁeld

@@ -1,6 +1,6 @@
 ---
 author: christopherlux
-comments: true
+comments: false
 date: 2010-04-22 10:16:40+00:00
 layout: post
 slug: wallander-not-even-stockhausen-could-have-come-up-with-a-din-like-that

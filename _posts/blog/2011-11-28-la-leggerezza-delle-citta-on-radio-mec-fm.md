@@ -1,6 +1,6 @@
 ---
 author: christopherlux
-comments: true
+comments: false
 date: 2011-11-28 12:49:24+00:00
 excerpt: Chris Swithinbank’s ‘La leggerezza delle città’ will be broadcast on Rio
   de Janeiro’s Rádio MEC, Brazil. 30 November 2011.

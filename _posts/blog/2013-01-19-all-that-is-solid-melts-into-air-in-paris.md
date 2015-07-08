@@ -1,6 +1,6 @@
 ---
 author: christopherlux
-comments: true
+comments: false
 date: 2013-01-19 10:39:12+00:00
 layout: post
 slug: all-that-is-solid-melts-into-air-in-paris

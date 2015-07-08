@@ -1,6 +1,6 @@
 ---
 author: christopherlux
-comments: true
+comments: false
 date: 2012-02-29 22:15:22+00:00
 layout: post
 slug: june-unfolding-on-bbc-radio-3

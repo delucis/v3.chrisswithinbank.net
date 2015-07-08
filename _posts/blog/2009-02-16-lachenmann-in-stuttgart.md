@@ -1,6 +1,6 @@
 ---
 author: christopherlux
-comments: true
+comments: false
 date: 2009-02-16 21:54:30+00:00
 layout: post
 slug: lachenmann-in-stuttgart

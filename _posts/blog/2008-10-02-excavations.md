@@ -1,6 +1,6 @@
 ---
 author: christopherlux
-comments: true
+comments: false
 date: 2008-10-02 13:30:33+00:00
 layout: post
 slug: excavations

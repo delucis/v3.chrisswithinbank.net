@@ -1,6 +1,6 @@
 ---
 author: christopherlux
-comments: true
+comments: false
 date: 2008-06-03 13:00:33+00:00
 layout: post
 slug: books-of-moses

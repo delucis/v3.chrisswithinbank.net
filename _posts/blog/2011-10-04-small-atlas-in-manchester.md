@@ -1,6 +1,6 @@
 ---
 author: christopherlux
-comments: true
+comments: false
 date: 2011-10-04 06:00:36+00:00
 excerpt: Information on the UK première of Chris Swithinbank's Small Atlas by the
   Raise Your Voice Ensemble on Friday 7 October 2011.

@@ -1,6 +1,6 @@
 ---
 author: christopherlux
-comments: true
+comments: false
 date: 2014-03-26 15:28:02+00:00
 layout: post
 slug: two-pietas-bouguereau-streich

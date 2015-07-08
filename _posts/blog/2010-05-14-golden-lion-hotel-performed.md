@@ -1,6 +1,6 @@
 ---
 author: christopherlux
-comments: true
+comments: false
 date: 2010-05-14 18:30:48+00:00
 layout: post
 slug: golden-lion-hotel-performed

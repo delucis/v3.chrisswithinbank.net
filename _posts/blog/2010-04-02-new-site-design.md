@@ -1,6 +1,6 @@
 ---
 author: christopherlux
-comments: true
+comments: false
 date: 2010-04-02 22:30:57+00:00
 layout: post
 slug: new-site-design

@@ -1,6 +1,6 @@
 ---
 author: christopherlux
-comments: true
+comments: false
 date: 2011-12-02 09:30:30+00:00
 excerpt: soundinitiative perform Chris Swithinbank’s ‘Small Atlas’ at the Fondation
   Biermans-Lapôtre, CIUP, Paris 75014, France, 5 December 2011.

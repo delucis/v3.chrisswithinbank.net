@@ -1,6 +1,6 @@
 ---
 author: christopherlux
-comments: true
+comments: false
 date: 2012-08-12 04:28:59+00:00
 excerpt: A few brief notes upon arriving in New York for the first time.
 layout: post

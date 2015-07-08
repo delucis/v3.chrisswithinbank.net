@@ -1,6 +1,6 @@
 ---
 author: christopherlux
-comments: true
+comments: false
 date: 2009-12-14 13:00:14+00:00
 layout: post
 slug: piano-workshop

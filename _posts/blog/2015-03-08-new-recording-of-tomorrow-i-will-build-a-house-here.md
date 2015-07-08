@@ -1,6 +1,6 @@
 ---
 author: christopherlux
-comments: true
+comments: false
 date: 2015-03-08 23:09:23+00:00
 layout: post
 slug: new-recording-of-tomorrow-i-will-build-a-house-here

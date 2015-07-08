@@ -1,6 +1,6 @@
 ---
 author: christopherlux
-comments: true
+comments: false
 date: 2010-02-18 13:30:20+00:00
 layout: post
 slug: danel-quartet-workshop

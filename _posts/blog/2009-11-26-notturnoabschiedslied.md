@@ -1,6 +1,6 @@
 ---
 author: christopherlux
-comments: true
+comments: false
 date: 2009-11-26 14:00:00+00:00
 layout: post
 slug: notturnoabschiedslied

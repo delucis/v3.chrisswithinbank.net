@@ -1,6 +1,6 @@
 ---
 author: christopherlux
-comments: true
+comments: false
 date: 2010-11-23 08:00:07+00:00
 layout: post
 slug: the-inward-beauty-of-helmut-lachenmann

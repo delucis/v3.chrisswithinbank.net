@@ -1,6 +1,6 @@
 ---
 author: christopherlux
-comments: true
+comments: false
 date: 2010-03-29 13:19:49+00:00
 layout: post
 slug: the-point-is-to-change-it

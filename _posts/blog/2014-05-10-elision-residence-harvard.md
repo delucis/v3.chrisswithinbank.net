@@ -1,6 +1,6 @@
 ---
 author: christopherlux
-comments: true
+comments: false
 date: 2014-05-10 21:51:29+00:00
 layout: post
 slug: elision-residence-harvard

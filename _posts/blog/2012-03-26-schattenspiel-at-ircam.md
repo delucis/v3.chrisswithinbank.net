@@ -1,6 +1,6 @@
 ---
 author: christopherlux
-comments: true
+comments: false
 date: 2012-03-26 21:18:28+00:00
 layout: post
 slug: schattenspiel-at-ircam

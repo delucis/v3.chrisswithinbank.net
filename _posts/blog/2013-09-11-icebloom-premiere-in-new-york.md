@@ -1,6 +1,6 @@
 ---
 author: christopherlux
-comments: true
+comments: false
 date: 2013-09-11 06:06:29+00:00
 layout: post
 slug: icebloom-premiere-in-new-york

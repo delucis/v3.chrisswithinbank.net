@@ -1,6 +1,6 @@
 ---
 author: christopherlux
-comments: true
+comments: false
 date: 2011-07-04 13:40:15+00:00
 excerpt: Information about workshops of ‘Small Atlas’ by Chris Swithinbank at the
   Centre Acanthes composition workshops in Metz, France, July 2011.

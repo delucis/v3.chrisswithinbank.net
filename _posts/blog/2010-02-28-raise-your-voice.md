@@ -1,6 +1,6 @@
 ---
 author: christopherlux
-comments: true
+comments: false
 date: 2010-02-28 18:30:03+00:00
 layout: post
 slug: raise-your-voice

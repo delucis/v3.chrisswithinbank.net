@@ -1,6 +1,6 @@
 ---
 author: christopherlux
-comments: true
+comments: false
 date: 2010-03-18 18:13:26+00:00
 layout: post
 slug: upcoming-performances

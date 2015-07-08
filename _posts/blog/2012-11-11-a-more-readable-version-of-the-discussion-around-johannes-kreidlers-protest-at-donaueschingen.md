@@ -1,6 +1,6 @@
 ---
 author: christopherlux
-comments: true
+comments: false
 date: 2012-11-11 12:30:31+00:00
 excerpt: A formatted PDF of recent discussion on Facebook around Johannes Kreidler’s
   protest at the Donaueschingen Festival in October 2012 as posted by Ian Pace.

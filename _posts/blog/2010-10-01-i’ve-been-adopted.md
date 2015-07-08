@@ -1,6 +1,6 @@
 ---
 author: christopherlux
-comments: true
+comments: false
 date: 2010-10-01 14:19:54+00:00
 layout: post
 slug: i%e2%80%99ve-been-adopted

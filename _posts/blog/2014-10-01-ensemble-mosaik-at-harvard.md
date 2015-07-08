@@ -1,6 +1,6 @@
 ---
 author: christopherlux
-comments: true
+comments: false
 date: 2014-10-01 15:16:53+00:00
 layout: post
 slug: ensemble-mosaik-at-harvard

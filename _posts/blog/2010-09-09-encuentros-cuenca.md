@@ -1,6 +1,6 @@
 ---
 author: christopherlux
-comments: true
+comments: false
 date: 2010-09-09 16:14:37+00:00
 layout: post
 slug: encuentros-cuenca

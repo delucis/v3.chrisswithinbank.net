@@ -1,6 +1,6 @@
 ---
 author: christopherlux
-comments: true
+comments: false
 date: 2010-05-03 14:25:01+00:00
 layout: post
 slug: mahler-in-manchester

@@ -1,6 +1,6 @@
 ---
 author: christopherlux
-comments: true
+comments: false
 date: 2011-10-17 06:00:29+00:00
 excerpt: soundinitiative perform Chris Swithinbank’s ‘Small Atlas’ at Conservatoire
   de Saint-Cloud, Paris, France, 22 October 2011.

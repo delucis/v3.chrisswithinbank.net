@@ -1,6 +1,6 @@
 ---
 author: christopherlux
-comments: true
+comments: false
 date: 2011-07-23 11:15:46+00:00
 excerpt: 'Information about ‘Into the Lion’s Den: Helmut Lachenmann at 75’ an article
   by Chris Swithinbank published in the July issue of the modern music journal Tempo.'

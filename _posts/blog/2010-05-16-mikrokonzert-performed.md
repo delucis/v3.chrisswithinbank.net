@@ -1,6 +1,6 @@
 ---
 author: christopherlux
-comments: true
+comments: false
 date: 2010-05-16 14:30:10+00:00
 layout: post
 slug: mikrokonzert-performed

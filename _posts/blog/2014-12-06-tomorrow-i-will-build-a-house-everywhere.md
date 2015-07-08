@@ -1,6 +1,6 @@
 ---
 author: christopherlux
-comments: true
+comments: false
 date: 2014-12-06 02:00:17+00:00
 layout: post
 slug: tomorrow-i-will-build-a-house-everywhere

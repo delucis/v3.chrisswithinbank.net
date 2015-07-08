@@ -1,6 +1,6 @@
 ---
 author: christopherlux
-comments: true
+comments: false
 date: 2010-05-04 08:49:40+00:00
 layout: post
 slug: wegen-waldstille-video

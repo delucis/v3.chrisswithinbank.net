@@ -1,6 +1,6 @@
 ---
 author: christopherlux
-comments: true
+comments: false
 date: 2010-06-28 22:06:06+00:00
 layout: post
 slug: sing-joyfully

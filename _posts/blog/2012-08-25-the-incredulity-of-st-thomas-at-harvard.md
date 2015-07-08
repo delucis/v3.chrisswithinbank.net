@@ -1,6 +1,6 @@
 ---
 author: christopherlux
-comments: true
+comments: false
 date: 2012-08-25 06:00:40+00:00
 excerpt: ‘The Incredulity of St Thomas’ for bass clarinettist, cellist and percussionist
   will be premiered by Talea Ensemble at Harvard University.

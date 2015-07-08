@@ -1,6 +1,6 @@
 ---
 author: christopherlux
-comments: true
+comments: false
 date: 2011-02-05 07:25:39+00:00
 layout: post
 slug: unterwegs

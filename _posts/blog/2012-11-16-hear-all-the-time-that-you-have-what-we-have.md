@@ -1,6 +1,6 @@
 ---
 author: christopherlux
-comments: true
+comments: false
 date: 2012-11-16 09:14:32+00:00
 excerpt: Stream ‘All the time that you have what we have. / All the time that you
   have’, for soprano and two violins, performed at Fondation Royaumont in September

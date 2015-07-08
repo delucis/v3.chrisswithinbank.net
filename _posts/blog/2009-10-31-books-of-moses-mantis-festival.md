@@ -1,6 +1,6 @@
 ---
 author: christopherlux
-comments: true
+comments: false
 date: 2009-10-31 18:00:00+00:00
 layout: post
 slug: books-of-moses-mantis-festival

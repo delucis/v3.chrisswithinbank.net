@@ -1,6 +1,6 @@
 ---
 author: christopherlux
-comments: true
+comments: false
 date: 2008-12-05 13:10:31+00:00
 layout: post
 slug: detached-thought

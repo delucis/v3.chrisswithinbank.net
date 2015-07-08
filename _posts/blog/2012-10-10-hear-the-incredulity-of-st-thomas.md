@@ -1,6 +1,6 @@
 ---
 author: christopherlux
-comments: true
+comments: false
 date: 2012-10-10 12:26:24+00:00
 excerpt: Stream and free download of ‘The Incredulity of St Thomas’, for bass clarinettist,
   cellist and percussionist, performed by Talea Ensemble in August 2012.

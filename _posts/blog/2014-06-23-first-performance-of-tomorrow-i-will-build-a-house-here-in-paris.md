@@ -1,6 +1,6 @@
 ---
 author: christopherlux
-comments: true
+comments: false
 date: 2014-06-23 22:18:43+00:00
 layout: post
 slug: first-performance-of-tomorrow-i-will-build-a-house-here-in-paris

@@ -1,6 +1,6 @@
 ---
 author: christopherlux
-comments: true
+comments: false
 date: 2011-01-08 08:00:14+00:00
 layout: post
 slug: first-workshop-with-kems

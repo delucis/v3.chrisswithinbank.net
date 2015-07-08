@@ -1,6 +1,6 @@
 ---
 author: christopherlux
-comments: true
+comments: false
 date: 2011-07-27 07:00:48+00:00
 excerpt: Recording of Chris Swithinbank's ‘Small Atlas’ for flute, saxophone, voice
   & piano from Centre Acanthes 2011, Metz, France.

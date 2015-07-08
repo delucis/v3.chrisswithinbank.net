@@ -1,6 +1,6 @@
 ---
 author: christopherlux
-comments: true
+comments: false
 date: 2010-11-02 18:38:13+00:00
 layout: post
 slug: points-of-contact

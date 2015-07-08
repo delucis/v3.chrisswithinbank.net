@@ -1,6 +1,6 @@
 ---
 author: christopherlux
-comments: true
+comments: false
 date: 2011-04-26 13:16:57+00:00
 layout: post
 slug: unfolding-musical-memory

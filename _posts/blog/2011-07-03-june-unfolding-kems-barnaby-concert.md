@@ -1,6 +1,6 @@
 ---
 author: christopherlux
-comments: true
+comments: false
 date: 2011-07-03 13:04:04+00:00
 excerpt: Photos and recording from King Edward Musical Society’s performance of ‘June
   Unfolding’ by Chris Swithinbank, 18 June 2011.

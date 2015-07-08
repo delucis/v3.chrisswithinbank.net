@@ -1,6 +1,6 @@
 ---
 author: christopherlux
-comments: true
+comments: false
 date: 2011-08-30 11:39:49+00:00
 excerpt: Information about Chris Swithinbank’s tape music ‘La leggerezza delle città’
   at Sonorous-Horreum, Ars Electronica Festival, Linz, Austria, September 2011.

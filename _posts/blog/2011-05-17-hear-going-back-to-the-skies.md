@@ -1,6 +1,6 @@
 ---
 author: christopherlux
-comments: true
+comments: false
 date: 2011-05-17 07:00:45+00:00
 excerpt: New recording of ‘…going back to the skies’ from Trio Atem, Kings Place,
   London, 4 April 2011.

@@ -1,6 +1,6 @@
 ---
 author: christopherlux
-comments: true
+comments: false
 date: 2011-04-04 19:00:54+00:00
 layout: post
 slug: announcing-cities-of-sound

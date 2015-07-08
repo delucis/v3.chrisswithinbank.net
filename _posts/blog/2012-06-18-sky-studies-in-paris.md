@@ -1,6 +1,6 @@
 ---
 author: christopherlux
-comments: true
+comments: false
 date: 2012-06-18 06:30:43+00:00
 layout: post
 slug: sky-studies-in-paris

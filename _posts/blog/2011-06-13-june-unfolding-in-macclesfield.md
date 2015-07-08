@@ -1,6 +1,6 @@
 ---
 author: christopherlux
-comments: true
+comments: false
 date: 2011-06-13 16:50:34+00:00
 excerpt: Information about the première of Chris Swithinbank’s ‘June Unfolding’ by
   the orchestra of King Edward Musical Society, Macclesfield, UK, 18 June 2011.

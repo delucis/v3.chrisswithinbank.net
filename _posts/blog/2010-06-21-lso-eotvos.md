@@ -1,6 +1,6 @@
 ---
 author: christopherlux
-comments: true
+comments: false
 date: 2010-06-21 22:28:36+00:00
 excerpt: It is fairly rare to come across a programme that forms a clear, coherent
   unit without resorting to gimmicky themes or tenuous associations. So it was pleasing

@@ -1,6 +1,6 @@
 ---
 author: christopherlux
-comments: true
+comments: false
 date: 2014-04-25 11:54:19+00:00
 layout: post
 slug: the-incredulity-of-st-thomas-northwestern-university

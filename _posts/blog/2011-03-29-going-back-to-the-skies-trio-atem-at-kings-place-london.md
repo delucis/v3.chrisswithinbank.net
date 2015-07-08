@@ -1,6 +1,6 @@
 ---
 author: christopherlux
-comments: true
+comments: false
 date: 2011-03-29 15:15:44+00:00
 layout: post
 slug: going-back-to-the-skies-trio-atem-at-kings-place-london

@@ -1,6 +1,6 @@
 ---
 author: christopherlux
-comments: true
+comments: false
 date: 2009-07-29 11:43:19+00:00
 layout: post
 slug: rise-ancient-song

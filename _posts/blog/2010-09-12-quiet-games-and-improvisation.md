@@ -1,6 +1,6 @@
 ---
 author: christopherlux
-comments: true
+comments: false
 date: 2010-09-12 13:54:04+00:00
 layout: post
 slug: quiet-games-and-improvisation
