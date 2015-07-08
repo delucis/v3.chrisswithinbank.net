@@ -19,6 +19,7 @@ GEM
       execjs
     coffee-script-source (1.9.1.1)
     colorator (0.1)
+    double-bag-ftps (0.1.2)
     execjs (2.5.2)
     fast-stemmer (1.0.2)
     fastimage (1.6.8)
@@ -47,6 +48,9 @@ GEM
     github-pages-health-check (0.3.1)
       net-dns (~> 0.6)
       public_suffix (~> 1.4)
+    glynn (1.2.0)
+      double-bag-ftps (~> 0.1.2)
+      jekyll
     hitimes (1.2.2)
     html-pipeline (1.9.0)
       activesupport (>= 2)
@@ -138,6 +142,7 @@ PLATFORMS
 
 DEPENDENCIES
   github-pages
+  glynn
   jekyll-feed
   jekyll-last-modified-at
   jekyll-picture-tag (~> 0.2.3)
