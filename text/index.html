@@ -11,7 +11,7 @@ layout: default
   {% if page.digest %}<p><em>{{ page.digest }}</em></p>{% endif %}
   {% for post in site.categories.text %}
     <article id="{{ post.title | slugify }}" class="hentry">
-      <h3 class="entry-title"><a href="{{ post.url }}" rel="bookmark">{{ post.title }}</a></h3>{% if post.subtitle %}
+      <h3 class="entry-title"><a href="{{ site.url }}{{ post.url }}" rel="bookmark">{{ post.title }}</a></h3>{% if post.subtitle %}
       <h4 class="subtitle">{{ post.subtitle }}</h4>{% endif %}
       <p class="entry-meta">Posted on <time class="published" datetime="{{ post.date | date: '%Y-%m-%d'}}">{{ post.date | date: "%-d %B %Y" }}</time> • Reading time: {% include _reading-time.html type="post" %}</p>{% if post.digest %}
       <p class="entry-summary">{{ post.digest }}</p>{% endif %}

@@ -14,7 +14,7 @@
     <li>
       <h4>{% if event.premiere == page.title %}
         <abbr class="premiere" title="World Premiere">WP</abbr> {% endif %}
-        <a href="{{ event.url }}">{{ event.date | date: '%-d %B %Y' }}</a>
+        <a href="{{ site.url }}{{ event.url }}">{{ event.date | date: '%-d %B %Y' }}</a>
       </h4>
       <p>{% if event.performer.url %}<a href="{{ event.performer.url }}">{{ event.performer.name }}</a>{% else %}{{ event.performer.name }}{% endif %}{% if event.venue.url %}, <a href="{{ event.venue.url }}">{{ event.venue.name }}</a>{% else %}, {{ event.venue.name }}{% endif %}</p>
     </li>{% endif %}{% endfor %}
