@@ -65,7 +65,7 @@ layout: default
                 {% endif %}
               {% endfor %}
               {% if workurl %}
-                <a href="{{ workurl }}">{{ testwork }}</a>
+                <a href="{{ site.url }}{{ workurl }}">{{ testwork }}</a>
               {% else %}
                 {{ testwork }}
               {% endif %}
@@ -108,9 +108,9 @@ layout: default
     </iframe>
   {% endif %}
   <div class="pagination clearfix post-nav">{% if page.next_in_category %}
-    <a href="{{ page.next_in_category.url }}" class="arrow older" rel="prev"><span>{{ page.next_in_category.title }}</span></a>{% endif %}
+    <a href="{{ site.url }}{{ page.next_in_category.url }}" class="arrow older" rel="prev"><span>{{ page.next_in_category.title }}</span></a>{% endif %}
     <span class="separator">—</span>{% if page.previous_in_category %}
-    <a href="{{ page.previous_in_category.url }}" class="arrow newer" rel="next"><span>{{ page.previous_in_category.title }}</span></a>{% endif %}
+    <a href="{{ site.url }}{{ page.previous_in_category.url }}" class="arrow newer" rel="next"><span>{{ page.previous_in_category.title }}</span></a>{% endif %}
   </div>
   {% include events_json-ld.html %}
 </div>
