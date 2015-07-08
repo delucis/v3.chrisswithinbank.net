@@ -20,6 +20,7 @@ gems:
     - jekyll-sitemap
     - jekyll-feed
     - jekyll-picture-tag
+    - jekyll-last-modified-at
 permalink: /:year/:month/:title/
 timezone: Europe/Berlin
 sass:
