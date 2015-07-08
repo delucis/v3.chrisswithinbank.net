@@ -13,6 +13,10 @@
   sameAs: http://www.trevorbaca.com/
   birthDate: 1975
   nationality: US
+"Joanna Bailie":
+  nationality: GB
+  sameAs: http://joannabailie.com/
+  birthDate: 1973
 "Richard Barrett":
   sameAs: https://en.wikipedia.org/wiki/Richard_Barrett_(composer)
   nationality: GB
@@ -25,6 +29,9 @@
   sameAs: https://en.wikipedia.org/wiki/Pierre_Boulez
   nationality: FR
   birthDate: 1925
+"Laura Jayne Bowler":
+  sameAs: http://www.laurajbowler.co.uk/
+  nationality: GB
 "Emanuele Casale":
   sameAs: http://emanuelecasale.com/
   nationality: IT
@@ -45,6 +52,10 @@
   sameAs: https://soundcloud.com/sivan-cohen-elias
   birthDate: 1976
   nationality: IL
+"David Coonan":
+  sameAs: http://www.cmc.ie/composers/composer.cfm?composerID=241
+  birthDate: 1987
+  nationality: IE
 "Mario Diaz de León":
   nationality: US
   birthDate: 1979
@@ -66,6 +77,10 @@
   nationality: BR
   sameAs: http://www.edler-copes.com/
   birthDate: 1976
+"Samantha Fernando":
+  birthDate: 1984
+  nationality: GB
+  sameAs: http://www.samanthafernando.com/
 "Beat Furrer":
   sameAs: https://en.wikipedia.org/wiki/Beat_Furrer
   birthDate: 1954
@@ -90,6 +105,14 @@
   sameAs: http://www.jacobgotlib.com/
   birthDate: 1984
   nationality: US
+"Benjamin Graves":
+  sameAs: https://soundcloud.com/benjamingravescomposer
+  nationality: GB
+"Jonathan Harvey":
+  sameAs: https://en.wikipedia.org/wiki/Jonathan_Harvey_(composer)
+  birthDate: 1939
+  deathDate: 2012
+  nationality: GB
 "Joseph Haydn":
   birthDate: 1732
   deathDate: 1809
@@ -99,6 +122,10 @@
   sameAs: http://www.justinhoke.com/
   birthDate: 1987
   nationality: US
+"Heinz Holliger":
+  sameAs: https://en.wikipedia.org/wiki/Heinz_Holliger
+  birthDate: 1939
+  nationality: CH
 "Clara Iannotta":
   birthDate: 1983
   sameAs: http://claraiannotta.com/
@@ -111,10 +138,22 @@
   sameAs: http://kurtisaacson.com/
   nationality: US
   birthDate: 1986
+"Madeleine Isaksson":
+  sameAs: https://en.wikipedia.org/wiki/Madeleine_Isaksson
+  birthDate: 1956
+  nationality: SE
 "Michael Jarrell":
   birthDate: 1958
   nationality: CH
   sameAs: https://en.wikipedia.org/wiki/Michael_Jarrell
+"Max Käck":
+  birthDate: 1951
+  sameAs: http://www.xn--kck-qla.se/
+  nationality: SE
+"Matthew Kaner":
+  sameAs: http://matthewkaner.com/
+  nationality: GB
+  birthDate: 1986
 "Wen-Cheh Lee":
   sameAs: http://db.musicaustria.at/node/81900
   nationality: TW
@@ -124,10 +163,30 @@
   nationality: AT
   birthDate: 1923
   deathDate: 2006
+"Ylva Lund Bergner":
+  sameAs: http://www.ylvalundbergner.com/
+  birthDate: 1981
+  nationality: SE
+"Eric Maestri":
+  sameAs: http://www.ericmaestri.eu/
+  nationality: IT
+  birthDate: 1980
+"Joan Magrané Figuera":
+  sameAs: http://joanmagrane.com/
+  birthDate: 1988
+  nationality: ES
+"Julien Malaussena":
+  sameAs: https://soundcloud.com/julien-malaussena
+  birthDate: 1980
+  nationality: FR
 "Jessie Marino":
   birthDate: 1984
   sameAs: http://www.jessiemarino.com/
   nationality: US
+"Miklós Maros":
+  sameAs: https://en.wikipedia.org/wiki/Mikl%C3%B3s_Maros
+  birthDate: 1943
+  nationality: HU
 "Timothy McCormack":
   birthDate: 1984
   sameAs: http://www.timothy-mccormack.com/
@@ -146,6 +205,9 @@
   birthDate: 1953
   nationality: JP
   sameAs: http://ichironodaira.com/
+"Philip O’Meara":
+  sameAs: http://philipomeara.com/
+  nationality: GB
 "Younghi Pagh-Paan":
   birthDate: 1945
   nationality: KR
@@ -154,6 +216,14 @@
   sameAs: http://www.joanarnaupamies.com/
   birthDate: 1988
   nationality: ES
+"Aaron Parker":
+  sameAs: https://soundcloud.com/aaron-parker-2
+  birthDate: 1991
+  nationality: GB
+"Robert Peate":
+  birthDate: 1987
+  nationality: GB
+  sameAs: https://robertpeate.wordpress.com/
 "Michael Pelzel":
   sameAs: https://de.wikipedia.org/wiki/Michael_Pelzel
   birthDate: 1978
@@ -176,10 +246,18 @@
   sameAs: http://www.stefanprins.be/
   birthDate: 1979
   nationality: BE
+"Chris Roe":
+  sameAs: http://chrisroemusic.com/
+  birthDate: 1988
+  nationality: GB
 "Kaija Saariaho":
   sameAs: http://saariaho.org/
   birthDate: 1952
   nationality: FI
+"Daniel Saleeb":
+  sameAs: http://www.danielsaleeb.com/
+  birthDate: 1985
+  nationality: GB
 "Joakim Sandgren":
   sameAs: http://www.joakimsandgren.com/
   birthDate: 1965
@@ -193,6 +271,10 @@
   deathDate: 1988
   sameAs: https://en.wikipedia.org/wiki/Giacinto_Scelsi
   nationality: IT
+"Benjamin Scheuer":
+  sameAs: http://www.benjamin-scheuer.de/
+  birthDate: 1987
+  nationality: DE
 "Sabrina Schroeder":
   sameAs: http://sabrinaschroeder.com/
   birthDate: 1979
@@ -206,6 +288,18 @@
   sameAs: http://www.schulerdenis.name/
   nationality: CH
   birthDate: 1977
+"Patric Simmerud":
+  sameAs: http://www.simmerud.com/
+  nationality: SE
+  birthDate: 1963
+"Adi Snir":
+  sameAs: https://soundcloud.com/adi-s-7
+  nationality: IL
+  birthDate: 1987
+"Josh Spear":
+  sameAs: http://joshspearmusic.com/
+  birthDate: 1990
+  nationality: GB
 "Simon Steen-Andersen":
   birthDate: 1976
   nationality: DK
@@ -246,6 +340,10 @@
   sameAs: http://www.sfsound.org/~chris/
   birthDate: 1961
   nationality: US
+"Kate Whitley":
+  sameAs: http://katewhitley.net/
+  birthDate: 1989
+  nationality: GB
 "Josiah Wolf Oberholtzer":
   sameAs: http://josiahwolfoberholtzer.com/
   nationality: US
