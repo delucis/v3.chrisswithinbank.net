@@ -4,7 +4,8 @@ layout: default
 <article id="{{ page.title | slugify }}" class="hentry primary">
   <header>
     <h2 class="entry-title">{{ page.title }}</h2>{% if page.subtitle %}
-    <h3 class="subtitle">{{ page.subtitle }}</h3>{% endif %}
+    <h3 class="subtitle">{{ page.subtitle }}</h3>{% endif %}{% if page.digest and page.show_digest == true %}
+    <p><em>{{ page.digest }}</em></p>{% endif %}
   </header>
   <div class="entry-content hyphenate">
     {{ content }}
