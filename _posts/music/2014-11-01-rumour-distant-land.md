@@ -7,6 +7,7 @@ duration: "9–16'"
 instrumentationlist:
   - 4 performers
 published: true
+selected: true
 ---
 
 Materials towards a performance for four people.
