@@ -7,6 +7,7 @@ instrumentation: for tape (stereo)
 duration: 5'47"
 instrumentationlist:
   - Fixed media (stereo)
+withdrawn: true
 ---
 
 My first tape piece, _Books of Moses_ approaches issues of creativity and the collective consciousness. I wanted to examine the process by which symbols are assimilated and re-used by cultures and the piece develops opening material towards a new place unmistakably rooted in the past. Sound sources included carriers of semantic data such as books, envelopes, cassette tapes and the sound of writing, but also sounds of destructive processes such as tearing and cracking sounds.

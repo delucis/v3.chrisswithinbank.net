@@ -12,6 +12,7 @@ instrumentationlist:
   - String Quartet
   - Tape
 audioembed: '<iframe style="border: 0; width: 100%; height: 42px;" src="http://bandcamp.com/EmbeddedPlayer/album=300699358/size=small/bgcol=ffffff/linkcol=0687f5/track=3020932809/transparent=true/" seamless><a href="http://hear.raise-your-voice.org/album/launch-live">Launch Live by Raise Your Voice Ensemble</a></iframe>'
+withdrawn: true
 ---
 
 _This is Water!_, for ensemble and tape, takes its name from the book of the same title![](http://www.assoc-amazon.co.uk/e/ir?t=chrisswith-21&l=as2&o=2&a=0316068225) by David Foster Wallace, subtitled ‘Some Thoughts, Delivered on a Significant Occasion, about Living a Compassionate Life’ ([Little, Brown & co., New York, 2009](http://www.amazon.co.uk/gp/product/0316068225?ie=UTF8&tag=chrisswith-21&linkCode=as2&camp=1634&creative=19450&creativeASIN=0316068225)).![](http://www.assoc-amazon.co.uk/e/ir?t=chrisswith-21&l=as2&o=2&a=0316068225) Here is the passage, which gives that book its name:

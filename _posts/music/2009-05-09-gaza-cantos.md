@@ -7,6 +7,7 @@ instrumentation: for solo viola
 duration: 3'30"
 instrumentationlist:
   - Solo Viola
+withdrawn: true
 ---
 
 There is no such thing as political music. It is an illusion to think that notes – sounds – can teach you how to behave, be a good citizen or contribute to society. Music is an _experience_, a celebration of our existence, not a language which can convey _meaning_. Beauty can be experienced by everyone regardless of political affiliation, religious tenets, morals or habits, but does not have the power to change these. Nonetheless, it is a form of community. We share our musical experiences: our souls lifted by the sounds of Beethoven's A minor quartet; the exhilaration, blood-pounding in our ears, of Messiaen's _Turangalîla_; glittering meditations on the moment in the music of Salvatore Sciarrino. While taking care never to use music as a pulpit from which to preach, it is an opportunity to provoke thought and contemplation.

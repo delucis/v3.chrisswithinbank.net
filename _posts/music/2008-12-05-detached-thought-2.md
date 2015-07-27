@@ -9,6 +9,7 @@ instrumentationlist:
 - Flute
 - Mezzo-Soprano
 - Cello
+withdrawn: true
 ---
 
 > "The Night is also a religious concern—and even more so—when I viewed the Moon and Stars through Herschell's telescope—and saw that they were worlds.—"

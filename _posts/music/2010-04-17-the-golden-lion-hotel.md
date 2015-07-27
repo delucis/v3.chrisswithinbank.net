@@ -8,6 +8,7 @@ duration: 4'
 instrumentationlist:
   - Percussion
   - Electronics
+withdrawn: true
 ---
 
 Friedrich Engels lived in Manchester for more than 20 years, during that time receiving many visits from Karl Marx who was living in London. Engels led a double life as both manager of his father's cotton factory and political radical, and the harsh conditions of workers in Mancunian industry formed a key influence on his ideas about society, which he first set down in _The Condition of the Working Class in England_ in 1844.
