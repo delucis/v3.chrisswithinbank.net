@@ -620,7 +620,7 @@ Basic Class Selectors */
     margin-bottom: 0;
   }
   .entry-meta {
-    font-family: Infini;
+    font-family: $display-font;
     font-size: $fs-meta;
     line-height: $lh-meta;
     margin-bottom: $lh-meta;
@@ -678,7 +678,7 @@ Basic Class Selectors */
 }
 footer.entry-meta {
   padding: $lh-p / 2;
-  color: rgba($text-dark, 0.55);
+  color: $text-light;
   background-color: $bg-shade;
   box-shadow: rgba($text-dark,0.1) 0px 0px 15px inset;
   p {
@@ -693,7 +693,7 @@ footer.entry-meta {
 }
 .site-footer {
   dl {
-    color: rgba($text-dark, 0.55);
+    color: $text-light;
     padding: $lh-base 0;
     padding-left:0;
     margin: 0;
