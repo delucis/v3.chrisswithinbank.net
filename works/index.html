@@ -7,6 +7,7 @@ tags:
 layout: page
 ---
 {% for post in site.categories.music %}
+{% unless post.withdrawn == true %}
 <article id="{{ post.title | slugify }}" class="hentry{% if forloop.first %} first{% endif %}">
   <h3 class="entry-title">
     <a href="{{ site.url }}{{ post.url }}" rel="bookmark">{{ post.title }}</a>
@@ -14,4 +15,5 @@ layout: page
   </h3>
   <p class="entry-meta">{{ post.instrumentation }} | {{ post.duration }}</p>
 </article>
+{% endunless %}
 {% endfor %}
