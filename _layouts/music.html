@@ -6,7 +6,11 @@ layout: default
   <div class="entry-content hyphenate">{% if page.audioembed %}
     <p>{{ page.audioembed }}</p>{% endif %}
     {{ content }}
-  </div>
+  </div>{% if page.size and page.withdrawn != true %}
+  <div id="instrumentation-nav" class="clearfix">
+    <a href="/works/{{ page.size }}/" class="{{ page.size }}-button">See more {{ page.size }} works</a>
+    <a href="/works/all/" class="button">See all works</a>
+  </div>{% endif %}
 </article>
 <aside class="secondary" role="complementary">
   {% include music_details.html %}
