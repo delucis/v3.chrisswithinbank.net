@@ -17,13 +17,10 @@ layout: page
   <li id="{{ post.title | slugify }}" class="work">
     <h3 class="work-title">
       <a href="{{ site.url }}{{ post.url }}" rel="bookmark" class="{{ post.size }}">{{ post.title }}</a>
-    <span class="work-meta">
-      {{ post.instrumentation }}
-    </span>
-    <time class="published" datetime="{{ post.date | date: '%Y-%m-%d'}}">
-      ({{ post.date | date: '%Y' }})
-    </time>
     </h3>
+    <p class="work-meta">
+      {{ post.instrumentation }} (<time class="published" datetime="{{ post.date | date: '%Y-%m-%d'}}">{{ post.date | date: '%Y' }}</time>)
+    </p>
   </li>{% endif %}{% endfor %}
 </ul>
 

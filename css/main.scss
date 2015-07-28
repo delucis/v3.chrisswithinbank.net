@@ -1585,9 +1585,9 @@ Works List Styles */
         }
       }
     }
-    .work-meta,
-    .published {
+    .work-meta {
       color: $text-light;
+      margin-bottom: 0;
     }
   }
 }
