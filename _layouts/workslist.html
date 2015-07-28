@@ -1,7 +1,7 @@
 ---
 layout: page
 ---
-<ul class="worklist">{% for post in site.categories.music %}
+<ul class="worklist">{% for post in site.categories.music %}{% capture cache %}
   {% assign test = false %}
   {% if post.size == page.size or page.size == 'all' %}
     {% unless post.withdrawn == true %}
@@ -13,8 +13,7 @@ layout: page
         {% assign test = true %}
       {% endif %}
     {% endunless %}
-  {% endif %}
-  {% if test == true %}
+  {% endif %}{% endcapture %}{% assign cache = nil %}{% if test == true %}
   <li id="{{ post.title | slugify }}" class="work">
     <em class="work-title">
       <a href="{{ site.url }}{{ post.url }}" rel="bookmark" class="{{ post.size }}">{{ post.title }}</a>
