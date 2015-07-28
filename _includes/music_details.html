@@ -1,6 +1,8 @@
-{% if page.duration or page.instrumentationlist %}
+{% if page.duration or page.instrumentationlist or page.withdrawn %}
 <section class="work-info">
-  <h3>Work Details</h3>{% if page.duration %}
+  <h3>Work Details</h3>{% if page.withdrawn == true %}
+  <p>This work has been withdrawn and is no longer available for performance.</p>
+  {% endif %}{% if page.duration %}
   <h4>Duration</h4>
   <p>{{ page.duration }}</p>{% endif %}{% if page.instrumentationlist %}
   <h4>Instrumentation</h4>
