@@ -34,11 +34,13 @@
   {% else %}{% assign limitcount = limitcount | plus: 1 %}{% endif %}{% endif %}
 <li class="event-card clearfix{% if postcount == 0 %} first{% endif %}">
     <h4>{% capture cache %}
+      {% assign linkclass = nil %}
       {% if event.works.size == 1 %}
         {% assign headline = event.works[0] %}
         {% for post in site.categories.music %}
           {% if post.title == headline %}
-            {% assign eventurl = post.url %}
+            {% assign eventurl = post.url %}{% if post.size %}
+            {% assign linkclass = post.size %}{% endif %}
             {% break %}
           {% endif %}
         {% endfor %}
@@ -46,7 +48,7 @@
         {% assign headline = event.title %}
         {% assign eventurl = event.url %}
     {% endif %}{% endcapture %}{% assign cache = nil %}{% if eventurl %}
-      <a href="{{ site.url }}{{ eventurl }}">{{ headline }}</a>{% else %}
+      <a href="{{ site.url }}{{ eventurl }}"{% if linkclass %} class="{{ linkclass }}"{% endif %}>{{ headline }}</a>{% else %}
       {{ headline }}{% endif %}
     </h4>
     <a href="{{ site.url }}{{ event.url }}"><time datetime="{{ eventdate | date_to_xmlschema | truncate: 19, '' }}" class="eventdate">
