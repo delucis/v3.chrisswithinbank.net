@@ -9,6 +9,6 @@ venue:
   name: Paine Hall, Harvard University
   address: Cambridge, MA 02138, United States
 works:
-  - New work
+  - union|haze
 premiere: true
 ---
