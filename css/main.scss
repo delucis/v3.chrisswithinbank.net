@@ -599,8 +599,13 @@ Basic Class Selectors */
     }
   }
   @each $size, $colour in $sizes {
-    a.#{$size}-button {
+    a.#{$size}-half-button {
       @extend .half-button;
+      color: $text-dark;
+      background-color: $colour;
+    }
+    a.#{$size}-button {
+      @extend .button;
       color: $text-dark;
       background-color: $colour;
     }
