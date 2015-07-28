@@ -15,15 +15,15 @@ layout: page
     {% endunless %}
   {% endif %}{% endcapture %}{% assign cache = nil %}{% if test == true %}
   <li id="{{ post.title | slugify }}" class="work">
-    <em class="work-title">
+    <h3 class="work-title">
       <a href="{{ site.url }}{{ post.url }}" rel="bookmark" class="{{ post.size }}">{{ post.title }}</a>
-    </em>
     <span class="work-meta">
       {{ post.instrumentation }}
     </span>
     <time class="published" datetime="{{ post.date | date: '%Y-%m-%d'}}">
       ({{ post.date | date: '%Y' }})
     </time>
+    </h3>
   </li>{% endif %}{% endfor %}
 </ul>
 

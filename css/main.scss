@@ -1553,8 +1553,9 @@ Works List Styles */
   list-style: none;
   .work {
     .work-title {
-      font-family: $display-font;
-      font-style: normal;
+      font-size: 1em;
+      line-height: $lh-p;
+      margin: 0;
       a {
         background-position: 0% 95%, 100% 95%, 0% 95%;
         &:before {
