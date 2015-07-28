@@ -1547,15 +1547,16 @@ Works List Styles */
       font-family: $display-font;
       font-style: normal;
       a {
+        background-position: 0% 95%, 100% 95%, 0% 95%;
         &:before {
           content: " • ";
           font-size: $fs-big;
           line-height: $lh-big / 2;
           display: inline-block;
-          width: 0.04em;
+          width: 0.001em;
           height: $lh-big / 2;
           position: relative;
-          top: .1em;
+          top: .15em;
           left: -0.6em;
         }
       }
