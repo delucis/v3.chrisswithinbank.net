@@ -609,6 +609,10 @@ Basic Class Selectors */
       color: $text-dark;
       background-color: $colour;
     }
+    a.#{$size} {
+      @extend a;
+      background-image: linear-gradient(rgba(0,0,0,0),rgba(0,0,0,0)), linear-gradient(rgba(0,0,0,0),rgba(0,0,0,0)), linear-gradient(rgba($colour, 1), rgba($colour, 1));
+    }
   }
 }
 .datalist {
@@ -1567,19 +1571,15 @@ Works List Styles */
       }
     }
     @each $size, $colour in $sizes {
-      &.#{$size} {
-        .work-title {
-          a {
-            background-image: linear-gradient(rgba(0,0,0,0),rgba(0,0,0,0)), linear-gradient(rgba(0,0,0,0),rgba(0,0,0,0)), linear-gradient(rgba($colour, 1), rgba($colour, 1));
-            &:before {
-              color: $colour;
-            }
-            &:hover {
-              background-image: linear-gradient(rgba(0,0,0,0),rgba(0,0,0,0)), linear-gradient(rgba(0,0,0,0),rgba(0,0,0,0)), linear-gradient(rgba($text-dark, 1), rgba($text-dark, 1));
-              &:before {
-                color: $text-dark;
-              }
-            }
+      a.#{$size} {
+        background-image: linear-gradient(rgba(0,0,0,0),rgba(0,0,0,0)), linear-gradient(rgba(0,0,0,0),rgba(0,0,0,0)), linear-gradient(rgba($colour, 1), rgba($colour, 1));
+        &:before {
+          color: $colour;
+        }
+        &:hover {
+          background-image: linear-gradient(rgba(0,0,0,0),rgba(0,0,0,0)), linear-gradient(rgba(0,0,0,0),rgba(0,0,0,0)), linear-gradient(rgba($text-dark, 1), rgba($text-dark, 1));
+          &:before {
+            color: $text-dark;
           }
         }
       }
