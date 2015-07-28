@@ -13,13 +13,24 @@ layout: page
         {% assign test = true %}
       {% endif %}
     {% endunless %}
-  {% endif %}{% endcapture %}{% assign cache = nil %}{% if test == true %}
+  {% endif %}
+  {% case post.size %}
+    {% when 'tape' %}
+      {% assign colorcode = 'cfb7ed' %}
+    {% when 'solo' %}
+      {% assign colorcode = 'edb7b7' %}
+    {% when 'ensemble' %}
+      {% assign colorcode = 'ede7b7' %}
+    {% else %}
+      {% assign colorcode = 'b5e4eb' %}
+  {% endcase %}{% endcapture %}{% assign cache = nil %}{% if test == true %}
   <li id="{{ post.title | slugify }}" class="work">
     <h3 class="work-title">
       <a href="{{ site.url }}{{ post.url }}" rel="bookmark" class="{{ post.size }}">{{ post.title }}</a>
     </h3>
     <p class="work-meta">
-      {{ post.instrumentation }} (<time class="published" datetime="{{ post.date | date: '%Y-%m-%d'}}">{{ post.date | date: '%Y' }}</time>)
+      {{ post.instrumentation }} (<time class="published" datetime="{{ post.date | date: '%Y-%m-%d'}}">{{ post.date | date: '%Y' }}</time>){% if post.soundcloud_id %}
+      <iframe width="20" height="20" scrolling="no" frameborder="no" src="https://w.soundcloud.com/player/?url=https%3A//api.soundcloud.com/tracks/{{ post.soundcloud_id }}&amp;color={{ colorcode }}&amp;inverse=false&amp;auto_play=false&amp;show_user=false"></iframe>{% endif %}
     </p>
   </li>{% endif %}{% endfor %}
 </ul>
