@@ -568,6 +568,43 @@ Basic Class Selectors */
       }
     }
   }
+  a.button {
+    display: block;
+    width: 100%;
+    margin-top: $lh-p / 2;
+    line-height: $lh-p * 2;
+    padding: 0 ($lh-p / 2);
+    text-shadow: none;
+    background-image: none;
+    color: $bg-light;
+    background-color: $text-dark;
+    font-family: $display-font;
+    text-align: center;
+    white-space: nowrap;
+    overflow: hidden;
+    text-overflow: ellipsis;
+    -webkit-transition: background-color 0.15s ease-in, color 0.15s ease-in;
+            transition: background-color 0.15s ease-in, color 0.15s ease-in;
+    &:hover {
+      color: $bg-light;
+      background-image: none;
+      background-color: $link-hover;
+    }
+  }
+  a.half-button {
+    @extend .button;
+    @include tinybp {
+      width: 50%;
+      float: left;
+    }
+  }
+  @each $size, $colour in $sizes {
+    a.#{$size}-button {
+      @extend .half-button;
+      color: $text-dark;
+      background-color: $colour;
+    }
+  }
 }
 .datalist {
   list-style: none;
@@ -648,11 +685,6 @@ Basic Class Selectors */
     @include mediumbp {
       padding-left: $lh-base;
     }
-  }
-}
-.music.archive {
-  .entry-title {
-    margin-bottom: 0;
   }
 }
 .single-music,
@@ -1487,6 +1519,68 @@ Events page layout */
     }
     .work {
       margin-left: $lh-p;
+    }
+  }
+}
+
+/*
+
+##      ##  #######  ########  ##    ##  ######
+##  ##  ## ##     ## ##     ## ##   ##  ##    ##
+##  ##  ## ##     ## ##     ## ##  ##   ##
+##  ##  ## ##     ## ########  #####     ######
+##  ##  ## ##     ## ##   ##   ##  ##         ##
+##  ##  ## ##     ## ##    ##  ##   ##  ##    ##
+ ###  ###   #######  ##     ## ##    ##  ######
+
+Works List Styles */
+
+.music.archive {
+  .entry-title {
+    margin-bottom: 0;
+  }
+}
+.worklist {
+  list-style: none;
+  .work {
+    .work-title {
+      font-family: $display-font;
+      font-style: normal;
+      a {
+        &:before {
+          content: " • ";
+          font-size: $fs-big;
+          line-height: $lh-big / 2;
+          display: inline-block;
+          width: 0.04em;
+          height: $lh-big / 2;
+          position: relative;
+          top: .1em;
+          left: -0.6em;
+        }
+      }
+    }
+    @each $size, $colour in $sizes {
+      &.#{$size} {
+        .work-title {
+          a {
+            background-image: linear-gradient(rgba(0,0,0,0),rgba(0,0,0,0)), linear-gradient(rgba(0,0,0,0),rgba(0,0,0,0)), linear-gradient(rgba($colour, 1), rgba($colour, 1));
+            &:before {
+              color: $colour;
+            }
+            &:hover {
+              background-image: linear-gradient(rgba(0,0,0,0),rgba(0,0,0,0)), linear-gradient(rgba(0,0,0,0),rgba(0,0,0,0)), linear-gradient(rgba($text-dark, 1), rgba($text-dark, 1));
+              &:before {
+                color: $text-dark;
+              }
+            }
+          }
+        }
+      }
+    }
+    .work-meta,
+    .published {
+      color: $text-light;
     }
   }
 }
