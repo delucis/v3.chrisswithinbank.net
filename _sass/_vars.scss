@@ -59,6 +59,12 @@ $menu-item-count: 6;
 $menu-text: $bg-light;
 $menu-highlight: $text-dark;
 $menu-button: $text-dark;
+/* INSTRUMENTATION COLOUR CODING */
+$tape: rgb(207,183,237);
+$solo: rgb(237,182,182);
+$chamber: $link-underline;
+$ensemble: rgb(237,231,182);
+$orchestra: rgb(183,237,191);
 /* ==========================================================================
    SASS mixins
    ========================================================================== */
