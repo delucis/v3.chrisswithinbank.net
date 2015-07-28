@@ -3,8 +3,9 @@ layout: page
 ---
 {{ content }}
 
-<div id="instrumentation-nav" class="clearfix">
-  <a href="/works/all/" class="button">See All</a>
+<div id="instrumentation-nav" class="clearfix">{% if page.title == 'All Works' %}
+  <a href="/works/" class="button">See Recent</a>{% else %}
+  <a href="/works/all/" class="button">See All</a>{% endif %}
   <a href="/works/solo/" class="solo-button">Solo</a>
   <a href="/works/chamber/" class="chamber-button">Chamber</a>
   <a href="/works/ensemble/" class="ensemble-button">Ensemble</a>
