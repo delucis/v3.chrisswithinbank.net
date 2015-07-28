@@ -1,7 +1,32 @@
 ---
 layout: page
 ---
-{{ content }}
+<ul class="worklist">{% for post in site.categories.music %}
+  {% assign test = false %}
+  {% if post.size == page.size or page.size == 'all' %}
+    {% unless post.withdrawn == true %}
+      {% if page.filter == 'selected' %}
+        {% if post.selected == true %}
+          {% assign test = true %}
+        {% endif %}
+        {% else %}
+        {% assign test = true %}
+      {% endif %}
+    {% endunless %}
+  {% endif %}
+  {% if test == true %}
+  <li id="{{ post.title | slugify }}" class="work">
+    <em class="work-title">
+      <a href="{{ site.url }}{{ post.url }}" rel="bookmark" class="{{ post.size }}">{{ post.title }}</a>
+    </em>
+    <span class="work-meta">
+      {{ post.instrumentation }}
+    </span>
+    <time class="published" datetime="{{ post.date | date: '%Y-%m-%d'}}">
+      ({{ post.date | date: '%Y' }})
+    </time>
+  </li>{% endif %}{% endfor %}
+</ul>
 
 <div id="instrumentation-nav" class="clearfix">{% if page.title == 'All Works' %}
   <a href="/works/" class="button">See Recent</a>{% else %}

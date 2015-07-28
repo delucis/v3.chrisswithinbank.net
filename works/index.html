@@ -6,6 +6,8 @@ tags:
   - archive
   - music
 layout: workslist
+size: all
+filter: selected
 ---
 <ul class="worklist">{% for post in site.categories.music %}{% if post.selected == true and post.withdrawn != true %}
   <li id="{{ post.title | slugify }}" class="work {{ post.size }}">
