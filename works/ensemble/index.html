@@ -1,13 +1,13 @@
 ---
-title: Music
-digest: Selected recent works
+title: Ensemble Works
+digest: Music for ensemble
 show_digest: true
 tags:
   - archive
   - music
 layout: workslist
 ---
-<ul class="worklist">{% for post in site.categories.music %}{% if post.selected == true and post.withdrawn != true %}
+<ul class="worklist">{% for post in site.categories.music %}{% if post.size == 'ensemble' and post.withdrawn != true %}
   <li id="{{ post.title | slugify }}" class="work {{ post.size }}">
     <em class="work-title">
       <a href="{{ site.url }}{{ post.url }}" rel="bookmark">{{ post.title }}</a>
