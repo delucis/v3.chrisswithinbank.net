@@ -611,7 +611,11 @@ Basic Class Selectors */
     }
     a.#{$size} {
       @extend a;
-      background-image: linear-gradient(rgba(0,0,0,0),rgba(0,0,0,0)), linear-gradient(rgba(0,0,0,0),rgba(0,0,0,0)), linear-gradient(rgba($colour, 1), rgba($colour, 1));
+      background-image: linear-gradient(rgba(0,0,0,0),rgba(0,0,0,0)), linear-gradient(rgba(0,0,0,0),rgba(0,0,0,0)), linear-gradient($colour, $colour);
+      &:hover {
+        color: $text-dark;
+        background-image: linear-gradient(rgba(0,0,0,0),rgba(0,0,0,0)), linear-gradient(rgba(0,0,0,0),rgba(0,0,0,0)), linear-gradient($text-dark, $text-dark);
+      }
     }
   }
 }
@@ -1578,6 +1582,7 @@ Works List Styles */
           color: $colour;
         }
         &:hover {
+          color: $text-dark;
           background-image: linear-gradient(rgba(0,0,0,0),rgba(0,0,0,0)), linear-gradient(rgba(0,0,0,0),rgba(0,0,0,0)), linear-gradient(rgba($text-dark, 1), rgba($text-dark, 1));
           &:before {
             color: $text-dark;
