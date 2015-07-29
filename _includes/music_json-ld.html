@@ -4,7 +4,7 @@
     "@type": "MusicComposition",{% if page.musicbrainz %}
     "@id": "{{ page.musicbrainz }}",{% endif %}
     "name": "{{ page.title }}",
-    sameAs: "{{ site.url }}{{ page.url }}",
+    "sameAs": "{{ site.url }}{{ page.url }}",
     "composer": {
         "@type": "Person",
         "name": "{{ site.author.name }}",
