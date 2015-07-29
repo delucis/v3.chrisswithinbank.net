@@ -10,6 +10,7 @@ instrumentationlist:
   - Percussion
 audioembed: '<iframe width="100%" height="20" scrolling="no" frameborder="no" src="https://w.soundcloud.com/player/?url=https%3A//api.soundcloud.com/tracks/167171256&amp;color=ff5500&amp;inverse=false&amp;auto_play=false&amp;show_user=true"></iframe>'
 soundcloud_id: 167171256
+iswc: T-909.240.667-2
 selected: true
 ---
 > But Thomas, one of the twelve, called Didymus, was not with them when Jesus came. The other disciples therefore said unto him, *We have seen the Lord.* But he said unto them, *Except I shall see in his hands the print of the nails, and put my finger into the print of the nails, and thrust my hand into his side, I will not believe.*

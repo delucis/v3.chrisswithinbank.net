@@ -11,6 +11,7 @@ instrumentationlist:
   - Piano
   - Cello
   - Electronics
+iswc: T-911.137.402-8
 ---
 
 Driven by an urge to find ways of combining the quiet, tactile spaces I have been becoming increasingly fond of with something more forceful and volatile, _Wege & Waldstille_ in some ways combines ideas from various strands of my work from the last couple of years. In trying to frame liminal, delicate soundworlds with more sharply contrasting material, it is hopefully possible to cause those seemingly still and fragile environments to find their own forcefulness, to provide a strikingly powerful space in their quietude.

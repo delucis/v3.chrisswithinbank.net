@@ -12,6 +12,7 @@ instrumentationlist:
   - Piano
 audioembed: <iframe width="100%" height="20" scrolling="no" frameborder="no" src="https://w.soundcloud.com/player/?url=https%3A//api.soundcloud.com/tracks/67654002&amp;color=ff5500&amp;inverse=false&amp;auto_play=false&amp;show_user=true"></iframe>
 soundcloud_id: 67654002
+iswc: T-911.236.896-4
 ---
 Recently I have been interested in cartography and the important role it plays in how we comprehend the spaces we inhabit. An atlas is a collection of maps, often several maps show the same area but map different details and data, each time revealing another facet of the land's geography. _Small Atlas_ lays out a small set of musical units using time as its canvas, but in another sense every work of music maps out a series of physical actions, instructing the performer to explore their connection with their surroundings in a characteristic fashion. Here, the singer begins with the phrase ‘J’existe’ and, through their existence, the performers briefly map time.
 

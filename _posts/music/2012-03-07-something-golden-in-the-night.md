@@ -8,6 +8,7 @@ duration: "12'"
 instrumentationlist:
   - Soprano saxophone
   - Motorised sculpture
+iswc: T-912.653.964-8
 ---
 
 _something golden in the night_ represents a first attempt to transform the traditional concert hall context through an abstract scenography that begins to construct a new context within the framework of a classical concert. A saxophonist is accompanied in their performance by a play of shadows coming from a sculpture, the movement of which is controlled by a motor in synchrony with electronic sounds. In placing the musician in dialogue with an animate object and the object’s shadows, I hope to generate an intimate space within the concert hall (on stage) _into_ which the audience gaze, establishing a quasi-voyeuristic situation where previously a solo performance may be seen as an exhibitionist, virtuoso communication directed at the audience. Of course, this is not only a question of the visual relationships but is also embedded in the sound of the work. The beginning of the work is characterised by a still, slow focus on a tightly restricted set of sounds, the smallness and fragility of which already invite the audience to recognise the sound as distant, as happening elsewhere. The entrance of more and more electronic sounds as the work proceeds, including music boxes and distant humming radios, also draws on the evocative nature of moving shadows and darkened rooms, allowing the poetic imagination to perhaps remember the shadow on their childhood bedroom wall.

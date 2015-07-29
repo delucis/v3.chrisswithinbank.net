@@ -9,6 +9,7 @@ instrumentationlist:
   - Violin
   - Violin
 audioembed: '<iframe style="border: 0; width: 100%; height: 42px;" src="https://bandcamp.com/EmbeddedPlayer/track=2895491865/size=small/bgcol=ffffff/linkcol=f171a2/artwork=none/transparent=true/" seamless><a href="http://hear.chrisswithinbank.net/track/all-the-time-that-you-have-what-we-have-all-the-time-that-you-have">All the time that you have what we have. / All the time that you have. by Marie Picaut, YunPeng Zhao &amp; Guillaume Latour</a></iframe>'
+iswc: T-909.240.707-3
 selected: true
 ---
 This short work is part game piece, part physical performance, part sound. At the heart of it lies the question: what happens when we stop breathing? The exhaustion of a physical limit — the breath, the bow — is deployed as a mechanism controlling what we hear and how long we hear it for.
