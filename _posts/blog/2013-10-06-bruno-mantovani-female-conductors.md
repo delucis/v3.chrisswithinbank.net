@@ -8,6 +8,11 @@ title: Bruno Mantovani on female conductors
 wordpress_id: 3115
 categories:
 - Odds &amp; Ends
+tags:
+- Bruno Mantovani
+- gender
+- conductors
+- inequality
 featured_image: 2013/10/weigel-der-kantor-1698.jpg
 featured_image_alt: "Christoph Weigel (1698) Ständebuch Page title: Der Kantor (Dirigent)"
 ---
