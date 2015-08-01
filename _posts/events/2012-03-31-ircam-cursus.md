@@ -30,7 +30,7 @@ programme:
   - composer: Simone Movio
     work: Zahir III
     gender: M
-  - composer: Marcin Stanczyk
+  - composer: Marcin Stańczyk
     work: Mosaïque
     gender: M
   - composer: Ying Wang
