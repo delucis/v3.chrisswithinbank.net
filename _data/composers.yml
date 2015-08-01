@@ -5,10 +5,22 @@
   sameAs: http://www.dieterammann.ch/
   nationality: CH
   birthDate: 1962
+"Joseph Anderson":
+  sameAs: http://joseph-anderson.org/
+  nationality: US
+  birthDate: 1970
+"Samuel Andreyev":
+  nationality: CA
+  sameAs: http://www.samuelandreyev.com/
+  birthDate: 1981
 "Cecilia Arditto":
   sameAs: http://www.ceciliaarditto.com/
   birthDate: 1966
   nationality: AR
+"Juan Arroyo":
+  sameAs: http://juan-arroyo.com/
+  nationality: PE
+  birthDate: 1981
 "Trevor Bača":
   sameAs: http://www.trevorbaca.com/
   birthDate: 1975
@@ -17,6 +29,10 @@
   nationality: GB
   sameAs: http://joannabailie.com/
   birthDate: 1973
+"Sanzhar Baiterekov":
+  nationality: KZ
+  birthDate: 1987
+  sameAs: https://soundcloud.com/sanzharbaiterekov
 "Richard Barrett":
   sameAs: https://en.wikipedia.org/wiki/Richard_Barrett_(composer)
   nationality: GB
@@ -25,6 +41,14 @@
   sameAs: http://edgarbarroso.net/
   nationality: MX
   birthDate: 1977
+"Martin Bédard":
+  nationality: CA
+  birthDate: 1970
+"Luciano Berio":
+  nationality: IT
+  sameAs: https://en.wikipedia.org/wiki/Luciano_Berio
+  birthDate: 1925
+  deathDate: 2003
 "Pierre Boulez":
   sameAs: https://en.wikipedia.org/wiki/Pierre_Boulez
   nationality: FR
@@ -32,6 +56,14 @@
 "Laura Jayne Bowler":
   sameAs: http://www.laurajbowler.co.uk/
   nationality: GB
+"Christopher Burns":
+  nationality: US
+  sameAs: http://sfsound.org/~cburns/
+"John Cage":
+  nationality: US
+  birthDate: 1912
+  deathDate: 1992
+  sameAs: https://en.wikipedia.org/wiki/John_Cage
 "Emanuele Casale":
   sameAs: http://emanuelecasale.com/
   nationality: IT
@@ -40,6 +72,10 @@
   sameAs: http://www.aurelianocattaneo.com/
   nationality: IT
   birthDate: 1974
+"Carolyn Chen":
+  nationality: US
+  sameAs: http://www.carolyn-chen.com/
+  birthDate: 1983
 "Fabio Cifariello Ciardi":
   sameAs: https://en.wikipedia.org/wiki/Fabio_Cifariello_Ciardi
   nationality: IT
@@ -56,6 +92,12 @@
   sameAs: http://www.cmc.ie/composers/composer.cfm?composerID=241
   birthDate: 1987
   nationality: IE
+"Chris Dench":
+  birthDate: 1953
+  sameAs: http://chrisdench.com/
+  nationality:
+    - GB
+    - AU
 "Mario Diaz de León":
   nationality: US
   birthDate: 1979
@@ -77,10 +119,18 @@
   nationality: BR
   sameAs: http://www.edler-copes.com/
   birthDate: 1976
+"Ray Evanoff":
+  nationality: US
+  sameAs: http://rayevanoff.com/
+  birthDate: 1984
 "Samantha Fernando":
   birthDate: 1984
   nationality: GB
   sameAs: http://www.samanthafernando.com/
+"Dai Fujikura":
+  birthDate: 1977
+  sameAs: http://www.daifujikura.com/
+  nationality: JP
 "Beat Furrer":
   sameAs: https://en.wikipedia.org/wiki/Beat_Furrer
   birthDate: 1954
@@ -130,6 +180,10 @@
   birthDate: 1983
   sameAs: http://claraiannotta.com/
   nationality: IT
+"Matt Ingalls":
+  birthDate: 1970
+  sameAs: http://sfsound.org/matt.html/
+  nationality: US
 "Kristian Ireland":
   sameAs: http://www.kristianireland.com/
   birthDate: 1975
@@ -163,10 +217,19 @@
   nationality: AT
   birthDate: 1923
   deathDate: 2006
+"Liza Lim":
+  nationality: AU
+  birthDate: 1966
+  sameAs: https://lizalimcomposer.wordpress.com/
 "Ylva Lund Bergner":
   sameAs: http://www.ylvalundbergner.com/
   birthDate: 1981
   nationality: SE
+"Bruno Maderna":
+  sameAs: https://en.wikipedia.org/wiki/Bruno_Maderna
+  birthDate: 1920
+  deathDate: 1973
+  nationality: IT
 "Eric Maestri":
   sameAs: http://www.ericmaestri.eu/
   nationality: IT
@@ -179,6 +242,10 @@
   sameAs: https://soundcloud.com/julien-malaussena
   birthDate: 1980
   nationality: FR
+"Adam Maor":
+  sameAs: http://adammaor.com/
+  birthDate: 1983
+  nationality: IL
 "Jessie Marino":
   birthDate: 1984
   sameAs: http://www.jessiemarino.com/
@@ -187,6 +254,10 @@
   sameAs: https://en.wikipedia.org/wiki/Mikl%C3%B3s_Maros
   birthDate: 1943
   nationality: HU
+"Keita Matsumiya":
+  sameAs: http://keita-matsumiya.com/
+  nationality: JP
+  birthDate: 1980
 "Timothy McCormack":
   birthDate: 1984
   sameAs: http://www.timothy-mccormack.com/
@@ -194,10 +265,25 @@
 "Manuela Meier":
   sameAs: http://mm.mur.at/
   nationality: AT
+"Kristin Miltner":
+  sameAs: http://kristinmiltner.com/
+  nationality: US
+"Alex Mincek":
+  sameAs: http://www.alexmincek.com/
+  nationality: US
+  birthDate: 1975
 "Iñigo Giner Miranda":
   birthDate: 1980
   sameAs: http://www.iginermiranda.com/
   nationality: ES
+"Vittorio Montalti":
+  sameAs: http://www.vittoriomontalti.com/
+  birthDate: 1983
+  nationality: IT
+"Simone Movio":
+  nationality: IT
+  birthDate: 1978
+  sameAs: https://soundcloud.com/simonemovio
 "Valerio Murat":
   birthDate: 1976
   nationality: IT
@@ -288,6 +374,10 @@
   sameAs: http://www.schulerdenis.name/
   nationality: CH
   birthDate: 1977
+"Thatchatham Silsupan":
+  birthDate: 1987
+  nationality: TH
+  sameAs: http://www.thatchatham.com/
 "Patric Simmerud":
   sameAs: http://www.simmerud.com/
   nationality: SE
@@ -300,6 +390,10 @@
   sameAs: http://joshspearmusic.com/
   birthDate: 1990
   nationality: GB
+"Marcin Stańczyk":
+  nationality: PL
+  sameAs: http://marcinstanczyk.com/
+  birthDate: 1977
 "Simon Steen-Andersen":
   birthDate: 1976
   nationality: DK
@@ -348,6 +442,14 @@
   sameAs: http://josiahwolfoberholtzer.com/
   nationality: US
   birthDate: 1984
+"Philip Venables":
+  sameAs: http://philipvenables.com/
+  nationality: GB
+  birthDate: 1979
+"Ying Wang":
+  nationality: CN
+  birthDate: 1976
+  sameAs: http://www.yingwang.de/
 "Jürg Wyttenbach":
   sameAs: https://de.wikipedia.org/wiki/J%C3%BCrg_Wyttenbach
   birthDate: 1935
