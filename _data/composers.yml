@@ -55,6 +55,10 @@
   sameAs: http://edgarbarroso.net/
   nationality: MX
   birthDate: 1977
+"Gemma Bass":
+  nationality: GB
+  birthDate: 1986
+  sameAs: https://twitter.com/gemmalbass
 "Martin Bédard":
   nationality: CA
   birthDate: 1970
@@ -314,6 +318,8 @@
   sameAs: https://en.wikipedia.org/wiki/Heinz_Holliger
   birthDate: 1939
   nationality: CH
+"Beatrice Hubble":
+  nationality: GB
 "Clara Iannotta":
   birthDate: 1983
   sameAs: http://claraiannotta.com/
@@ -558,6 +564,8 @@
   sameAs: http://chrisroemusic.com/
   birthDate: 1988
   nationality: GB
+"Rebecca Rogers":
+  nationality: GB
 "Fausto Romitelli":
   nationality: IT
   birthDate: 1963
@@ -665,6 +673,8 @@
   sameAs: https://soundcloud.com/mic-spencer
   nationality: GB
   birthDate: 1975
+"Tom Spencer":
+  nationality: GB
 "Marcin Stańczyk":
   nationality: PL
   sameAs: http://marcinstanczyk.com/
