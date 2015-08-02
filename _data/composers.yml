@@ -1,6 +1,10 @@
 "Pedro Álvarez":
   sameAs: http://www.pedroalvarez.info/
   nationality: CL
+"Panos Amelides":
+  nationality: GR
+  birthDate: 1978
+  sameAs: https://panoamelides.wordpress.com/
 "Dieter Ammann":
   sameAs: http://www.dieterammann.ch/
   nationality: CH
@@ -21,10 +25,18 @@
   sameAs: http://juan-arroyo.com/
   nationality: PE
   birthDate: 1981
+"Hannah Ashman":
+  nationality: GB
+  birthDate: 1990
 "Trevor Bača":
   sameAs: http://www.trevorbaca.com/
   birthDate: 1975
   nationality: US
+"J.S. Bach":
+  birthDate: 1685
+  deathDate: 1750
+  nationality: DE
+  sameAs: https://en.wikipedia.org/wiki/Johann_Sebastian_Bach
 "Joanna Bailie":
   nationality: GB
   sameAs: http://joannabailie.com/
@@ -79,6 +91,11 @@
 "Laura Jayne Bowler":
   sameAs: http://www.laurajbowler.co.uk/
   nationality: GB
+"Johannes Brahms":
+  nationality: DE
+  birthDate: 1833
+  deathDate: 1897
+  sameAs: https://en.wikipedia.org/wiki/Johannes_Brahms
 "Christopher Burns":
   nationality: US
   sameAs: http://sfsound.org/~cburns/
@@ -95,6 +112,10 @@
   sameAs: http://emanuelecasale.com/
   nationality: IT
   birthDate: 1974
+"Irma Catalina Álvarez":
+  birthDate: 1980
+  nationality: ES
+  sameAs: https://soundcloud.com/irmacatalinaalvarez
 "Aureliano Cattaneo":
   sameAs: http://www.aurelianocattaneo.com/
   nationality: IT
@@ -111,6 +132,10 @@
   sameAs: http://annclearecomposer.com/
   birthDate: 1983
   nationality: IE
+"Ricardo Climent":
+  birthDate: 1965
+  nationality: ES
+  sameAs: http://www.acousmatic.org/
 "Sivan Cohen-Elias":
   sameAs: https://soundcloud.com/sivan-cohen-elias
   birthDate: 1976
@@ -123,6 +148,18 @@
   sameAs: http://www.cmc.ie/composers/composer.cfm?composerID=241
   birthDate: 1987
   nationality: IE
+"Hannah Cottier":
+  nationality: GB
+"Tom Coult":
+  birthDate: 1988
+  nationality: GB
+  sameAs: http://www.tomcoult.com/
+"David Curington":
+  sameAs: http://davidcurington.com/
+  nationality: GB
+"John Davies":
+  nationality: GB
+  birthDate: 1987
 "Chris Dench":
   birthDate: 1953
   sameAs: http://chrisdench.com/
@@ -146,6 +183,9 @@
   birthDate: 1927
   deathDate: 2000
   nationality: IT
+"Yvonne Eccles":
+  birthDate: 1983
+  nationality: GB
 "Aurélio Edler-Copes":
   nationality: BR
   sameAs: http://www.edler-copes.com/
@@ -193,6 +233,10 @@
   sameAs: http://www.jannikgiger.ch/
   birthDate: 1985
   nationality: CH
+"Alexander Goehr":
+  birthDate: 1932
+  nationality: GB
+  sameAs: https://en.wikipedia.org/wiki/Alexander_Goehr
 "Jacob Gotlib":
   sameAs: http://www.jacobgotlib.com/
   birthDate: 1984
@@ -242,6 +286,10 @@
   sameAs: https://en.wikipedia.org/wiki/Madeleine_Isaksson
   birthDate: 1956
   nationality: SE
+"Luke-Matthew Iveson":
+  sameAs: http://www.lukematthewiveson.rendezv0us.org
+  nationality: GB
+  birthDate: 1990
 "Michael Jarrell":
   birthDate: 1958
   nationality: CH
@@ -254,6 +302,9 @@
   sameAs: http://matthewkaner.com/
   nationality: GB
   birthDate: 1986
+"Josh Kopeček":
+  sameAs: http://joshkopecek.co.uk/
+  nationality: GB
 "Helmut Lachenmann":
   nationality: DE
   birthDate: 1935
@@ -275,6 +326,10 @@
   nationality: AU
   birthDate: 1966
   sameAs: https://lizalimcomposer.wordpress.com/
+"Francesca le Lohé":
+  sameAs: http://francescalelohe.weebly.com/
+  nationality: GB
+  birthDate: 1990
 "Ylva Lund Bergner":
   sameAs: http://www.ylvalundbergner.com/
   birthDate: 1981
@@ -311,6 +366,10 @@
 "Brona Martin":
   nationality: IE
   sameAs: http://www.bronamartin.com/
+  birthDate: 1983
+"Guillermo Martinez":
+  sameAs: http://guillermomartinez1983.blogspot.com/
+  nationality: ES
   birthDate: 1983
 "Keita Matsumiya":
   sameAs: http://keita-matsumiya.com/
@@ -364,10 +423,19 @@
   sameAs: http://www.joanarnaupamies.com/
   birthDate: 1988
   nationality: ES
+"Helen Papaioannou":
+  sameAs: http://helenpapaioannou.com/
+  birthDate: 1987
+"Soojung Park":
+  nationality: KR
 "Aaron Parker":
   sameAs: https://soundcloud.com/aaron-parker-2
   birthDate: 1991
   nationality: GB
+"Mauricio Pauly":
+  nationality: CR
+  birthDate: 1976
+  sameAs: http://www.mauriciopauly.com/
 "Robert Peate":
   birthDate: 1987
   nationality: GB
@@ -397,6 +465,18 @@
   sameAs: http://www.stefanprins.be/
   birthDate: 1979
   nationality: BE
+"José Guillermo Puello":
+  nationality: DO
+  birthDate: 1987
+  sameAs: http://www.joseguillermopuello.com/
+"Steve Pycroft":
+  nationality: GB
+  birthDate: 1987
+  sameAs: http://www.stevepycroft.com/
+"Camden Reeves":
+  birthDate: 1974
+  nationality: GB
+  sameAs: http://www.camdenreeves.com/
 "Steve Reich":
   birthDate: 1936
   nationality: US
@@ -418,14 +498,25 @@
   sameAs: http://www.danielsaleeb.com/
   birthDate: 1985
   nationality: GB
+"Sam Salem":
+  nationality: GB
+  birthDate: 1982
+  sameAs: http://www.osamahsalem.co.uk/
 "Joakim Sandgren":
   sameAs: http://www.joakimsandgren.com/
   birthDate: 1965
   nationality: SE
+"Donal Sarsfield":
+  sameAs: http://www.cmc.ie/composers/composer.cfm?composerID=186
+  birthDate: 1980
+  nationality: IE
 "Rebecca Saunders":
   birthDate: 1967
   sameAs: https://en.wikipedia.org/wiki/Rebecca_Saunders
   nationality: GB
+"Nathaniel Seaman":
+  nationality: GB
+  birthDate: 1985
 "Giacinto Scelsi":
   birthDate: 1905
   deathDate: 1988
@@ -448,6 +539,11 @@
   sameAs: http://www.schulerdenis.name/
   nationality: CH
   birthDate: 1977
+"Robert Schumann":
+  birthDate: 1810
+  deathDate: 1856
+  nationality: DE
+  sameAs: https://en.wikipedia.org/wiki/Robert_Schumann
 "Salvatore Sciarrino":
   birthDate: 1947
   nationality: IT
@@ -481,6 +577,10 @@
   sameAs: http://joshspearmusic.com/
   birthDate: 1990
   nationality: GB
+"Mic Spencer":
+  sameAs: https://soundcloud.com/mic-spencer
+  nationality: GB
+  birthDate: 1975
 "Marcin Stańczyk":
   nationality: PL
   sameAs: http://marcinstanczyk.com/
@@ -502,6 +602,10 @@
   nationality: CH
   sameAs: http://www.musinfo.ch/index.php?content=maske_personen&pers_id=50
   birthDate: 1944
+"Martin Suck­ling":
+  nationality: GB
+  birthDate: 1981
+  sameAs: http://www.martinsuckling.com/
 "Chris Swithinbank":
   birthDate: 1988
   sameAs: http://www.chrisswithinbank.net/
