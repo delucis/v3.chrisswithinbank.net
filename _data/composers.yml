@@ -76,6 +76,10 @@
   nationality: FR
   birthDate: 1803
   deathDate: 1869
+"Michael Betteridge":
+  sameAs: http://michaelbetteridge.com/
+  nationality: GB
+  birthDate: 1988
 "Oscar Bianchi":
   nationality: IT
   birthDate: 1975
@@ -96,14 +100,33 @@
   birthDate: 1833
   deathDate: 1897
   sameAs: https://en.wikipedia.org/wiki/Johannes_Brahms
+"Thomas Brewster":
+  nationality: GB
+"Jonathan Brigg":
+  sameAs: http://jonathanbrigg.co.uk/
+  nationality: GB
+  birthDate: 1984
+"Max Bruch":
+  birthDate: 1838
+  deathDate: 1920
+  nationality: DE
+  sameAs: https://en.wikipedia.org/wiki/Max_Bruch
 "Christopher Burns":
   nationality: US
   sameAs: http://sfsound.org/~cburns/
+"Naomi Burrell":
+  nationality:
+    - GB
+    - CH
+  birthDate: 1985
+  sameAs: http://naomiburrell.com/
 "John Cage":
   nationality: US
   birthDate: 1912
   deathDate: 1992
   sameAs: https://en.wikipedia.org/wiki/John_Cage
+"Steven Calver":
+  nationality: GB
 "Fergal Carroll":
   nationality: IE
   birthDate: 1969
@@ -124,10 +147,17 @@
   nationality: US
   sameAs: http://www.carolyn-chen.com/
   birthDate: 1983
+"Chiu-Yu Chou":
+  birthDate: 1981
+  nationality: TW
 "Fabio Cifariello Ciardi":
   sameAs: https://en.wikipedia.org/wiki/Fabio_Cifariello_Ciardi
   nationality: IT
   birthDate: 1960
+"Davina Clarke":
+  nationality: GB
+  sameAs: http://www.davinaclarke.com/
+  birthDate: 1986
 "Ann Cleare":
   sameAs: http://annclearecomposer.com/
   birthDate: 1983
@@ -154,6 +184,10 @@
   birthDate: 1988
   nationality: GB
   sameAs: http://www.tomcoult.com/
+"George Crumb":
+  birthDate: 1929
+  nationality: US
+  sameAs: http://www.georgecrumb.net/
 "David Curington":
   sameAs: http://davidcurington.com/
   nationality: GB
@@ -209,6 +243,9 @@
 "Lee Fraser":
   sameAs: http://www.leefraser.co.uk/
   nationality: GB
+"Patrick Friel":
+  sameAs: http://patrickfriel.com/
+  nationality: GB
 "Dai Fujikura":
   birthDate: 1977
   sameAs: http://www.daifujikura.com/
@@ -244,6 +281,10 @@
 "Benjamin Graves":
   sameAs: https://soundcloud.com/benjamingravescomposer
   nationality: GB
+"Alexis Guneratne":
+  nationality: GB
+  birthDate: 1982
+  sameAs: http://alexisguneratne.com/
 "Jonathan Harvey":
   sameAs: https://en.wikipedia.org/wiki/Jonathan_Harvey_(composer)
   birthDate: 1939
@@ -258,6 +299,13 @@
   sameAs: http://www.malcolmhayes.co.uk/
   birthDate: 1951
   nationality: GB
+"Nicola Hicks":
+  nationality: GB
+"Paul Hindemith":
+  birthDate: 1895
+  deathDate: 1963
+  nationality: DE
+  sameAs: https://en.wikipedia.org/wiki/Paul_Hindemith
 "Justin Hoke":
   sameAs: http://www.justinhoke.com/
   birthDate: 1987
@@ -351,6 +399,9 @@
   sameAs: https://soundcloud.com/julien-malaussena
   birthDate: 1980
   nationality: FR
+"Kevin Malone":
+  nationality: US
+  sameAs: http://www.opusmalone.com/
 "Adam Maor":
   sameAs: http://adammaor.com/
   birthDate: 1983
@@ -379,6 +430,11 @@
   birthDate: 1963
   nationality: GB
   sameAs: http://madeinart.weebly.com/
+"John McCabe":
+  sameAs: http://www.johnmccabe.com/
+  birthDate: 1939
+  deathDate: 2015
+  nationality: GB
 "Timothy McCormack":
   birthDate: 1984
   sameAs: http://www.timothy-mccormack.com/
@@ -415,6 +471,9 @@
 "Philip O’Meara":
   sameAs: http://philipomeara.com/
   nationality: GB
+"David Önaç":
+  birthDate: 1984
+  nationality: GB
 "Younghi Pagh-Paan":
   birthDate: 1945
   nationality: KR
@@ -447,6 +506,9 @@
   sameAs: https://de.wikipedia.org/wiki/Michael_Pelzel
   birthDate: 1978
   nationality: CH
+"Mark Pilkington":
+  sameAs: http://markpilkington.org.uk/
+  nationality: GB
 "Marek Poliks":
   sameAs: http://www.marekpoliks.com/
   birthDate: 1989
@@ -473,6 +535,13 @@
   nationality: GB
   birthDate: 1987
   sameAs: http://www.stevepycroft.com/
+"Kathryn Rattray":
+  nationality: GB
+  birthDate: 1986
+"Nancy Redman":
+  nationality: GB
+  sameAs: http://nancyredman.co.uk/
+  birthDate: 1987
 "Camden Reeves":
   birthDate: 1974
   nationality: GB
@@ -490,10 +559,18 @@
   birthDate: 1963
   deathDate: 2004
   sameAs: https://en.wikipedia.org/wiki/Fausto_Romitelli
+"Christopher Rouse":
+  nationality: US
+  birthDate: 1949
+  sameAs: http://www.christopherrouse.com/
 "Kaija Saariaho":
   sameAs: http://saariaho.org/
   birthDate: 1952
   nationality: FI
+"Diana Salazar":
+  sameAs: http://dianasalazar.co.uk/
+  nationality: GB
+  birthDate: 1982
 "Daniel Saleeb":
   sameAs: http://www.danielsaleeb.com/
   birthDate: 1985
@@ -556,6 +633,9 @@
   nationality: FR
   birthDate: 1817
   deathDate: 1879
+"Emma Shires":
+  nationality: GB
+  birthDate: 1987
 "Dmitri Shostakovich":
   sameAs: https://en.wikipedia.org/wiki/Dmitri_Shostakovich
   nationality: RU
@@ -589,6 +669,10 @@
   birthDate: 1976
   nationality: DK
   sameAs: https://en.wikipedia.org/wiki/Simon_Steen-Andersen
+"Robin Stevens":
+  sameAs: http://www.robinstevenscomposer.co.uk/
+  birthDate: 1958
+  nationality: GB
 "Karlheinz Stockhausen":
   nationality: DE
   birthDate: 1928
@@ -633,12 +717,19 @@
   nationality: US
   birthDate: 1934
   deathDate: 2006
+"Oliver Thompson":
+  sameAs: http://www.olythompson.com/
+  nationality: GB
 "Jorge Vázquez":
   nationality: AR
 "Philip Venables":
   sameAs: http://philipvenables.com/
   nationality: GB
   birthDate: 1979
+"Theo Vidgen":
+  nationality: GB
+  birthDate: 1988
+  sameAs: http://www.theovidgen.com/
 "Ian Vine":
   birthDate: 1974
   nationality: GB
@@ -655,6 +746,10 @@
   nationality: GB
   birthDate: 1974
   sameAs: http://www.richardwhalley.com/
+"John White":
+  nationality: GB
+  birthDate: 1936
+  sameAs: https://en.wikipedia.org/wiki/John_White_(composer)
 "Nina Whiteman":
   nationality: GB
   birthDate: 1981
