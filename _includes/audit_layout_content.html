@@ -23,8 +23,8 @@
     <p>There are <strong>{{ nodata }} concerts</strong> missing programme data. These are ignored entirely in the statistics above.</p>
   {% when 'jsonlink' %}
     <h4 id="jsonlink">The data</h4>
-    <p>If you are code-minded and would like to play around with the event data, download the <a href="/assets/eventdata.json" type="application/ld+json">event data JSON-LD file</a>. It contains data for every event in my archive, marked up with <a href="http://schema.org/">schema.org</a> vocabularies.</p>
-    <p>An up-to-date summary of all the data, can always be found on <a href="{{ site.url }}/audit/">the Gender Audit page</a>.</p>
+    <p>If you are code-minded and would like to play around with the event data, download the <a href="/assets/eventdata.json" type="application/ld+json">event data JSON-LD file</a>. It contains data for every event in my archive, marked up with <a href="http://schema.org/">schema.org</a> vocabularies.</p>{% unless page.url == '/audit/index.html' %}
+    <p>An up-to-date summary of all the data, can always be found on <a href="{{ site.url }}/audit/">the Gender Audit page</a>.</p>{% endunless %}
   {% when 'age' %}
     <h4 id="age">Gender &amp; Age</h4>
     <p>Experience suggests that age plays a factor in gender imbalances: namely that while both genders might be represented in a specific context, women may have to work harder and longer for the same opportunities, or are delayed in career progression by various societal hurdles, and so reach equivalent career points later than their male colleagues. Unfortunately, this is very hard to quantify without more detailed research — evaluating career progression properly would be very complex.</p>
