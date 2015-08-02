@@ -13,6 +13,7 @@ INITIALISE VARIABLES
 {% assign relativeF = 0 %}
 {% assign relativeM = 0 %}
 {% assign parity_count = 0 %}
+{% assign age_complete_count = 0 %}
 {% assign relativeF_string = '' %}
 {% assign fractionF_string = '' %}
 {% assign urls_string = '' %}
@@ -22,21 +23,37 @@ INITIALISE VARIABLES
 {% assign composersF_string = '' %}
 {% assign composersM_string = '' %}
 {% assign composers_string_verbose = '' %}
-{% assign earliestYear = site.time | date: '%Y' %}
+{% assign ages_string = '' %}
+{% assign agesF_string = '' %}
+{% assign agesM_string = '' %}
+{% assign ageAverages_string = '' %}
+{% assign ageAveragesF_string = '' %}
+{% assign ageAveragesM_string = '' %}
+{% assign relativeAgesF_string = '' %}
+{% assign relativeAgesM_string = '' %}
+{% assign earliestYear = site.time | date: '%Y' | times: 1 %}
 
 {% comment %}
 PROCESS EVENT DATA
 {% endcomment %}
 {% for event in site.categories.events reversed %}
   {% assign testdate = event.date | date: '%Y%m%d' | times: 1 %}
+  {% assign eventyear = event.date | date: '%Y' | times: 1 %}
   {% if testdate >= mindate and testdate <= maxdate %}
     {% if event.programme %}
-
+      {% comment %}
+      LOCAL VARIABLES PER EVENT
+      {% endcomment %}
       {% assign concerts = concerts | plus: 1 %}
       {% assign eventworks = 0 %}
       {% assign eventF = 0 %}
       {% assign eventM = 0 %}
-
+      {% assign eventAges_string = '' %}
+      {% assign eventAgesF_string = '' %}
+      {% assign eventAgesM_string = '' %}
+      {% comment %}
+      PROCESS EACH PROGRAMME ITEM
+      {% endcomment %}
       {% for item in event.programme %}
         {% assign eventworks = eventworks | plus: 1 %}
         {% unless composers_string contains item.composer %}
@@ -58,6 +75,22 @@ PROCESS EVENT DATA
         {% endif %}
         {% if item.composer == 'Chris Swithinbank' %}
           {% assign ownworks = ownworks | plus: 1 %}
+        {% endif %}
+        {% if site.data.composers.[item.composer].birthDate %}
+          {% unless site.data.composers.[item.composer].deathDate %}
+            {% assign birthDate = site.data.composers.[item.composer].birthDate %}
+            {% assign age = eventyear | minus: birthDate %}
+            {% assign eventAges_string = eventAges_string | append: age | append: ',' %}
+            {% assign ages_string = ages_string | append: age | append: ',' %}
+            {% if item.gender == 'F' %}
+              {% assign eventAgesF_string = eventAgesF_string | append: age | append: ',' %}
+              {% assign agesF_string = agesF_string | append: age | append: ',' %}
+            {% endif %}
+            {% if item.gender == 'M' %}
+              {% assign eventAgesM_string = eventAgesM_string | append: age | append: ',' %}
+              {% assign agesM_string = agesM_string | append: age | append: ',' %}
+            {% endif %}
+          {% endunless %}
         {% endif %}
       {% endfor %}
 
@@ -84,11 +117,9 @@ PROCESS EVENT DATA
       {% endif %}
 
       {% if event.date %}
-          {% assign eventyear = event.date | date: '%Y' %}
           {% if eventyear < earliestYear %}
             {% assign earliestYear = eventyear %}
           {% endif %}
-
           {% assign eventdate = event.date | date: '%-d/%-m/%Y' %}
           {% assign dates_string = dates_string | append: eventdate | append: ' ' %}
         {% else %}
@@ -105,6 +136,36 @@ PROCESS EVENT DATA
         {% assign concertsAllM = concertsAllM | plus: 1 %}
       {% endif %}
 
+      {% assign eventAges_array = eventAges_string | split: ',' %}
+      {% assign eventAgesF_array = eventAgesF_string | split: ',' %}
+      {% assign eventAgesM_array = eventAgesM_string | split: ',' %}
+
+      {% if eventAges_array.size == event.programme.size %}
+        {% assign age_complete_count = age_complete_count | plus: 1 %}
+        {% assign eventAgeTotal = 0 %}
+        {% assign eventAgeTotalF = 0 %}
+        {% assign eventAgeTotalM = 0 %}
+        {% for age in eventAges_array %}
+          {% assign eventAgeTotal = eventAgeTotal | plus: age %}
+        {% endfor %}
+        {% for age in eventAgesF_array %}
+          {% assign eventAgeTotalF = eventAgeTotalF | plus: age %}
+        {% endfor %}
+        {% for age in eventAgesM_array %}
+          {% assign eventAgeTotalM = eventAgeTotalM | plus: age %}
+        {% endfor %}
+        {% assign eventAgeAverage = eventAgeTotal | times: 1.0 | divided_by: eventAges_array.size %}
+        {% assign eventAgeAverageF = eventAgeTotalF | times: 1.0 | divided_by: eventAgesF_array.size %}
+        {% assign eventAgeAverageM = eventAgeTotalM | times: 1.0 | divided_by: eventAgesM_array.size %}
+        {% assign ageAverages_string = ageAverages_string | append: eventAgeAverage | append: ',' %}
+        {% assign ageAveragesF_string = ageAveragesF_string | append: eventAgeAverageF | append: ',' %}
+        {% assign ageAveragesM_string = ageAveragesM_string | append: eventAgeAverageM | append: ',' %}
+        {% assign eventRelativeAgeF = eventAgeAverage | minus: eventAgeAverageF %}
+        {% assign eventRelativeAgeM = eventAgeAverage | minus: eventAgeAverageM %}
+        {% assign relativeAgesF_string = relativeAgesF_string | append: eventRelativeAgeF | append: ',' %}
+        {% assign relativeAgesM_string = relativeAgesM_string | append: eventRelativeAgeM | append: ',' %}
+      {% endif %}
+
     {% endif %}
   {% endif %}
 {% endfor %}
@@ -119,6 +180,43 @@ PROCESS EVENT DATA
 {% assign nodata = site.categories.events.size | minus: concerts %}
 {% assign relativeF = relativeF | divided_by: concerts | times: 100.0 | append: "" | truncate: 4, '' %}
 {% assign relativeM = relativeM | divided_by: concerts | times: 100.0 | append: "" | truncate: 4, '' %}
+
+{% assign ageAverages_array = ageAverages_string | split: ',' %}
+{% assign ageAveragesF_array = ageAveragesF_string | split: ',' %}
+{% assign ageAveragesM_array = ageAveragesM_string | split: ',' %}
+
+{% assign ageAverages_sum = 0 %}
+{% for avg in ageAverages_array %}
+  {% assign ageAverages_sum = ageAverages_sum | plus: avg %}
+{% endfor %}
+{% assign ageAverage = ageAverages_sum | times: 1.0 | divided_by: ageAverages_array.size | append: "" | truncate: 4, '' %}
+
+{% assign ageAveragesF_sum = 0 %}
+{% for avg in ageAveragesF_array %}
+  {% assign ageAveragesF_sum = ageAveragesF_sum | plus: avg %}
+{% endfor %}
+{% assign ageAverageF = ageAveragesF_sum | times: 1.0 | divided_by: ageAveragesF_array.size | append: "" | truncate: 4, '' %}
+
+{% assign ageAveragesM_sum = 0 %}
+{% for avg in ageAveragesM_array %}
+  {% assign ageAveragesM_sum = ageAveragesM_sum | plus: avg %}
+{% endfor %}
+{% assign ageAverageM = ageAveragesM_sum | times: 1.0 | divided_by: ageAveragesM_array.size | append: "" | truncate: 4, '' %}
+
+{% assign relativeAgesF_array = relativeAgesF_string | split: ',' %}
+{% assign relativeAgesM_array = relativeAgesM_string | split: ',' %}
+
+{% assign relativeAgesF_sum = 0 %}
+{% for diff in relativeAgesF_array %}
+  {% assign relativeAgesF_sum = relativeAgesF_sum | plus: diff %}
+{% endfor %}
+{% assign relativeAgeF = relativeAgesF_sum | times: 1.0 | divided_by: relativeAgesF_array.size %}
+
+{% assign relativeAgesM_sum = 0 %}
+{% for diff in relativeAgesM_array %}
+  {% assign relativeAgesM_sum = relativeAgesM_sum | plus: diff %}
+{% endfor %}
+{% assign relativeAgeM = relativeAgesM_sum | times: 1.0 | divided_by: relativeAgesM_array.size %}
 
 {% assign relativeF_array = relativeF_string | split: ' ' %}
 {% assign fractionF_array = fractionF_string | split: ' ' %}
