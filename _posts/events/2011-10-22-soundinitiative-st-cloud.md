@@ -28,7 +28,7 @@ programme:
   - composer: Giacinto Scelsi
     work: Quattro Illustrazioni
     gender: M
-  - composer: Simon Steen-Anderson
+  - composer: Simon Steen-Andersen
     work: …In-Side-Out-Side-In…
     gender: M
 ---
