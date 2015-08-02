@@ -33,6 +33,8 @@
   nationality: KZ
   birthDate: 1987
   sameAs: https://soundcloud.com/sanzharbaiterekov
+"Heather Bamforth":
+  nationality: GB
 "Richard Barrett":
   sameAs: https://en.wikipedia.org/wiki/Richard_Barrett_(composer)
   nationality: GB
@@ -44,11 +46,32 @@
 "Martin Bédard":
   nationality: CA
   birthDate: 1970
+"Ludwig van Beethoven":
+  birthDate: 1770
+  deathDate: 1827
+  nationality: DE
+  sameAs: https://en.wikipedia.org/wiki/Ludwig_van_Beethoven
+"Rob Bentall":
+  birthDate: 1989
+  nationality: GB
+  sameAs: https://soundcloud.com/rob-bentall
 "Luciano Berio":
   nationality: IT
   sameAs: https://en.wikipedia.org/wiki/Luciano_Berio
   birthDate: 1925
   deathDate: 2003
+"Hector Berlioz":
+  nationality: FR
+  birthDate: 1803
+  deathDate: 1869
+"Oscar Bianchi":
+  nationality: IT
+  birthDate: 1975
+  sameAs: http://www.oscarbianchi.com/
+"Manuella Blackburn":
+  sameAs: http://www.manuella.co.uk/
+  nationality: GB
+  birthDate: 1984
 "Pierre Boulez":
   sameAs: https://en.wikipedia.org/wiki/Pierre_Boulez
   nationality: FR
@@ -64,6 +87,10 @@
   birthDate: 1912
   deathDate: 1992
   sameAs: https://en.wikipedia.org/wiki/John_Cage
+"Fergal Carroll":
+  nationality: IE
+  birthDate: 1969
+  sameAs: http://www.cmc.ie/composers/composer.cfm?composerID=158
 "Emanuele Casale":
   sameAs: http://emanuelecasale.com/
   nationality: IT
@@ -88,6 +115,10 @@
   sameAs: https://soundcloud.com/sivan-cohen-elias
   birthDate: 1976
   nationality: IL
+"Rodrigo Constanzo":
+  birthDate: 1976
+  nationality: US
+  sameAs: http://www.rodrigoconstanzo.com/
 "David Coonan":
   sameAs: http://www.cmc.ie/composers/composer.cfm?composerID=241
   birthDate: 1987
@@ -123,10 +154,21 @@
   nationality: US
   sameAs: http://rayevanoff.com/
   birthDate: 1984
+"Stefan van Eycken":
+  nationality: BE
+  birthDate: 1975
+"Morton Feldman":
+  birthDate: 1926
+  deathDate: 1987
+  nationality: US
+  sameAs: https://en.wikipedia.org/wiki/Morton_Feldman
 "Samantha Fernando":
   birthDate: 1984
   nationality: GB
   sameAs: http://www.samanthafernando.com/
+"Lee Fraser":
+  sameAs: http://www.leefraser.co.uk/
+  nationality: GB
 "Dai Fujikura":
   birthDate: 1977
   sameAs: http://www.daifujikura.com/
@@ -168,6 +210,10 @@
   deathDate: 1809
   sameAs: https://en.wikipedia.org/wiki/Joseph_Haydn
   nationality: AT
+"Malcolm Hayes":
+  sameAs: http://www.malcolmhayes.co.uk/
+  birthDate: 1951
+  nationality: GB
 "Justin Hoke":
   sameAs: http://www.justinhoke.com/
   birthDate: 1987
@@ -208,10 +254,18 @@
   sameAs: http://matthewkaner.com/
   nationality: GB
   birthDate: 1986
+"Helmut Lachenmann":
+  nationality: DE
+  birthDate: 1935
+  sameAs: https://en.wikipedia.org/wiki/Helmut_Lachenmann
 "Wen-Cheh Lee":
   sameAs: http://db.musicaustria.at/node/81900
   nationality: TW
   birthDate: 1986
+"Philippe Leroux":
+  nationality: FR
+  birthDate: 1959
+  sameAs: http://www.lerouxcomposition.com/
 "György Ligeti":
   sameAs: https://en.wikipedia.org/wiki/Gy%C3%B6rgy_Ligeti
   nationality: AT
@@ -254,10 +308,18 @@
   sameAs: https://en.wikipedia.org/wiki/Mikl%C3%B3s_Maros
   birthDate: 1943
   nationality: HU
+"Brona Martin":
+  nationality: IE
+  sameAs: http://www.bronamartin.com/
+  birthDate: 1983
 "Keita Matsumiya":
   sameAs: http://keita-matsumiya.com/
   nationality: JP
   birthDate: 1980
+"Michael Mayhew":
+  birthDate: 1963
+  nationality: GB
+  sameAs: http://madeinart.weebly.com/
 "Timothy McCormack":
   birthDate: 1984
   sameAs: http://www.timothy-mccormack.com/
@@ -310,6 +372,9 @@
   birthDate: 1987
   nationality: GB
   sameAs: https://robertpeate.wordpress.com/
+"Ignacio Pecino":
+  sameAs: http://ignaciopecino.com/
+  nationality: ES
 "Michael Pelzel":
   sameAs: https://de.wikipedia.org/wiki/Michael_Pelzel
   birthDate: 1978
@@ -332,10 +397,19 @@
   sameAs: http://www.stefanprins.be/
   birthDate: 1979
   nationality: BE
+"Steve Reich":
+  birthDate: 1936
+  nationality: US
+  sameAs: http://www.stevereich.com/
 "Chris Roe":
   sameAs: http://chrisroemusic.com/
   birthDate: 1988
   nationality: GB
+"Fausto Romitelli":
+  nationality: IT
+  birthDate: 1963
+  deathDate: 2004
+  sameAs: https://en.wikipedia.org/wiki/Fausto_Romitelli
 "Kaija Saariaho":
   sameAs: http://saariaho.org/
   birthDate: 1952
@@ -374,11 +448,23 @@
   sameAs: http://www.schulerdenis.name/
   nationality: CH
   birthDate: 1977
+"Salvatore Sciarrino":
+  birthDate: 1947
+  nationality: IT
+  sameAs: http://www.salvatoresciarrino.eu/
+"Richard Scott":
+  sameAs: http://richard-scott.net/
+  nationality: GB
 "Édouard-Léon Scott de Martinville":
   sameAs: https://en.wikipedia.org/wiki/%C3%89douard-L%C3%A9on_Scott_de_Martinville
   nationality: FR
   birthDate: 1817
   deathDate: 1879
+"Dmitri Shostakovich":
+  sameAs: https://en.wikipedia.org/wiki/Dmitri_Shostakovich
+  nationality: RU
+  birthDate: 1906
+  deathDate: 1975
 "Thatchatham Silsupan":
   birthDate: 1987
   nationality: TH
@@ -403,6 +489,11 @@
   birthDate: 1976
   nationality: DK
   sameAs: https://en.wikipedia.org/wiki/Simon_Steen-Andersen
+"Karlheinz Stockhausen":
+  nationality: DE
+  birthDate: 1928
+  deathDate: 2007
+  sameAs: https://en.wikipedia.org/wiki/Karlheinz_Stockhausen
 "Stefan Streich":
   sameAs: http://stefan-streich.de/
   birthDate: 1961
@@ -421,6 +512,15 @@
   sameAs: http://steventakasugi.com/
   nationality: US
   birthDate: 1960
+"Tōru Takemitsu":
+  nationality: JP
+  birthDate: 1930
+  deathDate: 1996
+  sameAs: https://en.wikipedia.org/wiki/Toru_Takemitsu
+"Yoshifumi Tanaka":
+  birthDate: 1968
+  nationality: JP
+  sameAs: http://homepage3.nifty.com/yostan/
 "Januibe Tejera":
   birthDate: 1979
   nationality: BR
@@ -431,6 +531,14 @@
   deathDate: 2006
 "Jorge Vázquez":
   nationality: AR
+"Philip Venables":
+  sameAs: http://philipvenables.com/
+  nationality: GB
+  birthDate: 1979
+"Ian Vine":
+  birthDate: 1974
+  nationality: GB
+  sameAs: http://www.ianvine.com/
 "Ute Wassermann":
   sameAs: http://femmes-savantes.net/en/les-femmes-savantes/ute-wassermann
   nationality: DE
@@ -439,6 +547,14 @@
   sameAs: http://www.sfsound.org/~chris/
   birthDate: 1961
   nationality: US
+"Richard Whalley":
+  nationality: GB
+  birthDate: 1974
+  sameAs: http://www.richardwhalley.com/
+"Nina Whiteman":
+  nationality: GB
+  birthDate: 1981
+  sameAs: http://ninawhiteman.com/
 "Kate Whitley":
   sameAs: http://katewhitley.net/
   birthDate: 1989
@@ -447,10 +563,6 @@
   sameAs: http://josiahwolfoberholtzer.com/
   nationality: US
   birthDate: 1984
-"Philip Venables":
-  sameAs: http://philipvenables.com/
-  nationality: GB
-  birthDate: 1979
 "Ying Wang":
   nationality: CN
   birthDate: 1976
