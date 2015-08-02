@@ -76,8 +76,16 @@ layout: default
         </li>
         {% endfor %}
       </ul>
-      {% else %}
-      <p>Works by {{ composers | array_to_sentence_string }}.</p>
+      {% else %}{% capture cache %}
+      {% assign uniqcomposers = '' %}
+      {% for composer in composers %}
+        {% unless uniqcomposers contains composer %}
+          {% assign uniqcomposers = uniqcomposers | append: composer | append: '||' %}
+        {% endunless %}
+      {% endfor %}
+      {% assign uniqcomposers = uniqcomposers | split: '||' %}
+      {% endcapture %}{% assign cache = nil %}
+      <p>Works by {{ uniqcomposers | array_to_sentence_string }}.</p>
     {% endif %}
   {% endif %}
   {% if event.venue %}
