@@ -27,7 +27,7 @@ programme:
   - composer: Patrick Friel
     work: Hope is the Thing with Feathers
     gender: M
-  - composer: Francesca Le Lohé
+  - composer: Francesca le Lohé
     work: After a Summer Hue
     gender: F
   - composer: José Guillermo Puello
