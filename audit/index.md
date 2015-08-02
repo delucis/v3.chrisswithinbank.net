@@ -5,6 +5,8 @@ digest: The latest data for concerts including my music
 date: 2015-08-01 12:00:00+02:00
 includes:
   - basics
+  - career
+  - age
   - overview
   - nodata
   - jsonlink
