@@ -30,7 +30,7 @@ programme:
   - composer: Francesca Le Lohé
     work: After a Summer Hue
     gender: F
-  - composer: Jose Puello
+  - composer: José Guillermo Puello
     work: La Moneda
     gender: M
   - composer: Nina Whiteman

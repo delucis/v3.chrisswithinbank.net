@@ -22,7 +22,7 @@ programme:
     gender: F
   - composer: Guillermo Martinez
     gender: M
-  - composer: Jose Puello
+  - composer: José Guillermo Puello
     gender: M
   - composer: Irma Catalina Álvarez
     gender: F
