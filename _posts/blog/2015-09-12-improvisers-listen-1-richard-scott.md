@@ -18,6 +18,8 @@ _This semester I am assisting [Hans Tutschku](http://www.tutschku.com/) with a c
 
 First up is [**Richard Scott**](http://richard-scott.net/). Scott is a UK-born, Berlin-based composer and free improvising musician working with analogue modular synthesisers and alternative controllers, including pioneering work with the [Lightning controller](https://en.wikipedia.org/wiki/Buchla_Lightning) built by Don Buchla.
 
+For our first instalment, Scott selected works by [Cabaret Voltaire](https://en.wikipedia.org/wiki/Cabaret_Voltaire_(band)), [Miles Davis](https://en.wikipedia.org/wiki/Miles_Davis), and the [Spontaneous Music Ensemble](https://en.wikipedia.org/wiki/Spontaneous_Music_Ensemble).
+
 ##### Cabaret Voltaire, ‘Eddie’s Out’&nbsp;(1981)
 
 <p class="embed-container"><iframe width="538" height="404" src="https://www.youtube-nocookie.com/embed/2SrvPkR3geU?showinfo=0" frameborder="0" allowfullscreen></iframe></p>
