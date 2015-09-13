@@ -710,13 +710,16 @@ Basic Class Selectors */
   .subtitle {
     margin-top: 0;
   }
-  .previously-published {
-    font-size: $fs-small;
-    line-height: $lh-small;
-    padding: $lh-small / 2 - 0.3em;
-    margin-bottom: $lh-small;
-    border: 0.3em solid $light-outline;
-  }
+}
+.small-text {
+  font-size: $fs-small;
+  line-height: $lh-small;
+  margin-bottom: $lh-small;
+}
+.previously-published {
+  @extend .small-text;
+  padding: $lh-small / 2 - 0.3em;
+  border: 0.3em solid $light-outline;
 }
 #disqus_thread {
   margin: 0 0 ($lh-p * 2);
