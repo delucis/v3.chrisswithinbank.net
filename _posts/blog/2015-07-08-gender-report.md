@@ -2,7 +2,7 @@
 title: Gender Report 2015
 digest: Some basic numbers on gender (in)equality in my community
 date: 2015-07-08 12:00:00+02:00
-comments: true
+comments: false
 maxdate: 20150901
 tags:
   - gender
