@@ -8,6 +8,7 @@ tags:
   - listening
   - electronics
   - Harvard
+  - Richard Scott
   - Music 264
 featured_image: 2015/09/richard-scott-lightning.jpg
 featured_image_alt: Richard Scott performing with the Buchla Lightning controller
