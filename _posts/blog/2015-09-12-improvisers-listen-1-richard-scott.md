@@ -1,5 +1,6 @@
 ---
 title: 'Improvisers Listen #1: <br>Richard Scott'
+excerpt: 'Improviser and composer Richard Scott picks three pieces of music important to him and his practice.'
 date: 2015-09-15 14:20
 comments: true
 tags:
