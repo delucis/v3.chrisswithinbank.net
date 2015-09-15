@@ -1,4 +1,4 @@
-<meta itemprop="name" content="{{ page.title }}{% if page.subtitle %}: {{ page.subtitle }}{% endif %}">{% if page.featured_image %}
+<meta itemprop="name" content="{{ page.title  | strip_html }}{% if page.subtitle %}: {{ page.subtitle  | strip_html }}{% endif %}">{% if page.featured_image %}
     <meta itemprop="image" content="{{ site.url }}/wp-content/uploads/{{ page.featured_image }}">{% endif %}
     <meta itemprop="description" content="{% if page.digest %}{{ page.digest | strip_html }}{% elsif page.excerpt %}{{ page.excerpt | strip_html | truncate: 159, '…' }}{% else %}{{ site.description }}{% endif %}">
 
