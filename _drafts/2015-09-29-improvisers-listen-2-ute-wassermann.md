@@ -1,5 +1,6 @@
 ---
 title: 'Improvisers Listen #2: <br>Ute Wassermann'
+excerpt: 'Vocalist, composer, and sound artist Ute Wassermann picks three pieces of music important to her practice.'
 date: 2015-09-29 15:49
 comments: true
 tags:
