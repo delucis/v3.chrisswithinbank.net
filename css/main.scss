@@ -568,6 +568,9 @@ Basic Class Selectors */
       }
     }
   }
+  .light-text {
+    color: $text-light;
+  }
   a.button {
     display: block;
     width: 100%;
