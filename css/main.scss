@@ -500,7 +500,7 @@ Basic Class Selectors */
 .aligncenter {
   text-align: center;
 }
-.small {
+.small-text {
   font-size: $fs-small;
   line-height: $lh-small;
   margin: 0 0 $lh-small;
@@ -710,11 +710,6 @@ Basic Class Selectors */
   .subtitle {
     margin-top: 0;
   }
-}
-.small-text {
-  font-size: $fs-small;
-  line-height: $lh-small;
-  margin-bottom: $lh-small;
 }
 .previously-published {
   @extend .small-text;
