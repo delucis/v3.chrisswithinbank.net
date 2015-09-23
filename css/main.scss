@@ -500,7 +500,7 @@ Basic Class Selectors */
 .aligncenter {
   text-align: center;
 }
-.small-text {
+.small-text, .small {
   font-size: $fs-small;
   line-height: $lh-small;
   margin: 0 0 $lh-small;
