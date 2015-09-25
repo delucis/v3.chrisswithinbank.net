@@ -1,0 +1,25 @@
+---
+title: Stony Brook Premieres! concert
+date: 2015-11-18 20:00
+performer:
+  name: Stony Brook Contemporary Chamber Players
+  url: http://www.stonybrook.edu/commcms/music/performances/ensembles/ccp.shtml
+venue:
+  name: Staller Center Recital Hall
+  url: http://www.stallercenter.com/
+  address: 100 Nicolls Rd, Stony Brook, NY 11790
+works:
+  - local bond
+premiere: local bond
+programme:
+  - composer: Chris Swithinbank
+    work: local bond
+    gender: M
+  - composer: Paula Matthusen
+    gender: F
+  - composer: Piers Hellawell
+    work: Fictions
+    gender: M
+  - composer: James Wood
+    gender: M
+---
