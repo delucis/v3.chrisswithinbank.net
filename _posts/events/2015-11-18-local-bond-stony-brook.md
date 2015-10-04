@@ -16,10 +16,15 @@ programme:
     work: local bond
     gender: M
   - composer: Paula Matthusen
+    work: of culpable trajectories and transformations
     gender: F
   - composer: Piers Hellawell
     work: Fictions
     gender: M
   - composer: James Wood
+    work: Secret Dialogues
     gender: M
+  - composer: Erin Rogers
+    work: Shimmering Dust
+    gender: F
 ---
