@@ -21,9 +21,9 @@ layout: default
     <time datetime="{{ event.date | date_to_xmlschema | truncate: 19, '' }}">
       {{ event.date | date: "%A, %-d %B %Y, %-I" }}{% assign eventminutes = event.date | date: '%M' %}{% if eventminutes == '00' %}{{ event.date | date: '%p' | downcase }}{% else %}{{ event.date | date: ':%M%p' | downcase }}{% endif %}
     </time>
-  </p>
-  {% if event.programme %}
+  </p>{% if event.programme %}
     <h4>Programme</h4>
+    {% capture cache %}
     {% assign composers = '' %}
     {% assign works = '' %}
     {% for item in event.programme %}
@@ -41,40 +41,31 @@ layout: default
       {% endif %}
     {% endfor %}
     {% assign composers = composers | split: ',' %}
-    {% assign works = works | split: ',,' %}
+    {% assign works = works | split: ',,' %}{% endcapture %}{% assign cache = nil %}
     {% if composers.size == works.size %}
-      <ul class="programme">
-        {% for composer in composers %}
+      <ul class="programme">{% for composer in composers %}
         <li class="item">
-          <strong class="composer">
-            {% if site.data.composers.[composer].sameAs %}
-              <a href="{{ site.data.composers.[composer].sameAs }}">{{ composer }}</a>
-            {% else %}
-              {{ composer }}
-            {% endif %}
+          <strong class="composer">{% if site.data.composers.[composer].sameAs %}
+              <a href="{{ site.data.composers.[composer].sameAs }}">{{ composer }}</a>{% else %}
+              {{ composer }}{% endif %}
           </strong>
           <span class="separator"> — </span>
-          <em class="work">
-            {% if event.works contains works[forloop.index0] %}
-            {% assign testwork = works[forloop.index0] %}
+          <em class="work">{% if event.works contains works[forloop.index0] %}
+              {% capture cache %}
+              {% assign testwork = works[forloop.index0] %}
               {% assign workurl = nil %}
               {% for work in site.categories.music %}
                 {% if work.title == testwork %}
                   {% assign workurl = work.url %}
                   {% break %}
                 {% endif %}
-              {% endfor %}
-              {% if workurl %}
-                <a href="{{ site.url }}{{ workurl }}">{{ testwork }}</a>
-              {% else %}
-                {{ testwork }}
-              {% endif %}
+              {% endfor %}{% endcapture %}{% assign cache = nil %}{% if workurl %}
+                <a href="{{ site.url }}{{ workurl }}">{{ testwork }}</a>{% else %}
+                {{ testwork }}{% endif %}
             {% else %}
-              {{ works[forloop.index0] }}
-            {% endif %}
+              {{ works[forloop.index0] }}{% endif %}
           </em>
-        </li>
-        {% endfor %}
+        </li>{% endfor %}
       </ul>
       {% else %}{% capture cache %}
       {% assign uniqcomposers = '' %}
