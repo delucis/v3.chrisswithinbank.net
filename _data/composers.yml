@@ -303,6 +303,10 @@
   sameAs: http://www.malcolmhayes.co.uk/
   birthDate: 1951
   nationality: GB
+"Piers Hellawell":
+  sameAs: http://www.piershellawell.com/
+  nationality: GB
+  birthDate: 1956
 "Nicola Hicks":
   nationality: GB
 "Paul Hindemith":
@@ -432,6 +436,9 @@
   sameAs: http://keita-matsumiya.com/
   nationality: JP
   birthDate: 1980
+"Paula Matthusen":
+  sameAs: http://www.paulamatthusen.com/
+  nationality: US
 "Michael Mayhew":
   birthDate: 1963
   nationality: GB
@@ -564,6 +571,10 @@
   sameAs: http://chrisroemusic.com/
   birthDate: 1988
   nationality: GB
+"Erin Rogers":
+  sameAs: http://www.erinmrogers.com/
+  nationality: CA
+  birthDate: 1980
 "Rebecca Rogers":
   nationality: GB
 "Fausto Romitelli":
@@ -776,6 +787,10 @@
   sameAs: http://josiahwolfoberholtzer.com/
   nationality: US
   birthDate: 1984
+"James Wood":
+  nationality: GB
+  birthDate: 1953
+  sameAs: http://www.choroi.net/
 "Ying Wang":
   nationality: CN
   birthDate: 1976
