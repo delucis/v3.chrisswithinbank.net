@@ -39,3 +39,7 @@ Thanks so much to Richard for providing these insights into his listening world.
   [487c25ca]: https://richardscott.bandcamp.com/track/the-flight-of-the-great-snark "the flight of the great snark • richard scott"
 
 <p class="embed-container"><iframe src="https://player.vimeo.com/video/116839370?title=0&byline=0&portrait=0" width="538" height="302" frameborder="0" webkitallowfullscreen mozallowfullscreen allowfullscreen></iframe></p>
+
+**Next:** [Vijay Iyer][007d99d9]
+
+  [007d99d9]: http://chrisswithinbank.net/2015/10/improvisers-listen-2-vijay-iyer/ "Improvisers Listen #2: Vijay Iyer"
