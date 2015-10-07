@@ -1,6 +1,6 @@
 ---
 title: 'Improvisers Listen #2: <br>Vijay Iyer'
-excerpt: 'Pianist, composer, and improviser Vijay Iyer picks three pieces of music important to his practice.'
+excerpt: 'Pianist, composer, and improviser Vijay Iyer picks pieces of music important to his practice.'
 date: 2015-10-06 14:19
 comments: true
 tags:
@@ -18,6 +18,8 @@ featured_image_alt: Vijay Iyer
 _This semester I am assisting [Hans Tutschku](http://www.tutschku.com/) with a class at Harvard University on improvisation with electronics. I asked several improvisers to choose pieces of music that are important to them and their practice._
 
 For the second edition of this series, [**Vijay Iyer**](http://vijay-iyer.com/) has picked some of his favourite music with electronics. Iyer is a Grammy-nominated composer–pianist who has released 20 albums — most recently [*Break Stuff*](http://ecmrecords.com/releases/break-stuff/) — and collaborated on many more. He was named *DownBeat Magazine*’s 2014 Pianist of the Year, a 2013 MacArthur Fellow, and a 2012 Doris Duke Performing Artist. In 2014 he began a permanent appointment as the Franklin D. and Florence Rosenblatt Professor of the Arts in the Department of Music at Harvard University.
+
+Iyer’s selections range from instrument + laptop duos to studio tracks, including the late David Wessel’s innovative “SLABS” performance interface.
 
 ##### Wadada Leo Smith & Ikue Mori, ‘Demai’ (2003)
 
