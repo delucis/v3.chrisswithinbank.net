@@ -45,10 +45,8 @@ Thanks so much to Vijay for providing these insights into his listening world. B
 
 <p class="embed-container"><iframe width="538" height="404" src="https://www.youtube-nocookie.com/embed/gdTpNwnr5vY?showinfo=0" frameborder="0" allowfullscreen></iframe></p>
 
-__Previously:__ [Richard Scott][cb5b71f1]
-
-  [cb5b71f1]: http://chrisswithinbank.net/2015/09/improvisers-listen-1-richard-scott/ "Improvisers Listen #1: Richard Scott"
-
+__Previously:__ [Richard Scott][cb5b71f1] \\
 __Next:__ [Ute Wassermann][73d4e142]
 
+  [cb5b71f1]: http://chrisswithinbank.net/2015/09/improvisers-listen-1-richard-scott/ "Improvisers Listen #1: Richard Scott"
   [73d4e142]: http://chrisswithinbank.net/2015/10/improvisers-listen-2-ute-wassermann/ "Improvisers Listen #3: Ute Wassermann"
