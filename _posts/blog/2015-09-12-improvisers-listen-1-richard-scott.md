@@ -43,4 +43,4 @@ Thanks so much to Richard for providing these insights into his listening world.
 **Next:** [Vijay Iyer][007d99d9], [Ute Wassermann][0bfd7af2]
 
   [007d99d9]: http://chrisswithinbank.net/2015/10/improvisers-listen-2-vijay-iyer/ "Improvisers Listen #2: Vijay Iyer"
-  [0bfd7af2]: http://chrisswithinbank.net/2015/10/improvisers-listen-2-ute-wassermann/ "Improvisers Listen #3: Ute Wassermann"
+  [0bfd7af2]: http://chrisswithinbank.net/2015/10/improvisers-listen-3-ute-wassermann/ "Improvisers Listen #3: Ute Wassermann"
