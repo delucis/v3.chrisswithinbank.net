@@ -21,23 +21,23 @@ For the second edition of this series, [**Vijay Iyer**](http://vijay-iyer.com/) 
 
 Iyer’s selections range from instrument + laptop duos to studio tracks, including the late David Wessel’s innovative “SLABS” performance interface.
 
-##### Wadada Leo Smith & Ikue Mori, ‘Demai’ (2003)
+##### Wadada Leo Smith & Ikue Mori, ‘Demai’&nbsp;(2003)
 
 <p class="embed-container"><iframe width="538" height="404" src="https://www.youtube-nocookie.com/embed/xvNK5Km94MA?showinfo=0" frameborder="0" allowfullscreen></iframe></p>
 
-##### David Wessel, ‘SLABS Touch Pads’ (2009)
+##### David Wessel, ‘SLABS Touch Pads’&nbsp;(2009)
 
 <p class="embed-container"><iframe width="538" height="404" src="https://www.youtube-nocookie.com/embed/q_mtCZqN0Ms?showinfo=0" frameborder="0" allowfullscreen></iframe></p>
 
-##### George Lewis ft. Vijay Iyer, ‘Interactive Trio’ (2012)
+##### George Lewis ft. Vijay Iyer, ‘Interactive Trio’&nbsp;(2012)
 
 <p class="embed-container"><iframe width="538" height="303" src="https://www.youtube-nocookie.com/embed/IBPJ2HAmsc8?start=5304&amp;showinfo=0" frameborder="0" allowfullscreen></iframe></p>
 
-##### Mike Ladd, ‘Planet 10’ (2000)
+##### Mike Ladd, ‘Planet 10’&nbsp;(2000)
 
 <p class="embed-container"><iframe width="538" height="404" src="https://www.youtube-nocookie.com/embed/R4PJcJfCEZw?showinfo=0" frameborder="0" allowfullscreen></iframe></p>
 
-##### Craig Taborn ‘Junk Magic’ (2004)
+##### Craig Taborn ‘Junk Magic’&nbsp;(2004)
 
 <p class="embed-container"><iframe width="538" height="404" src="https://www.youtube-nocookie.com/embed/TwCiIAfqBS8?showinfo=0" frameborder="0" allowfullscreen></iframe></p>
 
