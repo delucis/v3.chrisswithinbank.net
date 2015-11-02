@@ -3,7 +3,7 @@ title: 'local bond'
 category: music
 size: chamber
 instrumentation: for two string players & two assistants
-duration: "6'"
+duration: 7'30"
 instrumentationlist:
   - 2 string players (with viola & cello)
   - 2 assistants with objects & tools
