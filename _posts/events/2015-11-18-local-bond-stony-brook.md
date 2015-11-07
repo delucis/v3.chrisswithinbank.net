@@ -7,6 +7,7 @@ performer:
 venue:
   name: Staller Center Recital Hall
   url: http://www.stallercenter.com/
+  shortaddress: Stony Brook, NY
   address: 100 Nicolls Rd, Stony Brook, NY 11790
 works:
   - local bond

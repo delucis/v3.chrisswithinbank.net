@@ -7,6 +7,7 @@ performer:
 venue:
   name: Roulette
   url: http://roulette.org/
+  shortaddress: Brooklyn, NY
   address: 509 Atlantic Avenue, Brooklyn, NY 11217
 works:
   - local bond
