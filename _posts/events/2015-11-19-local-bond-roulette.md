@@ -27,4 +27,6 @@ programme:
   - composer: Erin Rogers
     work: Shimmering Dust
     gender: F
+featured_image: 2015/11/stony-brook-premieres.jpg
+featured_image_alt: Stony Brook Premieres! concert poster
 ---
