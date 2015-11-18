@@ -2,7 +2,7 @@
 title: 'Improvisers Listen #3: <br>Ute Wassermann'
 excerpt: 'Vocalist, composer, and sound artist Ute Wassermann picks pieces of music important to her practice.'
 date: 2015-10-15 15:49
-comments: true
+comments: false
 tags:
   - improvisation
   - music

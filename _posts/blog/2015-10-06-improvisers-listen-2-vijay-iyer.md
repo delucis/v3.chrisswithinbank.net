@@ -2,7 +2,7 @@
 title: 'Improvisers Listen #2: <br>Vijay Iyer'
 excerpt: 'Pianist, composer, and improviser Vijay Iyer picks pieces of music important to his practice.'
 date: 2015-10-06 14:19
-comments: true
+comments: false
 tags:
   - improvisation
   - music
