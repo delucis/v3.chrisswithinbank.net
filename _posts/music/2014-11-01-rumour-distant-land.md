@@ -26,7 +26,7 @@ Materials towards a performance for four people.
   </figcaption>
 </figure>
 
-*rumour — distant land* consists of a set of 7 pamphlets and was printed in a hand-numbered limited edition of 12. [Get in touch](/contact/) if you are interested in buying a copy.
+The score for *rumour — distant land* consists of a set of 7 pamphlets and was printed in a hand-numbered limited edition of 12. [Get in touch](/contact/) if you are interested in buying a copy.
 
 <figure>
   {% picture 2015/11/rumour-distant-land-score.jpg alt="The printed score" %}
