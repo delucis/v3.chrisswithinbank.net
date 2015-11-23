@@ -15,4 +15,12 @@ selected: true
 
 Written for Stony Brook University’s [‘Premieres!’](http://www.stonybrook.edu/commcms/music/premieres/premieres.html) concert, *local bond*’s first performance will be by the university’s Contemporary Chamber Players under the direction of Eduardo Leandro.
 
-{% picture 2015/11/local-bond-diagram.png alt="Excerpt from the score for local bond" %}
+<figure>
+  {% picture 2015/11/local-bond-at-roulette.jpg alt="Stony Brook Contemporary Chamber Players performing local bond at Roulette" %}
+
+  <figcaption markdown="1">
+
+  Lusha Anthony, Alison Rowe, Jiwon Kim, and Matthew Lau performing *local bond* at Roulette, Brooklyn.
+
+  </figcaption>
+</figure>
