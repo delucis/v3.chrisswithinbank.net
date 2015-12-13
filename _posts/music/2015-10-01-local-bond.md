@@ -7,6 +7,8 @@ duration: 7'30"
 instrumentationlist:
   - 2 string players (with viola & cello)
   - 2 assistants with objects & tools
+iswc: T-917.892.583-2
+musicbrainz: http://musicbrainz.org/work/99272570-138b-4943-abae-3907a71cdb37
 published: true
 selected: true
 ---
