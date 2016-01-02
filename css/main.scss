@@ -296,9 +296,16 @@ pre {
   box-shadow: inset 0px 0px 15px -5px;
 }
 code, kbd, pre, samp {
+  font-family: $code-font;
   font-size: 0.9em;
   line-height: 1.7777777;
   text-align: left;
+}
+code, kbd, samp {
+  background: $bg-shade;
+  border: 1px solid $light-outline;
+  border-radius: 0.25em;
+  padding: 0.25em 0.4em;
 }
 figure {
   margin: $lh-base 0;
