@@ -300,6 +300,7 @@ code, kbd, pre, samp {
   font-size: 0.9em;
   line-height: 1.7777777;
   text-align: left;
+  @include ligaturesOff;
 }
 code, kbd, samp {
   background: $bg-shade;
