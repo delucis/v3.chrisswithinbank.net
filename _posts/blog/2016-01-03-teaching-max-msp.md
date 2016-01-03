@@ -36,7 +36,7 @@ These modules don’t do anything particularly new on the inside. Several rely h
 
 #### Learning by doing
 
-The idea of teaching with 264 Tools was to have students spend as much time as possible inside Max itself. They may not have mastered `vexpr` or figured out all the ins and outs of `poly~`, and certainly didn’t have to go through the pain of learning how `pattrstorage` works, but they had Max open, were creating and connecting objects, and started to understand how one might extend a module’s functionality by adding a few basic Max objects. Most importantly, from the first week we were working with sound. For people with backgrounds in music, the immediate feedback of hearing changes — rather than only understanding them abstractly — is very helpful.
+The idea of teaching with 264 Tools was to have students spend as much time as possible inside Max itself, and have that time as musically focused as possible. They may not have mastered `vexpr` or figured out all the ins and outs of `poly~`, and certainly didn’t have to go through the pain of learning how `pattrstorage` works, but they had Max open, were creating and connecting objects, and started to understand how one might extend a module’s functionality by adding a few basic Max objects. Most importantly, from the first week we were working with sound. For people with backgrounds in music, the immediate feedback of hearing changes — rather than only understanding them abstractly — is very helpful.
 
 To keep students immersed in Max we exploited the strengths of Max’s package system.[^2] In particular, by using the `extras` directory in the package we could provide weekly patches introducing new modules that would appear in Max’s ‘Extras’ menu. These overviews provided explanations of each module’s functionality alongside demonstrations. Students could play with the demos and copy-paste bits of patch to their own projects. (I’m currently [in the process](https://github.com/mus264/264-tools/issues/4) of converting much of this to proper help files.)
 
@@ -65,7 +65,7 @@ Beyond the MIDI controller, we also provided students with a microphone, a singl
 
 #### Conclusions
 
-By the end of the semester our students were able to perform improvisations, in some cases with no prior Max knowledge. While my teacher’s pride undoubtedly clouds my judgement, I was incredibly impressed by the students’ work. We finished up with 22 modules, from a MIDI-ready `toggle` to a pitch-tracker, and built a fairly easy to use preset system (I cursed `pattrstorage` so no-one else had to).
+By the end of the semester our students were able to perform improvisations, in some cases with no prior Max knowledge. While my teacher’s pride undoubtedly clouds my judgement, I was incredibly impressed by the students’ work. I can also say that a classroom of captive beta testers is an amazing resource to have while trying to build something like this. We finished up with 22 modules, from a MIDI-ready `toggle` to a pitch-tracker, and built a fairly easy to use preset system (I cursed `pattrstorage` so no-one else had to).
 
 If you want to try out the tools for yourself, take a look at [__the installation instructions__](https://github.com/mus264/264-tools#installation). With any luck, I’ll submit this to Max 7’s Package Manager soon, to enable simpler updating.
 
