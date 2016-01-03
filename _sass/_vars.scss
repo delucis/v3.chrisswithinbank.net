@@ -111,6 +111,14 @@ $sizes: (chamber, $chamber), (solo, $solo), (ensemble, $ensemble), (tape, $tape)
   font-feature-settings: "lnum" 1;
 }
 
+@mixin ligaturesOff {
+  -moz-font-feature-settings:"liga" 0, "dlig" 0, "hlig" 0, "clig" 0;
+  -ms-font-feature-settings:"liga" 0, "dlig" 0, "hlig" 0, "clig" 0;
+  -o-font-feature-settings:"liga" 0, "dlig" 0, "hlig" 0, "clig" 0;
+  -webkit-font-feature-settings:"liga" 0, "dlig" 0, "hlig" 0, "clig" 0;
+  font-feature-settings:"liga" 0, "dlig" 0, "hlig" 0, "clig" 0;
+}
+
 @mixin column-count($count) {
   -webkit-column-count: $count;
      -moz-column-count: $count;
