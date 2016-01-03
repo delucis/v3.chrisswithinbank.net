@@ -1,7 +1,7 @@
 ---
 title: 'Teaching Max'
 date: 2016-01-03 11:54
-excerpt: ''
+excerpt: 'Notes on 264 Tools, a modular package of Max patches for live performance, and using them to teach Max/MSP.'
 comments: true
 tags:
   - teaching
