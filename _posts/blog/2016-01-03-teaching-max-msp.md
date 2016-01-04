@@ -22,7 +22,7 @@ I wanted to write up some of our experiences, in particular focusing on a packag
 
 #### Getting Max to make music
 
-The common approach to Max-learning of spending time with [the famous tutorials](https://docs.cycling74.com/max7/tutorials/00_maxindex) can be helpful, but what to actually _do_ with all this list processing, data type explanations, and mathematics can be less clear. It favours abstract thinkers and people with existing programming experience, but may be less useful to someone without that experience who wants to start making music. It might even convince them that Max isn’t for them.
+The common approach to Max-learning of spending time with [the famous tutorials](https://docs.cycling74.com/max7/tutorials/00_maxindex) can be helpful, but what to actually _do_ with all this list processing, data type explanations, and mathematics can be less clear. It favours abstract thinkers and people with existing programming experience, but may be less useful to someone without that experience who wants to start making music. Besides, [there are important reasons for not just sending someone off to learn by themselves or assuming prior knowledge](http://www.npr.org/sections/money/2014/10/17/356944145/episode-576-when-women-stopped-coding).
 
 Even if one is familiar with Max, it takes time to build things that can start to be musical and responsive. The process of moving from some kind of controller input, handling that data, and mapping it to some audio processing takes time. Building a delay unit or even a versatile sound file player takes time. It is possible to teach this type of programming in a semester, but probably not in a class where you want much music to happen.
 
