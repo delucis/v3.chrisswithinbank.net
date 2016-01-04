@@ -67,6 +67,6 @@ Beyond the MIDI controller, we also provided students with a microphone, a singl
 
 By the end of the semester our students were able to perform improvisations, in some cases with no prior Max knowledge. While my teacher’s pride undoubtedly clouds my judgement, I was incredibly impressed by their work. I can also say that a classroom of captive beta testers, who are directly implicated in the tool you’re building, is an amazing resource to have. We finished up with 22 modules, from a MIDI-ready `toggle` to a pitch-tracker, and built a fairly easy to use preset system (I cursed `pattrstorage` so no-one else had to).
 
-If you want to try out the tools for yourself, take a look at [__the installation instructions__](https://github.com/mus264/264-tools#installation). With any luck, I’ll submit this to Max 7’s Package Manager soon, to enable simpler updating.
+If you want to try out the tools for yourself, take a look at [__the installation instructions__](https://github.com/mus264/264-tools#installation). With any luck, I’ll submit this to Max 7’s Package Manager soon, to enable simpler updating. Please [let me know if you find any bugs](https://github.com/mus264/264-tools/issues/new) (or just have questions).
 
 I’d love to hear from anyone else teaching Max about their experiences, and if anyone does play around with 264 Tools, let me know what you think!
