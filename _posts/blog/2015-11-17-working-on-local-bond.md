@@ -2,7 +2,7 @@
 title: 'Working on local bond'
 date: 2015-11-17 23:36
 excerpt: 'I’m at Stony Brook University working towards performances of some new music…'
-comments: true
+comments: false
 tags:
   - music
   - materiality
