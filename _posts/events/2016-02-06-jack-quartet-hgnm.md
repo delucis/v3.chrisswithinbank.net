@@ -7,6 +7,7 @@ performer:
 venue:
   name: Paine Hall, Harvard University
   address: Cambridge, MA 02138, United States
+facebook: https://www.facebook.com/events/213951792280422/
 works:
   - union–seam
 premiere: union–seam
