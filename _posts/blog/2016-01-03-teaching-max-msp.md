@@ -1,5 +1,5 @@
 ---
-title: 'Teaching Max'
+title: '264 Ways to Teach Max'
 date: 2016-01-03 11:54
 excerpt: 'Notes on 264 Tools, a modular package of Max patches for live performance, and using them to teach Max/MSP.'
 comments: true
@@ -16,7 +16,7 @@ featured_image: 2015/12/264-tools.png
 featured_image_alt: Some modules from the 264 Tools Max package.
 featured_image_caption: Some modules from the [264 Tools](https://github.com/mus264/264-tools) Max package.
 ---
-Last semester I assisted [Hans Tutschku](http://www.tutschku.com/) with a class (called Music 264) at Harvard University on improvisation with electronics, and we used [Max](https://cycling74.com/max/) as our main tool for the students to build their own electronic “instruments.” Faced with students ranging from Max beginners to more experienced programmers, and wanting to spend as much time as possible making music, we needed a solution that would allow us to teach Max and simultaneously start exploring performance.
+Last semester I assisted [Hans Tutschku](http://www.tutschku.com/) with a class called Music 264 at Harvard University on improvisation with electronics, and we used [Max](https://cycling74.com/max/) as our main tool for students to build their own electronic “instruments.” Faced with students ranging from Max beginners to more experienced programmers, and wanting to spend as much time as possible making music, we needed a solution that would allow us to teach Max and simultaneously start exploring performance.
 
 I wanted to write up some of our experiences, in particular focusing on a package of Max patches I built for the class called [264 Tools](https://github.com/mus264/264-tools).
 
@@ -56,7 +56,7 @@ The most obvious requirement in order to make the students’ patches “perform
 
 We built all 264 Tools modules to work seamlessly with any external MIDI controller. You can quickly map a MIDI fader, dial, or button to your patch using the `264.midi-learn` submodule, which is built into many of the 264 Tools modules.
 
-Beyond the MIDI controller, we also provided students with a microphone, a single-input audio interface, and a loudspeaker. It was great to be able to keep each performer’s audio discrete using these performance kits, clarifying who was producing which sounds in group performances. This tied into a kind of “instrumental” thinking while developing 264 Tools: mono sources, processing, and output lent themselves to these multi-laptop performances.
+Beyond the MIDI controller, we also provided students with a microphone, a single-input audio interface, and a loudspeaker. It was great to be able to keep each performer’s audio discrete using these performance kits, clarifying who was producing which sounds in group performances. This tied into a kind of “instrumental” thinking while developing 264 Tools: mono sources, processing, and output lent themselves to these multi-laptop performances. We couldn’t have done this without the amazing logistical support of our studio technical director Seth Torres. The performance kits he put together were just perfect.
 
 <figure markdown="1">
 {% picture 2016/01/264-whiteboard-diagram.jpg alt="Whiteboard diagram of electronics set-up for a performance." %}
