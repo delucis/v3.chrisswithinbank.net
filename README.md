@@ -98,8 +98,8 @@ functionality, and usually leads to non-failing subsequent builds.
 brew install git-ftp
 ```
 
-`git-ftp` allows you to maintain a SSH reference on the server and push changes
-over FTP.
+`git-ftp` allows you to maintain a SHA-1 reference on the server and push
+changes over FTP.
 
 ### Make `_site/` a repo
 
