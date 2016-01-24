@@ -148,7 +148,7 @@ on the server.
 If the server already contains an SHA-1 checksum, this will fail. Run
 `git-ftp push`, and when asked if you want to re-upload everything, type `y`.
 
-## Deploy site changes
+## Deploying site changes
 
 ```sh
 git add -A
