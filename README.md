@@ -87,3 +87,74 @@ gems:
 
 After a successful initial build, replacing that line restores full
 functionality, and usually leads to non-failing subsequent builds.
+
+# Deployment
+
+## Set-Up
+
+### Install [git-ftp](http://git-ftp.github.io/git-ftp/)
+
+```sh
+brew install git-ftp
+```
+
+`git-ftp` allows you to maintain a SSH reference on the server and push changes
+over FTP.
+
+### Make `_site/` a repo
+
+```sh
+cd _site
+git init
+```
+
+Stage everything in the build folder for committing:
+
+```sh
+git add -A
+```
+
+Double check that really was everything:
+
+```sh
+git status
+```
+Make your first commit:
+
+```sh
+git commit -m "Initial commit."
+```
+
+### Set up `git-ftp` defaults
+
+```sh
+git config git-ftp.user FTPUSER
+git config git-ftp.password FTPPASSWORD
+git config git-ftp.url ftp.chrisswithinbank.net
+```
+
+This stores FTP credentials in `.git/config`. Obviously don’t push these
+anywhere public.
+
+### First push to server
+
+```sh
+git-ftp init
+```
+
+This pushes the entire repository, and sets the reference SHA-1 checksum
+on the server.
+
+If the server already contains an SHA-1 checksum, this will fail. Run
+`git-ftp push`, and when asked if you want to re-upload everything, type `y`.
+
+## Deploy site changes
+
+```sh
+git add -A
+git commit -m "DESCRIPTION OF CHANGES."
+git-ftp push
+```
+
+This checks the server’s SHA-1 checksum and pushes all local files that have
+changed since that commit.
