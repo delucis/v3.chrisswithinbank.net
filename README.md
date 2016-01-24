@@ -1,3 +1,25 @@
+<!-- TOC depthFrom:1 depthTo:6 withLinks:1 updateOnSave:1 orderedList:0 -->
+
+- [Installation](#installation)
+	- [Environment Set-Up](#environment-set-up)
+		- [Make sure you have [a user version of Ruby installed](http://jekyllrb.com/docs/troubleshooting/#jekyll-amp-mac-os-x-1011)](#make-sure-you-have-a-user-version-of-ruby-installedhttpjekyllrbcomdocstroubleshootingjekyll-amp-mac-os-x-1011)
+		- [Install ImageMagick](#install-imagemagick)
+		- [Install [Bundler](http://bundler.io/)](#install-bundlerhttpbundlerio)
+	- [Repository Set-Up](#repository-set-up)
+		- [Download repo](#download-repo)
+		- [Install dependencies](#install-dependencies)
+	- [Running local server and building](#running-local-server-and-building)
+	- [Troubleshooting](#troubleshooting)
+- [Deployment](#deployment)
+	- [Set-Up](#set-up)
+		- [Install [git-ftp](http://git-ftp.github.io/git-ftp/)](#install-git-ftphttpgit-ftpgithubiogit-ftp)
+		- [Make `_site/` a repo](#make-site-a-repo)
+		- [Set up `git-ftp` defaults](#set-up-git-ftp-defaults)
+		- [First push to server](#first-push-to-server)
+	- [Deploying site changes](#deploying-site-changes)
+
+<!-- /TOC -->
+
 # Installation
 
 The following steps are for OS X. Skip steps if something is already installed,
