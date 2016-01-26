@@ -201,6 +201,16 @@
 "John Davies":
   nationality: GB
   birthDate: 1987
+"Claude Debussy":
+  nationality: FR
+  birthDate: 1862
+  deathDate: 1918
+  sameAs: https://en.wikipedia.org/wiki/Claude_Debussy
+"Fernande Decruck":
+  sameAs: https://en.wikipedia.org/wiki/Fernande_Decruck
+  birthDate: 1896
+  deathDate: 1954
+  nationality: FR
 "Chris Dench":
   birthDate: 1953
   sameAs: http://chrisdench.com/
@@ -734,6 +744,10 @@
   birthDate: 1930
   deathDate: 1996
   sameAs: https://en.wikipedia.org/wiki/Toru_Takemitsu
+"Karen Tanaka":
+  sameAs: https://en.wikipedia.org/wiki/Karen_Tanaka
+  nationality: JP
+  birthDate: 1961
 "Yoshifumi Tanaka":
   birthDate: 1968
   nationality: JP
