@@ -34,7 +34,7 @@ Wassermann’s selections introduce diverse vocal worlds, intersections of voice
 
 ##### Derek Bailey, ‘Improvisation’&nbsp;(1975)
 
-<p class="embed-container"><iframe width="538" height="404" src="https://www.youtube-nocookie.com/embed/tpq1_l6qFhI?rel=0&amp;controls=0&amp;showinfo=0" frameborder="0" allowfullscreen></iframe></p>
+<p class="embed-container"><iframe width="538" height="404" src="https://www.youtube-nocookie.com/embed/mfMVQ-DvAB8?rel=0&amp;controls=0&amp;showinfo=0" frameborder="0" allowfullscreen></iframe></p>
 
 ##### Janis Joplin, ‘Ball and Chain’&nbsp;(1967)
 
