@@ -15,3 +15,13 @@ selected: true
 *union–seam* adapts and extends *[local bond][574445d9]* for the JACK Quartet’s 2016 residency at Harvard University.
 
   [574445d9]: http://chrisswithinbank.net/2015/10/local-bond/ "local bond"
+
+<figure>
+  {% picture 2016/02/jack-quartet-union-seam.jpg alt="The JACK Quartet rehearsing with tied together string instruments on tables." %}
+
+  <figcaption markdown="1">
+
+  Ari Streisfeld, John Pickford Richards, Kevin McFarland, and Christopher Otto of the JACK Quartet rehearsing <em>union–seam</em>.
+
+  </figcaption>
+</figure>
