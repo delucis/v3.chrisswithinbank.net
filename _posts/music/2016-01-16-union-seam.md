@@ -6,6 +6,8 @@ instrumentation: for four performers
 duration: 11'
 instrumentationlist:
   - 4 performers with violin, viola, cello, tools & objects
+iswc: T-918.329.384-7
+musicbrainz: https://musicbrainz.org/work/bb099399-02c4-42bb-975f-82df97150b3c
 published: true
 selected: true
 ---
