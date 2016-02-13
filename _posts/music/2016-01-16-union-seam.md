@@ -3,7 +3,7 @@ title: 'union–seam'
 category: music
 size: chamber
 instrumentation: for four performers
-duration: 9'
+duration: 11'
 instrumentationlist:
   - 4 performers with violin, viola, cello, tools & objects
 published: true
