@@ -25,7 +25,7 @@ programme:
     work: Totenfest - I. Echo
     gender: M
   - composer: Manuela Meier
-    work: new work
+    work: if only it were not bound to
     gender: F
   - composer: Sivan Cohen-Elias
     work: Encrypt
