@@ -6,6 +6,8 @@ instrumentation: for four performers
 duration: 11'
 instrumentationlist:
   - 4 performers with violin, viola, cello, tools & objects
+audioembed: <iframe width="100%" height="20" scrolling="no" frameborder="no" src="https://w.soundcloud.com/player/?url=https%3A//api.soundcloud.com/tracks/247449044&amp;color=ff5500&amp;inverse=false&amp;auto_play=false&amp;show_user=true"></iframe>
+soundcloud_id: 247449044
 iswc: T-918.329.384-7
 musicbrainz: https://musicbrainz.org/work/bb099399-02c4-42bb-975f-82df97150b3c
 published: true
