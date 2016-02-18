@@ -5,8 +5,8 @@ featured_image: 2015/07/bio_portrait.jpg
 featured_image_alt: Chris Swithinbank
 ---
 I work with various permutations of instrumental and electronic resources,
-mainly focusing on creating musical experiences with a relatively fixed
-structure (be that scored or on tape). My current hope with each work is to
+mainly focusing on creating musical experiences whose structures attempt to
+afford space to all the bodies implicated. My current hope with each work is to
 open up doors to worlds that might otherwise not exist, drawing together
 material contexts for human performers, which are resistant, require
 collaborative effort, and disclose the necessity of each constituent part of a
