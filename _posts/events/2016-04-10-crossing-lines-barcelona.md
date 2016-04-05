@@ -12,13 +12,19 @@ venue:
 works:
   - Small Atlas
 programme:
+  - composer: Vegard Fægri
+    work: Säule III
+    gender: M
+  - composer: Pedro Álvarez
+    work: 'Monotype #1'
+    gender: M
+  - composer: Pedro Álvarez
+    work: 'Monotype #2'
+    gender: M
   - composer: Chris Swithinbank
     work: Small Atlas
     gender: M
-  - composer: Clara Iannotta
-    work: New work
-    gender: F
-  - composer: Pedro Álvarez
-    work: Monotypes
+  - composer: Alexander Schubert
+    work: Infinite Jest
     gender: M
 ---
