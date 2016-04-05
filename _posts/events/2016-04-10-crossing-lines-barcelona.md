@@ -9,6 +9,7 @@ venue:
   url: https://www.auditori.cat/
   shortaddress: Barcelona
   address: Carrer de Lepant, 150, 08013 Barcelona, Spain
+facebook: https://www.facebook.com/events/1588567148129349/
 works:
   - Small Atlas
 programme:
