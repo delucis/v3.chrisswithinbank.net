@@ -28,4 +28,6 @@ programme:
   - composer: Alexander Schubert
     work: Infinite Jest
     gender: M
+featured_image: 2016/04/crossinglines.jpg
+featured_image_alt: 'CrossingLines Ensemble © Anna Madrid'
 ---
