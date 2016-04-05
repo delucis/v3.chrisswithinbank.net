@@ -248,6 +248,8 @@
 "Stefan van Eycken":
   nationality: BE
   birthDate: 1975
+"Vegard Fægri":
+  nationality: NO
 "Morton Feldman":
   birthDate: 1926
   deathDate: 1987
@@ -644,6 +646,10 @@
   sameAs: http://sabrinaschroeder.com/
   birthDate: 1979
   nationality: CA
+"Alexander Schubert":
+  sameAs: http://www.alexanderschubert.net/
+  birthDate: 1979
+  nationality: DE
 "Franz Schubert":
   sameAs: https://en.wikipedia.org/wiki/Franz_Schubert
   birthDate: 1797
