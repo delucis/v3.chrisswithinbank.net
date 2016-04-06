@@ -221,6 +221,10 @@
   nationality: US
   birthDate: 1979
   sameAs: http://www.ikatmethod.com/
+"Natacha Diels":
+  birthDate: 1981
+  nationality: US
+  sameAs: http://natachadiels.com/
 "Santiago Díez-Fischer":
   sameAs: https://fr.wikipedia.org/wiki/Santiago_Diez_Fischer
   nationality: AR
@@ -378,6 +382,10 @@
 "Josh Kopeček":
   sameAs: http://joshkopecek.co.uk/
   nationality: GB
+"Matthias Kranebitter":
+  sameAs: http://matthiaskranebitter.com/
+  birthDate: 1980
+  nationality: AT
 "Helmut Lachenmann":
   nationality: DE
   birthDate: 1935
@@ -403,6 +411,10 @@
   sameAs: http://francescalelohe.weebly.com/
   nationality: GB
   birthDate: 1990
+"Michelle Lou":
+  sameAs: http://michellelou.com/
+  birthDate: 1975
+  nationality: US
 "Ylva Lund Bergner":
   sameAs: http://www.ylvalundbergner.com/
   birthDate: 1981
