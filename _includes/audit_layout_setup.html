@@ -4,3 +4,5 @@
 {% include audit_00_data.html mindate="20100702" maxdate=page.maxdate %}
 {% assign worksperformedF_percent_since = worksperformedF_percent %}
 {% include audit_00_data.html mindate=page.mindate maxdate=page.maxdate %}
+{% assign currentYear = site.time | date: '%Y' %}
+{% assign yearsSinceMasters = currentYear | minus: 2010 %}
