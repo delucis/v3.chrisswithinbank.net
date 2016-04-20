@@ -11,4 +11,19 @@ venue:
 works:
   - "union|haze"
 premiere: true
+programme:
+  - composer: Ann Cleare
+    gender: F
+  - composer: Chris Swithinbank
+    gender: M
+  - composer: John Pax
+    gender: M
+  - composer: Justin Hoke
+    gender: M
+  - composer: Kai Johannes Polzhofer
+    gender: M
+  - composer: Manuela Meier
+    gender: F
+  - composer: Trevor Bača
+    gender: M
 ---
