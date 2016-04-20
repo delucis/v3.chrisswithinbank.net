@@ -1,9 +1,9 @@
 ---
-title: Ensemble Recherche at Harvard
+title: ensemble recherche at Harvard
 date: 2016-05-21 20:00
 enddate:
 performer:
-  name: Ensemble Recherche
+  name: ensemble recherche
   url: http://ensemble-recherche.de/
 venue:
   name: Paine Hall, Harvard University
