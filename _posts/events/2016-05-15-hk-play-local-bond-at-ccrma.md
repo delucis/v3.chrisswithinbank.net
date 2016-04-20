@@ -22,8 +22,8 @@ programme:
   - composer: Matthias Kranebitter
     work: pack the box (with five dozen of my liquor jugs)
     gender: M
-  - composer: Timothy McCormack
-    work: Interfacing with the Surface
+  - composer: Dan Tramte
+    work: "#hijackthishashtag"
     gender: M
   - composer: Chris Swithinbank
     work: local bond
