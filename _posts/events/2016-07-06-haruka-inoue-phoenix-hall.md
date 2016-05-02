@@ -27,4 +27,6 @@ programme:
   - composer: Fernande Decruck
     work: Sonata in C sharp minor
     gender: F
+featured_image: 2016/05/haruka-osaka.jpg
+featured_image_alt: Poster for Haruka Inoue at Phoenix Hall.
 ---
