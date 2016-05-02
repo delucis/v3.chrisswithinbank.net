@@ -10,12 +10,10 @@ venue:
   shortaddress: Stanford University
   address: Stanford University, Stanford, CA 94305-8180 USA
   map_address_only: FALSE
+facebook: https://www.facebook.com/events/953197144800842/
 works:
   - local bond
 programme:
-  - composer: Natacha Diels
-    work: 2.5 nightmares for JESSIE
-    gender: F
   - composer: Santiago Díez-Fischer
     work: sensitive switch
     gender: M

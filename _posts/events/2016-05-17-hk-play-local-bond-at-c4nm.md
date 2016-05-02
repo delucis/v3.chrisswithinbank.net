@@ -10,12 +10,10 @@ venue:
   shortaddress: San Francisco
   address: 55 Taylor St, San Francisco, CA 94102
   map_address_only: FALSE
+facebook: https://www.facebook.com/events/257753801238426/
 works:
   - local bond
 programme:
-  - composer: Natacha Diels
-    work: 2.5 nightmares for JESSIE
-    gender: F
   - composer: Santiago Díez-Fischer
     work: sensitive switch
     gender: M
