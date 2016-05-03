@@ -10,7 +10,7 @@ venue:
   address: Cambridge, MA 02138, United States
 works:
   - "union|haze"
-premiere: true
+premiere: "union|haze"
 programme:
   - composer: Ann Cleare
     gender: F
