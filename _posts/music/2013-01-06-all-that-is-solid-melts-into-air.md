@@ -13,7 +13,6 @@ instrumentationlist:
   - Guitarist
   - Violinist
   - Cellist
-selected: true
 iswc: T-915.099.183-6
 ---
 > All fixed, fast-frozen relations, with their train of ancient and venerable prejudices and opinions, are swept away, all new-formed ones become antiquated before they can ossify. All that is solid melts into air, all that is holy is profaned, and man is at last compelled to face with sober senses his real conditions of life, and his relations with his kind.
