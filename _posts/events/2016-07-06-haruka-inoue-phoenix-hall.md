@@ -9,6 +9,7 @@ venue:
   url: http://phoenixhall.jp/
   shortaddress: Osaka, Japan
   address: 〒530-0047 大阪市北区西天満4-15-10
+facebook: https://www.facebook.com/events/887663501359882/
 works:
   - something golden in the night
 programme:
