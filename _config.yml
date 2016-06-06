@@ -17,10 +17,10 @@ facebook:
   user_id: 61411247
 markdown: kramdown
 gems:
-    - jekyll-sitemap
     - jekyll-feed
     - jekyll-picture-tag
     - jekyll-last-modified-at
+    - jekyll-sitemap
 permalink: /:year/:month/:title/
 timezone: Europe/Berlin
 sass:
