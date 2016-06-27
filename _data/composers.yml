@@ -1,6 +1,11 @@
+"Koh Akirasochi":
+  sameAs: http://kbf.jp/koh/
+  nationality: JP
+  birthDate: 1970
 "Pedro Álvarez":
   sameAs: http://www.pedroalvarez.info/
   nationality: CL
+  birthDate: 1980
 "Panos Amelides":
   nationality: GR
   birthDate: 1978
@@ -289,6 +294,10 @@
   sameAs: http://martagentilucci.com/
   nationality: IT
   birthDate: 1973
+"Stefano Gervasoni":
+  nationality: IT
+  sameAs: http://www.stefanogervasoni.net/
+  birthDate: 1962
 "Jannik Giger":
   sameAs: http://www.jannikgiger.ch/
   birthDate: 1985
