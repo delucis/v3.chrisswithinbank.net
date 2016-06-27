@@ -16,6 +16,9 @@ programme:
   - composer: Chris Swithinbank
     work: something golden in the night
     gender: M
+  - composer: Koh Akirasochi
+    work: Of Nubatama…
+    gender: M
   - composer: Claude Debussy
     work: Rhapsody
     gender: M
