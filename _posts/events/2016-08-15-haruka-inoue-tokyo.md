@@ -9,6 +9,7 @@ venue:
   url: http://www.kkdac.co.jp/do/
   shortaddress: Tokyo, Japan
   address: 〒169-0073 東京都新宿区百人町2-8-9
+facebook: https://www.facebook.com/events/521459744706421/
 works:
   - something golden in the night
 programme:
