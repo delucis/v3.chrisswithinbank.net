@@ -139,6 +139,10 @@
   sameAs: https://en.wikipedia.org/wiki/John_Cage
 "Steven Calver":
   nationality: GB
+"Richard Carrick":
+  nationality: US
+  birthDate: 1971
+  sameAs: http://www.richardcarrick.com/
 "Fergal Carroll":
   nationality: IE
   birthDate: 1969
@@ -840,6 +844,10 @@
   sameAs: http://josiahwolfoberholtzer.com/
   nationality: US
   birthDate: 1984
+"Scott Wollschleger":
+  sameAs: http://scottwollschleger.com/
+  nationality: US
+  birthDate: 1980
 "James Wood":
   nationality: GB
   birthDate: 1953
