@@ -16,10 +16,10 @@ I studied on the ‘Cursus 1’ programme at IRCAM (France), supported by an Ent
 Cordiale Scholarship, and at the University of Manchester (UK) where I received
 Bachelors and Masters degrees in music and composition, studying with Ricardo
 Climent. In September 2013, I joined the doctoral programme at Harvard
-University (USA) where I study with Chaya Czernowin. Other important musical
+University (USA) where I study with Chaya Czernowin and Hans Tutschku. Other important musical
 encounters have included discussions with Pierluigi Billone, Martin Iddon,
 Rebecca Saunders and Steven Kazuo Takasugi, and work with the musicians of the
-JACK Quartet, soundinitiative, Talea Ensemble and Trio Atem amongst many others.
+JACK Quartet, soundinitiative, Talea Ensemble and Trio Atem, amongst many others.
 
 Last updated: {{ page.last_modified_at | date: '%-d %B %Y' }}
 {: class="ui small-text light-text" }
