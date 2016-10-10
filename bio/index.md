@@ -17,7 +17,7 @@ Cordiale Scholarship, and at the University of Manchester (UK) where I received
 Bachelors and Masters degrees in music and composition, studying with Ricardo
 Climent. In September 2013, I joined the doctoral programme at Harvard
 University (USA) where I study with Chaya Czernowin and Hans Tutschku. Other important musical
-encounters have included discussions with Pierluigi Billone, Martin Iddon,
+encounters have included discussions with Pierluigi Billone, Martin Iddon, Michael Pisaro,
 Rebecca Saunders and Steven Kazuo Takasugi, and work with the musicians of the
 JACK Quartet, soundinitiative, Talea Ensemble and Trio Atem, amongst many others.
 
