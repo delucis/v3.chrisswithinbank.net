@@ -1,3 +1,7 @@
+"Thomas Adès":
+  nationality: GB
+  birthDate: 1971
+  sameAs: http://thomasades.com/
 "Koh Akirasochi":
   sameAs: http://kbf.jp/koh/
   nationality: JP
@@ -70,6 +74,10 @@
 "Martin Bédard":
   nationality: CA
   birthDate: 1970
+"Franck Bedrossian":
+  nationality: FR
+  birthDate: 1971
+  sameAs: https://fr.wikipedia.org/wiki/Franck_Bedrossian
 "Ludwig van Beethoven":
   birthDate: 1770
   deathDate: 1827
@@ -88,6 +96,11 @@
   nationality: FR
   birthDate: 1803
   deathDate: 1869
+"Christophe Bertrand":
+  birthDate: 1981
+  deathDate: 2010
+  nationality: FR
+  sameAs: https://en.wikipedia.org/wiki/Christophe_Bertrand
 "Michael Betteridge":
   sameAs: http://michaelbetteridge.com/
   nationality: GB
