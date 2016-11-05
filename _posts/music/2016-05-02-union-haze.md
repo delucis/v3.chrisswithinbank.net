@@ -3,7 +3,7 @@ title: 'union|haze'
 category: music
 size: ensemble
 instrumentation: for 10 performers, electronics & amplification
-duration: 14'
+duration: 19'
 instrumentationlist:
   - 'i — brush box, tupperware, vibrator'
   - 'ii — bass clarinet, preparations, bird call'
