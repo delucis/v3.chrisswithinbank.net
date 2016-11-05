@@ -2,7 +2,7 @@
 title: 'New Recording: union–seam'
 date: 2016-02-18 07:44
 excerpt: 'Hear the JACK Quartet playing union–seam'
-comments: true
+comments: false
 tags:
   - JACK Quartet
   - Harvard Group for New Music
