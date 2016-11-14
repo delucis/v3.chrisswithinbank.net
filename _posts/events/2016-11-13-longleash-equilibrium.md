@@ -9,6 +9,7 @@ venue:
   url: http://www.thirdlifestudio.com/
   shortaddress: Somerville, MA
   address: 33 Union Square, Somerville, MA
+facebook: https://www.facebook.com/events/381823975482134/
 works:
   - Icebloom
 programme:
@@ -16,8 +17,10 @@ programme:
     work: Il colore dell’ombra
     gender: F
   - composer: Scott Wollschleger
+    work: Brontal Symmetry
     gender: M
   - composer: Richard Carrick
+    work: L’idée sans l’ideal
     gender: M
   - composer: Chris Swithinbank
     work: Icebloom
