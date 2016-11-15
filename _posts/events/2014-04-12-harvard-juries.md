@@ -7,7 +7,7 @@ performer:
 venue:
   name: Music Building
   url: http://www.music.fas.harvard.edu/
-  address: Cambridge, MA 02138, United States
+  address: 3 Oxford St, Cambridge, MA 02138, United States
 works:
   - Tomorrow I will build a house here, if I can hold still
 programme:

@@ -6,7 +6,7 @@ performer:
   url: http://ensemble-handwerk.eu/
 venue:
   name: Paine Hall, Harvard University
-  address: Cambridge, MA 02138, United States
+  address: 3 Oxford St, Cambridge, MA 02138, United States
 facebook: https://www.facebook.com/events/547821895337184/
 works:
   - The Incredulity of St Thomas

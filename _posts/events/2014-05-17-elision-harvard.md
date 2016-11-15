@@ -6,7 +6,7 @@ performer:
   url: http://elision.org.au/
 venue:
   name: Paine Hall, Harvard University
-  address: Cambridge, MA 02138, United States
+  address: 3 Oxford St, Cambridge, MA 02138, United States
 facebook: https://www.facebook.com/events/1477982572418754/
 works:
   - traveller, standing in rooms {i … ii}

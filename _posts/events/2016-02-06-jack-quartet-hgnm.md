@@ -6,7 +6,7 @@ performer:
   url: http://www.jackquartet.com/
 venue:
   name: Paine Hall, Harvard University
-  address: Cambridge, MA 02138, United States
+  address: 3 Oxford St, Cambridge, MA 02138, United States
 facebook: https://www.facebook.com/events/213951792280422/
 works:
   - union–seam

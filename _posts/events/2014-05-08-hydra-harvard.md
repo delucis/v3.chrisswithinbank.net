@@ -6,7 +6,7 @@ performer:
   url: http://huseac.fas.harvard.edu/hydra/
 venue:
   name: Paine Hall, Harvard University
-  address: Cambridge, MA 02138, United States
+  address: 3 Oxford St, Cambridge, MA 02138, United States
 works:
   - La leggerezza delle città
 programme:

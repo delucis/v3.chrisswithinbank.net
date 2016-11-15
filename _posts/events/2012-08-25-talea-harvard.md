@@ -6,7 +6,7 @@ performer:
   url: http://taleaensemble.org/
 venue:
   name: Paine Hall, Harvard University
-  address: Cambridge, MA 02138, United States
+  address: 3 Oxford St, Cambridge, MA 02138, United States
 facebook: https://www.facebook.com/events/455532684486948/
 works:
   - The Incredulity of St Thomas

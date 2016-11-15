@@ -7,7 +7,7 @@ performer:
   url: http://ensemble-recherche.de/
 venue:
   name: Paine Hall, Harvard University
-  address: Cambridge, MA 02138, United States
+  address: 3 Oxford St, Cambridge, MA 02138, United States
 works:
   - "union|haze"
 premiere: "union|haze"
