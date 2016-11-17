@@ -1442,7 +1442,9 @@ Events page layout */
         &.d {
           font-weight: 400;
           font-size: 2em;
-          line-height: $lh-base / 2;
+          line-height: $lh-base * 0.3;
+          padding-top: $lh-base * 0.066666;
+          padding-bottom: $lh-base * 0.133333;
         }
       }
     }
