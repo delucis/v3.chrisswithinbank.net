@@ -10,4 +10,17 @@ venue:
 works:
   - new work
 premiere: new work
+programme:
+  - composer: Manuela Meier
+    gender: F
+  - composer: Adi Snir
+    gender: M
+  - composer: Chris Swithinbank
+    gender: M
+  - composer: Timothy McCormack
+    gender: M
+    work: traces that time leaves on built form
+  - composer: Elena Rykova
+    gender: F
+    work: Bat Jamming
 ---
