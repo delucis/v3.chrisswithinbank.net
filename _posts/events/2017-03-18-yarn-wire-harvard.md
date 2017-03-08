@@ -7,16 +7,20 @@ performer:
 venue:
   name: Paine Hall, Harvard University
   address: 3 Oxford St, Cambridge, MA 02138, United States
+facebook: https://www.facebook.com/events/1874228496148991/
 works:
-  - new work
-premiere: new work
+  - always extra folds of birds of paper and you could move your finger along the length of them and have witnesses
+premiere: always extra folds of birds of paper and you could move your finger along the length of them and have witnesses
 programme:
   - composer: Manuela Meier
+    work: new work
     gender: F
   - composer: Adi Snir
+    work: The Spectacle
     gender: M
   - composer: Chris Swithinbank
     gender: M
+    work: always extra folds of birds of paper and you could move your finger along the length of them and have witnesses
   - composer: Timothy McCormack
     gender: M
     work: traces that time leaves on built form
