@@ -3,7 +3,7 @@ title: 'always extra folds of birds of paper and you could move your finger alon
 category: music
 size: chamber
 instrumentation: for 4 performers, grand piano, environment, and amplification
-duration: 8'
+duration: variable
 instrumentationlist:
   - 'small tables'
   - 'EBows'
