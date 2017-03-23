@@ -32,10 +32,4 @@ published: true
 selected: true
 ---
 
-With thanks to Renee Gladman for her [_Calamities_](http://www.wavepoetry.com/products/calamities).
-
-With thanks to [Carolyn Chen](http://www.carolyn-chen.com/) for her ants and screams.
-
-With thanks to [Sivan Cohen Elias](http://hgnm.org/composer/sivan-cohen-elias/) for her vibrant webs.
-
-With thanks to [Clara Iannotta](http://claraiannotta.com/) for her determined play.
+With thanks to Renee Gladman for her [_Calamities_](http://www.wavepoetry.com/products/calamities), from which I borrow this title. Thank you to [Carolyn Chen](http://www.carolyn-chen.com/) for her ants and screams, to [Sivan Cohen Elias](http://hgnm.org/composer/sivan-cohen-elias/) for her vibrant webs, and to [Clara Iannotta](http://claraiannotta.com/) for her determined play.
