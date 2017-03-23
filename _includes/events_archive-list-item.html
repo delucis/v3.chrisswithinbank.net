@@ -60,8 +60,7 @@
       <span class="performer">{% if event.performer.url %}
         <a href="{{ event.performer.url }}">{{ event.performer.name }}</a>{% else %}
         {{ event.performer.name }}{% endif %}
-      </span>{% endif %}{% if event.venue %}
-      <br/>
+      </span><br/>{% endif %}{% if event.venue %}
       <span class="venue">{% if event.venue.url %}
         <span class="name"><a href="{{ event.venue.url }}">{{ event.venue.name }}</a></span>{% else %}
         <span class="name">{{ event.venue.name }}</span>{% endif %}{% if event.venue.shortaddress %}{% if event.venue.name %}, {% endif %}<span class="address">{{ event.venue.shortaddress }}</span>{% endif %}
