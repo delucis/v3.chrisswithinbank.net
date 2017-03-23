@@ -13,7 +13,7 @@ works:
 premiere: always extra folds of birds of paper and you could move your finger along the length of them and have witnesses
 programme:
   - composer: Manuela Meier
-    work: new work
+    work: otherwise
     gender: F
   - composer: Adi Snir
     work: The Spectacle
