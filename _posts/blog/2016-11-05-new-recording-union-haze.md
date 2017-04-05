@@ -2,7 +2,7 @@
 title: 'New Recording: union|haze'
 date: 2016-11-05 14:54
 excerpt: 'Hear ensemble recherche playing union|haze'
-comments: true
+comments: false
 tags:
   - ensemble recherche
   - Harvard Group for New Music
