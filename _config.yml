@@ -23,6 +23,7 @@ gems:
     - jekyll-sitemap
 permalink: /:year/:month/:title/
 timezone: Europe/Berlin
+future: true
 sass:
     sass_dir: _sass
     style: compressed
