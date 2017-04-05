@@ -21,15 +21,21 @@ gems:
     - jekyll-picture-tag
     - jekyll-last-modified-at
     - jekyll-sitemap
+    - jekyll-paginate-v2
 permalink: /:year/:month/:title/
 timezone: Europe/Berlin
 future: true
 sass:
     sass_dir: _sass
     style: compressed
-paginate: 5
-paginate_path: "/page/:num/"
-paginate_per_category: true
+pagination:
+  enabled: true
+  per_page: 5
+  permalink: "/page/:num/"
+  title: ":title /p.:num"
+  limit: 0
+  sort_field: 'date'
+  sort_reverse: true
 default_category: "blog"
 picture:
   source: "wp-content/uploads"
