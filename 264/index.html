@@ -8,7 +8,7 @@ featured_image: 2015/09/smith-panel-1-blade.jpg
 featured_image_alt: Graphic notation
 featured_image_caption: Score from *Luminous Axis* by [Wadada Leo Smith](https://www.youtube.com/watch?v=lFsoaGZNp0Q)
 ---
-{% for post in site.tags.['Music 264'] %}
+{% for post in site.tags['Music 264'] %}
 <article id="{{ post.title | slugify }}" class="hentry">
   <header>{% unless post.title == 'No Content Found' %}
     <h3 class="entry-title"><a href="{{ site.url }}{{ post.url }}" rel="bookmark">{{ post.title }}</a></h3>{% endunless %}
