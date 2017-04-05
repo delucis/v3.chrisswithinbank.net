@@ -110,6 +110,8 @@ GEM
     jekyll-optional-front-matter (0.1.2)
       jekyll (~> 3.0)
     jekyll-paginate (1.1.0)
+    jekyll-paginate-v2 (1.7.4)
+      jekyll (~> 3.0)
     jekyll-picture-tag (0.3.0)
       fastimage (~> 1.6.4)
       jekyll (< 4)
@@ -210,6 +212,7 @@ DEPENDENCIES
   github-pages
   jekyll-feed
   jekyll-last-modified-at
+  jekyll-paginate-v2
   jekyll-picture-tag
   jekyll-sitemap
 
