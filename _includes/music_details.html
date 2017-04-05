@@ -1,4 +1,4 @@
-{% if page.duration or page.instrumentationlist or page.withdrawn %}
+{% if page.duration or page.instrumentationlist or page.withdrawn or page.github %}
 <section class="work-info">
   <h3>Work Details</h3>{% if page.withdrawn == true %}
   <p>This work has been withdrawn and is no longer available for performance.</p>
@@ -8,5 +8,9 @@
   <h4>Instrumentation</h4>
   <ul>{% for item in page.instrumentationlist %}
     <li>{{ item }}</li>{% endfor %}
-  </ul>{% endif %}
+  </ul>{% endif %}{% if page.github %}
+  <h4>Electronics</h4>
+  <p>
+    The electronics for this piece can be <a href="{{ page.github }}">downloaded from GitHub</a>.
+  </p>{% endif %}
 </section>{% endif %}
