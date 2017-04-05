@@ -3,11 +3,14 @@ title: Home
 digest: Latest updates and activity
 tags:
   - home
+pagination:
+  enabled: true
+  category: blog
 layout: default
 ---
 <section class="primary hfeed">
   <header>
-    <h2>{{ page.title }}{% unless paginator.page == 1 %} / p.{{ paginator.page }}{% endunless %}</h2>
+    <h2>{{ page.title }}</h2>
   </header>
   {% unless paginator.page == 1 %}
   <!-- Pagination links -->
