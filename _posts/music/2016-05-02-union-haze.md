@@ -17,6 +17,7 @@ instrumentationlist:
   - 'x — brush box'
   - '+ electronics/haze sheets'
   - '<em>for full details, please <a href="/contact/">get in touch</a></em>'
+github: https://github.com/delucis/haze-saver
 audioembed: <iframe width="100%" height="20" scrolling="no" frameborder="no" src="https://w.soundcloud.com/player/?url=https%3A//api.soundcloud.com/tracks/291501558&amp;color=ff5500&amp;inverse=false&amp;auto_play=false&amp;show_user=true"></iframe>
 soundcloud_id: 291501558
 iswc: T-919.184.254-3

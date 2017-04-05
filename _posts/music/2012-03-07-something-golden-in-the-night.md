@@ -8,6 +8,7 @@ duration: "12'"
 instrumentationlist:
   - Soprano saxophone
   - Motorised sculpture
+github: https://github.com/delucis/schattenspiel-cnsmdp
 iswc: T-912.653.964-8
 ---
 
