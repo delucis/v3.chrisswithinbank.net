@@ -3,8 +3,9 @@ author: christopherlux
 comments: false
 date: 2010-10-01 14:19:54+00:00
 layout: post
-slug: i%e2%80%99ve-been-adopted
+slug: i’ve-been-adopted
 title: I’ve been adopted!
+permalink: 2010/10/i’ve-been-adopted/
 wordpress_id: 1181
 categories:
 - News

@@ -7,6 +7,7 @@ excerpt: 'Information about ‘Into the Lion’s Den: Helmut Lachenmann at 75’
 layout: post
 slug: journal-article-into-the-lion’s-den-helmut-lachenmann-at-75
 title: 'Journal Article: ‘Into the Lion’s Den’'
+permalink: 2011/07/journal-article-into-the-lion’s-den-helmut-lachenmann-at-75/
 wordpress_id: 1983
 categories:
 - News
