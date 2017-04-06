@@ -45,8 +45,8 @@ layout: default
     {% if composers.size == works.size %}
       <ul class="programme">{% for composer in composers %}
         <li class="item">
-          <strong class="composer">{% if site.data.composers.[composer].sameAs %}
-              <a href="{{ site.data.composers.[composer].sameAs }}">{{ composer }}</a>{% else %}
+          <strong class="composer">{% if site.data.composers[composer].sameAs %}
+              <a href="{{ site.data.composers[composer].sameAs }}">{{ composer }}</a>{% else %}
               {{ composer }}{% endif %}
           </strong>
           <span class="separator"> — </span>
