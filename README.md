@@ -83,6 +83,14 @@ To build without serving locally do:
 bundle exec jekyll build
 ```
 
+### Building for production
+
+To make sure URLs are processed using the correct host for deployment (rather than `localhost:4000/`):
+
+```sh
+JEKYLL_ENV=production bundle exec jekyll build
+```
+
 ## Troubleshooting
 
 There are sometimes build problems with the
