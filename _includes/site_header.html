@@ -15,7 +15,7 @@
     <link rel="alternate" href="{{ site.url }}/wp-content/uploads/{{ page.pdf }}" type="application/pdf">{% endif %}
     {% include site_header-meta-tags.html %}
   </head>
-  {% capture bodyclass %}{% if page.categories %}{% for cat in page.categories %}{{ cat }} {% endfor %}{% elsif page.category %}{{ page.category }} {% endif %}{% for tag in page.tags %}{{ tag | slugify }} {% endfor %}{% endcapture %}<body{% if bodyclass %} class="{{ bodyclass }}"{% endif %}>
+  {% capture bodyclass %}{% if page.categories %}{% for cat in page.categories %}{{ cat }} {% endfor %}{% elsif page.category %}{{ page.category }} {% endif %}{% for tag in page.tags %}{{ tag | slugify }} {% endfor %}{% endcapture %}<body{% if bodyclass %} class="{{ bodyclass | strip }}"{% endif %}>
     <!--[if lt IE 8]>
       <p class="browserupgrade">You are using an <strong>outdated</strong> browser. Please <a href="http://browsehappy.com/">upgrade your browser</a> to improve your experience.</p>
     <![endif]-->
