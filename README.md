@@ -1,3 +1,5 @@
+[![Build Status](https://travis-ci.org/delucis/v3.chrisswithinbank.net.svg?branch=master)](https://travis-ci.org/delucis/v3.chrisswithinbank.net)
+
 <!-- TOC depthFrom:1 depthTo:2 withLinks:1 updateOnSave:1 orderedList:0 -->
 
 - [Installation](#installation)
