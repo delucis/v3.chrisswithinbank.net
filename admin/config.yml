@@ -12,53 +12,53 @@ collections:
     create: true
     slug:   "{{year}}-{{month}}-{{day}}-{{slug}}"
     fields:
-      - { label: "Title",                 name: "title",                widget: "string" }
-      - { label: "Date",                  name: "date",                 widget: "datetime" }
-      - { label: "Excerpt",               name: "excerpt",              widget: "string" }
-      - { label: "Show Comments",         name: "comments",             widget: "string",     default: "true" }
-      - { label: "Tags",                  name: "tags",                 widget: "list" }
-      - { label: "Body",                  name: "body",                 widget: "markdown" }
+      - { label: "Title",                 name: "title",                widget: "string"                                          }
+      - { label: "Date",                  name: "date",                 widget: "datetime"                                        }
+      - { label: "Excerpt",               name: "excerpt",              widget: "string"                                          }
+      - { label: "Show Comments",         name: "comments",             widget: "string",     default: "true",    required: false }
+      - { label: "Tags",                  name: "tags",                 widget: "list",                           required: false }
+      - { label: "Body",                  name: "body",                 widget: "markdown"                                        }
   - name:   "events"
     label:  "Events"
     folder: "events/_posts"
     create: true
     slug:   "{{year}}-{{month}}-{{day}}-{{slug}}"
     fields:
-      - { label: "Title",                 name: "title",                widget: "string" }
-      - { label: "Date",                  name: "date",                 widget: "datetime" }
-      - { label: "End Date",              name: "enddate",              widget: "datetime" }
-      - { label: "Facebook Event",        name: "facebook",             widget: "string" }
-      - { label: "Own Works",             name: "works",                widget: "list" }
-      - { label: "Work Premiered",        name: "premiere",             widget: "string" }
+      - { label: "Title",                 name: "title",                widget: "string"                                          }
+      - { label: "Date",                  name: "date",                 widget: "datetime"                                        }
+      - { label: "End Date",              name: "enddate",              widget: "datetime",                       required: false }
+      - { label: "Facebook Event",        name: "facebook",             widget: "string",                         required: false }
+      - { label: "Own Works",             name: "works",                widget: "list"                                            }
+      - { label: "Work Premiered",        name: "premiere",             widget: "string",                         required: false }
   - name:   "text"
     label:  "Text"
     folder: "text/_posts"
     create: true
     slug:   "{{year}}-{{month}}-{{day}}-{{slug}}"
     fields:
-      - { label: "Title",                 name: "title",                widget: "string" }
-      - { label: "Subtitle",              name: "subtitle",             widget: "string" }
-      - { label: "Category",              name: "category",             widget: "hidden",     default: "text" }
-      - { label: "Digest",                name: "digest",               widget: "string" }
-      - { label: "Abstract",              name: "abstract",             widget: "text" }
-      - { label: "Tags",                  name: "tags",                 widget: "list" }
-      - { label: "Body",                  name: "body",                 widget: "markdown" }
+      - { label: "Title",                 name: "title",                widget: "string"                                          }
+      - { label: "Subtitle",              name: "subtitle",             widget: "string",                         required: false }
+      - { label: "Category",              name: "category",             widget: "hidden",     default: "text"                     }
+      - { label: "Digest",                name: "digest",               widget: "string"                                          }
+      - { label: "Abstract",              name: "abstract",             widget: "text"                                            }
+      - { label: "Tags",                  name: "tags",                 widget: "list"                                            }
+      - { label: "Body",                  name: "body",                 widget: "markdown"                                        }
   - name:   "music"
     label:  "Music"
     folder: "music/_posts"
     create: true
     slug:   "{{year}}-{{month}}-{{day}}-{{slug}}"
     fields:
-      - { label: "Title",                 name: "title",                widget: "string" }
-      - { label: "Category",              name: "category",             widget: "hidden",     default: "music" }
-      - { label: "Size",                  name: "size",                 widget: "string",     default: "chamber" }
-      - { label: "Instrumentation",       name: "instrumentation",      widget: "string" }
-      - { label: "Duration",              name: "duration",             widget: "string",     default: "10'" }
-      - { label: "Full Instrumentation",  name: "instrumentationlist",  widget: "list" }
-      - { label: "Audio Embed",           name: "audioembed",           widget: "string" }
-      - { label: "SoundCloud ID",         name: "soundcloud_id",        widget: "number" }
-      - { label: "ISWC",                  name: "iswc",                 widget: "string" }
-      - { label: "Musicbrainz URL",       name: "musicbrainz",          widget: "string" }
-      - { label: "Published",             name: "published",            widget: "string",     default: "true" }
-      - { label: "Selected Work",         name: "selected",             widget: "string",     default: "true" }
-      - { label: "Body",                  name: "body",                 widget: "markdown" }
+      - { label: "Title",                 name: "title",                widget: "string"                                          }
+      - { label: "Category",              name: "category",             widget: "hidden",     default: "music"                    }
+      - { label: "Size",                  name: "size",                 widget: "string",     default: "chamber"                  }
+      - { label: "Instrumentation",       name: "instrumentation",      widget: "string"                                          }
+      - { label: "Duration",              name: "duration",             widget: "string"                                          }
+      - { label: "Full Instrumentation",  name: "instrumentationlist",  widget: "list"                                            }
+      - { label: "Audio Embed",           name: "audioembed",           widget: "string",                         required: false }
+      - { label: "SoundCloud ID",         name: "soundcloud_id",        widget: "number",                         required: false }
+      - { label: "ISWC",                  name: "iswc",                 widget: "string",                         required: false }
+      - { label: "Musicbrainz URL",       name: "musicbrainz",          widget: "string",                         required: false }
+      - { label: "Published",             name: "published",            widget: "string",     default: "true"                     }
+      - { label: "Selected Work",         name: "selected",             widget: "string",     default: "true"                     }
+      - { label: "Body",                  name: "body",                 widget: "markdown"                                        }
