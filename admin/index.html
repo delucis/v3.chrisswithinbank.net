@@ -16,7 +16,12 @@
         },
         render: function () {
           var value = this.props.value;
-          return h('input', { type: 'checkbox', value: value === true ? 'true' : 'false', onChange: this.handleChange });
+          return h('input', {
+            type: 'checkbox',
+            value: value === true ? 'true' : 'false',
+            checked: value,
+            onChange: this.handleChange
+          });
         }
       });
 
