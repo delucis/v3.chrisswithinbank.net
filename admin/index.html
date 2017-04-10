@@ -9,5 +9,24 @@
   </head>
   <body>
     <script src="https://unpkg.com/netlify-cms@^0.3/dist/cms.js"></script>
+    <script>
+      var BooleanControl = createClass({
+        handleChange: function(e) {
+          this.props.onChange(e.target.checked);
+        },
+        render: function () {
+          var value = this.props.value;
+          return h('input', { type: 'checkbox', value: value === true ? 'true' : 'false', onChange: this.handleChange });
+        }
+      });
+
+      var BooleanPreview = createClass({
+        render: function () {
+          return h('p', null, 'Comments: ' + this.props.value);
+        }
+      });
+
+      CMS.registerWidget('boolean', BooleanControl, BooleanPreview);
+    </script>
   </body>
 </html>
