@@ -29,7 +29,7 @@ collections:
       - { label: "End Date",              name: "enddate",              widget: "datetime",                       required: false }
       - { label: "Facebook Event",        name: "facebook",             widget: "string",                         required: false }
       - { label: "Own Works",             name: "works",                widget: "list"                                            }
-      - { label: "Work Premiered",        name: "premiere",             widget: "string",                         required: false }
+      - { label: "Work Premiered",        name: "premiere",             widget: "list",                           required: false }
   - name:   "text"
     label:  "Text"
     folder: "text/_posts"
