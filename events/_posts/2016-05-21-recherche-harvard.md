@@ -1,7 +1,6 @@
 ---
 title: ensemble recherche at Harvard
 date: 2016-05-21 20:00
-enddate:
 performer:
   name: ensemble recherche
   url: http://ensemble-recherche.de/
