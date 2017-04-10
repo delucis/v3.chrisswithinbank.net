@@ -27,7 +27,23 @@ collections:
       - { label: "Title",                 name: "title",                widget: "string"                                          }
       - { label: "Date",                  name: "date",                 widget: "datetime"                                        }
       - { label: "End Date",              name: "enddate",              widget: "datetime",                       required: false }
-      - { label: "Facebook Event",        name: "facebook",             widget: "string",                         required: false }
+      - label: "Performer"
+        name: "performer"
+        widget: "object"
+        fields:
+          - { label: "Performer Name",    name: "name",                 widget: "string" }
+          - { label: "Performer URL",     name: "url",                  widget: "string" }
+        required: false
+      - label: "Venue"
+        name: "venue"
+        widget: "object"
+        fields:
+          - { label: "Venue Name",        name: "name",                 widget: "string" }
+          - { label: "Venue URL",         name: "url",                  widget: "string" }
+          - { label: "Short Address",     name: "shortaddress",         widget: "string" }
+          - { label: "Full Address",      name: "address",              widget: "string" }
+          - { label: "Only Map Address",  name: "map_address_only",     widget: "boolean",    default: "false" }
+      - { label: "Facebook Event URL",    name: "facebook",             widget: "string",                         required: false }
       - { label: "Own Works",             name: "works",                widget: "list"                                            }
       - { label: "Work Premiered",        name: "premiere",             widget: "list",                           required: false }
   - name:   "text"
