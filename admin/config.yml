@@ -15,7 +15,7 @@ collections:
       - { label: "Title",                 name: "title",                widget: "string"                                          }
       - { label: "Date",                  name: "date",                 widget: "datetime"                                        }
       - { label: "Excerpt",               name: "excerpt",              widget: "string"                                          }
-      - { label: "Show Comments",         name: "comments",             widget: "boolean",     default: "true",    required: false }
+      - { label: "Show Comments",         name: "comments",             widget: "boolean",    default: "true",    required: false }
       - { label: "Tags",                  name: "tags",                 widget: "list",                           required: false }
       - { label: "Body",                  name: "body",                 widget: "markdown"                                        }
   - name:   "events"
@@ -59,6 +59,6 @@ collections:
       - { label: "SoundCloud ID",         name: "soundcloud_id",        widget: "number",                         required: false }
       - { label: "ISWC",                  name: "iswc",                 widget: "string",                         required: false }
       - { label: "Musicbrainz URL",       name: "musicbrainz",          widget: "string",                         required: false }
-      - { label: "Published",             name: "published",            widget: "string",     default: "true"                     }
-      - { label: "Selected Work",         name: "selected",             widget: "string",     default: "true"                     }
+      - { label: "Published",             name: "published",            widget: "boolean",     default: "true"                    }
+      - { label: "Selected Work",         name: "selected",             widget: "boolean",     default: "true"                    }
       - { label: "Body",                  name: "body",                 widget: "markdown"                                        }
