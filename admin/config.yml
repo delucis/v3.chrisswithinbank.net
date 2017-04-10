@@ -51,7 +51,7 @@ collections:
     fields:
       - { label: "Title",                 name: "title",                widget: "string"                                          }
       - { label: "Category",              name: "category",             widget: "hidden",     default: "music"                    }
-      - { label: "Size",                  name: "size",                 widget: "string",     default: "chamber"                  }
+      - { label: "Size",                  name: "size",                 widget: "select",     default: "chamber", options: ["solo","chamber","ensemble","tape"] }
       - { label: "Instrumentation",       name: "instrumentation",      widget: "string"                                          }
       - { label: "Duration",              name: "duration",             widget: "string"                                          }
       - { label: "Full Instrumentation",  name: "instrumentationlist",  widget: "list"                                            }
