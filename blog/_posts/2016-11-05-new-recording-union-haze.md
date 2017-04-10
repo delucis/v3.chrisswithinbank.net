@@ -1,8 +1,8 @@
 ---
 title: 'New Recording: union|haze'
-date: 2016-11-05 14:54
-excerpt: 'Hear ensemble recherche playing union|haze'
-comments: false
+date: '2016-11-05 14:54'
+excerpt: Hear ensemble recherche playing union|haze
+comments: true
 tags:
   - ensemble recherche
   - Harvard Group for New Music
@@ -11,6 +11,7 @@ tags:
   - recording
   - audio
 ---
+
 A recording of [_union\|haze_](http://chrisswithinbank.net/2016/05/union-haze/) from [ensemble recherche](http://ensemble-recherche.de/)’s residency at Harvard University back in May, is finally here:
 
 <p><iframe width="100%" height="166" scrolling="no" frameborder="no" src="https://w.soundcloud.com/player/?url=https%3A//api.soundcloud.com/tracks/291501558&amp;color=ff5500&amp;auto_play=false&amp;hide_related=false&amp;show_comments=true&amp;show_user=true&amp;show_reposts=false"></iframe></p>
