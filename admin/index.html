@@ -27,7 +27,7 @@
 
       var BooleanPreview = createClass({
         render: function () {
-          return h('p', null, 'Comments: ' + this.props.value);
+          return h('p', null, this.props.field._root.entries["0"][1] + ': ' + this.props.value);
         }
       });
 
