@@ -11,6 +11,34 @@
     <script src="https://unpkg.com/netlify-cms@^0.3/dist/cms.js"></script>
     <script src="https://cdnjs.cloudflare.com/ajax/libs/moment.js/2.18.1/moment.min.js" integrity="sha256-1hjUhpc44NwiNg8OwMu2QzJXhD8kcj+sJA3aCQZoUjg=" crossorigin="anonymous"></script>
     <script>
+      // Include main.css used for styling whole website
+      CMS.registerPreviewStyle("/css/main.css");
+
+      // Define a class for displaying a preview of blog posts
+      var BlogPreview = createClass({
+        render: function() {
+          var entry = this.props.entry;
+          var date = moment(entry.getIn(['data', 'date']));
+          var formattedDate = date.format("dddd, D MMMM YYYY");
+          console.log(formattedDate);
+          return h('div', {"className": "container"},
+            h('article', {"className": "hentry primary"},
+              h('header', {"className": "single-post-header"},
+                h('h2', {"className": "entry-title"}, entry.getIn(['data', 'title']))
+              ),
+              h('div', {"className": "entry-content hyphenate"}, this.props.widgetFor('body')),
+              h('footer', {"className": "entry-meta"},
+                h('p', {}, "Posted on ",
+                  h('strong', {}, formattedDate)
+                )
+              )
+            )
+          );
+        }
+      });
+      // Register blog preview template for use with the “blog” collection
+      CMS.registerPreviewTemplate("blog", BlogPreview);
+
       var BooleanControl = createClass({
         handleChange: function(e) {
           this.props.onChange(e.target.checked);
