@@ -22,7 +22,6 @@
           var entry = this.props.entry;
           var date = moment(entry.getIn(['data', 'date']));
           var formattedDate = date.format("dddd, D MMMM YYYY");
-          console.log(formattedDate);
           return h('div', {"className": "container"},
             h('article', {"className": "hentry primary"},
               h('header', {"className": "single-post-header"},
