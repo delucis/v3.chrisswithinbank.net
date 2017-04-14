@@ -40,6 +40,80 @@
       // Register blog preview template for use with the “blog” collection
       CMS.registerPreviewTemplate("blog", BlogPreview);
 
+      CMS.registerEditorComponent({
+        // Internal id of the component
+        id: "picture",
+        // Visible label
+        label: "Picture",
+        // Fields the user need to fill out when adding an instance of the component
+        fields: [
+          {name: 'image', label: 'Image',         widget: 'image'},
+          {name: 'alt',   label: 'Alt Text'},
+          {name: 'type',  label: 'Display Type',  widget: 'select', options: ['','sidebar','alignright','alignleft','wide'], default: ''},
+          {name: 'link',  label: 'Link URL',      required: false }
+        ],
+        // Pattern to identify a block as being an instance of this component
+        pattern: /\[?{% picture ([a-z]*(?=\s))?\s?\/?(\S+) (alt="(.+)" )?%}\]?(\((\S+)\))?/,
+        // Function to extract data elements from the regexp match
+        fromBlock: function(match) {
+          return {
+            image: match[2],
+            alt: match[4],
+            type: match[1],
+            link: match[6]
+          };
+        },
+        // Function to create a text block from an instance of this component
+        toBlock: function(obj) {
+          var displayType = '';
+          if (obj.type && obj.type.length > 0) {
+            displayType = obj.type + ' ';
+          }
+          var altAttr = '';
+          if (obj.alt && obj.alt.length > 0) {
+            altAttr = 'alt="' + obj.alt + '" ';
+          }
+          var pictureTag = '{% picture ' + displayType + obj.image + ' ' + altAttr + '%}';
+          if (obj.link) {
+            pictureTag = '[' + pictureTag + '](' + obj.link + ')';
+          }
+          return pictureTag;
+        },
+        // Preview output for this component. Can either be a string or a React component
+        // (Component gives better render performance)
+        toPreview: function(obj) {
+          var pictureClasses;
+          switch (obj.type) {
+            case 'sidebar':
+              pictureClasses = 'picture sidebar multiply';
+              break;
+            case 'alignright':
+              pictureClasses = 'picture alignright multiply';
+              break;
+            case 'alignleft':
+              pictureClasses = 'picture alignleft multiply';
+              break;
+            case 'wide':
+              pictureClasses = 'picture wide multiply';
+              break;
+            case '':
+            default:
+              pictureClasses = 'picture default multiply';
+          }
+          var classAttr = 'class="' + pictureClasses + '" ';
+          var altAttr = '';
+          if (obj.alt && obj.alt.length > 0) {
+            altAttr = 'alt="' + obj.alt + '" ';
+          }
+          var srcAttr = 'src="/wp-content/uploads/' + obj.image + '" ';
+          var pictureTag = '<img ' + srcAttr + altAttr + classAttr + '/>';
+          if (obj.link) {
+            pictureTag = '<a href="' + obj.link + '">' + pictureTag + '</a>';
+          }
+          return ( pictureTag );
+        }
+      });
+
       var BooleanControl = createClass({
         handleChange: function(e) {
           this.props.onChange(e.target.checked);
