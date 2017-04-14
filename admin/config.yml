@@ -3,7 +3,8 @@ backend:
   repo: delucis/v3.chrisswithinbank.net
   branch: try-netlify-cms
 
-media_folder: "wp-content/netlify-uploads"
+media_folder:   "wp-content/uploads/netlify"
+public_folder:  "netlify"
 
 collections:
   - name:   "blog"
