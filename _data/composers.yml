@@ -207,6 +207,9 @@
   sameAs: http://www.cmc.ie/composers/composer.cfm?composerID=241
   birthDate: 1987
   nationality: IE
+"Nuno Costa":
+  birthDate: 1986
+  nationality: PT
 "Hannah Cottier":
   nationality: GB
 "Tom Coult":
@@ -556,6 +559,10 @@
 "Helen Papaioannou":
   sameAs: http://helenpapaioannou.com/
   birthDate: 1987
+"Jung-Eun Park":
+  birthDate: 1986
+  nationality: KR
+  sameAs: http://jung-eun-park.github.io/
 "Soojung Park":
   nationality: KR
 "Aaron Parker":
@@ -819,6 +826,10 @@
   sameAs: http://www.dantramte.com/
   birthDate: 1985
   nationality: US
+"Hakan Ulus":
+  birthDate: 1991
+  nationality: DE
+  sameAs: http://www.hakanulus.de/
 "Jorge Vázquez":
   nationality: AR
 "Philip Venables":
