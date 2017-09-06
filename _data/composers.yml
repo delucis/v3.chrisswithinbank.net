@@ -113,6 +113,12 @@
   sameAs: http://www.manuella.co.uk/
   nationality: GB
   birthDate: 1984
+"Oren Boneh":
+  sameAs: http://www.orenboneh.com/
+  nationality:
+    - US
+    - IL
+  birthDate: 1991
 "Pierre Boulez":
   sameAs: https://en.wikipedia.org/wiki/Pierre_Boulez
   nationality: FR
@@ -326,6 +332,10 @@
   birthDate: 1932
   nationality: GB
   sameAs: https://en.wikipedia.org/wiki/Alexander_Goehr
+"Francisco Concha Goldschmidt":
+  birthDate: 1981
+  nationality: CL
+  sameAs: https://soundcloud.com/francisco-c-goldschmidt
 "Jacob Gotlib":
   sameAs: http://www.jacobgotlib.com/
   birthDate: 1984
@@ -647,6 +657,10 @@
   birthDate: 1963
   deathDate: 2004
   sameAs: https://en.wikipedia.org/wiki/Fausto_Romitelli
+"Macarena Sofia Rosmanich Le Roy":
+  sameAs: https://soundcloud.com/macarena-rosmanich
+  birthDate: 1981
+  nationality: CL
 "Christopher Rouse":
   nationality: US
   birthDate: 1949
