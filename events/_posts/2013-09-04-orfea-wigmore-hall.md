@@ -21,24 +21,35 @@ programme:
     gender: M
   - composer: Aaron Parker
     gender: M
+    work: Lereliso I. & II.
   - composer: Benjamin Graves
+    work: la Mémoire d’un Ange d’Après Heinz Holliger
     gender: M
   - composer: Chris Roe
     gender: M
+    work: XII Duo-Notturno
   - composer: Daniel Saleeb
     gender: M
+    work: 'The Dance of the Howling Dervish and the Mendicant Friar: I. Introitus — Slow Dance'
   - composer: David Coonan
     gender: M
+    work: Fragment (for solo harp)
   - composer: Josh Spear
     gender: M
+    work: Face Fiction
   - composer: Kate Whitley
     gender: F
+    work: After Nugget Two
   - composer: Laura Jayne Bowler
     gender: F
+    work: lacanian ‘real’
   - composer: Matthew Kaner
+    work: Mobile through the Mirror
     gender: M
   - composer: Philip O’Meara
     gender: M
+    work: '5'
   - composer: Robert Peate
     gender: M
+    work: Pearl I
 ---
