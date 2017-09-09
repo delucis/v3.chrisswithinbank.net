@@ -30,6 +30,8 @@ instrumentationlist:
   - 'mixing console'
 audioembed: <iframe width="100%" height="20" scrolling="no" frameborder="no" src="https://w.soundcloud.com/player/?url=https%3A//api.soundcloud.com/tracks/314257769&amp;color=ff5500&amp;inverse=false&amp;auto_play=false&amp;show_user=true"></iframe>
 soundcloud_id: 314257769
+iswc: T-921.086.091-6
+musicbrainz: https://musicbrainz.org/work/f888871c-9271-49bc-922a-d74775a4650c
 published: true
 selected: true
 ---
