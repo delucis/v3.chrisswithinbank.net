@@ -6,7 +6,6 @@
 	- [Environment Set-Up](#environment-set-up)
 	- [Repository Set-Up](#repository-set-up)
 	- [Running local server and building](#running-local-server-and-building)
-	- [Troubleshooting](#troubleshooting)
 - [Deployment](#deployment)
 	- [Set-Up](#set-up)
 	- [Deploying site changes](#deploying-site-changes)
@@ -92,24 +91,6 @@ To make sure URLs are processed using the correct host for deployment (rather th
 ```sh
 JEKYLL_ENV=production bundle exec jekyll build
 ```
-
-## Troubleshooting
-
-There are sometimes build problems with the
-[`jekyll-sitemap`](https://github.com/jekyll/jekyll-sitemap)
-plug-in. To try building without `jekyll-sitemap` activated, remove the
-relevant line from the `gems` item in [`config.yml`](config.yml):
-
-```yml
-gems:
-    - jekyll-sitemap
-    - jekyll-feed
-    - jekyll-picture-tag
-    - jekyll-last-modified-at
-```
-
-After a successful initial build, replacing that line restores full
-functionality, and usually leads to non-failing subsequent builds.
 
 # Deployment
 
