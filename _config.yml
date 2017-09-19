@@ -16,7 +16,7 @@ facebook:
   app_id: 1614752738807936
   user_id: 61411247
 markdown: kramdown
-gems:
+plugins:
     - jekyll-feed
     - jekyll-picture-tag
     - jekyll-last-modified-at
