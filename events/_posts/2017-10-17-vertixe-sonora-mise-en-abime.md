@@ -11,20 +11,19 @@ venue:
   address: 2 Rúa Valle Inclán, 15703 Santiago de Compostela, Spain
   map_address_only: FALSE
 works:
-  - new work
-premiere:
-  - new work
+  - '“It opens, and many people throw up their hands” is a problem you insert into space.'
+premiere: '“It opens, and many people throw up their hands” is a problem you insert into space.'
 programme:
   - composer: Francisco Concha Goldschmidt
-    work: new work
+    work: …como restos de un naufragio e insolencia…
     gender: M
   - composer: Oren Boneh
-    work: new work
+    work: Lug
     gender: M
   - composer: Macarena Sofia Rosmanich Le Roy
     work: new work
     gender: F
   - composer: Chris Swithinbank
-    work: new work
+    work: '“It opens, and many people throw up their hands” is a problem you insert into space.'
     gender: M
 ---
