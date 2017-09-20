@@ -1,3 +1,12 @@
+GIT
+  remote: https://github.com/delucis/jekyll-picture-tag
+  revision: a7d4d24800f4d7bb76b99b19ca34c52fe7bb6982
+  specs:
+    jekyll-picture-tag (0.3.0)
+      fastimage (~> 1.6.4)
+      jekyll (< 4)
+      mini_magick (~> 3.8.0)
+
 GEM
   remote: https://rubygems.org/
   specs:
@@ -112,10 +121,6 @@ GEM
     jekyll-paginate (1.1.0)
     jekyll-paginate-v2 (1.8.1)
       jekyll (~> 3.0)
-    jekyll-picture-tag (0.3.0)
-      fastimage (~> 1.6.4)
-      jekyll (< 4)
-      mini_magick (~> 3.8.0)
     jekyll-readme-index (0.1.0)
       jekyll (~> 3.0)
     jekyll-redirect-from (0.12.1)
@@ -231,7 +236,7 @@ DEPENDENCIES
   jekyll-feed
   jekyll-last-modified-at
   jekyll-paginate-v2
-  jekyll-picture-tag
+  jekyll-picture-tag!
   jekyll-sitemap
 
 BUNDLED WITH
