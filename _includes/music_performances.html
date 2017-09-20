@@ -12,7 +12,7 @@
   <h3>Performances</h3>
   <ul>{% for event in site.categories.events %}{% if event.works contains page.title %}
     <li>
-      <h4>{% if event.premiere == page.title %}
+      <h4>{% if event.premiere == page.title or event.premiere contains page.title %}
         <abbr class="premiere" title="World Premiere">WP</abbr> {% endif %}
         <a href="{{ site.url }}{{ event.url }}">{{ event.date | date: '%-d %B %Y' }}</a>
       </h4>
