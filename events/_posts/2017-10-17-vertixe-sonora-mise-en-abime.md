@@ -21,7 +21,7 @@ programme:
     work: Lug
     gender: M
   - composer: Macarena Sofia Rosmanich Le Roy
-    work: new work
+    work: Cenizas
     gender: F
   - composer: Chris Swithinbank
     work: '“It opens, and many people throw up their hands” is a problem you insert into space.'
