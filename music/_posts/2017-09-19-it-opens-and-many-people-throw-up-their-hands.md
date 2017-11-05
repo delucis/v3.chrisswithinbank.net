@@ -18,6 +18,16 @@ published: true
 selected: true
 ---
 
+<figure>
+  {% picture 2017/11/vertixe-it-opens.jpg alt="Musicians and audience move around a gallery space during the first performance." %}
+
+  <figcaption markdown="1">
+
+  Audience and the musicians of Vertixe Sonora during the first performance at the Centro Galego de Arte Contemporánea.
+
+  </figcaption>
+</figure>
+
 *Programme text for the premiere performance by [Vertixe Sonora](http://vertixesonora.net/) in [a retrospective exhibition of the works of Portuguese painter Eduardo Batarda][bc25cf7e] at the Centro Galego de Arte Contemporánea, Santiago de Compostela.*
 
 In her 2016 collection [*Calamities*][62d4d676], author Renee Gladman is simultaneously writing to draw, and drawing to write, following the spiral of her hand until she is “writing-drawing” and finds herself drawing “something I had felt as I walked among buildings and perhaps something . . . Maria Helena Vieira da Silva had done” (115). What had Vieira da Silva done? In her works of the 1950s, she had done twisted geometries of depth and perspective, flinging the ghosts of some gothically fluid urban skeleton across the canvas, and it is these molten grids that Gladman finds herself tracing.
