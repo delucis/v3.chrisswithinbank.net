@@ -724,6 +724,7 @@ Basic Class Selectors */
 }
 .previously-published {
   @extend .small-text;
+  margin-top: $lh-small;
   padding: $lh-small / 2 - 0.3em;
   border: 0.3em solid $light-outline;
 }
