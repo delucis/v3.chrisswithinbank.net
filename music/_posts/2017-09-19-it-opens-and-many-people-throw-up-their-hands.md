@@ -4,6 +4,16 @@ category: music
 size: ensemble
 instrumentation: for 7 performers and environment
 duration: variable
+instrumentationlist:
+  - aluminium foil
+  - drawing paper
+  - felt-tip pens
+  - 6 EBows
+  - glass marbles
+  - corrugated conduits
+  - box zithers and string instruments
+  - thread
+  - bird calls
 published: true
 selected: true
 ---
