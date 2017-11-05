@@ -860,6 +860,7 @@ Menu Styling */
       padding: 0;
       width: 5.2em;
       height: $lh-h1 * 2;
+      text-overflow: clip;
     }
     a {
       text-decoration: none;
