@@ -18,6 +18,10 @@ published: true
 selected: true
 ---
 
+<p class="embed-container">
+  <iframe src="https://www.youtube-nocookie.com/embed/uzGaaIsTY7Q?rel=0?ecver=2" width="640" height="360" frameborder="0" style="position:absolute;width:100%;height:100%;left:0" allowfullscreen></iframe>
+</p>
+
 <figure>
   {% picture 2017/11/vertixe-it-opens.jpg alt="Musicians and audience move around a gallery space during the first performance." %}
 
