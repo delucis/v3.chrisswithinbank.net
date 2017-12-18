@@ -1232,7 +1232,7 @@ Page Structure */
       position: fixed;
       width: 10.8em;
       height: 100%;
-      overflow-y: scroll;
+      overflow-y: auto;
       padding: $lh-base;
   }
   .wrapper {
