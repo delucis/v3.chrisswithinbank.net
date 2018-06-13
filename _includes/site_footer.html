@@ -17,10 +17,10 @@
     </script>
     <script type="text/javascript" src="/js/picturefill.min.js" async></script>
     {% if content contains 'fnref' %}
-    <script type="text/javascript" src="/js/jquery-2.1.4.min.js"></script>
+    <script type="text/javascript" src="/js/barefoot.min.js"></script>
     <script type="text/javascript">
-      $.ajaxSetup({ cache: true });
-      $.getScript("/js/bigfoot.min.js", function(){ $.bigfoot() });
+      lf = new BareFoot();
+      lf.init();
     </script>{% endif %}
     {% include google-analytics.html %}
   </body>
