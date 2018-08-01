@@ -10,9 +10,9 @@ venue:
   shortaddress: Graz, Austria
   address: Waagner-Biro-Straße 98a, 8020 Graz, Austria
 works:
-  - new work
+  - this line comes from the past
 premiere:
-  - new work
+  - this line comes from the past
 programme:
   - composer: Nuno Costa
     work: new work
@@ -24,7 +24,7 @@ programme:
     work: new work
     gender: F
   - composer: Chris Swithinbank
-    work: new work
+    work: this line comes from the past
     gender: M
   - composer: Hakan Ulus
     work: new work
