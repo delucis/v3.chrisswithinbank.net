@@ -19,4 +19,8 @@ article:                  # needed for JSON-LD generation
   sameAs:
 tags:
   -
+pdf:                      # path to PDF file
+featured_image:           # path to featured image file
+featured_image_alt:
+featured_image_caption:
 ---
