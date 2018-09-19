@@ -11,12 +11,12 @@ venue:
   address: 1 Place de l’Europe, 1499 Luxembourg
 # facebook:
 works:
-  - new work
+  - "I began the day inside the world trying to look at it, but it was lying on my face, making it hard to see."
 premiere:
-  - new work
+  - "I began the day inside the world trying to look at it, but it was lying on my face, making it hard to see."
 # programme:
 #   - composer: Chris Swithinbank
-#     work: new work
+#     work: "I began the day inside the world trying to look at it, but it was lying on my face, making it hard to see."
 #     gender: M
 # featured_image: yyyy/mm/img.jpg
 # featured_image_alt:
