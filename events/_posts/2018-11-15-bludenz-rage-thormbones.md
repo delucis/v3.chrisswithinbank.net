@@ -16,7 +16,7 @@ premiere:
   - zwie
 programme:
   - composer: Liza Lim
-    work: new work
+    work: Pharmakon
     gender: F
   - composer: Michelle Lou
     work: new work
