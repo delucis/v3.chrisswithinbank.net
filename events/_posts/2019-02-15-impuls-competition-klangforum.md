@@ -2,31 +2,32 @@
 title: impuls . International Composition Competition
 date: 2019-02-17 20:00
 performer:
-  name: Klangforum Wien
-  url:  http://www.klangforum.at/
+  name: Klangforum Wien w/ Ilan Volkov
+  url:  https://www.klangforum.at/kalender-detail/preistraeger-impuls.html
 venue:
-  name: Helmut List Halle
-  url: http://www.helmut-list-halle.com/
+  name: impuls academy
+  url: http://www.impuls.cc/
   shortaddress: Graz, Austria
-  address: Waagner-Biro-Straße 98a, 8020 Graz, Austria
+  address: LG14 - MUMUTH, 8010 Graz, Austria
+  map_address_only: TRUE
 works:
   - this line comes from the past
 premiere:
   - this line comes from the past
 programme:
   - composer: Nuno Costa
-    work: new work
+    work: Lillar-D
     gender: M
   - composer: Timothy McCormack
-    work: new work
+    work: Sediment
     gender: M
   - composer: Jung-Eun Park
-    work: new work
+    work: Stained-echo
     gender: F
   - composer: Chris Swithinbank
     work: this line comes from the past
     gender: M
   - composer: Hakan Ulus
-    work: new work
+    work: TāHā
     gender: M
 ---
