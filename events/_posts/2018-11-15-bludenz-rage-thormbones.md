@@ -11,9 +11,9 @@ venue:
   address: allerArt, Am Raiffeisenplatz 1, 6700 Bludenz, Austria
   map_address_only: TRUE
 works:
-  - new work
+  - zwie
 premiere:
-  - new work
+  - zwie
 programme:
   - composer: Liza Lim
     work: new work
@@ -25,6 +25,6 @@ programme:
     work: what you see, is it
     gender: F
   - composer: Chris Swithinbank
-    work: new work
+    work: zwie
     gender: M
 ---
