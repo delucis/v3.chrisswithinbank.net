@@ -182,6 +182,10 @@
   nationality: US
   sameAs: http://www.carolyn-chen.com/
   birthDate: 1983
+"Huihui Cheng":
+  nationality: CN
+  sameAs: https://huihuicheng.com/
+  birthDate: 1985
 "Chiu-Yu Chou":
   birthDate: 1981
   nationality: TW
@@ -340,6 +344,10 @@
   sameAs: http://www.jacobgotlib.com/
   birthDate: 1984
   nationality: US
+"Rama Gottfried":
+  nationality: US
+  sameAs: http://ramagottfried.com/
+  birthDate: 1977
 "Benjamin Graves":
   sameAs: https://soundcloud.com/benjamingravescomposer
   nationality: GB
@@ -642,6 +650,9 @@
   birthDate: 1936
   nationality: US
   sameAs: http://www.stevereich.com/
+"Manuel Rodríguez Valenzuela":
+  nationality: ES
+  sameAs: http://www.manuel-rodriguez.com/
 "Chris Roe":
   sameAs: http://chrisroemusic.com/
   birthDate: 1988
@@ -700,6 +711,10 @@
 "Nathaniel Seaman":
   nationality: GB
   birthDate: 1985
+"Hannes Seidl":
+  birthDate: 1977
+  nationality: DE
+  sameAs: http://stock11.de/members/#Seidl
 "Giacinto Scelsi":
   birthDate: 1905
   deathDate: 1988
