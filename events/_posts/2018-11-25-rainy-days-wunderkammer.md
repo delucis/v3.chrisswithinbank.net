@@ -15,10 +15,22 @@ works:
   - "I began the day inside the world trying to look at it, but it was lying on my face, making it hard to see."
 premiere:
   - "I began the day inside the world trying to look at it, but it was lying on my face, making it hard to see."
-# programme:
-#   - composer: Chris Swithinbank
-#     work: "I began the day inside the world trying to look at it, but it was lying on my face, making it hard to see."
-#     gender: M
-# featured_image: yyyy/mm/img.jpg
-# featured_image_alt:
+programme:
+  - composer: Chris Swithinbank
+    work: "I began the day inside the world trying to look at it, but it was lying on my face, making it hard to see."
+    gender: M
+  - composer: Manuel Rodríguez Valenzuela
+    work: "T(t)-Blocks D"
+    gender: M
+  - composer: Rama Gottfried
+    work: "Scenes from the Plastisphere"
+    gender: M
+  - composer: Huihui Cheng
+    work: "Your smartest choice"
+    gender: F
+  - composer: Hannes Seidl / Daniel Kötter
+    work: "The audience"
+    gender: M
+featured_image: 2018/11/rainy-days-get-real.jpg
+featured_image_alt: Various fresh vegetables superimposed with the text “get real”
 ---
