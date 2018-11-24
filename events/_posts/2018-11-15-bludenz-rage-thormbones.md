@@ -19,7 +19,7 @@ programme:
     work: Pharmakon
     gender: F
   - composer: Michelle Lou
-    work: new work
+    work: Hexa
     gender: F
   - composer: Manuela Meier
     work: what you see, is it
