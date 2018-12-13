@@ -14,6 +14,8 @@ instrumentationlist:
   - box zithers and string instruments
   - thread
   - bird calls
+iswc: T-922.994.850-9
+musicbrainz: https://musicbrainz.org/work/e87ab7ff-22af-4712-9fd1-67e292ea7015
 published: true
 selected: true
 ---
