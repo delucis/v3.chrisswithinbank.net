@@ -9,7 +9,7 @@ instrumentationlist:
 iswc: T-916.275.614-1
 musicbrainz: https://musicbrainz.org/work/b3846a39-93c0-4239-b5f3-00e116276b65
 published: true
-selected: true
+selected: false
 ---
 
 Materials towards a performance for four people.
