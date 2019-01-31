@@ -29,12 +29,13 @@ Profs. Claire Chase, George Lewis, and Hans Tutschku, covering improvised and
 experimental music, studio composition, and collaborative creative practice.
 I developed [a suite of pedagogical tools][264] for teaching creative audio
 programming and have worked regularly as a technical assistant to the composer
-Clara Iannotta. Fall 2018 sees the publication of a special issue of _CR: The
-New Centennial Review_ on music and critical theory, co-edited with philosopher
-Irving Goh.
+Clara Iannotta. Fall 2018 saw the publication of [a special issue of _CR: The
+New Centennial Review_ on music and critical theory][cr], co-edited with
+philosopher Irving Goh.
 
 [u-s]: /2016/01/union-seam/
 [264]: /2016/01/teaching-max-msp/
+[cr]: /2019/01/special-issue-cr-new-centennial-review/
 
 Last updated: {{ page.last_modified_at | date: '%-d %B %Y' }}
 {: class="ui small-text light-text" }
