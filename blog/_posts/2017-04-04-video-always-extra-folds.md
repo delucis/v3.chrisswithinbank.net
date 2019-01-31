@@ -2,7 +2,7 @@
 title: 'Video: always extra folds of birds of paper and you could move your finger along the length of them and have witnesses'
 date: 2017-04-04 19:57
 excerpt: 'Watch Yarn/Wire performing ‘always extra folds of birds of paper and you could move your finger along the length of them and have witnesses’.'
-comments: true
+comments: false
 tags:
   - Yarn/Wire
   - Harvard Group for New Music
