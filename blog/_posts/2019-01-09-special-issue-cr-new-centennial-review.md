@@ -14,11 +14,17 @@ featured_image: 2019/01/cr_18-2_front_cover.jpg
 featured_image_alt: The cover of The New Centennial Review volume 18, number 2
 ---
 
-Over the last few years I have been working with [Irving Goh][goh] on a [special issue of _CR: The New Centennial Review_][issue] and it is finally online. It brings together statements by composers [Joanna Bailie][bai], [Tatiana Catanzaro][cat], [Carolyn Chen][chen], [Ashley Fure][fure], and [Fabien Lévy][levy] alongside essays on music by Claire Colebrook, Jeffrey Di Leo, Jeremy Braddock and Timothy Morton, Jean-Luc Nancy, Naomi Waltham-Smith, and Holly Watkins. It also includes my own text, [‘Who Vibrates?,’][wv] which tries to think about the music of Carolyn Chen and how New Materialist theories of vibration, vibrancy, and animation intersect with histories of race and subjecthood.
+Over the last few years I have been working with [Irving Goh][goh] on a [special issue of _CR: The New Centennial Review_][issue] and it is finally online. It brings together statements by composers [Joanna Bailie][bai], [Tatiana Catanzaro][cat], [Carolyn Chen][chen], [Ashley Fure][fure], and [Fabien Lévy][levy] alongside essays on music by Claire Colebrook, Jeffrey Di Leo, Jeremy Braddock and Timothy Morton, Jean-Luc Nancy, Naomi Waltham-Smith, and Holly Watkins. It also includes my own text, [‘Who Vibrates?,’][wv] which tries to think about Carolyn Chen’s music and how New Materialist theories of vibration, vibrancy, and animation intersect with colonial histories of race and subjecthood.
 
 I am very grateful to all our contributors who took the time to make this collection possible and to Irving for including me in the project.
 
-You can find the issue on [Project Muse][issue], [JSTOR][jstor], or directly from [Michigan State University Press][msup].
+You can find the issue on [Project Muse][issue], [JSTOR][jstor], or directly from [Michigan State University Press][msup]. Some of the papers (or their drafts) are also available from open access sources and I’ll try to keep this list updated as others come online:
+
+- Irving Goh, [“Editor’s Note: The Cry of Music”](https://www.academia.edu/38077596/The_Cry_of_Music)
+- Claire Colebrook, [“Escaping Meaning, Escaping Music”](https://www.academia.edu/36113441/escaping_music.docx)
+- Chris Swithinbank, [“Who vibrates?”][wv]
+- Naomi Waltham-Smith, [“A Music Worthy of the Name: Or, Agamben's Museicology”](https://www.auralflaneur.com/s/Waltham-Smith-A-Music-Worthy-of-the-Name.pdf)
+- Jean-Luc Nancy, trans. Goh, [“Variations on the Reprise”](https://www.academia.edu/38077599/Trans._of_Jean-Luc_Nancys_Variations_on_the_Reprise)
 
 [goh]: http://www.irving-goh.com/
 [issue]: https://muse.jhu.edu/issue/39740
