@@ -11,6 +11,7 @@ instrumentationlist:
   - 2 cellos
   - 1 double bass
 audioembed: '<iframe style="border: 0; width: 100%; height: 42px;" src="http://bandcamp.com/EmbeddedPlayer/track=2793036997/size=small/bgcol=ffffff/linkcol=0687f5/transparent=true/" seamless><a href="http://hear.chrisswithinbank.net/track/excavations">Excavations by Chris Swithinbank</a></iframe>'
+withdrawn: true
 ---
 
 _Excavations_ was written in response to the [Manchester Camerata](http://www.manchestercamerata.com/) Young Composers' Project, calling for works inspired by Henry Purcell’s Fantazias to mark the 350-year anniversary of his birth. I arrived at the music after close study of these works, in particular the 4-part Fantazia in A minor (Z. 740). Some of the 17th-Century harmonic and melodic materials can be found refracted or as ghostly shadows of themselves, but the fundamental connection is that of energy. In a sense, this is an attempt to translate or explain Purcell’s music through the combined filters of history and my mind – a rendering of my 21st-Century reaction to an ancient music.

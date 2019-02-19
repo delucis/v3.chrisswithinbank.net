@@ -13,6 +13,7 @@ instrumentationlist:
   - Trumpet in B flat
   - Trombone
 iswc: T-915.099.187-0
+withdrawn: true
 ---
 
 Non-crystal, fog: flight.

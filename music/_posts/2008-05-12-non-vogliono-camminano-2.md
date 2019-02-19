@@ -13,6 +13,7 @@ instrumentationlist:
 - Harp
 - Violin
 - Cello
+withdrawn: true
 ---
 
 1. ritorno dal nulla _[return from nothingness]_

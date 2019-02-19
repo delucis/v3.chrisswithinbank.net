@@ -17,6 +17,7 @@ instrumentationlist:
   - Strings (8.8.6.4.2)
 audioembed: <iframe width="100%" height="20" scrolling="no" frameborder="no" src="https://w.soundcloud.com/player/?url=https%3A//api.soundcloud.com/tracks/39633057&amp;color=ff5500&amp;inverse=false&amp;auto_play=false&amp;show_user=true"></iframe>
 iswc: T-911.236.898-6
+withdrawn: true
 ---
 
 _June Unfolding_ was written for a concert marking [the 750th Anniversary of Macclesfield’s Royal Charter](http://www.charter750.co.uk/) given by King Edward Musical Society in June 2011. Faced with the length of time in question — an unimaginable duration, the change during which is difficult to fathom — it was a challenge to respond in a meaningful way. As time passes we forget and our memories are more and more like eroded stones or fragmented tapestries where the weave has come undone. What we read in a single thread becomes its own imaginary world that seems connected to the past. At various points in _June Unfolding_ we come across fragments of and allusions to other music, each time abstracted and transformed, in a nod to the idea of eroded memory.
