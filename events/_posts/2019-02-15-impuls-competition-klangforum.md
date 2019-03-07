@@ -1,6 +1,6 @@
 ---
 title: impuls . International Composition Competition
-date: 2019-02-17 20:00
+date: 2019-02-15 20:00
 performer:
   name: Klangforum Wien & Ilan Volkov
   url:  https://www.klangforum.at/kalender-detail/preistraeger-impuls.html
@@ -8,7 +8,7 @@ venue:
   name: impuls academy
   url: http://www.impuls.cc/
   shortaddress: Graz, Austria
-  address: LG14 - MUMUTH, 8010 Graz, Austria
+  address: Helmut List Halle, Waagner-Biro-Straße 98a, 8020 Graz, Austria
   map_address_only: TRUE
 works:
   - this line comes from the past
