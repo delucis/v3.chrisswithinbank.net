@@ -79,6 +79,7 @@ layout: default
       <p>Works by {{ uniqcomposers | array_to_sentence_string }}.</p>
     {% endif %}
   {% endif %}
+  {% if content %}{{ content }}{% endif %}
   {% if event.venue %}
     <h4>Where</h4>
     <p class="venue">
