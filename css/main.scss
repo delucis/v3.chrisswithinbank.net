@@ -309,6 +309,9 @@ code, kbd, samp {
   border-radius: 0.25em;
   padding: 0.25em 0.4em;
 }
+kbd {
+  box-shadow: .125em .125em $light-outline;
+}
 figure {
   margin: $lh-base 0;
 }
