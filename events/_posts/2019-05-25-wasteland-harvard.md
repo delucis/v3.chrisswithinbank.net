@@ -8,5 +8,19 @@ venue:
   name: Paine Hall, Harvard University
   address: 3 Oxford St, Cambridge, MA 02138, United States
 works:
-  - new work
+  - "I began the day inside the world trying to look at it, but it was lying on my face, making it hard to see."
+programme:
+  - composer: Elena Rykova
+    work: Silenced
+    gender: F
+  - composer: Christopher Lock
+    gender: M
+  - composer: Chris Swithinbank
+    gender: M
+    work: "I began the day inside the world trying to look at it, but it was lying on my face, making it hard to see."
+  - composer: John Pax
+    gender: M
+    work: "Where the Quiet Rests"
+  - composer: Max Murray
+    gender: M
 ---
