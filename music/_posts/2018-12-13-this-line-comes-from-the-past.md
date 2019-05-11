@@ -26,7 +26,7 @@ published: true
 > — Renee Gladman, [_Calamities_][cs]
 
 _this line comes from the past_ was commissioned by
-[impuls . International Ensemble and Composers Academy for Contemporary Music][imp], Graz, Austria, and will be premiered at impuls 2019 by Klangforum Wien.
+[impuls . International Ensemble and Composers Academy for Contemporary Music][imp], Graz, Austria, and was premiered at impuls 2019 by Klangforum Wien.
 
 A short statement I wrote for the Klangforum season catalogue can be found [on their website][kf].
 
