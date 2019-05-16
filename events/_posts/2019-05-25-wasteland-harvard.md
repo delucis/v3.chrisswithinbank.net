@@ -7,6 +7,7 @@ performer:
 venue:
   name: Paine Hall, Harvard University
   address: 3 Oxford St, Cambridge, MA 02138, United States
+facebook: https://www.facebook.com/events/285474978994935/
 works:
   - "I began the day inside the world trying to look at it, but it was lying on my face, making it hard to see."
 programme:
@@ -14,6 +15,7 @@ programme:
     work: Silenced
     gender: F
   - composer: Christopher Lock
+    work: No Plume As A Trace
     gender: M
   - composer: Chris Swithinbank
     gender: M
@@ -23,4 +25,5 @@ programme:
     work: "Where the Quiet Rests"
   - composer: Max Murray
     gender: M
+    work: "Hlimman — Beneath the Earth"
 ---
