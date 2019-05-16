@@ -454,6 +454,12 @@
   nationality: AU
   birthDate: 1966
   sameAs: https://lizalimcomposer.wordpress.com/
+"Christopher Lock":
+  nationality:
+    - US
+    - GB
+  sameAs: https://lock-music.tumblr.com
+  birthDate: 1995
 "Francesca le Lohé":
   sameAs: http://francescalelohe.weebly.com/
   nationality: GB
@@ -556,6 +562,9 @@
 "Valerio Murat":
   birthDate: 1976
   nationality: IT
+"Max Murray":
+  sameAs: https://max-murray.com/
+  nationality: CA
 "Ichiro Nodaira":
   birthDate: 1953
   nationality: JP
