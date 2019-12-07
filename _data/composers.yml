@@ -565,6 +565,10 @@
 "Max Murray":
   sameAs: https://max-murray.com/
   nationality: CA
+"Sarah Nemtsov":
+  birthDate: 1980
+  sameAs: http://www.sarah-nemtsov.de/
+  nationality: DE
 "Ichiro Nodaira":
   birthDate: 1953
   nationality: JP
@@ -814,6 +818,12 @@
   birthDate: 1928
   deathDate: 2007
   sameAs: https://en.wikipedia.org/wiki/Karlheinz_Stockhausen
+"Lisa Streich":
+  sameAs: http://www.lisastreich.se/
+  birthDate: 1985
+  nationality:
+    - DE
+    - SE
 "Stefan Streich":
   sameAs: http://stefan-streich.de/
   birthDate: 1961
@@ -826,6 +836,9 @@
   nationality: GB
   birthDate: 1981
   sameAs: http://www.martinsuckling.com/
+"Johan Svensson":
+  nationality: SE
+  sameAs: http://johansvensson.nu/
 "Chris Swithinbank":
   birthDate: 1988
   sameAs: http://www.chrisswithinbank.net/
