@@ -25,8 +25,9 @@ musicians of the JACK Quartet, ensemble mosaik, soundinitiative, Talea
 Ensemble, Trio Atem, and Yarn/Wire, amongst many others.
 
 In addition to my compositional work, I have worked as a teaching assistant to
-Profs. Claire Chase, George Lewis, and Hans Tutschku, covering improvised and
-experimental music, studio composition, and collaborative creative practice.
+Profs. Claire Chase, Chaya Czernowin, George Lewis, and Hans Tutschku, covering
+improvised and experimental music, studio composition, and collaborative
+creative practice.
 I developed [a suite of pedagogical tools][264] for teaching creative audio
 programming and have worked regularly as a technical assistant to the composer
 Clara Iannotta. Fall 2018 saw the publication of [a special issue of _CR: The
