@@ -1,5 +1,5 @@
 GIT
-  remote: https://github.com/delucis/jekyll-picture-tag
+  remote: https://github.com/delucis/jekyll-picture-tag.git
   revision: a7d4d24800f4d7bb76b99b19ca34c52fe7bb6982
   specs:
     jekyll-picture-tag (0.3.0)
