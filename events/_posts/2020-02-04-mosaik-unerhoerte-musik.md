@@ -3,7 +3,7 @@ title: ensemble mosaik at Unerhörte Musik
 date: 2020-02-04 20:00
 performer:
   name: ensemble mosaik
-  url: http://www.ensemble-mosaik.de/
+  url: http://www.ensemble-mosaik.de/konzerte.php?4._Feb._2020_/_20:00
 venue:
   name: BKA-Theater
   url: https://bka-theater.de/
