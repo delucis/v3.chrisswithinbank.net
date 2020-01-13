@@ -25,6 +25,7 @@ You can find the issue on [Project Muse][issue], [JSTOR][jstor], or directly fro
 - Carolyn Chen, [“Parts to Sing Empty”](https://walkingmango.files.wordpress.com/2019/11/cr_18-2_chen_35-38.pdf)
 - Holly Watkins, [“On Not Letting Sounds Be Themselves”](https://www.esm.rochester.edu/uploads/Watkins_NCR_final.pdf)
 - Chris Swithinbank, [“Who vibrates?”][wv]
+- Tatiana Catanzaro, [“The Breath of Sound”](https://www.academia.edu/41597019/The_Breath_of_Sound)
 - Naomi Waltham-Smith, [“A Music Worthy of the Name: Or, Agamben's Museicology”](https://www.auralflaneur.com/s/Waltham-Smith-A-Music-Worthy-of-the-Name.pdf)
 - Jean-Luc Nancy, trans. Goh, [“Variations on the Reprise”](https://www.academia.edu/38077599/Trans._of_Jean-Luc_Nancys_Variations_on_the_Reprise)
 
