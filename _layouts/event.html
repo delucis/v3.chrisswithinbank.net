@@ -97,15 +97,6 @@ layout: default
     {% else %}
       {% assign place = event.venue.name | append: ', ' | append: event.venue.address | cgi_escape %}
     {% endif %}
-    <iframe
-      width="538"
-      height="350"
-      frameborder="0"
-      style="border:0"
-      src="https://www.google.com/maps/embed/v1/place?key={{ site.google.maps_api }}
-      &q={{ place }}
-      &attribution_source={{ site.name | cgi_escape }}" allowfullscreen>
-    </iframe>
   {% endif %}
   <div class="pagination clearfix post-nav">{% if page.next_in_category %}
     <a href="{{ site.url }}{{ page.next_in_category.url }}" class="arrow older" rel="prev"><span>{{ page.next_in_category.title }}</span></a>{% endif %}
