@@ -6,10 +6,10 @@ performer:
   url: http://www.ensemble-mosaik.de/konzerte.php?4._Feb._2020_/_20:00
 venue:
   name: BKA-Theater
-  url: https://bka-theater.de/
+  url: https://bka-theater.de/content_start.php?id=99
   shortaddress: Berlin, Germany
   address: Mehringdamm 34, 10961 Berlin, Germany
-# facebook:
+facebook: https://www.facebook.com/events/494589734490462
 works:
   - "I began the day inside the world trying to look at it, but it was lying on my face, making it hard to see."
 programme:
