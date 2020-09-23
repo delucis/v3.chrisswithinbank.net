@@ -19,7 +19,7 @@ layout: default
     <figcaption>{{ page.featured_image_caption | markdownify }}</figcaption>
   </figure>{% endif %}{% endif %}
   {% if page.pdf %}
-  <a download href="{{ site.url }}/wp-content/uploads/{{ page.pdf }}" class="big-link" rel="alternate" type="application/pdf">Download PDF</a>
+  <a download href="/wp-content/uploads/{{ page.pdf }}" class="big-link" rel="alternate" type="application/pdf">Download PDF</a>
   {% endif %}{% if page.category == 'text' %}
   {% assign titlestring = page.title %}{% if page.subtitle %}
   {% assign titlestring = titlestring | append: ': ' | append: page.subtitle %}{% endif %}

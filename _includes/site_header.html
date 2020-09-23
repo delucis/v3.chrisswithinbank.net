@@ -10,7 +10,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1">
     <link rel="stylesheet" href="/css/main.css">
     <link href='https://fonts.googleapis.com/css?family=Alegreya:400,700,400italic,700italic' rel='stylesheet' type='text/css'>{% if page.title == 'Home' %}
-    <link href="{{ site.url }}/feed.xml" type="application/atom+xml" rel="alternate" title="ATOM Feed of Chris Swithinbank’s latest posts">{% endif %}
+    <link href="/feed.xml" type="application/atom+xml" rel="alternate" title="ATOM Feed of Chris Swithinbank’s latest posts">{% endif %}
     <link rel="canonical" href="{{ site.url }}{{ page.url | replace:'index.html','' }}">{% if page.pdf %}
     <link rel="alternate" href="{{ site.url }}/wp-content/uploads/{{ page.pdf }}" type="application/pdf">{% endif %}
     {% include site_header-meta-tags.html %}
@@ -26,7 +26,7 @@
         </h1>
         <nav id="menu" class="menu js-menu" role="navigation">
           <ul>{% for item in site.data.menu %}
-            <li><a href="{{ site.url }}{{ item.slug }}">{{ item.label }}</a></li>{% endfor %}
+            <li><a href="{{ item.slug }}">{{ item.label }}</a></li>{% endfor %}
           </ul>
         </nav>
       </header>

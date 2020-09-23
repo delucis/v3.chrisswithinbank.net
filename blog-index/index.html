@@ -13,6 +13,6 @@ layout: page
 <ul class="datalist indexlist">
 {% endunless %}
 {% assign yeartracker = post.date | date: '%Y' %}
-  <li id="{{ post.title | slugify }}" class="hentry"><time class="published" datetime="{{ post.date | date: '%Y-%m-%d'}}">{{ post.date | date: '%-d/%-m' }}</time> <span class="separator">—</span> <span class="entry-title"><a href="{{ site.url }}{{ post.url }}" rel="bookmark">{{ post.title }}</a></span></li>
+  <li id="{{ post.title | slugify }}" class="hentry"><time class="published" datetime="{{ post.date | date: '%Y-%m-%d'}}">{{ post.date | date: '%-d/%-m' }}</time> <span class="separator">—</span> <span class="entry-title"><a href="{{ post.url }}" rel="bookmark">{{ post.title }}</a></span></li>
 {% endfor %}
 </ul>

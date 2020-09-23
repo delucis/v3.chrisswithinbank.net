@@ -26,7 +26,7 @@ layout: page
   {% endcase %}{% endcapture %}{% assign cache = nil %}{% if test == true %}
   <li id="{{ post.title | slugify }}" class="work">
     <h3 class="work-title">
-      <a href="{{ site.url }}{{ post.url }}" rel="bookmark" class="{{ post.size }}">{{ post.title }}</a>
+      <a href="{{ post.url }}" rel="bookmark" class="{{ post.size }}">{{ post.title }}</a>
     </h3>
     <p class="work-meta">
       {{ post.instrumentation }} (<time class="published" datetime="{{ post.date | date: '%Y-%m-%d'}}">{{ post.date | date: '%Y' }}</time>){% if post.soundcloud_id %}
