@@ -37,7 +37,7 @@ pagination:
   sort_field: 'date'
   sort_reverse: true
 default_category: "blog"
-exclude: [README.md, Gemfile, Gemfile.lock]
+exclude: [README.md, Gemfile, Gemfile.lock, netlify.toml]
 picture:
   source: "wp-content/uploads"
   output: "wp-content/uploads"
