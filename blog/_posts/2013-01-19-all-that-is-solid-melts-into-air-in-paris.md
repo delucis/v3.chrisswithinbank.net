@@ -20,8 +20,8 @@ tags:
 
 {% picture 2013/01/matchlight1b.jpg alt="Trailer image for All that is solid melts into air" %}
 
-On Sunday 3 February, [soundinitiative](http://www.soundinitiative.fr/) will give the first performance of [_All that is solid melts into air_](http://www.chrisswithinbank.net/?p=2881) at the [Collège Franco-Britannique](http://goo.gl/maps/DvbMU) (MÉTRO Cité Universitaire) in Paris.
+On Sunday 3 February, [soundinitiative](http://www.soundinitiative.fr/) will give the first performance of [_All that is solid melts into air_](/2013/01/all-that-is-solid-melts-into-air/) at the [Collège Franco-Britannique](http://goo.gl/maps/DvbMU) (MÉTRO Cité Universitaire) in Paris.
 
-The concert will also include a new version of my [_All the time that you have what we have. / All the time that you have._](http://www.chrisswithinbank.net/2012/09/all-the-time-that-you-have-what-we-have-all-the-time-that-you-have/) for mezzo-soprano and two violas, the premiere of [Joanna Bailie](http://joannabailie.com/)’s _Artificial Environment Nos. 9a-d_, Rebecca Saunders’s _Molly’s Song #3 — shades of crimson_ and Jonathan Harvey’s _Tombeau de Messiaen_. Hope to see you there!
+The concert will also include a new version of my [_All the time that you have what we have. / All the time that you have._](/2012/09/all-the-time-that-you-have-what-we-have-all-the-time-that-you-have/) for mezzo-soprano and two violas, the premiere of [Joanna Bailie](http://joannabailie.com/)’s _Artificial Environment Nos. 9a-d_, Rebecca Saunders’s _Molly’s Song #3 — shades of crimson_ and Jonathan Harvey’s _Tombeau de Messiaen_. Hope to see you there!
 
 **Listings:** [Facebook](https://www.facebook.com/events/195942487210758/) \| [soundinitiative](http://www.soundinitiative.fr/enconcert13.html) \| [Resonanta](http://leandrohbo.com/dotcomzz/index.php?/programmation/soundinitiative/)

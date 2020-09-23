@@ -17,7 +17,7 @@ featured_image: 2012/04/sam-ace-logos.gif
 featured_image_alt: Sound and Music & Arts Council England logos
 ---
 
-*[Download a PDF](http://www.chrisswithinbank.net/wp-content/uploads/2012/04/Letter-concerning-Sound-and-Music-with-signatories2.pdf) of the letter with a full list of signatories*
+*[Download a PDF](/wp-content/uploads/2012/04/Letter-concerning-Sound-and-Music-with-signatories2.pdf) of the letter with a full list of signatories*
 
 On 27 March, two open letters [[1](http://www.holstfoundation.org/index.php?pr=Open_Letter_to_SAM_and_ACE), [2](https://web.archive.org/web/20120401042518/http://www.rhinegold.co.uk/magazines/classical_music/news/classical_music_news_story.asp?id=1380)] to [Sound and Music](http://www.soundandmusic.org/) and [Arts Council England](http://www.artscouncil.org.uk/) were made public, criticising both organisations for their activities since the former of these was founded from a merger of the Society for the Promotion of New Music, the British Music Information Centre, Sonic Arts Network and the Contemporary Music Network in 2008. The letters, signed by various respected composers and musicians at various stages in their careers, have provoked lively debate, but the undersigned are concerned both by its tone and by certain assumptions made by the letters’ signatories. It has also been alarming to see well-known members of SAM staff and board, whose own work covers notated instrumental music as well as electronic and electroacoustic musics, personally described in derogatory terms in the ensuing debate.
 

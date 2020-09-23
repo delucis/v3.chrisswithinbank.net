@@ -21,7 +21,7 @@ tags:
 - Richard Craig
 ---
 
-Last year I put together a [lengthy look at good stuff I’d seen, heard and read](http://www.chrisswithinbank.net/2010/12/2010-a-miscellany/). To close this year, here are some much briefer notes on some of the best things I encountered in the last 12 months.
+Last year I put together a [lengthy look at good stuff I’d seen, heard and read](/2010/12/2010-a-miscellany/). To close this year, here are some much briefer notes on some of the best things I encountered in the last 12 months.
 
 {% picture 2011/12/000057.jpg alt="Sunset - August 2011" %}
 

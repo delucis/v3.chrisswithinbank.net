@@ -21,7 +21,7 @@ tags:
 - Zinajda Kodrič
 ---
 
-By some spectacular fluke of nature — or rather the spectacular initiative of some wonderful people — the emergent, self-organising consciousness that is [_Tomorrow I will build a house here, if I can hold still_](http://www.chrisswithinbank.net/2014/03/tomorrow-i-will-build-a-house-here-if-i-can-hold-still/) is managing to tour Europe this December by hopping parasitically between musicians’ bodies. Try to make one of these performances:
+By some spectacular fluke of nature — or rather the spectacular initiative of some wonderful people — the emergent, self-organising consciousness that is [_Tomorrow I will build a house here, if I can hold still_](/2014/03/tomorrow-i-will-build-a-house-here-if-i-can-hold-still/) is managing to tour Europe this December by hopping parasitically between musicians’ bodies. Try to make one of these performances:
 
 * 06.12 \| [**London**](https://www.facebook.com/events/385868611589470/) \| Zinajda Kodrič + Myriam Garcia Fidalgo
 * 07.12 \| [**Paris**](https://www.facebook.com/events/1497426750545237/) \| Paolo Vignaroli + Karolina Öhman

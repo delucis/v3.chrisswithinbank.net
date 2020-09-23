@@ -18,7 +18,7 @@ featured_image: 2011/11/concert3poster.jpeg
 featured_image_alt: Soundinitiative at Fondation Biermans-Lapôtre poster
 ---
 
-On Monday 5 December, [soundinitiative](http://www.soundinitiative.fr/) will give their second performance of my [_Small Atlas_](http://www.chrisswithinbank.net/2011/05/small-atlas/) at the [Fondation Biermans-Lapôtre](http://www.fbl-paris.org/) — the Belgian-Luxembourgish house at the [Cité Internationale Universitaire de Paris](http://www.ciup.fr) (and my current home). The concert, which is free, begins at 20:30 and also features music by [Oscar Bianchi](http://www.oscarbianchi.com/), Kaija Saariaho, Stefan van Eycken, [Philippe Leroux](http://www.lerouxcomposition.com/) and Fausto Romitelli. To get there, take the RER B to [Cité Universitaire](http://fr.wikipedia.org/wiki/Gare_de_Cit%C3%A9_universitaire).
+On Monday 5 December, [soundinitiative](http://www.soundinitiative.fr/) will give their second performance of my [_Small Atlas_](/2011/05/small-atlas/) at the [Fondation Biermans-Lapôtre](http://www.fbl-paris.org/) — the Belgian-Luxembourgish house at the [Cité Internationale Universitaire de Paris](http://www.ciup.fr) (and my current home). The concert, which is free, begins at 20:30 and also features music by [Oscar Bianchi](http://www.oscarbianchi.com/), Kaija Saariaho, Stefan van Eycken, [Philippe Leroux](http://www.lerouxcomposition.com/) and Fausto Romitelli. To get there, take the RER B to [Cité Universitaire](http://fr.wikipedia.org/wiki/Gare_de_Cit%C3%A9_universitaire).
 
 All will be welcomed and we can make merry after the concert, courtesy of the obligatory ‘pot de bienvenue’.
 

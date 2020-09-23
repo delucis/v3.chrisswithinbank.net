@@ -13,7 +13,7 @@ tags:
 - NOVARS Research Centre
 ---
 
-A new tape piece, [_Books of Moses_](http://www.chrisswithinbank.net/2008/06/books-of-moses-2/) was composed at the University of Manchester's [NOVARS Research Centre for Electroacoustic Composition, Performance and Sound-Art](http://www.novars.manchester.ac.uk/). It is my first work for which I have undertaken a dedicated recording session from which all of the sound-material was drawn and it deals with issues of creation and re-creation, methods through which the old is assimilated and resurfaces in the new.
+A new tape piece, [_Books of Moses_](/2008/06/books-of-moses-2/) was composed at the University of Manchester's [NOVARS Research Centre for Electroacoustic Composition, Performance and Sound-Art](http://www.novars.manchester.ac.uk/). It is my first work for which I have undertaken a dedicated recording session from which all of the sound-material was drawn and it deals with issues of creation and re-creation, methods through which the old is assimilated and resurfaces in the new.
 
 A private listening session and partial diffusion for postgraduate students at NOVARS [Studio 1](http://www.novars.manchester.ac.uk/facilities/studio1/index.html) took place on June 3rd alongside two other undergraduate works by Nicola Hicks and Joel Bankhead.
 

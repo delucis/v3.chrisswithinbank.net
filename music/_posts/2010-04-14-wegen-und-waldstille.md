@@ -19,6 +19,6 @@ Driven by an urge to find ways of combining the quiet, tactile spaces I have bee
 
 _Wege & Waldstille_ was written for [Psappha](http://www.psappha.com/) and was premiered on Friday 30th April 2010 alongside works by fellow University of Manchester postgraduate composers Soojung Park, [Josh Kopeček](http://www.joshkopecek.co.uk/), [Mauricio Pauly](http://www.mauriciopauly.com/) and [Yvonne Eccles](http://www.yvonneeccles.com/).
 
-Read more about _Wege & Waldstille_ in [‘A Stillness on the Ear’](http://www.chrisswithinbank.net/2010/04/a-stillness-on-the-ear/).
+Read more about _Wege & Waldstille_ in [‘A Stillness on the Ear’](/2010/04/a-stillness-on-the-ear/).
 
 <p class="embed-container"><iframe width="538" height="303" src="https://www.youtube-nocookie.com/embed/Pxn2TUK9760?rel=0" frameborder="0" allowfullscreen></iframe></p>

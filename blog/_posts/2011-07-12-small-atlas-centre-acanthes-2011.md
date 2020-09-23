@@ -16,7 +16,7 @@ tags:
 - Small Atlas
 ---
 
-This evening, [_Small Atlas_](http://www.chrisswithinbank.net/2011/05/small-atlas/) will be premiered at the Arsenal in Metz, France, by Mario Caroli, Pierre-Stéphane Meugé, Donatienne Michel-Dansac and Vincent Leterme. This fantastic quartet of musicians (pictured below) has been excellent to work with so far and I look forward to hearing the piece take shape in performance.
+This evening, [_Small Atlas_](/2011/05/small-atlas/) will be premiered at the Arsenal in Metz, France, by Mario Caroli, Pierre-Stéphane Meugé, Donatienne Michel-Dansac and Vincent Leterme. This fantastic quartet of musicians (pictured below) has been excellent to work with so far and I look forward to hearing the piece take shape in performance.
 
 For those not in Metz, here is a flavour of what’s in store from the recording made during our workshop-rehearsal yesterday:
 

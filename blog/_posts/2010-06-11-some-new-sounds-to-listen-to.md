@@ -19,6 +19,6 @@ tags:
 
 [{% picture 2010/06/bandcampcover_wegenwaldstille.jpg alt="Wege & Waldstille" %}](http://bit.ly/c1d3EK)
 
-You can now hear recordings of Tuesday’s performance by [Vaganza](http://www.vaganza.manchester.ac.uk/) of [_Mikrokonzert: I Swear I Saw the Sun Falling_](http://www.chrisswithinbank.net/2009/06/mikrokonzert-2/) and [Psappha](http://www.psappha.com/)’s premiere of _[Wege & Waldstille](http://www.chrisswithinbank.net/2010/04/wegen-und-waldstille/)_ back in April over on [my Bandcamp page](http://hear.chrisswithinbank.net/).
+You can now hear recordings of Tuesday’s performance by [Vaganza](http://www.vaganza.manchester.ac.uk/) of [_Mikrokonzert: I Swear I Saw the Sun Falling_](/2009/06/mikrokonzert-2/) and [Psappha](http://www.psappha.com/)’s premiere of _[Wege & Waldstille](/2010/04/wegen-und-waldstille/)_ back in April over on [my Bandcamp page](http://hear.chrisswithinbank.net/).
 
 [{% picture 2010/06/bandcampcover_mikrokonzert.jpg alt="Mikrokonzert: I Swear I Saw the Sun Falling" %}](http://bit.ly/9MRNGi)

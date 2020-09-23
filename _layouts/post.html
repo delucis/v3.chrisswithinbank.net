@@ -13,7 +13,7 @@ layout: default
   {% include post_disqus.html %}{% endif %}
   <footer class="entry-meta">
     <p>Posted on <strong><time class="published" datetime="{{ page.date | date: '%Y-%m-%d'}}">{{ page.date | date: '%A, %-d %B %Y' }}</time></strong></p>{% if page.wordpress_id %}
-    <p>This post first appeared on an older version of this site: <a href="http://v2.chrisswithinbank.net{{ page.url }}" rel="nofollow">v2.chrisswithinbank.net{{ page.url }}</a></p>{% endif %}
+    <p>This post first appeared on an older version of this site: <a href="https://v2.chrisswithinbank.net{{ page.url }}" rel="nofollow">v2.chrisswithinbank.net{{ page.url }}</a></p>{% endif %}
     {% include _article-json-ld.html %}
   </footer>{% if page.next_in_category or page.previous_in_category %}
   <div class="pagination clearfix post-nav">{% if page.next_in_category %}

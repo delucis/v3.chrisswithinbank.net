@@ -17,7 +17,7 @@ featured_image: 2011/08/soundscapessonoroushorreum.gif
 featured_image_alt: Soundscapes Sonorous-Horreum flyer
 ---
 
-You will be able to hear my tape piece [_La leggerezza delle città_](http://www.chrisswithinbank.net/2010/08/la-leggerezza-delle-citta/) in an exhibition of electroacoustic and soundscape compositions at the [Sonorous-Horreum](http://www.kapu.or.at/event/2011/09/05/soundscapes_special_ed_sonorous_horreum_0) listening room at the KAPU ([map](http://g.co/maps/62jv)) in Linz, Austria, 2–5 September as part of this year’s [Ars Electronica Festival](http://www.aec.at/festival/de/). The organisers describe the exhibition as:
+You will be able to hear my tape piece [_La leggerezza delle città_](/2010/08/la-leggerezza-delle-citta/) in an exhibition of electroacoustic and soundscape compositions at the [Sonorous-Horreum](http://www.kapu.or.at/event/2011/09/05/soundscapes_special_ed_sonorous_horreum_0) listening room at the KAPU ([map](http://g.co/maps/62jv)) in Linz, Austria, 2–5 September as part of this year’s [Ars Electronica Festival](http://www.aec.at/festival/de/). The organisers describe the exhibition as:
 
 > … an exhibition of sound works surrounded by concerts. International sound artists meet local compositions and the audience in a multichannel listening room — the “Sonorous-Horreum”. Sounds and noises that make us doubt in the darkness as at the same time we compose the landscape only by listening.
 

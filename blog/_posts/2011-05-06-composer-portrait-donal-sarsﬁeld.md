@@ -15,7 +15,7 @@ featured_image_alt: Donal Sarsfield recording
 featured_image_caption: Donal Sarsfield recording sound in the [Musical Instruments Museum](http://www.mim.be/en), Brussels
 ---
 
-Recent recipient of the 1er Prix Luigi Russolo for his work _Gallivanting_ (now retitled as _The Suitcases Piece_), Donal Sarsfield is an Irish composer currently studying for a PhD in electroacoustic music at the University of Manchester on an Irish Arts Council Elizabeth Maconchy Composition Fellowship. His recent tape music demonstrates poignancy and humour in equal measure, with attention to the detail of even the most ephemeral gesture. For the second of an occasional series of profiles of composers whose music I like (previously: [Nina Whiteman](http://www.chrisswithinbank.net/2010/11/composer-portrait-nina-whiteman/)), Donal kindly agreed to answer some questions about what makes him tick.
+Recent recipient of the 1er Prix Luigi Russolo for his work _Gallivanting_ (now retitled as _The Suitcases Piece_), Donal Sarsfield is an Irish composer currently studying for a PhD in electroacoustic music at the University of Manchester on an Irish Arts Council Elizabeth Maconchy Composition Fellowship. His recent tape music demonstrates poignancy and humour in equal measure, with attention to the detail of even the most ephemeral gesture. For the second of an occasional series of profiles of composers whose music I like (previously: [Nina Whiteman](/2010/11/composer-portrait-nina-whiteman/)), Donal kindly agreed to answer some questions about what makes him tick.
 
 ### Q&A
 

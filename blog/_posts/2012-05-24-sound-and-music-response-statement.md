@@ -15,7 +15,7 @@ featured_image: 2012/04/sam-ace-logos.gif
 featured_image_alt: Sound and Music & Arts Council England logos
 ---
 
-In response to the [open letter that was sent to Sound and Music and Arts Council England last month](http://www.chrisswithinbank.net/2012/04/response-to-letters-to-sam-ace/) and which gathered 135 signatories, we have received the following short statement from the Sound and Music Board of Trustees dated 18 May 2012 (which can also be [viewed as a PDF](http://www.chrisswithinbank.net/wp-content/uploads/2012/05/SaM-response-to-the-open-letter-from-72-individuals.pdf)):
+In response to the [open letter that was sent to Sound and Music and Arts Council England last month](/2012/04/response-to-letters-to-sam-ace/) and which gathered 135 signatories, we have received the following short statement from the Sound and Music Board of Trustees dated 18 May 2012 (which can also be [viewed as a PDF](/wp-content/uploads/2012/05/SaM-response-to-the-open-letter-from-72-individuals.pdf)):
 
 > Sound and Music would like to acknowledge the letter from over 72 individuals, headed by Martin Butler, Rolf Hind, Andrew Hugill, Ian Pace, Mariam Rezaei, and Chris Swithinbank.
 >

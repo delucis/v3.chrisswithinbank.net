@@ -19,4 +19,4 @@ tags:
 
 <p class="embed-container"><iframe width="538" height="404" src="https://www.youtube-nocookie.com/embed/y3WOzrTbcp4?rel=0" frameborder="0" allowfullscreen></iframe></p>
 
-A five-minute excerpt of the premiere of [_something golden in the night_](http://www.chrisswithinbank.net/2012/03/something-golden-in-the-night/) for soprano saxophone given by Haruka Inoue at [IRCAM](http://www.ircam.fr/) at the end of March.
+A five-minute excerpt of the premiere of [_something golden in the night_](/2012/03/something-golden-in-the-night/) for soprano saxophone given by Haruka Inoue at [IRCAM](http://www.ircam.fr/) at the end of March.

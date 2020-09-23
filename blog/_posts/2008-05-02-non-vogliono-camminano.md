@@ -18,4 +18,4 @@ _non vogliono, camminano_ is an instrumental work for ensemble drawing its inspi
 
 It was premiered as part of the University of Manchester's Student Showcase of new works on May 12th at the [Martin Harris Centre for Music and Drama](http://www.arts.manchester.ac.uk/martinharriscentre/), Manchester.
 
-[**Programme Notes & Instrumentation**](http://www.chrisswithinbank.net/2008/05/non-vogliono-camminano-2/)
+[**Programme Notes & Instrumentation**](/2008/05/non-vogliono-camminano-2/)

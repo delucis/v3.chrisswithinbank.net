@@ -15,7 +15,7 @@ tags:
 
 **NB: This post refers to [a _previous_ site re-design](http://v2.chrisswithinbank.net).**
 
-Welcome to a new look website. Please glance around and [get in touch](http://www.chrisswithinbank.net/contact/) or leave a comment if you see anything that looks broken. I am still tinkering with things, so things might change, and there should be sections with audio and video up at some point in the future. Any other feedback is also welcome.
+Welcome to a new look website. Please glance around and [get in touch](/contact/) or leave a comment if you see anything that looks broken. I am still tinkering with things, so things might change, and there should be sections with audio and video up at some point in the future. Any other feedback is also welcome.
 
 If you are so inclined, take a look at the [colophon](http://v2.chrisswithinbank.net/colophon/) for details of what makes this site tick.
 

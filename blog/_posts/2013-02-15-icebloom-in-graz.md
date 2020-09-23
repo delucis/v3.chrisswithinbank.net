@@ -22,7 +22,7 @@ tags:
 
 {% picture 2013/02/snow.jpg alt="snowing" %}
 
-This morning, Stockholm’s [Curious Chamber Players](http://www.curiouschamberplayers.com/) will read my miniature _[Icebloom](http://www.chrisswithinbank.net/2012/05/icebloom/)_, a piano trio with music box drawing on Schubert’s _Winterreise_, as part of the [Impuls Academy](http://www.impuls.cc/en/academy/) in Graz, Austria. While here, I am also enjoying lectures on and performances of new music, meeting plenty of fellow composers and performers, and taking lessons with Georges Aperghis, Chaya Czernowin and Georg Friedrich Haas. I am grateful for the scholarship from [Fondation Royaumont](http://www.royaumont.com/) which is enabling this trip.
+This morning, Stockholm’s [Curious Chamber Players](http://www.curiouschamberplayers.com/) will read my miniature _[Icebloom](/2012/05/icebloom/)_, a piano trio with music box drawing on Schubert’s _Winterreise_, as part of the [Impuls Academy](http://www.impuls.cc/en/academy/) in Graz, Austria. While here, I am also enjoying lectures on and performances of new music, meeting plenty of fellow composers and performers, and taking lessons with Georges Aperghis, Chaya Czernowin and Georg Friedrich Haas. I am grateful for the scholarship from [Fondation Royaumont](http://www.royaumont.com/) which is enabling this trip.
 
 **Update, 9/3:** Here’s an extract of _Icebloom_ recorded in the reading session last month:
 

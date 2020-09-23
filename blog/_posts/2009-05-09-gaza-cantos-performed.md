@@ -14,4 +14,4 @@ tags:
 - Wrexham Arts Festival
 ---
 
-Friend and frequent musical collaborator [Robert Guy](http://www.robert-guy.com/) gave a viola recital as part of the [Wrexham Arts Festival](http://www.wrexham.gov.uk/english/leisure_tourism/publications/artsfestival.htm) on Saturday 9th May, 2009. The programme included Hindemith, Bruch and a new work, [_Gaza Cantos_](http://www.chrisswithinbank.net/2009/05/gaza-cantos/), that I wrote for him.
+Friend and frequent musical collaborator [Robert Guy](http://www.robert-guy.com/) gave a viola recital as part of the [Wrexham Arts Festival](http://www.wrexham.gov.uk/english/leisure_tourism/publications/artsfestival.htm) on Saturday 9th May, 2009. The programme included Hindemith, Bruch and a new work, [_Gaza Cantos_](/2009/05/gaza-cantos/), that I wrote for him.
