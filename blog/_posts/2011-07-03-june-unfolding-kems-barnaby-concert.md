@@ -20,10 +20,10 @@ Two weeks ago [King Edward Musical Society](http://www.kems.org.uk/) premiered m
 
 <p><iframe width="100%" height="166" scrolling="no" frameborder="no" src="https://w.soundcloud.com/player/?url=https%3A//api.soundcloud.com/tracks/18315951&amp;color=ff5500&amp;auto_play=false&amp;hide_related=false&amp;show_comments=true&amp;show_user=true&amp;show_reposts=false"></iframe></p>
 
-[![KEMS - Barnaby Concert](http://farm3.static.flickr.com/2619/5856081454_16cc2721cb_z.jpg)](http://www.flickr.com/photos/gazh1/5856081454/)
+[![KEMS - Barnaby Concert](https://farm3.static.flickr.com/2619/5856081454_16cc2721cb_z.jpg)](http://www.flickr.com/photos/gazh1/5856081454/)
 
-[![KEMS - Barnaby Concert](http://farm3.static.flickr.com/2577/5855529735_aacde406f2_b.jpg)](http://www.flickr.com/photos/gazh1/5855529735/)
+[![KEMS - Barnaby Concert](https://farm3.static.flickr.com/2577/5855529735_aacde406f2_b.jpg)](http://www.flickr.com/photos/gazh1/5855529735/)
 
-[![KEMS - Barnaby Concert](http://farm4.static.flickr.com/3066/5856081756_fb76cf2630_z.jpg)](http://www.flickr.com/photos/gazh1/5856081756/)
+[![KEMS - Barnaby Concert](https://farm4.static.flickr.com/3066/5856081756_fb76cf2630_z.jpg)](http://www.flickr.com/photos/gazh1/5856081756/)
 
-[![KEMS - Barnaby Concert](http://farm4.static.flickr.com/3282/5856081848_d583d1cc6b_z.jpg)](http://www.flickr.com/photos/gazh1/5856081848/)
+[![KEMS - Barnaby Concert](https://farm4.static.flickr.com/3282/5856081848_d583d1cc6b_z.jpg)](http://www.flickr.com/photos/gazh1/5856081848/)

@@ -15,7 +15,7 @@ audioembed: '<iframe style="border: 0; width: 100%; height: 42px;" src="https://
 withdrawn: true
 ---
 
-_This is Water!_, for ensemble and tape, takes its name from the book of the same title![](http://www.assoc-amazon.co.uk/e/ir?t=chrisswith-21&l=as2&o=2&a=0316068225) by David Foster Wallace, subtitled ‘Some Thoughts, Delivered on a Significant Occasion, about Living a Compassionate Life’ ([Little, Brown & co., New York, 2009](http://www.amazon.co.uk/gp/product/0316068225?ie=UTF8&tag=chrisswith-21&linkCode=as2&camp=1634&creative=19450&creativeASIN=0316068225)).![](http://www.assoc-amazon.co.uk/e/ir?t=chrisswith-21&l=as2&o=2&a=0316068225) Here is the passage, which gives that book its name:
+_This is Water!_, for ensemble and tape, takes its name from the book of the same title![](https://www.assoc-amazon.co.uk/e/ir?t=chrisswith-21&l=as2&o=2&a=0316068225) by David Foster Wallace, subtitled ‘Some Thoughts, Delivered on a Significant Occasion, about Living a Compassionate Life’ ([Little, Brown & co., New York, 2009](http://www.amazon.co.uk/gp/product/0316068225?ie=UTF8&tag=chrisswith-21&linkCode=as2&camp=1634&creative=19450&creativeASIN=0316068225)).![](https://www.assoc-amazon.co.uk/e/ir?t=chrisswith-21&l=as2&o=2&a=0316068225) Here is the passage, which gives that book its name:
 
 > There are these two young fish swimming along and they happen to meet an older fish swimming the other way, who nods at them and says, “Morning, boys. How’s the water?”
 And the two young fish swim on for a bit, and then eventually one of them looks over at the other and goes, “What the hell is water?”

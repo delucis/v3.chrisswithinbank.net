@@ -37,7 +37,7 @@ Last year I put together a [lengthy look at good stuff I’d seen, heard and rea
 
 <p><iframe style="border: 0; width: 100%; height: 120px;" src="https://bandcamp.com/EmbeddedPlayer/track=1031425736/size=large/bgcol=ffffff/linkcol=0687f5/tracklist=false/artwork=small/transparent=true/" seamless><a href="http://drewbakermusic.bandcamp.com/track/microscript">microscript by Drew Baker</a></iframe></p>
 
-2011 was really notable for being a year when I finally found time to read some of my stack of waiting books. If you pick anything to read in 2012, make it **David Foster Wallace’s _[Infinite Jest](http://www.amazon.co.uk/gp/product/0349121087/ref=as_li_ss_tl?ie=UTF8&tag=chrisswith-21&linkCode=as2&camp=1634&creative=19450&creativeASIN=0349121087)![](http://www.assoc-amazon.co.uk/e/ir?t=chrisswith-21&l=as2&o=2&a=0349121087)_**. There is no question in my mind that it is one of the most wonderful books of the 20th Century and at just one thousand pages long, at least a thousand too short.
+2011 was really notable for being a year when I finally found time to read some of my stack of waiting books. If you pick anything to read in 2012, make it **David Foster Wallace’s _[Infinite Jest](http://www.amazon.co.uk/gp/product/0349121087/ref=as_li_ss_tl?ie=UTF8&tag=chrisswith-21&linkCode=as2&camp=1634&creative=19450&creativeASIN=0349121087)![](https://www.assoc-amazon.co.uk/e/ir?t=chrisswith-21&l=as2&o=2&a=0349121087)_**. There is no question in my mind that it is one of the most wonderful books of the 20th Century and at just one thousand pages long, at least a thousand too short.
 
 
 
