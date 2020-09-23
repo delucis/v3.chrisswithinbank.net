@@ -11,5 +11,7 @@ layout: default
 
   <p><a href="{{ site.url }}/diary/">Upcoming events »</a></p>
 
-  {% include events_archive-list.html scope="past" %}
+  <ul class="datalist clearfix">
+    {% include events_archive-list.html scope="past" %}
+  </ul>
 </div>

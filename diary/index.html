@@ -9,6 +9,8 @@ layout: default
 <div class="primary">
   <h2>{{ page.title }}</h2>
   {% if page.digest %}<p><em>{{ page.digest }}</em></p>{% endif %}
-  {% include events_archive-list.html scope="future" %}
+  <ul class="datalist clearfix">
+    {% include events_archive-list.html scope="future" %}
+  </ul>
   <p><a href="{{ site.url }}/diary/past/">Past events »</a></p>
 </div>
