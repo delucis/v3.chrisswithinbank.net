@@ -10,7 +10,7 @@ instrumentationlist:
   - 2 violas
   - 2 cellos
   - 1 double bass
-audioembed: '<iframe style="border: 0; width: 100%; height: 42px;" src="http://bandcamp.com/EmbeddedPlayer/track=2793036997/size=small/bgcol=ffffff/linkcol=0687f5/transparent=true/" seamless><a href="http://hear.chrisswithinbank.net/track/excavations">Excavations by Chris Swithinbank</a></iframe>'
+audioembed: '<iframe style="border: 0; width: 100%; height: 42px;" src="https://bandcamp.com/EmbeddedPlayer/track=2793036997/size=small/bgcol=ffffff/linkcol=0687f5/transparent=true/" seamless><a href="http://hear.chrisswithinbank.net/track/excavations">Excavations by Chris Swithinbank</a></iframe>'
 withdrawn: true
 ---
 

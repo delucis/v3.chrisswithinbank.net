@@ -7,7 +7,7 @@ instrumentation: for tape (stereo)
 duration: 5'32"
 instrumentationlist:
   - Fixed media (stereo)
-audioembed: '<iframe style="border: 0; width: 100%; height: 42px;" src="http://bandcamp.com/EmbeddedPlayer/track=2573076665/size=small/bgcol=ffffff/linkcol=0687f5/transparent=true/" seamless><a href="http://hear.chrisswithinbank.net/track/la-leggerezza-delle-citt">La leggerezza delle città by Chris Swithinbank</a></iframe>'
+audioembed: '<iframe style="border: 0; width: 100%; height: 42px;" src="https://bandcamp.com/EmbeddedPlayer/track=2573076665/size=small/bgcol=ffffff/linkcol=0687f5/transparent=true/" seamless><a href="http://hear.chrisswithinbank.net/track/la-leggerezza-delle-citt">La leggerezza delle città by Chris Swithinbank</a></iframe>'
 soundcloud_id: 15908157
 iswc: T-911.177.613-7
 ---

@@ -20,6 +20,6 @@ A private listening session and partial diffusion for postgraduate students at N
 **Play sample:**
 
 <p><audio controls>
-  <source src="http://v1.chrisswithinbank.net/son/booksofmoses.mp3" type="audio/mpeg">
+  <source src="https://v1.chrisswithinbank.net/son/booksofmoses.mp3" type="audio/mpeg">
   <a href="http://v1.chrisswithinbank.net/son/booksofmoses.mp3" type="audio/mpeg">Audio link</a>
 </audio></p>

@@ -11,7 +11,7 @@ instrumentationlist:
   - Percussion
   - String Quartet
   - Tape
-audioembed: '<iframe style="border: 0; width: 100%; height: 42px;" src="http://bandcamp.com/EmbeddedPlayer/album=300699358/size=small/bgcol=ffffff/linkcol=0687f5/track=3020932809/transparent=true/" seamless><a href="http://hear.raise-your-voice.org/album/launch-live">Launch Live by Raise Your Voice Ensemble</a></iframe>'
+audioembed: '<iframe style="border: 0; width: 100%; height: 42px;" src="https://bandcamp.com/EmbeddedPlayer/album=300699358/size=small/bgcol=ffffff/linkcol=0687f5/track=3020932809/transparent=true/" seamless><a href="http://hear.raise-your-voice.org/album/launch-live">Launch Live by Raise Your Voice Ensemble</a></iframe>'
 withdrawn: true
 ---
 

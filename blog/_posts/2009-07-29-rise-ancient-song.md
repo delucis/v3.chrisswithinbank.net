@@ -20,7 +20,7 @@ I have been listening a lot to this motet, _Adesto dolori meo, Deus_, by the lat
 This recording is of my father's group The Art of Music, a group of (usually) six singers living and working in Luxembourg who have now been going for over fifteen years with varying personnel and who specialise in the performance of music from the Renaissance and Middle Ages.
 
 <p><audio controls>
-  <source src="http://v1.chrisswithinbank.net/son/adesto_dolori_meo.mp3" type="audio/mpeg">
+  <source src="https://v1.chrisswithinbank.net/son/adesto_dolori_meo.mp3" type="audio/mpeg">
   <a href="http://v1.chrisswithinbank.net/son/adesto_dolori_meo.mp3" type="audio/mpeg">Audio link</a>
 </audio></p>
 
