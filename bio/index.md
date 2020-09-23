@@ -13,9 +13,9 @@ share an instrument, at times producing a single sound through communal action,
 staging an intimate responsiveness to one another and their instrument’s
 resonance.
 
-Since 2013, I have been a student in the doctoral programme at
-Harvard University (USA) where my dissertation committee includes Profs. Chaya
-Czernowin, Vijay Iyer, and Hans Tutschku. I studied on the ‘Cursus 1’ programme
+I recently graduated from the doctoral programme at Harvard University (USA)
+where my dissertation committee included Profs. Chaya Czernowin, Vijay Iyer,
+and Hans Tutschku. I previously studied on the ‘Cursus 1’ programme
 at IRCAM (France), supported by an Entente Cordiale Scholarship, and at the
 University of Manchester (UK) where I received Bachelors and Masters degrees in
 music and composition, studying with Ricardo Climent. Other important musical
