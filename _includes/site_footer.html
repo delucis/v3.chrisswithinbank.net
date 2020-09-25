@@ -4,7 +4,7 @@
             <dt>Elsewhere</dt>
             {% for item in site.data.footer %}
               {% assign linkstart = item.href | truncate: 7, '' %}
-              <dd><a href="{{ item.href }}"{% unless linkstart == 'mailto:' %} target="_blank" rel="me"{% endunless %}{% if item.icon %} class="icon {{ item.icon }}"{% endif %}>{{ item.label }}</a></dd>
+              <dd><a href="{{ item.href }}"{% unless linkstart == 'mailto:' %} target="_blank" rel="noopener" rel="me"{% endunless %}{% if item.icon %} class="icon {{ item.icon }}"{% endif %}>{{ item.label }}</a></dd>
             {% endfor %}
           </dl>
         </footer>
