@@ -1,3 +1,4 @@
+[![Netlify Status](https://api.netlify.com/api/v1/badges/f9bbe34c-e316-4137-9fe3-d1f644b9f4b3/deploy-status)](https://app.netlify.com/sites/csnet-v3/deploys)
 [![Build Status](https://travis-ci.org/delucis/v3.chrisswithinbank.net.svg?branch=master)](https://travis-ci.org/delucis/v3.chrisswithinbank.net)
 
 <!-- TOC depthFrom:1 depthTo:2 withLinks:1 updateOnSave:1 orderedList:0 -->
@@ -7,8 +8,6 @@
 	- [Repository Set-Up](#repository-set-up)
 	- [Running local server and building](#running-local-server-and-building)
 - [Deployment](#deployment)
-	- [Set-Up](#set-up)
-	- [Deploying site changes](#deploying-site-changes)
 
 <!-- /TOC -->
 
@@ -94,71 +93,4 @@ JEKYLL_ENV=production bundle exec jekyll build
 
 # Deployment
 
-## Set-Up
-
-### Install [git-ftp](http://git-ftp.github.io/git-ftp/)
-
-```sh
-brew install git-ftp
-```
-
-`git-ftp` allows you to maintain a SHA-1 reference on the server and push
-changes over FTP.
-
-### Make `_site/` a repo
-
-```sh
-cd _site
-git init
-```
-
-Stage everything in the build folder for committing:
-
-```sh
-git add -A
-```
-
-Double check that really was everything:
-
-```sh
-git status
-```
-Make your first commit:
-
-```sh
-git commit -m "Initial commit."
-```
-
-### Set up `git-ftp` defaults
-
-```sh
-git config git-ftp.user FTPUSER
-git config git-ftp.password FTPPASSWORD
-git config git-ftp.url ftp.chrisswithinbank.net
-```
-
-This stores FTP credentials in `.git/config`. Obviously don’t push these
-anywhere public.
-
-### First push to server
-
-```sh
-git-ftp init
-```
-
-This pushes the entire repository, and sets the reference SHA-1 checksum
-on the server.
-
-If the server already contains an SHA-1 checksum, this will fail. Run
-`git-ftp push`, and when asked if you want to re-upload everything, type `y`.
-
-## Deploying site changes
-
-```sh
-git add -A
-git commit -m "DESCRIPTION OF CHANGES."
-git-ftp push
-```
-
-This checks the server’s SHA-1 checksum and pushes all local files that have
-changed since that commit.
+Changes pushed to this repository will be automatically deployed via Netlify.
