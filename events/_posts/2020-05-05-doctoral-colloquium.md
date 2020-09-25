@@ -3,6 +3,7 @@ title: Doctoral Colloquium
 date: 2020-05-05 11:00
 venue:
   name: Harvard Music Department
+  address: 3 Oxford St, Cambridge, MA 02138, United States
   url: https://music.fas.harvard.edu/
 ---
 
