@@ -10,7 +10,7 @@ package = "netlify-plugin-cache"
     Content-Security-Policy-Report-Only = "default-src https:; frame-ancestors 'none'; object-src 'none'; base-uri 'none'"
     X-Frame-Options = "DENY"
     X-Content-Type-Options = "nosniff"
-    X-XSS-Protection: 1; mode=block
+    X-XSS-Protection = "1; mode=block"
 
 [[headers]]
   for = "/wp-content/uploads/*"
