@@ -7,7 +7,7 @@ package = "netlify-plugin-cache"
 [[headers]]
   for = "/*"
   [headers.values]
-    Content-Security-Policy = "default-src https:; frame-ancestors 'none'; object-src 'none'; base-uri 'none'"
+    Content-Security-Policy = "default-src 'none'; font-src 'self' https://fonts.gstatic.com; frame-src https://bandcamp.com https://disqus.com https://e.issuu.com https://player.vimeo.com https://w.soundcloud.com https://www.youtube-nocookie.com; img-src 'self'; script-src 'self' 'unsafe-eval' 'unsafe-inline' https://e.issuu.com/embed.js https://swithinbank.disqus.com/embed.js https://www.google-analytics.com/analytics.js; style-src 'self' 'unsafe-inline' https://fonts.googleapis.com/"
     X-Frame-Options = "DENY"
     X-Content-Type-Options = "nosniff"
     X-XSS-Protection = "1; mode=block"
