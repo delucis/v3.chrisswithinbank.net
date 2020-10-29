@@ -755,8 +755,7 @@ footer.entry-meta {
 .site-footer {
   dl {
     color: $text-light;
-    padding: $lh-base 0;
-    padding-left:0;
+    padding: $lh-base 5%;
     margin: 0;
     dd {
       display: inline-block;
@@ -1221,11 +1220,12 @@ Page Structure */
   -ms-font-feature-settings: "liga" 1, "dlig" 1;
   -o-font-feature-settings: "liga" 1, "dlig" 1;
   font-feature-settings: "liga" 1, "dlig" 1;
+  max-width: 53em;
   margin: 0;
-  padding: 0 5%;
   border-top: 4px double rgba($text-dark, 0.2);
   @include largebp {
     border-top: none;
+    margin: 0 auto;
   }
   @include mediumbp {
   }
