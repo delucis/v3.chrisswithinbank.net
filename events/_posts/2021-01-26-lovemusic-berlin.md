@@ -8,6 +8,7 @@ venue:
   name:
   url:
   shortaddress: Berlin
+  address: Berlin
 # facebook:
 works:
   - local bond
