@@ -543,44 +543,24 @@ Basic Class Selectors */
 }
 .container {
   a {
-    @include underline($fg: $link-underline, $bg: $bg-light, $hover: $text-dark);
+    @include link-underline($fg: $link-underline, $bg: $bg-light, $hover: $text-dark);
     &:hover {
       color: $text-dark;
-    }
-    @include smallbp {
-      background-position: 0% 92%, 100% 92%, 0% 92%;
-    }
-  }
-  h2 {
-    a {
-      background-position: 0% 83%, 100% 83%, 0% 83%;
-    }
-  }
-  h4 {
-    a {
-      background-position: 0% 85%, 100% 85%, 0% 85%;
     }
   }
   .ui {
     font-family: $display-font;
-    a {
-      background-position: 0 98%,100% 98%,0 98%;
-      @include smallbp {
-        background-position: 0 95%,100% 95%,0 95%;
-      }
-    }
   }
   .light-text {
     color: $text-light;
   }
   a.button {
+    @include disable-link-underline;
     display: block;
     width: 100%;
     margin-top: $lh-p / 2;
     line-height: $lh-p * 2;
     padding: 0 ($lh-p / 2);
-    text-shadow: none;
-    background-image: none;
     color: $bg-light;
     background-color: $text-dark;
     font-family: $display-font;
@@ -592,7 +572,6 @@ Basic Class Selectors */
             transition: background-color 0.15s ease-in, color 0.15s ease-in;
     &:hover {
       color: $bg-light;
-      background-image: none;
       background-color: $link-hover;
     }
   }
@@ -615,7 +594,7 @@ Basic Class Selectors */
       background-color: $colour;
     }
     a.#{$size} {
-      @include underline($fg: $colour, $bg: $bg-light, $hover: $text-dark);
+      @include link-underline($fg: $colour, $bg: $bg-light, $hover: $text-dark);
       &:hover {
         color: $text-dark;
       }
@@ -733,9 +712,6 @@ footer.entry-meta {
     font-size: $fs-small;
     line-height: $lh-small;
     font-family: $display-font;
-  }
-  a {
-    background-position: 0% 100%, 100% 100%, 0% 100%;
   }
 }
 .site-footer {
@@ -1123,9 +1099,9 @@ $arrow-size:            1em;
     }
   }
   a.arrow {
+    @include disable-link-underline;
     background: $bg-dark;
     color: $bg-light;
-    text-shadow: none;
     &:hover {
       background: $link-hover;
       &.newer:after {
@@ -1254,13 +1230,13 @@ Sidebar Styling */
     color: $text-dark;
   }
   a {
-    @include underline($fg: $link-underline, $bg: $bg-dark, $hover: $link-hover);
+    @include link-underline($fg: $link-underline, $bg: $bg-dark, $hover: $link-hover);
     color: $bg-light;
     &:hover {
       color: $bg-light;
     }
     @include xlargebp {
-      @include underline($fg: $link-underline, $bg: $bg-light, $hover: $bg-dark);
+      @include link-underline($fg: $link-underline, $bg: $bg-light, $hover: $bg-dark);
       color: $text-dark;
       &:hover {
         color: $bg-dark;
@@ -1305,13 +1281,12 @@ Sidebar Styling */
     }
   }
   .big-link {
+    @include disable-link-underline;
     display: block;
     max-width: 25.6em;
     margin-top: $lh-p;
     line-height: $lh-p * 2;
     padding: 0 ($lh-p / 2) 0 ($lh-p / 4);
-    text-shadow: none;
-    background-image: none;
     background-color: $bg-light;
     color: $text-dark;
     @include xlargebp {
@@ -1337,7 +1312,6 @@ Sidebar Styling */
     }
     &:hover {
       color: $bg-light;
-      background-image: none;
       background-color: $link-hover;
       .facebook, .twitter  {
         -webkit-filter: brightness(10);
@@ -1392,12 +1366,6 @@ Events page layout */
     font-size: 1em;
     line-height: $lh-base;
     font-weight: 700;
-    a {
-      background-position: 0% 90%, 100% 90%, 0% 90%;
-      @include smallbp {
-        background-position: 0% 83%, 100% 83%, 0% 83%;
-      }
-    }
   }
   a {
     .eventdate {
@@ -1412,7 +1380,6 @@ Events page layout */
       color: $bg-light;
       font-family: $display-font;
       font-weight: 700;
-      text-shadow: none;
       transition: background-color 0.15s ease-in;
       span {
         display: block;
@@ -1551,7 +1518,6 @@ Works List Styles */
       line-height: $lh-p;
       margin: 0;
       a {
-        background-position: 0% 95%, 100% 95%, 0% 95%;
         &:before {
           content: " • ";
           font-size: $fs-big;
@@ -1567,7 +1533,7 @@ Works List Styles */
     }
     @each $size, $colour in $sizes {
       a.#{$size} {
-        @include underline($fg: $colour, $bg: $bg-light, $hover: $text-dark);
+        @include link-underline($fg: $colour, $bg: $bg-light, $hover: $text-dark);
         &:before {
           color: $colour;
         }
