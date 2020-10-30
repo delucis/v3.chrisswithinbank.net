@@ -543,21 +543,9 @@ Basic Class Selectors */
 }
 .container {
   a {
-    background-image: linear-gradient(rgba(0,0,0,0),rgba(0,0,0,0)), linear-gradient(rgba(0,0,0,0),rgba(0,0,0,0)), linear-gradient(rgba($link-underline,1), rgba($link-underline,1));
-    background-size: .05em 2px, .05em 2px, 2px 2px;
-    background-repeat: no-repeat, no-repeat, repeat-x;
-    background-position: 0% 95%, 100% 95%, 0% 95%;
-    text-shadow:
-    0 -.03em $bg-light,0 0 $bg-light,0 .03em $bg-light,0 .06em $bg-light,0 .08em $bg-light,
-    .03em -.03em $bg-light,.03em 0 $bg-light,.03em .03em $bg-light,.03em .06em $bg-light,.03em .08em $bg-light,
-    -.03em -.03em $bg-light,-.03em 0 $bg-light,-.03em .03em $bg-light,-.03em .06em $bg-light,-.03em .08em $bg-light,
-    .06em -.03em $bg-light,.06em 0 $bg-light,.06em .03em $bg-light,.06em .06em $bg-light,.06em .08em $bg-light,
-    -.06em -.03em $bg-light,-.06em 0 $bg-light,-.06em .03em $bg-light,-.06em .06em $bg-light,-.06em .08em $bg-light,
-    .08em -.03em $bg-light,.08em 0 $bg-light,.08em 0.03em $bg-light,.08em 0.06em $bg-light,.08em 0.08em $bg-light,
-    -.08em -.03em $bg-light,-.08em 0 $bg-light,-.08em 0.03em $bg-light,-.08em 0.06em $bg-light,-.08em 0.08em $bg-light;
+    @include underline($fg: $link-underline, $bg: $bg-light, $hover: $text-dark);
     &:hover {
       color: $text-dark;
-      background-image: linear-gradient(rgba(0,0,0,0),rgba(0,0,0,0)), linear-gradient(rgba(0,0,0,0),rgba(0,0,0,0)), linear-gradient($text-dark, $text-dark);
     }
     @include smallbp {
       background-position: 0% 92%, 100% 92%, 0% 92%;
@@ -627,11 +615,9 @@ Basic Class Selectors */
       background-color: $colour;
     }
     a.#{$size} {
-      @extend a;
-      background-image: linear-gradient(rgba(0,0,0,0),rgba(0,0,0,0)), linear-gradient(rgba(0,0,0,0),rgba(0,0,0,0)), linear-gradient($colour, $colour);
+      @include underline($fg: $colour, $bg: $bg-light, $hover: $text-dark);
       &:hover {
         color: $text-dark;
-        background-image: linear-gradient(rgba(0,0,0,0),rgba(0,0,0,0)), linear-gradient(rgba(0,0,0,0),rgba(0,0,0,0)), linear-gradient($text-dark, $text-dark);
       }
     }
   }
@@ -1268,32 +1254,16 @@ Sidebar Styling */
     color: $text-dark;
   }
   a {
+    @include underline($fg: $link-underline, $bg: $bg-dark, $hover: $link-hover);
     color: $bg-light;
-    text-shadow:
-      0 -.03em $bg-dark,0 0 $bg-dark,0 .03em $bg-dark,0 .06em $bg-dark,0 .08em $bg-dark,
-      .03em -.03em $bg-dark,.03em 0 $bg-dark,.03em .03em $bg-dark,.03em .06em $bg-dark,.03em .08em $bg-dark,
-      -.03em -.03em $bg-dark,-.03em 0 $bg-dark,-.03em .03em $bg-dark,-.03em .06em $bg-dark,-.03em .08em $bg-dark,
-      .06em -.03em $bg-dark,.06em 0 $bg-dark,.06em .03em $bg-dark,.06em .06em $bg-dark,.06em .08em $bg-dark,
-      -.06em -.03em $bg-dark,-.06em 0 $bg-dark,-.06em .03em $bg-dark,-.06em .06em $bg-dark,-.06em .08em $bg-dark,
-      .08em -.03em $bg-dark,.08em 0 $bg-dark,.08em 0.03em $bg-dark,.08em 0.06em $bg-dark,.08em 0.08em $bg-dark,
-      -.08em -.03em $bg-dark,-.08em 0 $bg-dark,-.08em 0.03em $bg-dark,-.08em 0.06em $bg-dark,-.08em 0.08em $bg-dark;
     &:hover {
       color: $bg-light;
-      background-image: linear-gradient(rgba(0,0,0,0),rgba(0,0,0,0)), linear-gradient(rgba(0,0,0,0),rgba(0,0,0,0)), linear-gradient($link-hover, $link-hover);
     }
     @include xlargebp {
+      @include underline($fg: $link-underline, $bg: $bg-light, $hover: $bg-dark);
       color: $text-dark;
-      text-shadow:
-        0 -.03em $bg-light,0 0 $bg-light,0 .03em $bg-light,0 .06em $bg-light,0 .08em $bg-light,
-        .03em -.03em $bg-light,.03em 0 $bg-light,.03em .03em $bg-light,.03em .06em $bg-light,.03em .08em $bg-light,
-        -.03em -.03em $bg-light,-.03em 0 $bg-light,-.03em .03em $bg-light,-.03em .06em $bg-light,-.03em .08em $bg-light,
-        .06em -.03em $bg-light,.06em 0 $bg-light,.06em .03em $bg-light,.06em .06em $bg-light,.06em .08em $bg-light,
-        -.06em -.03em $bg-light,-.06em 0 $bg-light,-.06em .03em $bg-light,-.06em .06em $bg-light,-.06em .08em $bg-light,
-        .08em -.03em $bg-light,.08em 0 $bg-light,.08em 0.03em $bg-light,.08em 0.06em $bg-light,.08em 0.08em $bg-light,
-        -.08em -.03em $bg-light,-.08em 0 $bg-light,-.08em 0.03em $bg-light,-.08em 0.06em $bg-light,-.08em 0.08em $bg-light;
       &:hover {
         color: $bg-dark;
-        background-image: linear-gradient(rgba(0,0,0,0),rgba(0,0,0,0)), linear-gradient(rgba(0,0,0,0),rgba(0,0,0,0)), linear-gradient($bg-dark, $bg-dark);
       }
     }
   }
@@ -1597,13 +1567,12 @@ Works List Styles */
     }
     @each $size, $colour in $sizes {
       a.#{$size} {
-        background-image: linear-gradient(rgba(0,0,0,0),rgba(0,0,0,0)), linear-gradient(rgba(0,0,0,0),rgba(0,0,0,0)), linear-gradient(rgba($colour, 1), rgba($colour, 1));
+        @include underline($fg: $colour, $bg: $bg-light, $hover: $text-dark);
         &:before {
           color: $colour;
         }
         &:hover {
           color: $text-dark;
-          background-image: linear-gradient(rgba(0,0,0,0),rgba(0,0,0,0)), linear-gradient(rgba(0,0,0,0),rgba(0,0,0,0)), linear-gradient(rgba($text-dark, 1), rgba($text-dark, 1));
           &:before {
             color: $text-dark;
           }

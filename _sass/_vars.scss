@@ -136,3 +136,29 @@ $sizes: (chamber, $chamber), (solo, $solo), (ensemble, $ensemble), (tape, $tape)
             page-break-inside: $setting;
                  break-inside: $setting;
 }
+
+@mixin underline($fg, $bg, $hover) {
+  $t: rgba(0, 0, 0, 0);
+  background-image:
+    linear-gradient($t, $t),
+    linear-gradient($t, $t),
+    linear-gradient($fg, $fg);
+  background-size: .05em 2px, .05em 2px, 2px 2px;
+  background-repeat: no-repeat, no-repeat, repeat-x;
+  background-position: 0% 95%, 100% 95%, 0% 95%;
+  text-shadow:
+    0 -.03em $bg, 0 0 $bg, 0 .03em $bg, 0 .06em $bg, 0 .08em $bg,
+    .03em -.03em $bg, .03em 0 $bg, .03em .03em $bg, .03em .06em $bg, .03em .08em $bg,
+    -.03em -.03em $bg, -.03em 0 $bg, -.03em .03em $bg, -.03em .06em $bg, -.03em .08em $bg,
+    .06em -.03em $bg, .06em 0 $bg, .06em .03em $bg, .06em .06em $bg, 06em .08em $bg,
+    -.06em -.03em $bg, -.06em 0 $bg, -.06em .03em $bg, -.06em .06em $bg, -.06em .08em $bg,
+    .08em -.03em $bg, .08em 0 $bg, .08em 0.03em $bg, .08em 0.06em $bg, .08em 0.08em $bg,
+    -.08em -.03em $bg, -.08em 0 $bg, -.08em 0.03em $bg, -.08em 0.06em $bg, -.08em 0.08em $bg;
+
+  &:hover {
+    background-image:
+      linear-gradient($t, $t),
+      linear-gradient($t, $t),
+      linear-gradient($hover, $hover);
+  }
+}
