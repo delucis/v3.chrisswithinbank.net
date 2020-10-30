@@ -136,3 +136,14 @@ $sizes: (chamber, $chamber), (solo, $solo), (ensemble, $ensemble), (tape, $tape)
             page-break-inside: $setting;
                  break-inside: $setting;
 }
+
+@mixin link-underline($fg, $bg, $hover) {
+  text-decoration: underline .1111rem $fg;
+  text-underline-offset: .15rem;
+
+  &:hover {
+    text-decoration-color: $hover;
+  }
+}
+
+@mixin disable-link-underline { text-decoration: none; }
