@@ -138,7 +138,8 @@ $sizes: (chamber, $chamber), (solo, $solo), (ensemble, $ensemble), (tape, $tape)
 }
 
 @mixin link-underline($fg, $bg, $hover) {
-  text-decoration: underline .1111rem $fg;
+  text-decoration: underline $fg;
+  text-decoration-thickness: .1111rem;
   text-underline-offset: .15rem;
 
   &:hover {
