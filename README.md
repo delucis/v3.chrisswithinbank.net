@@ -1,5 +1,4 @@
 [![Netlify Status](https://api.netlify.com/api/v1/badges/f9bbe34c-e316-4137-9fe3-d1f644b9f4b3/deploy-status)](https://app.netlify.com/sites/csnet-v3/deploys)
-[![Build Status](https://travis-ci.org/delucis/v3.chrisswithinbank.net.svg?branch=master)](https://travis-ci.org/delucis/v3.chrisswithinbank.net)
 
 <!-- TOC depthFrom:1 depthTo:2 withLinks:1 updateOnSave:1 orderedList:0 -->
 

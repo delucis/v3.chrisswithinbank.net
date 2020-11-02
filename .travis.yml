@@ -1,8 +1,0 @@
-language: ruby
-rvm:
-  - 2.5
-cache: bundler
-install:
-  - bundle install
-script:
-  - JEKYLL_ENV=production bundle exec jekyll build
