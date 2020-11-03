@@ -30,6 +30,20 @@ Instrumentations for the versions performed so far are as follows:
 
 3. <u>Spatialised quintet with video & multichannel audio</u> — flute / oboe / clarinet / violin / keyboard — for ensemble mosaik
 
+<figure markdown="1">
+{% picture 2020/11/mosaik-rainy-days-i-began-the-day-alfonoso-salgueiro.jpg alt="Musicians perform on a dark stage in front of an abstract video projection." %}
+<figcaption markdown="1">
+ensemble mosaik performing *I began the day…* at Rainy Days 2018. Photo © Alfonso Salgueiro.
+</figcaption>
+</figure>
+
+<figure markdown="1">
+{% picture 2020/11/paine-hall-i-began-the-day-word-cloud.jpg alt="A cloud of words projected in a dark room." %}
+<figcaption markdown="1">
+Installation view of video projected in Paine Hall, Harvard University.
+</figcaption>
+</figure>
+
 [cs]: http://www.wavepoetry.com/products/calamities
 [em]: http://www.ensemble-mosaik.de/
 [rd]: www.rainydays.lu/2018/
