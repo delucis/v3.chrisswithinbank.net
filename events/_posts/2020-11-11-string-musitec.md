@@ -1,5 +1,5 @@
 ---
-title: A Bunch of String (lecture)
+title: "String: Is This Technology? (Lecture)"
 date: 2020-11-11 10:00
 performer:
   name: musitec2
