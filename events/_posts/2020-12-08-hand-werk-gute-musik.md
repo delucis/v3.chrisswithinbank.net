@@ -8,7 +8,7 @@ venue:
   name: Alte Feuerwache
   url: https://altefeuerwachekoeln.de/
   shortaddress: Köln
-  address: Melchiorstraße 3, 50670 Köln
+  address: Melchiorstraße 3, 50670 Köln, Germany
 facebook:
 works:
   - The Incredulity of St Thomas

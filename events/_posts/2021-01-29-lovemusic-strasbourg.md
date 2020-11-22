@@ -8,7 +8,7 @@ venue:
   name:
   url:
   shortaddress: Strasbourg
-  address: Strasbourg
+  address: Strasbourg, France
 # facebook:
 works:
   - local bond
