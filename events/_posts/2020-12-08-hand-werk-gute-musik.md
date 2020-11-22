@@ -40,3 +40,9 @@ programme:
 featured_image: 2020/11/hand-werk-takasugi.jpg
 featured_image_alt: Six musicians wearing black ties and suits, holding their instruments and grimacing.
 ---
+[hand werk][hw] reprise pieces from [their 2014 residency][e]
+with the [Harvard Group for New Music][hgnm].
+
+[hw]: http://ensemble-handwerk.eu/
+[e]: /2014/03/handwerk-hgnm/
+[hgnm]: http://hgnm.org/
