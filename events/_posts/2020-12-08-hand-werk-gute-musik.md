@@ -9,7 +9,7 @@ venue:
   url: https://altefeuerwachekoeln.de/
   shortaddress: Köln
   address: Melchiorstraße 3, 50670 Köln, Germany
-facebook:
+facebook: https://www.facebook.com/events/432681431236070/
 works:
   - The Incredulity of St Thomas
 programme:
@@ -43,6 +43,9 @@ featured_image_alt: Six musicians wearing black ties and suits, holding their in
 [hand werk][hw] reprise pieces from [their 2014 residency][e]
 with the [Harvard Group for New Music][hgnm].
 
+Due to the coronavirus, this concert is closed to the public, but will be [live streamed on YouTube][yt].
+
 [hw]: http://ensemble-handwerk.eu/
 [e]: /2014/03/handwerk-hgnm/
 [hgnm]: http://hgnm.org/
+[yt]: https://youtu.be/eA3Dkm163Z8
