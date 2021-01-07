@@ -9,8 +9,6 @@ tags:
   - Wilhelm Kempff Kulturstiftung
   - composition residency
   - collaboration
-# featured_image: 2021/01/progetto-positano.jpg
-# featured_image_alt: Progetto Positano logo
 ---
 {% picture 2021/01/progetto-positano.jpg alt="Progetto Positano logo." %}
 
