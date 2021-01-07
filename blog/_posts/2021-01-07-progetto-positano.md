@@ -22,8 +22,8 @@ collaboration that last produced [_I began the day inside the world trying to lo
 Since 2017, in partnership with the [Ernst von Siemens Musikstiftung][evs],
 ensemble mosaik has been offering composers the opportunity to spend a month
 working on their music at the [Wilhelm Kempff Kulturstiftung][wkk]’s
-Casa Orfeo in Positano, Italy, collaboration with the ensemble’s musicians, and
-a performance of several works in an autumn concert in Berlin.
+Casa Orfeo in Positano, Italy, and to collaborate with the ensemble’s musicians,
+with the results presented in an autumn concert in Berlin.
 
 mosaik have worked flat out throughout these
 difficult months to keep performing safely wherever possible, so against the
@@ -35,17 +35,18 @@ very different musical worlds, making full use of the spatial opportunities
 offered by the [St. Elisabeth-Kirche][sek], and framing each piece with
 electronics and video to draw my attention fluidly through the whole experience.
 
-To give a flavour, here is Sara Glojnarić’s phenomenal _#popfem 2_, which cuts
+To give a flavour, here is Sara Glojnarić’s phenomenal _#popfem&nbsp;2_, which cuts
 footage from the confirmation hearings of Brett Kavanaugh and Clarence Thomas
 with the same rapid-fire energy that her music displays, simultaneously
 deploying the archive material as a means to bear witness and subverting it
-to make her own, feminist, point.
+to make her own forceful point.
 
 <p class="embed-container"><iframe width="560" height="315" src="https://www.youtube-nocookie.com/embed/Mt-n16k0A0g" frameborder="0" allow="accelerometer; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe></p>
 
 It will be a challenge contributing to a concert as well put together as
 October’s, but I look forward to attempting to do so and sharing this
-platform with fellow fellow [Liisa Hirsch][lh].
+platform with fellow composer [Liisa Hirsch][lh] and all of ensemble mosaik’s
+musicians.
 
 [em]: http://www.ensemble-mosaik.de/
 [pp]: https://progettopositano.org/
