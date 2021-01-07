@@ -9,9 +9,11 @@ tags:
   - Wilhelm Kempff Kulturstiftung
   - composition residency
   - collaboration
-featured_image: 2021/01/progetto-positano.jpg
-featured_image_alt: Progetto Positano logo
+# featured_image: 2021/01/progetto-positano.jpg
+# featured_image_alt: Progetto Positano logo
 ---
+{% picture 2021/01/progetto-positano.jpg alt="Progetto Positano logo." %}
+
 It was a lovely surprise last year to receive a phone call from
 [ensemble mosaik][em]’s Lisa Nolte, asking if I would take part in their
 fellowship programme [Progetto Positano][pp] in 2021. In a year marked by
