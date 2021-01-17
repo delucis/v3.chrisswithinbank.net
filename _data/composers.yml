@@ -37,6 +37,10 @@
 "Hannah Ashman":
   nationality: GB
   birthDate: 1990
+"Noriko Baba":
+  sameAs: http://noriko.baba.online.fr/index.html
+  nationality: JP
+  birthDate: 1972
 "Trevor Bača":
   sameAs: http://www.trevorbaca.com/
   birthDate: 1975
@@ -109,6 +113,9 @@
   nationality: IT
   birthDate: 1975
   sameAs: http://www.oscarbianchi.com/
+"David Bird":
+  nationality: US
+  sameAs: http://davidbird.tv/
 "Manuella Blackburn":
   sameAs: http://www.manuella.co.uk/
   nationality: GB
@@ -206,7 +213,7 @@
   nationality: ES
   sameAs: http://www.acousmatic.org/
 "Sivan Cohen-Elias":
-  sameAs: https://soundcloud.com/sivan-cohen-elias
+  sameAs: https://www.sivancohenelias.com/
   birthDate: 1976
   nationality: IL
 "Rodrigo Constanzo":
@@ -230,6 +237,10 @@
   birthDate: 1929
   nationality: US
   sameAs: http://www.georgecrumb.net/
+"Violeta Cruz":
+  sameAs: http://violetacruz.com/
+  birthDate: 1986
+  nationality: CO
 "David Curington":
   sameAs: http://davidcurington.com/
   nationality: GB
@@ -355,6 +366,9 @@
   nationality: GB
   birthDate: 1982
   sameAs: http://alexisguneratne.com/
+"Hollie Harding":
+  sameAs: http://www.hollieharding.com/
+  nationality: GB
 "Jonathan Harvey":
   sameAs: https://en.wikipedia.org/wiki/Jonathan_Harvey_(composer)
   birthDate: 1939
@@ -573,6 +587,11 @@
   birthDate: 1953
   nationality: JP
   sameAs: http://ichironodaira.com/
+"Pauline Oliveros":
+  sameAs: https://www.deeplistening.rpi.edu/deep-listening/pauline-oliveros/
+  nationality: US
+  birthDate: 1932
+  deathDate: 2016
 "Philip O’Meara":
   sameAs: http://philipomeara.com/
   nationality: GB
