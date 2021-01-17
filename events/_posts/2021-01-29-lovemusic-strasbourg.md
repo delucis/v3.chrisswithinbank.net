@@ -19,7 +19,7 @@ programme:
   - composer: Violeta Cruz
     work: New Piece
     gender: F
-  - composer: Sivan Cohen Elias
+  - composer: Sivan Cohen-Elias
     work: Air Pressure
     gender: F
   - composer: Hollie Harding
