@@ -651,6 +651,10 @@
     - DE
     - AT
   birthDate: 1989
+"Alberto Posadas":
+  sameAs: https://en.wikipedia.org/wiki/Alberto_Posadas
+  nationality: ES
+  birthDate: 1967
 "Ian Power":
   birthDate: 1984
   nationality: US
@@ -790,6 +794,10 @@
   nationality: FR
   birthDate: 1817
   deathDate: 1879
+"Kelley Sheehan":
+  sameAs: https://www.kelleysheehan.com/
+  nationality: US
+  birthDate: 1989
 "Emma Shires":
   nationality: GB
   birthDate: 1987
