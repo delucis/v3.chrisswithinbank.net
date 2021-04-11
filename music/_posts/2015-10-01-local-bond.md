@@ -26,3 +26,13 @@ Written for Stony Brook University’s [‘Premieres!’](http://www.stonybrook.
 
   </figcaption>
 </figure>
+
+<figure>
+  <p class="embed-container"><iframe width="538" height="303" src="https://www.youtube-nocookie.com/embed/EKHUVQa9KB0" title="YouTube video of lovemusic playing local bond" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe></p>
+
+  <figcaption markdown="1">
+
+  [lovemusic](https://www.collectivelovemusic.com/) perform *local bond* at [BKA-Theater](https://bka-theater.de/content_start.php?id=368), Berlin.
+
+  </figcaption>
+</figure>
