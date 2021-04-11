@@ -25,4 +25,5 @@ programme:
   - composer: Hakan Ulus
     work: TāHā
     gender: M
+isOnline: true
 ---

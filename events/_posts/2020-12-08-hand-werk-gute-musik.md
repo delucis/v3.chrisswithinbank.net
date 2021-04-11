@@ -37,6 +37,7 @@ programme:
   - composer: Steven Kazuo Takasugi
     work: The Man Who Couldn’t Stop Laughing
     gender: M
+isOnline: true
 featured_image: 2020/11/hand-werk-takasugi.jpg
 featured_image_alt: Six musicians wearing black ties and suits, holding their instruments and grimacing.
 ---
