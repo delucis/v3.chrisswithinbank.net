@@ -51,8 +51,8 @@
     {% endfor %}],{% endif %}
     "location": {
       "@type": "{% if event.locationtype %}{{ event.locationtype }}{% else %}MusicVenue{% endif %}",
-      "name": "{{ event.venue.name }}",
-      "address": "{{ event.venue.address }}"{% if event.venue.url %},
+      "name": "{{ event.venue.name }}"{% if event.venue.address %},
+      "address": "{{ event.venue.address }}"{% endif %}{% if event.venue.url %},
       "sameAs": "{{ event.venue.url }}"{% endif %}
     },
     "eventStatus": "{% if event.status %}{{ event.status }}{% else %}EventScheduled{% endif %}",
