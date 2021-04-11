@@ -1,5 +1,5 @@
 ---
-title: ensemble mosaik - Progetto Positano
+title: Progetto Positano Double Portrait Concert
 date: 2021-09-26 20:00
 performer:
   name: ensemble mosaik
