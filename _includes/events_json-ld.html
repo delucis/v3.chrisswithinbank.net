@@ -55,6 +55,7 @@
       "address": "{{ event.venue.address }}"{% if event.venue.url %},
       "sameAs": "{{ event.venue.url }}"{% endif %}
     },
-    "eventAttendanceMode": "{% if event.isOnline %}Online{% else %}Offline{%  endif %}EventAttendanceMode"
+    "eventStatus": "{% if event.status %}{{ event.status }}{% else %}EventScheduled{% endif %}",
+    "eventAttendanceMode": "{% if event.isOnline %}Online{% else %}Offline{% endif %}EventAttendanceMode"
   }
 </script>

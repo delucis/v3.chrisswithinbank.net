@@ -34,6 +34,7 @@ programme:
   - composer: Chris Swithinbank
     work: local bond
     gender: M
+status: EventPostponed
 featured_image: 2021/01/lovemusic.jpg
 featured_image_alt: A collage of faces in a range of pastel shades
 ---
