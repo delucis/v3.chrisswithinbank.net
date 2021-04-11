@@ -26,4 +26,5 @@ programme:
     work: TāHā
     gender: M
 isOnline: true
+locationtype: VirtualLocation
 ---

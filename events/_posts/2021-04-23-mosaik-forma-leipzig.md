@@ -27,6 +27,7 @@ programme:
     work: union|haze
     gender: M
 isOnline: true
+locationtype: VirtualLocation
 ---
 Correct date, time and further details for the live stream will be available
 soon from [forma Leipzig][fl].

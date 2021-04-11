@@ -8,7 +8,6 @@ venue:
   name: BKA-Theater
   url: https://bka-theater.de/content_start.php?id=368
   shortaddress: Berlin, Germany
-  address: Mehringdamm 34, 10961 Berlin, Germany
 facebook: https://www.facebook.com/events/850045619086617/
 works:
   - local bond
@@ -35,6 +34,7 @@ programme:
     work: local bond
     gender: M
 isOnline: true
+locationtype: VirtualLocation
 featured_image: 2021/01/lovemusic.jpg
 featured_image_alt: A collage of faces in a range of pastel shades
 ---

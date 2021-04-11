@@ -7,6 +7,7 @@ venue:
   url: https://music.fas.harvard.edu/
 isOnline: true
 status: EventMovedOnline
+locationtype: VirtualLocation
 ---
 
 Doctoral Colloquium marking the end of my PhD studies at Harvard University. Due to the COVID-19 pandemic, this will be held online on 5 May 2020, 11am EDT.

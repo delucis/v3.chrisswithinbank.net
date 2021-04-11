@@ -11,6 +11,7 @@ venue:
   address: Universidade Federal de Mato Grosso do Sul
 facebook: https://www.facebook.com/Musitec2-110695684138459/
 isOnline: true
+locationtype: VirtualLocation
 ---
 Online lecture for “musitec2: 2nd Seminar on Music and Technology” on string
 or thread as a deceptively simple technology for intervening in the social and
