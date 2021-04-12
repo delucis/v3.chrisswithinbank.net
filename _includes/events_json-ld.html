@@ -53,7 +53,7 @@
       "@type": "{% if event.locationtype %}{{ event.locationtype }}{% else %}MusicVenue{% endif %}",
       "name": "{{ event.venue.name }}"{% if event.venue.address %},
       "address": "{{ event.venue.address }}"{% endif %}{% if event.venue.url %},
-      "sameAs": "{{ event.venue.url }}"{% endif %}
+      "url": "{{ event.venue.url }}"{% endif %}
     },
     "eventStatus": "{% if event.status %}{{ event.status }}{% else %}EventScheduled{% endif %}",
     "eventAttendanceMode": "{% if event.isOnline %}Online{% else %}Offline{% endif %}EventAttendanceMode"
