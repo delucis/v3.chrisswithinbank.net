@@ -28,6 +28,8 @@ programme:
     gender: M
 isOnline: true
 locationtype: VirtualLocation
+featured_image: 2021/04/forma-leipzig.jpg
+featured_image_alt: An event poster featuring black and white squares and circles overlaid on swirling colourful abstract shapes.
 ---
 Correct date, time and further details for the live stream will be available
 soon from [forma Leipzig][fl].
