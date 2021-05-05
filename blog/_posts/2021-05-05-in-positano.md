@@ -1,6 +1,6 @@
 ---
 title: In Positano
-date: 2021-01-07 18:20:00
+date: 2021-05-05 13:35:00
 excerpt: I have just arrived at the Fondazione Orfeo in Positano, Italy, for a four-week residency where I will be working on music for ensemble mosaik to be premiered in September.
 tags:
   - ensemble mosaik
