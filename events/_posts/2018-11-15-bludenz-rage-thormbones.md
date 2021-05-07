@@ -1,6 +1,6 @@
 ---
 title: Bludenzer Tage zeitgemäßer Musik
-date: 2018-11-18 17:00
+date: 2018-11-18 17:00:00 +1
 performer:
   name: RAGE THORMBONES
   url:  http://www.ragethormbones.rocks/

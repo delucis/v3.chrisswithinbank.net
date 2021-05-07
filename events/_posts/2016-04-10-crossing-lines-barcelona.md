@@ -1,6 +1,6 @@
 ---
 title: Small Atlas in Barcelona
-date: 2016-04-10 19:00
+date: 2016-04-10 19:00:00 +2
 performer:
   name: CrossingLines Ensemble
   url: http://www.crossinglinesensemble.com/

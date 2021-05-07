@@ -1,6 +1,6 @@
 ---
 title: Haruka Inoue in Tokyo
-date: 2016-08-15 19:00
+date: 2016-08-15 19:00:00 +9
 performer:
   name: Haruka Inoue
   url: http://www.harukainoue.com/

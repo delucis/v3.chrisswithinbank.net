@@ -1,6 +1,6 @@
 ---
 title: Colloquium Talk
-date: 2019-04-08 12:00
+date: 2019-04-08 12:00:00 -4
 venue:
   name: Harvard Music Department
   url: https://music.fas.harvard.edu/

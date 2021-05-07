@@ -1,6 +1,6 @@
 ---
 title: ensemble mosaik at Unerhörte Musik
-date: 2020-02-04 20:00
+date: 2020-02-04 20:00:00 +2
 performer:
   name: ensemble mosaik
   url: http://www.ensemble-mosaik.de/konzerte.php?4._Feb._2020_/_20:00

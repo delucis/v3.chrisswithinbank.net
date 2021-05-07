@@ -1,6 +1,6 @@
 ---
 title: wasteLAnd at Harvard
-date: 2019-05-25 20:00
+date: 2019-05-25 20:00:00 -4
 performer:
   name: wasteLAnd
   url: https://www.wastelandmusic.org/

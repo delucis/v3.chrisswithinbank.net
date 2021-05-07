@@ -1,6 +1,6 @@
 ---
 title: Radio Broadcast on Ö1 (Austria)
-date: 2019-05-06 23:03
+date: 2019-05-06 23:03:00 +2
 performer:
   name: Zeit-Ton
   url: https://oe1.orf.at/programm/20190506/552729

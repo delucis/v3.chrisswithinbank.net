@@ -1,6 +1,6 @@
 ---
 title: "(CANCELLED) new work"
-date: 2020-05-16 20:00
+date: 2020-05-16 20:00:00 -4
 performer:
   name: Wet Ink
   url: http://wetink.org/

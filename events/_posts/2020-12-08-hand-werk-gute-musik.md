@@ -1,6 +1,6 @@
 ---
 title: "hw20c_ #4 FROM HARVARD WITH LOVE"
-date: 2020-12-08 20:00
+date: 2020-12-08 20:00:00 +1
 performer:
   name: hand werk
   url: http://ensemble-handwerk.eu/

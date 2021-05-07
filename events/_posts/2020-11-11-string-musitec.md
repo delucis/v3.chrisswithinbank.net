@@ -1,6 +1,6 @@
 ---
 title: "String: Is This Technology? (Lecture)"
-date: 2020-11-11 10:00
+date: 2020-11-11 10:00:00 -3
 performer:
   name: musitec2
   url: https://sites.google.com/view/musitec2/

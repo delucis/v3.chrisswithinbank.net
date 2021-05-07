@@ -1,6 +1,6 @@
 ---
 title: Rainy Days Festival Luxembourg - Wunderkammer
-date: 2018-11-25 11:00
+date: 2018-11-25 11:00:00 +1
 performer:
   name: ensemble mosaik
   url: http://www.ensemble-mosaik.de/

@@ -1,6 +1,6 @@
 ---
 title: Yarn/Wire at Harvard
-date: 2017-03-18 20:00
+date: 2017-03-18 20:00:00 -4
 performer:
   name: Yarn/Wire
   url: http://yarnwire.org/

@@ -1,6 +1,6 @@
 ---
 title: Doctoral Colloquium
-date: 2020-05-05 11:00
+date: 2020-05-05 11:00:00 -4
 venue:
   name: Harvard Music Department
   address: 3 Oxford St, Cambridge, MA 02138, United States

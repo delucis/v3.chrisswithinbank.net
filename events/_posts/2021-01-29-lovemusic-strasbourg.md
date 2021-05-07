@@ -1,6 +1,6 @@
 ---
 title: lovemusic in Strasbourg
-date: 2021-01-29 20:00
+date: 2021-01-29 20:00:00 +2
 performer:
   name: lovemusic
   url: https://www.collectivelovemusic.com/

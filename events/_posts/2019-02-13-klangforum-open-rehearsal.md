@@ -1,6 +1,6 @@
 ---
 title: Open rehearsal & discussion
-date: 2019-02-13 18:00
+date: 2019-02-13 18:00:00 +1
 performer:
   name: Doris Weberberger & Klangforum Wien
 venue:

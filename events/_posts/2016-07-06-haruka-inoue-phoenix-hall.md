@@ -1,6 +1,6 @@
 ---
 title: Haruka Inoue in Osaka
-date: 2016-07-06 19:00
+date: 2016-07-06 19:00:00 +9
 performer:
   name: Haruka Inoue
   url: http://www.harukainoue.com/

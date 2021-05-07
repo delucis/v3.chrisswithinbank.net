@@ -1,6 +1,6 @@
 ---
 title: Longleash in Somerville
-date: 2016-11-13 15:00
+date: 2016-11-13 15:00:00 -5
 performer:
   name: Longleash
   url: http://longleashtrio.com/

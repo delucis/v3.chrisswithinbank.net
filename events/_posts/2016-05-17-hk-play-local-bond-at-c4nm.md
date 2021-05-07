@@ -1,6 +1,6 @@
 ---
 title: hk play local bond in San Francisco
-date: "2016-05-17 19:00"
+date: 2016-05-17 19:00:00 -7
 performer:
   name: hk
   url:

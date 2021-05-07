@@ -1,6 +1,6 @@
 ---
 title: "Vertixe Sonora: Mise en Abîme"
-date: 2017-10-17 20:30
+date: 2017-10-17 20:30:00 +2
 performer:
   name: Vertixe Sonora
   url: http://vertixesonora.net/

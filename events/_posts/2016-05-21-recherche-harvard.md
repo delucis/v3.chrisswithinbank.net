@@ -1,6 +1,6 @@
 ---
 title: ensemble recherche at Harvard
-date: 2016-05-21 20:00
+date: 2016-05-21 20:00:00 -4
 enddate:
 performer:
   name: ensemble recherche

@@ -1,6 +1,6 @@
 ---
 title: Court-circuit in Birmingham
-date: 2017-03-30 20:00
+date: 2017-03-30 20:00:00 +1
 performer:
   name: Ensemble Court-circuit
   url: http://www.court-circuit.fr/

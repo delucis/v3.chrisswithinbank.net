@@ -1,6 +1,6 @@
 ---
 title: impuls . International Composition Competition
-date: 2019-02-15 20:00
+date: 2019-02-15 20:00:00 +1
 performer:
   name: Klangforum Wien & Ilan Volkov
   url:  https://www.klangforum.at/kalender-detail/preistraeger-impuls.html

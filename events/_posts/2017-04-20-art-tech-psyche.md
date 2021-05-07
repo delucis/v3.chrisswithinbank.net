@@ -1,6 +1,6 @@
 ---
 title: Artist Talk
-date: 2017-04-20 14:10
+date: 2017-04-20 14:10:00 -4
 performer:
   name: ArtTechPsyche III
   url: https://arttechpsyche.com/

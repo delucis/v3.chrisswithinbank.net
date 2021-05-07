@@ -1,6 +1,6 @@
 ---
 title: ensemble recherche - Oh, I See
-date: 2021-06-21 20:00 +2
+date: 2021-06-21 20:00:00 +2
 performer:
   name: ensemble recherche
   url: https://www.ensemble-recherche.de/

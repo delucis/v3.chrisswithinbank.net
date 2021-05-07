@@ -1,6 +1,6 @@
 ---
 title: hk play local bond at CCRMA
-date: "2016-05-15 19:00"
+date: 2016-05-15 19:00:00 -7
 performer:
   name: hk
   url:
