@@ -1,6 +1,6 @@
 ---
 title: ensemble mosaik - forma Leipzig Live-Stream
-date: 2021-05-07 19:00
+date: 2021-05-07 19:00:00 +2
 performer:
   name: ensemble mosaik
   url: http://www.ensemble-mosaik.de/
