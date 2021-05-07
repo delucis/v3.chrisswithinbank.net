@@ -1,6 +1,6 @@
 ---
 title: Tomorrow I will build a house… in Berlin
-date: 2014-12-20 20:00
+date: 2014-12-20 20:00:00 +1
 performer:
   name: ensemble mosaik
   url: http://www.ensemble-mosaik.de/

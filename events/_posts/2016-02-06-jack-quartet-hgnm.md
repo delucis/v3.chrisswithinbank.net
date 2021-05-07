@@ -1,6 +1,6 @@
 ---
 title: JACK Quartet at Harvard
-date: 2016-02-06 20:00
+date: 2016-02-06 20:00:00 -5
 performer:
   name: JACK Quartet
   url: http://www.jackquartet.com/

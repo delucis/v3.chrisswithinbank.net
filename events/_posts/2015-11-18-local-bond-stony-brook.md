@@ -1,6 +1,6 @@
 ---
 title: Stony Brook Premieres! concert
-date: 2015-11-18 20:00
+date: 2015-11-18 20:00:00 -5
 performer:
   name: Stony Brook Contemporary Chamber Players
   url: http://www.stonybrook.edu/commcms/music/performances/ensembles/ccp.shtml
