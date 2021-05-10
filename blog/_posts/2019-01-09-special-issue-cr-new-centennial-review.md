@@ -32,7 +32,7 @@ You can find the issue on [Project Muse][issue], [JSTOR][jstor], or directly fro
 [goh]: http://www.irving-goh.com/
 [issue]: https://muse.jhu.edu/issue/39740
 [bai]: http://joannabailie.com/
-[cat]: http://www.tatianacatanzaro.org/
+[cat]: https://unb.academia.edu/TatianaCatanzaro
 [chen]: http://www.carolyn-chen.com/
 [fure]: https://www.ashleyfure.com/
 [levy]: https://www.fabienlevy.net/

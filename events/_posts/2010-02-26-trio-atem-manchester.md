@@ -3,7 +3,7 @@ title: Trio Atem in Manchester
 date: 2010-02-26 17:30
 performer:
   name: Trio Atem
-  url: http://www.trio-atem.co.uk/
+  url: http://www.trioatem.co.uk/
 venue:
   name: Martin Harris Centre for Music and Drama
   url: http://www.martinharriscentre.manchester.ac.uk/

@@ -28,7 +28,7 @@ tags:
   - Music
 ---
 
-This article first appeared as Chris Swithinbank, ‘Two Pietàs: William-Adolphe Bouguereau & Lisa Streich,’ [*CeReNeM Journal*](http://www.hud.ac.uk/research/researchcentres/cerenem/journal/), [Issue 4](http://issuu.com/cerenem/docs/cerenem_journal_issue_4) (March 2014), 120-135.
+This article first appeared as Chris Swithinbank, ‘Two Pietàs: William-Adolphe Bouguereau & Lisa Streich,’ [*CeReNeM Journal*](https://web.archive.org/web/20161203162648/http://www.hud.ac.uk/research/researchcentres/cerenem/journal/), [Issue 4](http://issuu.com/cerenem/docs/cerenem_journal_issue_4) (March 2014), 120-135.
 {: .previously-published }
 
 #### 1. Mater Dolorosa — Joyous Mother?

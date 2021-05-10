@@ -105,7 +105,7 @@ It is often stated that there is a gradual filtering out of women at every stage
     <span class="value">1/6</span>
   </li>
   <li style="width: 1.8518518518518519%;">
-    <a href="/2014/12/vignaroli-%C3%B6hman-basel/">
+    <a href="/2014/12/vignaroli-oehman-basel/">
       <span class="label" style="left: -5200.0%; width: 5400%;">
         16/12/2014: Duo Vignaroli-Öhman
       </span>
@@ -125,7 +125,7 @@ It is often stated that there is a gradual filtering out of women at every stage
     <span class="value">0/7</span>
   </li>
   <li style="width: 1.8518518518518519%;">
-    <a href="/2014/12/vignaroli-%C3%B6hman-paris/">
+    <a href="/2014/12/vignaroli-oehman-paris/">
       <span class="label" style="left: -5000.0%; width: 5400%;">
         7/12/2014: Duo Vignaroli-Öhman
       </span>
@@ -165,7 +165,7 @@ It is often stated that there is a gradual filtering out of women at every stage
     <span class="value">1/5</span>
   </li>
   <li style="width: 1.8518518518518519%;">
-    <a href="/2014/06/vignaroli-%C3%B6hman-paris/">
+    <a href="/2014/06/vignaroli-oehman-paris/">
       <span class="label" style="left: -4600.0%; width: 5400%;">
         26/6/2014: Duo Vignaroli-Öhman
       </span>

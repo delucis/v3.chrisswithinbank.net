@@ -3,7 +3,7 @@ title: "Stanzas for Music: Byron in the 21st Century"
 date: 2008-12-05 13:10
 performer:
   name: Trio Atem
-  url: http://www.trio-atem.co.uk/
+  url: http://www.trioatem.co.uk/
 venue:
   name: Martin Harris Centre for Music and Drama
   url: http://www.martinharriscentre.manchester.ac.uk/

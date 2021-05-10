@@ -21,4 +21,4 @@ On Saturday 21 January, _[La leggerezza delle città](/2010/08/la-leggerezza-de
 
 Thanks go to [Matt Ingalls](http://mattingalls.com/) and the rest of the festival team for organising everything and programming my piece. And as always Irma and Davitxun, without whom the piece wouldn’t exist.
 
-**Listings:** [Official page](http://sfsound.org/tape/) \| [Venue](http://www.odctheater.org/performance.php?param=86) \| [Last.fm](http://www.last.fm/festival/3155390+The+San+Francisco+Tape+Music+Festival)
+**Listings:** [Official page](http://sfsound.org/tape/) \| [Venue](https://web.archive.org/web/20161005003539/http://www.odctheater.org/performance.php?param=86) \| [Last.fm](http://www.last.fm/festival/3155390+The+San+Francisco+Tape+Music+Festival)

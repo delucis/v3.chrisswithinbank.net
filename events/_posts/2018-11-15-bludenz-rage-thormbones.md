@@ -3,7 +3,7 @@ title: Bludenzer Tage zeitgemäßer Musik
 date: 2018-11-18 17:00
 performer:
   name: RAGE THORMBONES
-  url:  http://www.ragethormbones.rocks/
+  url:  https://ragethormbones.com/
 venue:
   name: Bludenzer Tage zeitgemäßer Musik
   url: http://allerart-bludenz.at/btzm/

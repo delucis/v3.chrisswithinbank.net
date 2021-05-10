@@ -6,7 +6,7 @@ performer:
   url: http://www.harukainoue.com/
 venue:
   name: Space Do
-  url: http://www.kkdac.co.jp/do/
+  url: https://www.kkdac.co.jp/spacedo/
   shortaddress: Tokyo, Japan
   address: 〒169-0073 東京都新宿区百人町2-8-9
 facebook: https://www.facebook.com/events/521459744706421/

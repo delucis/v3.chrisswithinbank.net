@@ -3,7 +3,7 @@ title: IRCAM Cursus 1 Concert
 date: 2012-03-31 16:00
 performer:
   name: Haruka Inoue
-  url: http://harukainoue123.wix.com/haruka-inoue
+  url: https://www.harukainoue.com/
 performertype: Person
 venue:
   name: IRCAM

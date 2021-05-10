@@ -20,4 +20,4 @@ There would be no dance, and there is only the dance.
 >
 > — T.S. Eliot, ‘Burnt Norton’, _Four Quartets_
 
-A tiny little piece, _still point_ is a kind of interstitial, false silence written as an interjection to Heinz Holliger’s _Mobile_ for oboe and harp, a work with an open form consisting of 12 modules. It was written at the request of the [Orfea Duo](http://orfea.co.uk/) for their ‘Mobile Project’.
+A tiny little piece, _still point_ is a kind of interstitial, false silence written as an interjection to Heinz Holliger’s _Mobile_ for oboe and harp, a work with an open form consisting of 12 modules. It was written at the request of the [Orfea Duo](https://web.archive.org/web/20130331034531/http://orfea.co.uk/) for their ‘Mobile Project’.

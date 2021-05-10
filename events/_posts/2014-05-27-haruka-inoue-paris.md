@@ -3,7 +3,7 @@ title: something golden in the night in Paris
 date: 2014-05-27 10:00
 performer:
   name: Haruka Inoue
-  url: http://harukainoue123.wix.com/haruka-inoue
+  url: https://www.harukainoue.com/
 performertype: Person
 venue:
   name: CNSMdP

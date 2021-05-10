@@ -46,4 +46,4 @@ Installation view of video projected in Paine Hall, Harvard University.
 
 [cs]: http://www.wavepoetry.com/products/calamities
 [em]: http://www.ensemble-mosaik.de/
-[rd]: www.rainydays.lu/2018/
+[rd]: http://www.rainydays.lu/2018/

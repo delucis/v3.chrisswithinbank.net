@@ -5,7 +5,7 @@ performer:
   name: Laura Catrani & Quartetto Maurice
 venue:
   name: Biennale di Venezia
-  url: http://www.labiennale.org/it/musica/index.html
+  url: https://www.labiennale.org/it/musica/
   shortaddress: Italy
   address: San Marco, 1364, Venezia, Italy
   map_address_only: true

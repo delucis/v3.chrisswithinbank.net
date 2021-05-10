@@ -19,9 +19,9 @@ featured_image: 2013/03/stthomas.jpg
 featured_image_alt: "Caravaggio’s Incredulity of St Thomas"
 ---
 
-I’m lucky enough to be finishing this month with two concerts. On 22 March, the [Curious Chamber Players](http://www.curiouschamberplayers.com/) will perform [_The Incredulity of St Thomas_](/2012/06/the-incredulity-of-st-thomas/) as part of Samtida Musik’s [Vårflod Festival](http://samtidamusik.se/samtid/sv/konsert/v-rflod-garth-knox-och) in Stockholm. The rest of the programme features recent works by Swedish composers and the concert is followed by a recital given by Garth Knox.
+I’m lucky enough to be finishing this month with two concerts. On 22 March, the [Curious Chamber Players](http://www.curiouschamberplayers.com/) will perform [_The Incredulity of St Thomas_](/2012/06/the-incredulity-of-st-thomas/) as part of Samtida Musik’s [Vårflod Festival](https://web.archive.org/web/20160130181612/http://samtidamusik.se/samtid/sv/konsert/v-rflod-garth-knox-och) in Stockholm. The rest of the programme features recent works by Swedish composers and the concert is followed by a recital given by Garth Knox.
 
-**Listings:** [Vårflod Festival](http://samtidamusik.se/samtid/sv/konsert/v-rflod-garth-knox-och)
+**Listings:** [Vårflod Festival](https://web.archive.org/web/20160130181612/http://samtidamusik.se/samtid/sv/konsert/v-rflod-garth-knox-och)
 
 {% picture alignright 2013/03/soundinitiative.jpg alt="soundinitiative" %}
 

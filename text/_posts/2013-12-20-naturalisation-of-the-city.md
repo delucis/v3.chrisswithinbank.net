@@ -333,7 +333,7 @@ As ontology, Bennett’s vibrant matter remains a little unconvincing. However a
 - Calvino, Italo. *Marcovaldo*. Translated by William Weaver. Toronto: L&OD, 2007.
 - Calvino, Italo. *Mr. Palomar*. Translated by William Weaver. 1st American. San Diego: Harcourt Brace Jovanovich, 1985.
 - Crutzen, Paul J. ‘Geology of Mankind.’ *Nature* 415, no. 6867 (January 3, 2002): 23. doi:10.1038/415023a.
-- Eliasson, Olafur. *Innen Stadt Außen*. Video, 10 minutes. Berlin: Martin-Gropius-Bau, 2010. <http://www.olafureliasson.net/works/Innen_Stadt_Aussen.html>
+- Eliasson, Olafur. *Innen Stadt Außen*. Video, 10 minutes. Berlin: Martin-Gropius-Bau, 2010. [http://www.olafureliasson.net/works/Innen_Stadt_Aussen.html](https://web.archive.org/web/20130502033307/http://www.olafureliasson.net/works/Innen_Stadt_Aussen.html)
 - Eliot, Thomas Stearns. *Four Quartets*. New York: Harcourt Brace Jovanovich, 1971.
 - Harrison, Stephan, Steve Pile, and Nigel Thrift, eds. *Patterned Ground: Entanglements of Nature and Culture*. London: Reaktion, 2004.
 - Heine, Heinrich. *Lutezia. Berichte über Politik, Kunst und Volksleben. Zweiter Theil*. Hamburg: Hoffmann und Campe, 1854.

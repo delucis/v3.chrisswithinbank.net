@@ -6,7 +6,7 @@ performer:
   url: http://www.curiouschamberplayers.com/
 venue:
   name: Vårflod Festival
-  url: http://samtidamusik.se/samtid/sv/konsert/v-rflod-garth-knox-och
+  url: https://web.archive.org/web/20160130181612/http://samtidamusik.se/samtid/sv/konsert/v-rflod-garth-knox-och
   shortaddress: Stockholm
   address: Sankt Eriksgatan 82, 113 62 Stockholm, Sweden
   map_address_only: true

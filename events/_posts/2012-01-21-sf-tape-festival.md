@@ -6,7 +6,7 @@ performer:
   url: http://sfsound.org/tape/Fest2012.html
 venue:
   name: ODC Theater
-  url: http://www.odctheater.org/performance.php?param=86
+  url: https://web.archive.org/web/20161005003539/http://www.odctheater.org/performance.php?param=86
   shortaddress: San Francisco
   address: 3153 17th St, San Francisco, CA 94110, United States
 locationtype: PerformingArtsTheater

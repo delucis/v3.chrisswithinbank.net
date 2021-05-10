@@ -5,7 +5,7 @@ performer:
   name: Souppaya Steward (saxophone) & others
 venue:
   name: Hochschule für Musik und Tanz Köln
-  url: http://www.mhs-koeln.de/
+  url: https://www.hfmt-koeln.de/
   address: Unter Krahnenbäumen 87, 50668 Köln, Germany
 works:
   - Small Atlas

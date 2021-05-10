@@ -7,7 +7,7 @@ performer:
 performertype: Person
 venue:
   name: Oriel Wrecsam
-  url: https://www.facebook.com/OrielWrecsam
+  url: https://web.archive.org/web/20141112223446/https://www.facebook.com/OrielWrecsam
   shortaddress: Wrexham, UK
   address: Rhosddu Rd, Wrexham, Clwyd LL11 1AU, United Kingdom
 locationtype: ArtGallery

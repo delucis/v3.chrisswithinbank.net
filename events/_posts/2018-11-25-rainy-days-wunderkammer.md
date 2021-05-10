@@ -6,7 +6,7 @@ performer:
   url: http://www.ensemble-mosaik.de/
 venue:
   name: Rainy Days
-  url: https://www.philharmonie.lu/en/programm/series/rainy-days-2018/315
+  url: https://www.philharmonie.lu/en/programm/wunderkammer/2133
   shortaddress: Luxembourg
   address: Philharmonie, 1 Place de l’Europe, 1499 Luxembourg
   map_address_only: TRUE

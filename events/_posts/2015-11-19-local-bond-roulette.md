@@ -3,7 +3,7 @@ title: Stony Brook Premieres! at Roulette
 date: 2015-11-19 20:00
 performer:
   name: Stony Brook Contemporary Chamber Players
-  url: http://www.stonybrook.edu/commcms/music/performances/ensembles/ccp.shtml
+  url: https://web.archive.org/web/20160105170803/http://www.stonybrook.edu/commcms/music/performances/ensembles/ccp.shtml
 venue:
   name: Roulette
   url: http://roulette.org/
