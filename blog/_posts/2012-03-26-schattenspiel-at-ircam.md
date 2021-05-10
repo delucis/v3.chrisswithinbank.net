@@ -18,6 +18,6 @@ tags:
 
 My newest piece, _[Schattenspiel](/2012/03/something-golden-in-the-night/)_ [Update, 12/4: now titled _some­thing golden in the night_] for soprano saxophone and electronics, a preview of which you can hear above, will be premiered on Saturday 31 March at 4 p.m. by Haruka Inoue (on the right in the picture above) in IRCAM’s Espace de projection. The concert will also feature new works by my classmates Juan Arroyo, [Keita Matsumiya](http://keita-matsumiya.com/), [Vittorio Montalti](http://www.vittoriomontalti.com/), [Marcin Stańczyk](http://marcinstanczyk.com/) and [Ying Wang](http://www.yingwang.de/). _Schattenspiel_ features a visual element — a motorised sculpture — so come along not only to hear but also to see the music.
 
-**Listings:** [IRCAM](http://www.ircam.fr/concerts_spectacles.html?event=1052) \| [Facebook](http://www.facebook.com/events/305322429532912/)
+**Listings:** [IRCAM](https://web.archive.org/web/20120628083517/http://www.ircam.fr/concerts_spectacles.html?event=1052) \| [Facebook](http://www.facebook.com/events/305322429532912/)
 
 *[IRCAM]: Institut de recherche et coordination acoustique/musique

@@ -16,4 +16,4 @@ tags:
 - workshop
 ---
 
-Two short fragments for string quartet were workshopped at 14:30, Thursday 18 February by the [Quatuor Danel](http://www.quatuordanel.com/) as part of my Masters course. The two fragments are experiments with material and notation that I hope to develop into a fully-fledged quartet later in the year.
+Two short fragments for string quartet were workshopped at 14:30, Thursday 18 February by the [Quatuor Danel](https://www.quatuordanel.eu/) as part of my Masters course. The two fragments are experiments with material and notation that I hope to develop into a fully-fledged quartet later in the year.

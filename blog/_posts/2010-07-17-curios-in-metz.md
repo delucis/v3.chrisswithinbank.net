@@ -27,7 +27,7 @@ tags:
 - Quatuor Diotima
 ---
 
-In the last week I made a couple of trips from Luxembourg to Metz to hear some of the concerts at this year’s [Centre Acanthes](http://www.acanthes.com/) and check out the newly opened [Centre Pompidou-Metz](http://www.centrepompidou-metz.fr/). Metz is clearly in a period of flux, rejuvenating itself with art, culture and architecture, which in all honesty outshine any of the rival major cities in the ‘Grande Région’ (a.k.a. [SaarLorLux](http://en.wikipedia.org/wiki/SaarLorLux)). None of Luxembourg City, Trier, Saarbrücken or Nancy quite has the quality or the creativity to match. (Though perhaps Metz comes across as particularly vibrant when full of young composers and free concerts of contemporary music.)
+In the last week I made a couple of trips from Luxembourg to Metz to hear some of the concerts at this year’s [Centre Acanthes](https://web.archive.org/web/20110707075844/http://www.acanthes.com/) and check out the newly opened [Centre Pompidou-Metz](http://www.centrepompidou-metz.fr/). Metz is clearly in a period of flux, rejuvenating itself with art, culture and architecture, which in all honesty outshine any of the rival major cities in the ‘Grande Région’ (a.k.a. [SaarLorLux](http://en.wikipedia.org/wiki/SaarLorLux)). None of Luxembourg City, Trier, Saarbrücken or Nancy quite has the quality or the creativity to match. (Though perhaps Metz comes across as particularly vibrant when full of young composers and free concerts of contemporary music.)
 
 #### “Inspired by a Chinese hat found in Paris…”
 

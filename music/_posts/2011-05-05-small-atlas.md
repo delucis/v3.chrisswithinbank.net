@@ -16,7 +16,7 @@ iswc: T-911.236.896-4
 ---
 Recently I have been interested in cartography and the important role it plays in how we comprehend the spaces we inhabit. An atlas is a collection of maps, often several maps show the same area but map different details and data, each time revealing another facet of the land's geography. _Small Atlas_ lays out a small set of musical units using time as its canvas, but in another sense every work of music maps out a series of physical actions, instructing the performer to explore their connection with their surroundings in a characteristic fashion. Here, the singer begins with the phrase ‘J’existe’ and, through their existence, the performers briefly map time.
 
-*Small Atlas* was written for the composition workshops at [Centre Acanthes 2011](http://www.acanthes.com/) in Metz, France.
+*Small Atlas* was written for the composition workshops at [Centre Acanthes 2011](https://web.archive.org/web/20110707075844/http://www.acanthes.com/) in Metz, France.
 
 #### Text
 

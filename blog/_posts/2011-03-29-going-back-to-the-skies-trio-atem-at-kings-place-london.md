@@ -18,7 +18,7 @@ featured_image_alt: Trio Atem collage | Photos by Nik Morris
 
 Good friends [Trio Atem](http://www.myspace.com/trioatem) make their London début on 4 April with a concert as part of the innovative [‘Out Hear’ series](http://www.kingsplace.co.uk/whats-on-book-tickets/out-hear) at [Kings Place](http://www.kingsplace.co.uk/). Gavin Osborn (flute), Nina Whiteman (voice) and Alice Purton (cello) present a programme of new music by composers based in the North West of England alongside the work that first brought them together, [Helmut Lachenmann’s _temA_](/2011/03/a-structure-of-physicalities-helmut-lachenmann-tema/). Also included in the programme is a newly revised version of my [_…going back to the skies_](/2010/02/back-to-the-skies/), which they first premièred last year. Here is the programme in full:
 
-  * [Manuella Blackburn](http://www.manuella.co.uk/) — _Triple Retort_
+  * [Manuella Blackburn](https://www.manuellablackburn.com/) — _Triple Retort_
   * [Ian Vine](http://www.ianvine.com/) — _Moon Phase_
   * [Helmut Lachenmann](https://www.v2.chrisswithinbank.net/tag/helmut-lachenmann/) — _temA_
   * [Richard Whalley](http://www.richardwhalley.com/) — _Problems Arising from Sympathy_
