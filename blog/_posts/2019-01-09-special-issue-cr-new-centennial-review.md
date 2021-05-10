@@ -38,4 +38,4 @@ You can find the issue on [Project Muse][issue], [JSTOR][jstor], or directly fro
 [levy]: https://www.fabienlevy.net/
 [wv]: /2018/10/who-vibrates/
 [jstor]: https://www.jstor.org/stable/10.14321/crnewcentrevi.18.issue-2
-[msup]: http://msupress.org/journals/issue/?id=50-21D-631
+[msup]: https://msupress.org/9781684300792/cr-the-new-centennial-review-18-no-2/
