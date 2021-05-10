@@ -19,4 +19,4 @@ On Saturday, 4 October, Berlin-based [ensemble mosaik](http://ensemble-mosaik.de
 
 In my case, I can’t thank Bettina Junge and Mathis Mayr enough for their hard work and thoughtful rehearsal. It has been a real pleasure.
 
-**Listings:** [Facebook](https://www.facebook.com/events/1483582738560706) \| [Ensemble](http://www.ensemble-mosaik.de/) \| [Venue](http://www.music.fas.harvard.edu/calendar.html) \| [HGNM](http://hgnm.org/concert/ensemble-mosaik/)
+**Listings:** [Facebook](https://www.facebook.com/events/1483582738560706) \| [Ensemble](http://www.ensemble-mosaik.de/) \| [Venue](https://music.fas.harvard.edu/calendar.shtml) \| [HGNM](http://hgnm.org/concert/ensemble-mosaik/)
