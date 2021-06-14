@@ -5,11 +5,11 @@ performer:
   name: ensemble recherche
   url: https://www.ensemble-recherche.de/
 venue:
-  name: E-Werk Freiburg
-  url: http://forma-leipzig.de/
-  address:  Eschholzstr. 77, Freiburg im Breisgau, 79106 Germany
+  name: FORUM Merzhausen
+  url: https://www.merzhausen.de/FORUM-Veranstaltungen
+  address:  Am Marktpl. 4, 79249 Merzhausen, Germany
   shortaddress: Germany
 works:
   - union|haze
 ---
-Programme details to follow.
+Programme featuring works by [Carola Bauckholt](https://www.carolabauckholt.de/) and [Mirela Ivičević](https://cargocollective.com/mirelaivicevic). [Details from ensemble recherche](https://www.ensemble-recherche.de/event/oh-i-see?lang=en) to follow.
