@@ -72,6 +72,10 @@
   nationality: GB
   birthDate: 1986
   sameAs: https://twitter.com/gemmalbass
+"Malin Bång":
+  nationality: SE
+  sameAs: http://malinbang.com/
+  birthDate: 1974
 "James Bean":
   nationality: US
   sameAs: http://www.jamesbean.info/
@@ -394,6 +398,14 @@
   deathDate: 1963
   nationality: DE
   sameAs: https://en.wikipedia.org/wiki/Paul_Hindemith
+"Liisa Hirsch":
+  birthDate: 1984
+  nationality: EE
+  sameAs: https://soundcloud.com/liisa-hirsch
+"Juliana Hodkinson":
+  sameAs: https://julianahodkinson.net/
+  nationality: GB
+  birthDate: 1971
 "Justin Hoke":
   sameAs: http://www.justinhoke.com/
   birthDate: 1987
@@ -443,6 +455,10 @@
 "Josh Kopeček":
   sameAs: http://joshkopecek.co.uk/
   nationality: GB
+"Georgia Koumará":
+  sameAs: https://www.georgiakoumara.com/
+  nationality: GR
+  birthDate: 1991
 "Matthias Kranebitter":
   sameAs: http://matthiaskranebitter.com/
   birthDate: 1980
@@ -736,6 +752,10 @@
   sameAs: http://www.joakimsandgren.com/
   birthDate: 1965
   nationality: SE
+"François Sarhan":
+  birthDate: 1972
+  nationality: FR
+  sameAs: https://en.wikipedia.org/wiki/François_Sarhan
 "Donal Sarsfield":
   sameAs: http://www.cmc.ie/composers/composer.cfm?composerID=186
   birthDate: 1980
