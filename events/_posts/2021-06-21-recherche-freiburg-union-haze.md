@@ -11,5 +11,18 @@ venue:
   shortaddress: Germany
 works:
   - union|haze
+programme:
+  - composer: Chris Swithinbank
+    work: union|haze
+    gender: M
+  - composer: Mirela Ivičević
+    work: Baby Magnify/Lilith’s New Toy
+    gender: F
+  - composer: Carola Bauckholt
+    work: Oh, I see
+    gender: F
+  - composer: Hannes Kerschbaumer
+    work: kritzung
+    gender: M
 ---
-Programme featuring works by [Carola Bauckholt](https://www.carolabauckholt.de/) and [Mirela Ivičević](https://cargocollective.com/mirelaivicevic). [Details from ensemble recherche](https://www.ensemble-recherche.de/event/oh-i-see?lang=en) to follow.
+[More details on the website of ensemble recherche →](https://www.ensemble-recherche.de/event/oh-i-see?lang=en)

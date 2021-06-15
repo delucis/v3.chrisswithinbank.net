@@ -72,6 +72,10 @@
   nationality: GB
   birthDate: 1986
   sameAs: https://twitter.com/gemmalbass
+"Carola Bauckholt":
+  nationality: DE
+  birthDate: 1959
+  sameAs: https://www.carolabauckholt.de/
 "Malin Bång":
   nationality: SE
   sameAs: http://malinbang.com/
@@ -440,6 +444,9 @@
   sameAs: http://www.lukematthewiveson.rendezv0us.org
   nationality: GB
   birthDate: 1990
+"Mirela Ivičević":
+  sameAs: https://cargocollective.com/mirelaivicevic
+  nationality: HR
 "Michael Jarrell":
   birthDate: 1958
   nationality: CH
@@ -452,6 +459,10 @@
   sameAs: http://matthewkaner.com/
   nationality: GB
   birthDate: 1986
+"Hannes Kerschbaumer":
+  sameAs: www.hanneskerschbaumer.eu/
+  nationality: IT
+  birthDate: 1981
 "Josh Kopeček":
   sameAs: http://joshkopecek.co.uk/
   nationality: GB
