@@ -18,11 +18,11 @@ programme:
   - composer: Mirela Ivičević
     work: Baby Magnify/Lilith’s New Toy
     gender: F
+  - composer: Rebecca Saunders
+    work: to and fro
+    gender: F
   - composer: Carola Bauckholt
     work: Oh, I see
     gender: F
-  - composer: Hannes Kerschbaumer
-    work: kritzung
-    gender: M
 ---
 [More details on the website of ensemble recherche →](https://www.ensemble-recherche.de/event/oh-i-see?lang=en)
