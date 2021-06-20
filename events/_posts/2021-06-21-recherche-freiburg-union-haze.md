@@ -25,5 +25,7 @@ programme:
   - composer: Carola Bauckholt
     work: Oh, I see
     gender: F
+featured_image: 2021/06/recherche-oh-i-see.jpg
+featured_image_alt: "Two enormous eyeballs projected onto balloons are performed as part of Carola Bauckholt’s piece “Oh, I see”"
 ---
 [More details on the website of ensemble recherche →](https://www.ensemble-recherche.de/event/oh-i-see?lang=en)
