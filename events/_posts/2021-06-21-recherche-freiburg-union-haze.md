@@ -9,6 +9,7 @@ venue:
   url: https://www.merzhausen.de/FORUM-Veranstaltungen
   address:  Am Marktpl. 4, 79249 Merzhausen, Germany
   shortaddress: Germany
+facebook: https://www.facebook.com/events/401480144430081/
 works:
   - union|haze
 programme:
