@@ -10,7 +10,7 @@ wordpress_id: 1682
 
 Ahead of [Trio Atem](http://www.myspace.com/trioatem)’s [performance at Kings Place](http://www.kingsplace.co.uk/whats-on-book-tickets/music/trio-atem) next week, I thought I would share this essay on the work which brought them together: Helmut Lachenmann’s _temA_. It is a work that I imagine will have been a reference point or at least in the backs of composers’ minds as they wrote for the wonderful Gavin, Nina and Alice and explored the unusual combination of flute, voice and cello. It certainly was for me.
 
-If you do want to hear the work before reading or — much better — coming to Kings Place on Monday, here is a recording by Boston’s [Callithumpian Consort](http://www.callithumpian.org/) or I can recommend [the recording by Ensemble Phorminx on Wergo](http://www.amazon.co.uk/gp/product/B001GF5KBC/ref=as_li_ss_tl?ie=UTF8&tag=chrisswith-21&linkCode=as2&camp=1634&creative=19450&creativeASIN=B001GF5KBC)![](https://www.assoc-amazon.co.uk/e/ir?t=&l=as2&o=2&a=B001GF5KBC).
+If you do want to hear the work before reading or — much better — coming to Kings Place on Monday, here is a recording by Boston’s [Callithumpian Consort](http://www.callithumpian.org/) or I can recommend [the recording by Ensemble Phorminx on Wergo](https://www.prestomusic.com/classical/products/7978359--lachenmann-dal-niente).
 
 <p><iframe style="border: 0; width: 100%; height: 120px;" src="https://bandcamp.com/EmbeddedPlayer/track=4009400507/size=large/bgcol=ffffff/linkcol=0687f5/tracklist=false/artwork=small/transparent=true/" seamless><a href="http://callithumpianconsort.bandcamp.com/track/helmut-lachenmann-tema">Helmut Lachenmann, Tema by Callithumpian Consort</a></iframe></p>
 
