@@ -10,13 +10,13 @@ venue:
   address: Ackerstrasse 169, 10115 Berlin, Germany
   shortaddress: Berlin, Germany
 works:
-  - new trio
+  - irrelevant noise [subsection (1)(ab)(i)]
 programme:
   - composer: Malin Bång
     work: Studie
     gender: F
   - composer: Chris Swithinbank
-    work: new work
+    work: irrelevant noise [subsection (1)(ab)(i)]
     gender: M
   - composer: Juliana Hodkinson
     work: Neues Projekt
