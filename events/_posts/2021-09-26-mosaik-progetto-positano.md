@@ -8,10 +8,12 @@ venue:
   name: St. Elisabeth-Kirche
   address: Invalidenstraße 3, 10115 Berlin, Germany
   shortaddress: Berlin, Germany
+premiere:
+  - irrelevant noise [subsection (1)(ab)(ii)]
 works:
-  - union|haze
   - this line comes from the past
-  - new work
+  - irrelevant noise [subsection (1)(ab)(ii)]
+  - union|haze
 ---
 Joint portrait concert with [Liisa Hirsch](https://emic.ee/liisa-hirsch).
 Programme details to follow.
