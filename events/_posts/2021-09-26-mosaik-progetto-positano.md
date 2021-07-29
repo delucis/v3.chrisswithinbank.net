@@ -9,10 +9,10 @@ venue:
   address: Invalidenstraße 3, 10115 Berlin, Germany
   shortaddress: Berlin, Germany
 premiere:
-  - irrelevant noise [subsection (1)(ab)(ii)]
+  - "irrelevant noise [subsection (1)(ab)(ii)]"
 works:
   - this line comes from the past
-  - irrelevant noise [subsection (1)(ab)(ii)]
+  - "irrelevant noise [subsection (1)(ab)(ii)]"
   - union|haze
 ---
 Joint portrait concert with [Liisa Hirsch](https://emic.ee/liisa-hirsch).
