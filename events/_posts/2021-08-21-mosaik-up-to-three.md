@@ -9,11 +9,13 @@ venue:
   url: https://ackerstadtpalast.de/
   address: Ackerstrasse 169, 10115 Berlin, Germany
   shortaddress: Berlin, Germany
+premiere:
+  - "irrelevant noise [subsection (1)(ab)(i)]"
 works:
-  - irrelevant noise [subsection (1)(ab)(i)]
+  - "irrelevant noise [subsection (1)(ab)(i)]"
 programme:
   - composer: Malin Bång
-    work: Studie
+    work: Work in Progress
     gender: F
   - composer: Chris Swithinbank
     work: irrelevant noise [subsection (1)(ab)(i)]
@@ -28,7 +30,7 @@ programme:
     work: Delineated in black and white, caught or scattered, the letters dance „Im Vox-Haus“
     gender: F
   - composer: François Sarhan
-    work: Encyclopaedia
+    work: halsüberkopf
     gender: M
 ---
 [UpToThree][utt] is ensemble mosaik’s annual mini-festival of chamber music and work in progress held over two summer evenings.
