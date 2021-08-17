@@ -33,6 +33,8 @@ programme:
   - composer: François Sarhan
     work: halsüberkopf
     gender: M
+featured_image: 2021/08/up-to-three-2021.jpg
+featured_image_alt: ''
 ---
 [UpToThree][utt] is ensemble mosaik’s annual mini-festival of chamber music and work in progress held over two summer evenings.
 
