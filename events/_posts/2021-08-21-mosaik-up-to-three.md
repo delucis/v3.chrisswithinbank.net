@@ -11,6 +11,7 @@ venue:
   shortaddress: Berlin, Germany
 premiere:
   - "irrelevant noise [subsection (1)(ab)(i)]"
+facebook: https://www.facebook.com/events/1930239933809269/?event_time_id=1930239950475934
 works:
   - "irrelevant noise [subsection (1)(ab)(i)]"
 programme:
