@@ -5,12 +5,13 @@ size: chamber
 instrumentation: for clarinet, viola, cello, and live electronics
 duration: 8'
 instrumentationlist:
-  - clarinet (B-flat & bass)
+  - bass clarinet
   - viola
   - cello
   - contact microphones
   - loudspeakers
   - laptop
+github: https://github.com/delucis/irrelevant-noise
 published: true
 ---
 
