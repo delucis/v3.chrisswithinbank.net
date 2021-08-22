@@ -2,7 +2,7 @@
 title: 'union|haze'
 category: music
 size: ensemble
-instrumentation: for 10 performers, electronics & amplification
+instrumentation: for 8 performers, electronics & amplification
 duration: 19'
 instrumentationlist:
   - 'i — brush box, tupperware, vibrator'
@@ -13,8 +13,6 @@ instrumentationlist:
   - 'vi — oboe, tupperware, vibrator'
   - 'vii — grand piano, preparations, bird call'
   - 'viii — bass drum, various tools & objects'
-  - 'ix — brush box'
-  - 'x — brush box'
   - '+ electronics/haze sheets'
   - '<em>for full details, please <a href="/contact/">get in touch</a></em>'
 github: https://github.com/delucis/haze-saver
