@@ -13,7 +13,19 @@ share an instrument, at times producing a single sound through communal action,
 staging an intimate responsiveness to one another and their instrument’s
 resonance.
 
-I recently graduated from the doctoral programme at Harvard University (USA)
+In addition to my compositional work, I have taught alongside
+Profs. Claire Chase, Chaya Czernowin, George Lewis, and Hans Tutschku, covering
+improvised and experimental music, studio composition, and collaborative
+creative practice. I currently teach composition privately and for the Autumn
+Term 2021 am a Teaching Fellow in Music Technology and Computer Music at
+the University of Leeds.
+I developed [a suite of pedagogical tools][264] for teaching creative audio
+programming and have worked regularly as a technical assistant to the composer
+Clara Iannotta. Fall 2018 saw the publication of [a special issue of _CR: The
+New Centennial Review_ on music and critical theory][cr], co-edited with
+philosopher Irving Goh.
+
+I graduated from the doctoral programme at Harvard University (USA)
 where my dissertation committee included Profs. Chaya Czernowin, Vijay Iyer,
 and Hans Tutschku. I previously studied on the ‘Cursus 1’ programme
 at IRCAM (France), supported by an Entente Cordiale Scholarship, and at the
@@ -23,16 +35,6 @@ encounters have included discussions with Pierluigi Billone, Michael Pisaro,
 Rebecca Saunders, Steven Kazuo Takasugi, and Jennifer Walshe and work with the
 musicians of the JACK Quartet, ensemble mosaik, soundinitiative, Talea
 Ensemble, Trio Atem, and Yarn/Wire, amongst many others.
-
-In addition to my compositional work, I have worked as a teaching assistant to
-Profs. Claire Chase, Chaya Czernowin, George Lewis, and Hans Tutschku, covering
-improvised and experimental music, studio composition, and collaborative
-creative practice.
-I developed [a suite of pedagogical tools][264] for teaching creative audio
-programming and have worked regularly as a technical assistant to the composer
-Clara Iannotta. Fall 2018 saw the publication of [a special issue of _CR: The
-New Centennial Review_ on music and critical theory][cr], co-edited with
-philosopher Irving Goh.
 
 [u-s]: /2016/01/union-seam/
 [264]: /2016/01/teaching-max-msp/
