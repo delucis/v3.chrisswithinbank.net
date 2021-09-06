@@ -23,6 +23,16 @@ musicbrainz: https://musicbrainz.org/work/921aa4f9-0ca5-4478-ba65-520280f73d8c
 published: true
 selected: true
 ---
+
+<figure markdown="1">
+<div class="embed-container">
+  <iframe src="https://www.youtube-nocookie.com/embed/zQt8b_ZdQ80?start=451" width="640" height="360" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" style="position:absolute;width:100%;height:100%;left:0" allowfullscreen></iframe>
+</div>
+<figcaption markdown="1">
+ensemble mosaik perform _union|haze_ and pieces by Kelley Sheehan & Kai Johannes Polzhofer.
+</figcaption>
+</figure>
+
 *union|haze* continues a series of work, which poses questions about the
 situated and material assemblages that constitute the performance. It attempts
 to place a situation of severe material contingency — one which brings the

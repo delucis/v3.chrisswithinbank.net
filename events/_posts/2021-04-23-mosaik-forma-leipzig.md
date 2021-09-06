@@ -34,5 +34,9 @@ featured_image_alt: An event poster featuring black and white squares and circle
 This concert will be live-streamed as part of [forma Leipzig][fl]’s 10th
 anniversary celebrations. You can [watch the live stream on YouTube][yt].
 
+<p class="embed-container">
+  <iframe src="https://www.youtube-nocookie.com/embed/zQt8b_ZdQ80?start=451" width="640" height="360" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" style="position:absolute;width:100%;height:100%;left:0" allowfullscreen></iframe>
+</p>
+
 [fl]: http://forma-leipzig.de/
 [yt]: https://www.youtube.com/watch?v=zQt8b_ZdQ80
