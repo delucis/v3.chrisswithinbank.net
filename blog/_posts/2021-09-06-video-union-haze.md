@@ -16,7 +16,7 @@ tags:
   <iframe src="https://www.youtube-nocookie.com/embed/zQt8b_ZdQ80?start=451" width="640" height="360" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" style="position:absolute;width:100%;height:100%;left:0" allowfullscreen></iframe>
 </p>
 
-Back [in May][event], [ensemble mosaik][em] gave a beautiful live-stream performance of [_union|haze_][uh] as part of [forma Leipzig][fl]’s 10th anniversary festivities alongside works by Alberto Posadas, [Kelley Sheehan][ks], [Kai Johannes Polzhofer][kjp], and [Liza Lim][ll]. _union|haze_ as well as the pieces by Kelley and Kai are still available to [watch on YouTube][yt].
+Back [in May][event], [ensemble mosaik][em] gave a beautiful live-stream performance of [_union&#124;haze_][uh] as part of [forma Leipzig][fl]’s 10th anniversary festivities alongside works by Alberto Posadas, [Kelley Sheehan][ks], [Kai Johannes Polzhofer][kjp], and [Liza Lim][ll]. _union&#124;haze_ as well as the pieces by Kelley and Kai are still available to [watch on YouTube][yt].
 
 [event]: https://www.chrisswithinbank.net/2021/05/mosaik-forma-leipzig/
 [em]: http://www.ensemble-mosaik.de/
