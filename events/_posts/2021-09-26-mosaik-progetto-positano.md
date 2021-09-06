@@ -36,6 +36,8 @@ programme:
   - composer: Chris Swithinbank
     work: union|haze
     gender: M
+featured_image: 2021/09/progetto-positano.jpg
+featured_image_alt: Progetto Positano
 ---
 Joint portrait concert with [Liisa Hirsch](https://emic.ee/liisa-hirsch).
 
