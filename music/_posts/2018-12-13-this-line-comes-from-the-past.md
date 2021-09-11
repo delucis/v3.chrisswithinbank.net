@@ -2,20 +2,11 @@
 title: "this line comes from the past"
 category: music
 size: ensemble
-instrumentation: for 12 instrumentalists and conductor
+instrumentation: for ensemble
 duration: 11'
 instrumentationlist:
-  - flutist
-  - clarinettist
-  - bassoonist
-  - trumpeter
-  - trombonist
-  - percussionist
-  - harpist
-  - pianist
-  - 2 violinists
-  - cellist
-  - double bassist
+  - '<strong>Klangforum version</strong> (12 musicians): flautist / clarinettist / bassoonist / trumpeter / trombonist / percussionist / harpist / pianist / 2&nbsp;violinists / cellist / double&nbsp;bassist'
+  - '<strong>mosaik version</strong> (9 musicians): flautist / oboist / clarinettist / saxophonist / percussionist / pianist / violinist / violist / cellist / electronics'
 audioembed: <iframe width="100%" height="20" scrolling="no" frameborder="no" src="https://w.soundcloud.com/player/?url=https%3A//api.soundcloud.com/tracks/763159642&amp;color=ff5500&amp;inverse=false&amp;auto_play=false&amp;show_user=true"></iframe>
 soundcloud_id: 763159642
 iswc: T-928.113.980-8
