@@ -22,8 +22,8 @@ selected: true
 _this line comes from the past_ was commissioned by
 [impuls . International Ensemble and Composers Academy for Contemporary Music][imp], Graz, Austria, and was premiered at impuls 2019 by Klangforum Wien.
 
-A short statement I wrote for the Klangforum season catalogue can be found [on their website][kf].
+A short statement I wrote for the Klangforum season catalogue can be found [on their website][kf] [archived version].
 
-[cs]: http://www.wavepoetry.com/products/calamities
+[cs]: https://www.wavepoetry.com/products/calamities
 [imp]: http://impuls.cc/
-[kf]: https://www.klangforum.at/blog-detail-en/swithinbank-line-en.html
+[kf]: https://web.archive.org/web/20200920011735/https://www.klangforum.at/blog-detail-en/swithinbank-line-en.html
