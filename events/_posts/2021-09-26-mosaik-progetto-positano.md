@@ -42,4 +42,5 @@ featured_image_alt: Progetto Positano
 ---
 Joint portrait concert with [Liisa Hirsch](https://emic.ee/liisa-hirsch).
 
-ensemble mosaik — Enno Poppe, Bettina Junge, Simon Strasser, Martin Losert, Roland Neffe, Ernst Surberg, Christine Paté, Chatschatur Kanajan, Karen Lorenz, Mathis Mayr, Niklas Seidl, Arne Vierck
+ensemble mosaik  
+Enno Poppe, conductor / Rebecca Lenton, flute / Simon Strasser, oboe / Christian Vogel, clarinet / Martin Posegga, saxophone / Ernst Surberg, piano / Roland Neffe, percussion / Chatschatur Kanajan, violin / Karen Lorenz, viola / Niklas Seidl, cello / Arne Viereck, sound engineer
