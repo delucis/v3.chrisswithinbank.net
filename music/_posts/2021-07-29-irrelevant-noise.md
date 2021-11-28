@@ -13,6 +13,7 @@ instrumentationlist:
   - laptop
 github: https://github.com/delucis/irrelevant-noise
 published: true
+selected: true
 ---
 
 On 9 March 2021, Robert Buckland MP, Secretary of State for Justice in the Government of the United Kingdom, introduced [a bill][pcscb] to Parliament which, amongst a broad range of stated intentions, aims “to make provision about the maintenance of public order” by expanding the conditions already imposed on public protest by Section 12 of the Public Order Act 1986. The very first new condition proposed by the UK Government is that the “noise generated” by public processions, public assemblies, and even one-person protests, could be sufficient grounds for police action, if a police officer decides the “noise generated” has a “relevant impact” on people near the protest. For example, a police officer may decide that the “noise generated” by a protest “may have a relevant impact” — according to the UK Government — if it might cause people nearby “to suffer serious unease.”
