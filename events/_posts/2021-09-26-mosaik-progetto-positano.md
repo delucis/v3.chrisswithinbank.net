@@ -9,11 +9,9 @@ venue:
   address: Invalidenstraße 3, 10115 Berlin, Germany
   shortaddress: Berlin, Germany
 facebook: https://www.facebook.com/events/2336136366521932/
-premiere:
-  - "irrelevant noise [subsection (1)(ab)(ii)]"
 works:
   - this line comes from the past
-  - "irrelevant noise [subsection (1)(ab)(ii)]"
+  - "irrelevant noise [subsection (1)(ab)(i)]"
   - union|haze
 programme:
   - composer: Liisa Hirsch
@@ -32,7 +30,7 @@ programme:
     work: this line comes from the past
     gender: M
   - composer: Chris Swithinbank
-    work: "irrelevant noise [subsection (1)(ab)(ii)]"
+    work: "irrelevant noise [subsection (1)(ab)(i)]"
     gender: M
   - composer: Chris Swithinbank
     work: union|haze
