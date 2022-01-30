@@ -14,7 +14,10 @@ works:
   - LET
 ---
 
-Collaborative performance _LET_ with Eva G. Alonso and Clara Iannotta.
+Collaborative performance _LET_ with [Eva G. Alonso][e] and [Clara Iannotta][c].
 
 Gaudenz Badrutt and Olivia Block are also performing that evening at Zwei Tage
 Strom and you’ll be able to check out a video installation by Ernst Thoma.
+
+[e]: https://www.evagalonso.com/
+[c]: http://claraiannotta.com/
