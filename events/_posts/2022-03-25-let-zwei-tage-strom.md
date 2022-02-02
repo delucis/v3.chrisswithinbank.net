@@ -12,6 +12,8 @@ venue:
 facebook:
 works:
   - LET
+featured_image: 2022/02/let-lasers.jpg
+featured_image_alt: A purple laser scatters its beam through a dark room
 ---
 
 Collaborative performance _LET_ with [Eva G. Alonso][e] and [Clara Iannotta][c].
