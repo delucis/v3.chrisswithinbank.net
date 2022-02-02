@@ -12,6 +12,7 @@ instrumentationlist:
   - loudspeakers
   - laptop
 github: https://github.com/delucis/irrelevant-noise
+iswc: T-306.864.788-7
 published: true
 selected: true
 ---
