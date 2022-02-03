@@ -8,7 +8,7 @@ instrumentationlist:
   - '<strong>Klangforum version</strong> (12 musicians): flautist / clarinettist / bassoonist / trumpeter / trombonist / percussionist / harpist / pianist / 2&nbsp;violinists / cellist / double&nbsp;bassist'
   - '<strong>mosaik version</strong> (9 musicians): flautist / oboist / clarinettist / saxophonist / percussionist / pianist / violinist / violist / cellist / electronics'
 github: https://github.com/delucis/this-line
-audioembed: <iframe width="100%" height="20" scrolling="no" frameborder="no" src="https://w.soundcloud.com/player/?url=https%3A//api.soundcloud.com/tracks/763159642&amp;color=ff5500&amp;inverse=false&amp;auto_play=false&amp;show_user=true"></iframe>
+audioembed: <iframe width="100%" height="20" scrolling="no" frameborder="no" src="https://w.soundcloud.com/player/?url=https%3A//api.soundcloud.com/tracks/763159642&color=ff5500&inverse=false&auto_play=false&show_user=true"></iframe>
 soundcloud_id: 763159642
 iswc: T-928.113.980-8
 musicbrainz: https://musicbrainz.org/work/713d7ca1-9006-4b35-8314-f4287fb101c0

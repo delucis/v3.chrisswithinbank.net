@@ -8,7 +8,7 @@ instrumentationlist:
   - Bass Clarinet
   - Cello
   - Percussion
-audioembed: '<iframe width="100%" height="20" scrolling="no" frameborder="no" src="https://w.soundcloud.com/player/?url=https%3A//api.soundcloud.com/tracks/167171256&amp;color=ff5500&amp;inverse=false&amp;auto_play=false&amp;show_user=true"></iframe>'
+audioembed: '<iframe width="100%" height="20" scrolling="no" frameborder="no" src="https://w.soundcloud.com/player/?url=https%3A//api.soundcloud.com/tracks/167171256&color=ff5500&inverse=false&auto_play=false&show_user=true"></iframe>'
 soundcloud_id: 167171256
 iswc: T-909.240.667-2
 selected: true

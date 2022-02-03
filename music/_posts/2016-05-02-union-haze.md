@@ -16,7 +16,7 @@ instrumentationlist:
   - '+ electronics/haze sheets'
   - '<em>for full details, please <a href="/contact/">get in touch</a></em>'
 github: https://github.com/delucis/haze-saver
-audioembed: <iframe width="100%" height="20" scrolling="no" frameborder="no" src="https://w.soundcloud.com/player/?url=https%3A//api.soundcloud.com/tracks/291501558&amp;color=ff5500&amp;inverse=false&amp;auto_play=false&amp;show_user=true"></iframe>
+audioembed: <iframe width="100%" height="20" scrolling="no" frameborder="no" src="https://w.soundcloud.com/player/?url=https%3A//api.soundcloud.com/tracks/291501558&color=ff5500&inverse=false&auto_play=false&show_user=true"></iframe>
 soundcloud_id: 291501558
 iswc: T-919.184.254-3
 musicbrainz: https://musicbrainz.org/work/921aa4f9-0ca5-4478-ba65-520280f73d8c

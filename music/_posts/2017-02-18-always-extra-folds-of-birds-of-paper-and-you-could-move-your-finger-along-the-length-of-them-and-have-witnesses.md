@@ -28,7 +28,7 @@ instrumentationlist:
   - '4 powered monitors'
   - '10 XLR cables'
   - 'mixing console'
-audioembed: <iframe width="100%" height="20" scrolling="no" frameborder="no" src="https://w.soundcloud.com/player/?url=https%3A//api.soundcloud.com/tracks/314257769&amp;color=ff5500&amp;inverse=false&amp;auto_play=false&amp;show_user=true"></iframe>
+audioembed: <iframe width="100%" height="20" scrolling="no" frameborder="no" src="https://w.soundcloud.com/player/?url=https%3A//api.soundcloud.com/tracks/314257769&color=ff5500&inverse=false&auto_play=false&show_user=true"></iframe>
 soundcloud_id: 314257769
 iswc: T-921.086.091-6
 musicbrainz: https://musicbrainz.org/work/f888871c-9271-49bc-922a-d74775a4650c
