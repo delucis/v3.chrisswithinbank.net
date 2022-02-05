@@ -19,9 +19,23 @@ exports.handler = async ({ headers, queryStringParameters }) => {
       // Return early if the IP is for localhost.
       if (ip && ip.includes('127.0.0.1')) return trackingPixel;
 
+      let referrer, prev_url;
+      if (queryStringParameters) ({ referrer } = queryStringParameters);
+      if (referrer) {
+        const { origin, hostname, pathname } = new URL(referrer);
+        if (origin === process.env.URL) {
+          referrer = '(internal)';
+          prev_url = pathname;
+        } else {
+          referrer = hostname;
+        }
+      } else if (queryStringParameters && 'referrer' in queryStringParameters) {
+        // If there is no referrer but the query string is present, this is a direct visit.
+        referrer = '(direct)';
+      }
+
       const page = new URL(headers.referer || '');
       const url = page.pathname;
-      const referrer = queryStringParameters?.referrer;
       const ua = headers['user-agent'];
       const session_id = createHash('sha256')
         .update(page.hostname + ua + ip)
@@ -34,7 +48,7 @@ exports.handler = async ({ headers, queryStringParameters }) => {
       }
 
       await fetch(ANALYTICS_URL + '/rest/v1/pageview', {
-        body: JSON.stringify({ url, referrer, session_id, country }),
+        body: JSON.stringify({ url, prev_url, referrer, session_id, country }),
         method: 'POST',
       });
     } catch (error) {
