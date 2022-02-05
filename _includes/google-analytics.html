@@ -1,3 +1,13 @@
+<noscript id="nfa"><img src="/.netlify/functions/counter" alt="" /></noscript>
+<script>
+  const onload = () => {
+    const pixel = document.createElement('img');
+    pixel.src = '/.netlify/functions/counter?referrer=' + encodeURIComponent(document.referrer);
+    document.querySelector('noscript#nfa').replaceWith(pixel);
+  };
+  if (document.readyState === 'loading') document.addEventListener('DOMContentLoaded', onload);
+  else onload();
+</script>
 <script>
   (function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
   (i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
