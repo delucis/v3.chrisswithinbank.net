@@ -6,7 +6,13 @@ const { ANALYTICS_URL, ANALYTICS_KEY } = process.env;
 const trackingPixel = {
   statusCode: 200,
   body: 'R0lGODlhAQABAIAAAAAAAP///yH5BAEAAAAALAAAAAABAAEAAAIBRAA7',
-  headers: { 'content-type': 'image/gif' },
+  headers: {
+    'Content-Type': 'image/gif',
+    Tk: 'N',
+    Expires: 'Mon, 01 Jan 1990 00:00:00 GMT',
+    'Cache-Control': 'no-store',
+    Pragma: 'no-cache',
+  },
   isBase64Encoded: true,
 };
 
