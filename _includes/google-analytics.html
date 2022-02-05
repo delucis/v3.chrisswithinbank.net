@@ -9,7 +9,13 @@
   const duration = () => Math.round((performance.now() - loadTime) / 1000);
   const url = () => apiBase + '&duration=' + duration();
 
+  let blockTracking;
+  try {
+    blockTracking = window.localStorage && window.localStorage.getItem('blockCustomAnalyticsTracking');
+  } catch (err) {}
+
   function pageview() {
+    if (blockTracking) return;
     const img = document.createElement('img');
     img.setAttribute('alt', '');
     img.setAttribute('aria-hidden', 'true');
@@ -31,6 +37,7 @@
   }
 
   function ping() {
+    if (blockTracking) return;
     let hasPinged;
     if (navigator.sendBeacon) hasPinged = navigator.sendBeacon(url());
     if (!hasPinged) pageview();
