@@ -2,7 +2,7 @@
   <img src="/.netlify/functions/counter" alt="" width="0" height="0" hidden decoding="async" loading="eager" />
 </noscript>
 <script>
-const onload = () => {
+const onload = () => setTimeout(() => {
   const pixel = document.createElement('img');
   pixel.alt = '';
   pixel.width = 0;
@@ -12,7 +12,7 @@ const onload = () => {
   pixel.loading = 'eager';
   pixel.src = '/.netlify/functions/counter?referrer=' + encodeURIComponent(document.referrer);
   document.querySelector('noscript#nfa').replaceWith(pixel);
-};
+}, 500);
 if (document.readyState === 'loading') document.addEventListener('DOMContentLoaded', onload);
 else onload();
 </script>
