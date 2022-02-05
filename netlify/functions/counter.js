@@ -17,7 +17,7 @@ exports.handler = async ({ headers, queryStringParameters }) => {
     try {
       const ip = getIP(headers);
       // Return early if the IP is for localhost.
-      if (ip && ip.startsWith('127.0.0.')) return trackingPixel;
+      if (ip && ip.includes('127.0.0.1')) return trackingPixel;
 
       const page = new URL(headers.referer || '');
       const url = page.pathname;
