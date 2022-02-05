@@ -1,20 +1,45 @@
-<noscript id="nfa">
-  <img src="/.netlify/functions/counter" alt="" width="0" height="0" hidden decoding="async" loading="eager" />
-</noscript>
 <script>
-const onload = () => setTimeout(() => {
-  const pixel = document.createElement('img');
-  pixel.alt = '';
-  pixel.width = 0;
-  pixel.height = 0;
-  pixel.hidden = true;
-  pixel.decoding = 'async';
-  pixel.loading = 'eager';
-  pixel.src = '/.netlify/functions/counter?referrer=' + encodeURIComponent(document.referrer);
-  document.querySelector('noscript#nfa').replaceWith(pixel);
-}, 500);
-if (document.readyState === 'loading') document.addEventListener('DOMContentLoaded', onload);
-else onload();
+  const loadTime = performance.now();
+
+  const apiBase =
+    '/.netlify/functions/counter?referrer=' +
+    encodeURIComponent(document.referrer) +
+    '&cid=' +
+    (Math.floor(1e8 * Math.random()) + 1);
+  const duration = () => Math.round((performance.now() - loadTime) / 1000);
+  const url = () => apiBase + '&duration=' + duration();
+
+  function pageview() {
+    const img = document.createElement('img');
+    img.setAttribute('alt', '');
+    img.setAttribute('aria-hidden', 'true');
+    img.style.position = 'absolute';
+    img.src = url();
+    img.addEventListener('load', function () {
+      img.parentNode.removeChild(img);
+    });
+    img.addEventListener('error', function () {
+      img.parentNode.removeChild(img);
+    });
+    document.body.appendChild(img);
+  }
+
+  if (document.readyState === 'loading') {
+    document.addEventListener('DOMContentLoaded', pageview);
+  } else {
+    pageview();
+  }
+
+  function ping() {
+    let hasPinged;
+    if (navigator.sendBeacon) hasPinged = navigator.sendBeacon(url());
+    if (!hasPinged) pageview();
+  }
+
+  document.addEventListener('visibilitychange', function () {
+    if (document.visibilityState === 'hidden') ping();
+  });
+  document.addEventListener('pagehide', ping);
 </script>
 <script>
   (function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){

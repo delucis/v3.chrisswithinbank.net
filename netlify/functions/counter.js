@@ -41,16 +41,24 @@ exports.handler = async ({ headers, queryStringParameters }) => {
 
       const page = new URL(headers.referer || '');
       const url = page.pathname;
+      const { duration = 0, cid = '' } = queryStringParameters || {};
       const ua = headers['user-agent'];
-      const session_id = createHash('sha256')
-        .update(page.hostname + ua + ip)
-        .digest('base64');
-
-      let country = headers['x-country'];
+      const hash = createHash('sha256').update(page.hostname + ua + ip);
 
       await fetch(ANALYTICS_URL + '/rest/v1/pageview', {
-        body: JSON.stringify({ url, prev_url, referrer, session_id, country }),
         method: 'POST',
+        body: JSON.stringify({
+          url,
+          prev_url,
+          referrer,
+          duration,
+          cid: hash.copy().update(cid).digest('base64'),
+          session_id: hash.digest('base64'),
+          country: headers['x-country'],
+        }),
+        headers: {
+          Prefer: 'resolution=merge-duplicates',
+        },
       });
     } catch (error) {
       console.error(error);
@@ -82,16 +90,17 @@ function getIP(headers) {
  */
 function fetch(url, options = { method: 'GET' }) {
   return new Promise((resolve, reject) => {
-    const headers =
-      options.method !== 'GET'
+    const headers = {
+      apikey: ANALYTICS_KEY,
+      Authorization: `Bearer ${ANALYTICS_KEY}`,
+      ...(options.method !== 'GET'
         ? {
-            apikey: ANALYTICS_KEY,
-            Authorization: `Bearer ${ANALYTICS_KEY}`,
             'Content-Type': 'application/json',
             'Content-Length': Buffer.byteLength(options.body),
-            Prefer: 'return=representation',
           }
-        : {};
+        : {}),
+      ...(options.headers || {}),
+    };
     const req = request(url, { ...options, headers }, (response) => {
       let data = '';
       response.on('data', (chunk) => {
