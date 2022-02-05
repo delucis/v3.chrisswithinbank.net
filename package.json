@@ -10,7 +10,6 @@
   "license": "UNLICENSED",
   "devDependencies": {
     "@netlify/functions": "^0.11.0",
-    "fast-geoip": "^1.1.57",
     "netlify-plugin-cache": "^1.0.3"
   }
 }

@@ -1,6 +1,5 @@
 const { createHash } = require('crypto');
 const { request, RequestOptions } = require('https');
-const { lookup } = require('fast-geoip');
 
 const { ANALYTICS_URL, ANALYTICS_KEY } = process.env;
 
@@ -42,10 +41,6 @@ exports.handler = async ({ headers, queryStringParameters }) => {
         .digest('base64');
 
       let country = headers['x-country'];
-      if (!country && ip) {
-        const data = await lookup(ip);
-        if (data) ({ country } = data);
-      }
 
       await fetch(ANALYTICS_URL + '/rest/v1/pageview', {
         body: JSON.stringify({ url, prev_url, referrer, session_id, country }),
