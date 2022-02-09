@@ -41,11 +41,13 @@ exports.handler = async ({ headers, queryStringParameters }) => {
 
       const page = new URL(headers.referer || '');
       const url = page.pathname;
-      const { duration = 0, cid = '' } = queryStringParameters || {};
+      const { duration = 0, cid = '', is404 } = queryStringParameters || {};
       const ua = headers['user-agent'];
       const hash = createHash('sha256').update(page.hostname + ua + ip);
 
-      await fetch(ANALYTICS_URL + '/rest/v1/pageview', {
+      const endpoint = is404 ? '404' : 'pageview';
+
+      await fetch(ANALYTICS_URL + '/rest/v1/' + endpoint, {
         method: 'POST',
         body: JSON.stringify({
           url,

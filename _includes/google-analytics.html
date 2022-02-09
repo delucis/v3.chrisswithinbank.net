@@ -1,11 +1,12 @@
 <script>
   const loadTime = performance.now();
 
-  const apiBase =
+  let apiBase =
     '/.netlify/functions/counter?referrer=' +
     encodeURIComponent(document.referrer) +
     '&cid=' +
     (Math.floor(1e8 * Math.random()) + 1);
+  if (window.is404) apiBase += '&is404=true';
   const duration = () => Math.round((performance.now() - loadTime) / 1000);
   const url = () => apiBase + '&duration=' + duration();
 
