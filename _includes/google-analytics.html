@@ -1,7 +1,7 @@
 <script>
-  const loadTime = performance.now();
+  var loadTime = performance.now();
 
-  let apiBase =
+  var apiBase =
     '/.netlify/functions/counter?referrer=' +
     encodeURIComponent(document.referrer) +
     '&cid=' +
@@ -10,14 +10,14 @@
   function duration() { return Math.round((performance.now() - loadTime) / 1000) }
   function url() { return apiBase + '&duration=' + duration() }
 
-  let blockTracking;
+  var blockTracking;
   try {
     blockTracking = window.localStorage && window.localStorage.getItem('blockCustomAnalyticsTracking');
   } catch (err) {}
 
   function pageview() {
     if (blockTracking) return;
-    const img = document.createElement('img');
+    var img = document.createElement('img');
     img.setAttribute('alt', '');
     img.setAttribute('aria-hidden', 'true');
     img.style.position = 'absolute';
@@ -39,7 +39,7 @@
 
   function ping() {
     if (blockTracking) return;
-    let hasPinged;
+    var hasPinged;
     if (navigator.sendBeacon) hasPinged = navigator.sendBeacon(url());
     if (!hasPinged) pageview();
   }
