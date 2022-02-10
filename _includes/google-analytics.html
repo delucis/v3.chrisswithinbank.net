@@ -1,15 +1,24 @@
 <script>
-  var loadTime, cid;
+  function now() { return new Date().getTime() }
+  var loadTime, hideTime, cid, runningDuration;
   function init() {
-    loadTime = performance.now();
+    loadTime = now();
+    if (hideTime && (loadTime - hideTime) < 300000) return;
     cid = Math.floor(1e8 * Math.random()) + 1;
+    runningDuration = 0;
   }
   init();
 
+  function onHide() {
+    hideTime = now();
+    runningDuration += hideTime - loadTime;
+    ping();
+  }
+
   var apiBase = '/.netlify/functions/counter?referrer=' + encodeURIComponent(document.referrer);
   if (window.is404) apiBase += '&is404=true';
-  function duration() { return Math.round((performance.now() - loadTime) / 1000) }
-  function url() { return apiBase + '&cid=' + cid + '&duration=' + duration() }
+  function ms2s(ms) { return Math.round(ms / 1000) }
+  function url() { return apiBase + '&cid=' + cid + '&duration=' + ms2s(runningDuration) }
 
   var blockTracking;
   try {
@@ -46,9 +55,9 @@
   }
 
   document.addEventListener('visibilitychange', function () {
-    document.visibilityState === 'hidden' ? ping() : init();
+    document.visibilityState === 'hidden' ? onHide() : init();
   });
-  document.addEventListener('pagehide', ping);
+  document.addEventListener('pagehide', onHide);
   document.addEventListener('pageshow', init);
 </script>
 <script>
