@@ -1,14 +1,15 @@
 <script>
-  var loadTime = performance.now();
+  var loadTime, cid;
+  function init() {
+    loadTime = performance.now();
+    cid = Math.floor(1e8 * Math.random()) + 1;
+  }
+  init();
 
-  var apiBase =
-    '/.netlify/functions/counter?referrer=' +
-    encodeURIComponent(document.referrer) +
-    '&cid=' +
-    (Math.floor(1e8 * Math.random()) + 1);
+  var apiBase = '/.netlify/functions/counter?referrer=' + encodeURIComponent(document.referrer);
   if (window.is404) apiBase += '&is404=true';
   function duration() { return Math.round((performance.now() - loadTime) / 1000) }
-  function url() { return apiBase + '&duration=' + duration() }
+  function url() { return apiBase + '&cid=' + cid + '&duration=' + duration() }
 
   var blockTracking;
   try {
@@ -45,9 +46,10 @@
   }
 
   document.addEventListener('visibilitychange', function () {
-    if (document.visibilityState === 'hidden') ping();
+    document.visibilityState === 'hidden' ? ping() : init();
   });
   document.addEventListener('pagehide', ping);
+  document.addEventListener('pageshow', init);
 </script>
 <script>
   (function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
