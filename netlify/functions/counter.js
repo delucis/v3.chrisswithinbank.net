@@ -27,12 +27,12 @@ exports.handler = async ({ headers, queryStringParameters }) => {
       let referrer, prev_url;
       if (queryStringParameters) ({ referrer } = queryStringParameters);
       if (referrer) {
-        const { origin, hostname, pathname } = new URL(referrer);
+        const { origin, host, pathname } = new URL(referrer);
         if (origin === process.env.URL) {
           referrer = '(internal)';
           prev_url = pathname;
         } else {
-          referrer = hostname;
+          referrer = host + pathname;
         }
       } else if (queryStringParameters && 'referrer' in queryStringParameters) {
         // If there is no referrer but the query string is present, this is a direct visit.
