@@ -7,8 +7,8 @@
     '&cid=' +
     (Math.floor(1e8 * Math.random()) + 1);
   if (window.is404) apiBase += '&is404=true';
-  const duration = () => Math.round((performance.now() - loadTime) / 1000);
-  const url = () => apiBase + '&duration=' + duration();
+  function duration() { return Math.round((performance.now() - loadTime) / 1000) }
+  function url() { return apiBase + '&duration=' + duration() }
 
   let blockTracking;
   try {
