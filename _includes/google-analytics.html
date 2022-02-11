@@ -1,13 +1,15 @@
 <script>
   function now() { return new Date().getTime() }
-  var loadTime, hideTime, cid, runningDuration;
-  function init() {
+  var loadTime, hideTime, cid, runningDuration, referrer;
+  function init(ref) {
     loadTime = now();
     if (hideTime && (loadTime - hideTime) < 300000) return;
+    if (ref === undefined) ref = window.location.pathname
+    referrer = ref;
     cid = Math.floor(1e8 * Math.random()) + 1;
     runningDuration = 0;
   }
-  init();
+  init(document.referrer);
 
   function onHide() {
     hideTime = now();
@@ -15,10 +17,12 @@
     ping();
   }
 
-  var apiBase = '/.netlify/functions/counter?referrer=' + encodeURIComponent(document.referrer);
-  if (window.is404) apiBase += '&is404=true';
   function ms2s(ms) { return Math.round(ms / 1000) }
-  function url() { return apiBase + '&cid=' + cid + '&duration=' + ms2s(runningDuration) }
+  function url() {
+    var u = '/.netlify/functions/counter?&referrer=' + encodeURIComponent(referrer) + '&cid=' + cid + '&duration=' + ms2s(runningDuration);
+    if (window.is404) u += '&is404=true';
+    return u;
+  }
 
   var blockTracking;
   try {
