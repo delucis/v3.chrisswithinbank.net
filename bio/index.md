@@ -16,9 +16,9 @@ resonance.
 In addition to my compositional work, I have taught alongside
 Profs. Claire Chase, Chaya Czernowin, George Lewis, and Hans Tutschku, covering
 improvised and experimental music, studio composition, and collaborative
-creative practice. I currently teach composition privately and for the Autumn
-Term 2021 am a Teaching Fellow in Music Technology and Computer Music at
-the University of Leeds.
+creative practice. I was a Teaching Fellow in Music Technology and Computer
+Music at the University of Leeds for the Autumn Term 2021 and currently teach
+composition and electronic music privately.
 I developed [a suite of pedagogical tools][264] for teaching creative audio
 programming and have worked regularly as a technical assistant to the composer
 Clara Iannotta. Fall 2018 saw the publication of [a special issue of _CR: The
@@ -33,8 +33,8 @@ University of Manchester (UK) where I received Bachelors and Masters degrees in
 music and composition, studying with Ricardo Climent. Other important musical
 encounters have included discussions with Pierluigi Billone, Michael Pisaro,
 Rebecca Saunders, Steven Kazuo Takasugi, and Jennifer Walshe and work with the
-musicians of the JACK Quartet, ensemble mosaik, soundinitiative, Talea
-Ensemble, Trio Atem, and Yarn/Wire, amongst many others.
+musicians of the JACK Quartet, ensemble mosaik, ensemble recherche,
+soundinitiative, Talea Ensemble, Trio Atem, and Yarn/Wire, amongst many others.
 
 [u-s]: /2016/01/union-seam/
 [264]: /2016/01/teaching-max-msp/
