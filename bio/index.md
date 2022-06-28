@@ -16,8 +16,8 @@ resonance.
 In addition to my compositional work, I have taught alongside
 Profs. Claire Chase, Chaya Czernowin, George Lewis, and Hans Tutschku, covering
 improvised and experimental music, studio composition, and collaborative
-creative practice. I was a Teaching Fellow in Music Technology and Computer
-Music at the University of Leeds for the Autumn Term 2021 and currently teach
+creative practice. I taught music technology at the University of Leeds (2021),
+composition at Universität Kassel (2022), and currently teach
 composition and electronic music privately.
 I developed [a suite of pedagogical tools][264] for teaching creative audio
 programming and have worked regularly as a technical assistant to the composer
