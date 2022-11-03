@@ -11,9 +11,9 @@ venue:
   address: Philharmonie, 1 Place de l’Europe, 1499 Luxembourg
   map_address_only: TRUE
 works:
-  - new work
+  - steel rosette
 premiere:
-  - new work
+  - steel rosette
 programme:
   - composer: Kristine Tjøgersen
     work: Seafloor Dawn Chorus
@@ -25,6 +25,6 @@ programme:
     work: Streichtrio N° 1
     gender: M
   - composer: Chris Swithinbank
-    work: new work
+    work: steel rosette
     gender: M
 ---

@@ -11,7 +11,7 @@ venue:
   map_address_only: TRUE
 facebook:
 works:
-  - new work
+  - M/R
 featured_image: 2022/02/let-lasers.jpg
 featured_image_alt: A purple laser scatters its beam through a dark room
 ---
