@@ -2,6 +2,10 @@
   nationality: GB
   birthDate: 1971
   sameAs: http://thomasades.com/
+"Peter Adriaansz":
+  nationality: NL
+  birthDate: 1966
+  sameAs: https://peteradriaansz.com/
 "Koh Akirasochi":
   sameAs: http://kbf.jp/koh/
   nationality: JP
@@ -849,6 +853,10 @@
   sameAs: https://soundcloud.com/adi-s-7
   nationality: IL
   birthDate: 1987
+"Yang Song":
+  sameAs: https://www.yang-song-composer.com/
+  nationality: CN
+  birthDate: 1985
 "Josh Spear":
   sameAs: http://joshspearmusic.com/
   birthDate: 1990
