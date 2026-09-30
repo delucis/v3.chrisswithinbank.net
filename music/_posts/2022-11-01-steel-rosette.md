@@ -14,8 +14,8 @@ instrumentationlist:
   - cellist
   - 4 snare drums + transducers
 github: https://github.com/delucis/steel-rosette
-# audioembed: <iframe width="100%" height="20" scrolling="no" frameborder="no" src="https://w.soundcloud.com/player/?url=https%3A//api.soundcloud.com/tracks/1208949907&color=ff5500&inverse=false&auto_play=false&show_user=true"></iframe>
-# soundcloud_id: 1208949907
+audioembed: <iframe width="100%" height="20" scrolling="no" frameborder="no" src="https://w.soundcloud.com/player/?url=https%3A//api.soundcloud.com/tracks/soundcloud/tracks/2399338833&color=ff5500&inverse=false&auto_play=false&show_user=true"></iframe>
+soundcloud_id: 2399338833
 # iswc: T-306.864.788-7
 published: true
 selected: true
